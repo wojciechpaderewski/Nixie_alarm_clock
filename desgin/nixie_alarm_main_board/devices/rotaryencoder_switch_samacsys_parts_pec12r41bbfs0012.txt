@@ -1,0 +1,17 @@
+PACKAGE 'pec12r41bbfs0012'
+CLASS IC
+PINCOUNT 5
+PINORDER MAIN ,
+	A__A,
+	B__B,
+	C__C,
+	S1__S1,
+	S2__S2
+FUNCTION MAIN MAIN ,
+	A,
+	B,
+	C,
+	S1,
+	S2
+PACKAGEPROP VALUE RotaryEncoder_Switch
+END

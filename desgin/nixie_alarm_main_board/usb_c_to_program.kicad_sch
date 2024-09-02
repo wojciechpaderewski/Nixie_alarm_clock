@@ -1020,7 +1020,7 @@
 	)
 	(wire
 		(pts
-			(xy 146.05 82.55) (xy 179.324 82.55)
+			(xy 146.05 82.55) (xy 180.848 82.55)
 		)
 		(stroke
 			(width 0)
@@ -1030,7 +1030,7 @@
 	)
 	(wire
 		(pts
-			(xy 179.324 82.55) (xy 179.324 85.344)
+			(xy 180.848 82.55) (xy 180.848 85.344)
 		)
 		(stroke
 			(width 0)
@@ -1084,7 +1084,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 179.324 103.124 0)
+		(at 180.848 103.124 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1093,7 +1093,7 @@
 		(fields_autoplaced yes)
 		(uuid "0233405d-d19d-41d9-8d6c-ac456f43cc68")
 		(property "Reference" "#PWR013"
-			(at 179.324 109.474 0)
+			(at 180.848 109.474 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1102,7 +1102,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 179.324 108.204 0)
+			(at 180.848 108.204 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1110,7 +1110,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 179.324 103.124 0)
+			(at 180.848 103.124 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1119,7 +1119,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 179.324 103.124 0)
+			(at 180.848 103.124 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1128,7 +1128,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 179.324 103.124 0)
+			(at 180.848 103.124 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1404,7 +1404,7 @@
 		(fields_autoplaced yes)
 		(uuid "d58cafdd-c2bf-4b38-80da-89282d717bd7")
 		(property "Reference" "R3"
-			(at 172.974 92.7099 90)
+			(at 172.72 92.7099 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1412,8 +1412,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "5.1k"
-			(at 172.974 95.2499 90)
+		(property "Value" "5.1kΩ"
+			(at 172.72 95.2499 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1421,7 +1421,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "ERJUP6"
+		(property "Footprint" "RESC2012X60N"
 			(at 73.99 99.06 0)
 			(effects
 				(font
@@ -1517,7 +1517,7 @@
 	)
 	(symbol
 		(lib_id "SamacSys_Parts:ERJ-UP6D5101V")
-		(at 179.324 85.344 270)
+		(at 180.848 85.344 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1526,7 +1526,7 @@
 		(fields_autoplaced yes)
 		(uuid "dde5d5b1-e230-402b-80e2-b36d9d7f1661")
 		(property "Reference" "R4"
-			(at 181.61 92.9639 90)
+			(at 183.134 92.9639 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1534,18 +1534,17 @@
 				(justify left)
 			)
 		)
-		(property "Value" "5.1k"
-			(at 181.61 95.5039 90)
+		(property "Value" "5.1kΩ"
+			(at 183.134 95.5039 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
-				(hide yes)
 			)
 		)
-		(property "Footprint" "ERJUP6"
-			(at 83.134 99.314 0)
+		(property "Footprint" "RESC2012X60N"
+			(at 84.658 99.314 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1555,7 +1554,7 @@
 			)
 		)
 		(property "Datasheet" "https://industrial.panasonic.com/cdbs/www-data/pdf/RDP0000/AOA0000C337.pdf"
-			(at -16.866 99.314 0)
+			(at -15.342 99.314 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1565,7 +1564,7 @@
 			)
 		)
 		(property "Description" "Anti-Sulfurated Thick Film Chip Resistors/ Anti-Surge Type, Power Rating (W): 0.5, Chip Size (LxW(EIA)) (mm): 2.0 x 1.25 (EIA:0805), Resistance Values (?): 5100, Resistance Tolerance (%): 0.5, T.C.R (?102/K): ?100"
-			(at 179.324 85.344 0)
+			(at 180.848 85.344 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1574,7 +1573,7 @@
 			)
 		)
 		(property "Height" "0.7"
-			(at -216.866 99.314 0)
+			(at -215.342 99.314 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1584,7 +1583,7 @@
 			)
 		)
 		(property "Mouser Part Number" "667-ERJ-UP6D5101V"
-			(at -316.866 99.314 0)
+			(at -315.342 99.314 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1594,7 +1593,7 @@
 			)
 		)
 		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Panasonic/ERJ-UP6D5101V?qs=ZcfC38r4Pouz7%2FLHthUDHQ%3D%3D"
-			(at -416.866 99.314 0)
+			(at -415.342 99.314 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1604,7 +1603,7 @@
 			)
 		)
 		(property "Manufacturer_Name" "Panasonic"
-			(at -516.866 99.314 0)
+			(at -515.342 99.314 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1614,7 +1613,7 @@
 			)
 		)
 		(property "Manufacturer_Part_Number" "ERJ-UP6D5101V"
-			(at -616.866 99.314 0)
+			(at -615.342 99.314 0)
 			(effects
 				(font
 					(size 1.27 1.27)

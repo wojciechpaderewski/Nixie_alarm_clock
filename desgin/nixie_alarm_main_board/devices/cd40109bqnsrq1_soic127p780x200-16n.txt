@@ -1,0 +1,40 @@
+PACKAGE 'soic127p780x200-16n'
+CLASS IC
+PINCOUNT 16
+PINORDER MAIN ,
+	VCC__1,
+	ENABLE_A__2,
+	A__3,
+	E__4,
+	F__5,
+	B__6,
+	ENABLE_B__7,
+	VSS__8,
+	ENABLE_C__9,
+	C__10,
+	G__11,
+	NC__12,
+	H__13,
+	D__14,
+	ENABLE_D__15,
+	VDD__16
+FUNCTION MAIN MAIN ,
+	1,
+	2,
+	3,
+	4,
+	5,
+	6,
+	7,
+	8,
+	9,
+	10,
+	11,
+	12,
+	13,
+	14,
+	15,
+	16
+PACKAGEPROP VALUE CD40109BQNSRQ1
+PACKAGEPROP HEIGHT 2
+END

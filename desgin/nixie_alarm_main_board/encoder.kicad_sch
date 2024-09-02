@@ -847,6 +847,12 @@
 		(uuid "92197973-7c57-402b-abdd-428d8ee6c81f")
 	)
 	(junction
+		(at 182.88 89.662)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "bea572ab-60dd-4d85-a336-51468c07c653")
+	)
+	(junction
 		(at 129.286 94.742)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -861,6 +867,16 @@
 			(type default)
 		)
 		(uuid "10bc24ed-652c-421d-b94a-e91688b8bdf8")
+	)
+	(wire
+		(pts
+			(xy 182.88 89.662) (xy 182.88 89.916)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "26636bb4-8318-4340-af53-27c9b20efca3")
 	)
 	(wire
 		(pts
@@ -884,6 +900,16 @@
 	)
 	(wire
 		(pts
+			(xy 182.88 88.9) (xy 182.88 89.662)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3067a2a4-1bc7-45ac-8ec5-eb6744f4a066")
+	)
+	(wire
+		(pts
 			(xy 129.286 94.742) (xy 130.81 94.742)
 		)
 		(stroke
@@ -894,16 +920,6 @@
 	)
 	(wire
 		(pts
-			(xy 170.942 89.662) (xy 175.006 89.662)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5fe0ab3a-6979-4e60-b5c0-41126120c816")
-	)
-	(wire
-		(pts
 			(xy 129.286 89.662) (xy 130.81 89.662)
 		)
 		(stroke
@@ -911,6 +927,16 @@
 			(type default)
 		)
 		(uuid "63643fc7-32d9-4469-9f38-6edb6e501c42")
+	)
+	(wire
+		(pts
+			(xy 170.942 89.662) (xy 182.88 89.662)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6961c87e-fa08-4ec3-b74b-7bab1f34a253")
 	)
 	(wire
 		(pts
@@ -964,6 +990,28 @@
 	)
 	(global_label "+5V"
 		(shape input)
+		(at 182.88 71.12 90)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "291c13c2-a6a4-44ad-8500-7356c68bd374")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 182.88 64.2643 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "+5V"
+		(shape input)
 		(at 155.702 112.522 270)
 		(fields_autoplaced yes)
 		(effects
@@ -1008,7 +1056,7 @@
 	)
 	(hierarchical_label "ENC_SW"
 		(shape input)
-		(at 174.752 89.662 0)
+		(at 200.66 89.662 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -1041,6 +1089,128 @@
 			(justify right)
 		)
 		(uuid "f2fd469d-4232-4680-8a27-8240360da6a3")
+	)
+	(symbol
+		(lib_id "SamacSys_Parts:ERJ-UP6D5101V")
+		(at 182.88 88.9 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "22a629f3-636d-4a8e-b6af-1529da13cb3f")
+		(property "Reference" "R7"
+			(at 185.928 78.7399 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "10k"
+			(at 185.928 81.2799 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "ERJUP6"
+			(at 279.07 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://industrial.panasonic.com/cdbs/www-data/pdf/RDP0000/AOA0000C337.pdf"
+			(at 379.07 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "Anti-Sulfurated Thick Film Chip Resistors/ Anti-Surge Type, Power Rating (W): 0.5, Chip Size (LxW(EIA)) (mm): 2.0 x 1.25 (EIA:0805), Resistance Values (?): 5100, Resistance Tolerance (%): 0.5, T.C.R (?102/K): ?100"
+			(at 182.88 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Height" "0.7"
+			(at 579.07 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "667-ERJ-UP6D5101V"
+			(at 679.07 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Panasonic/ERJ-UP6D5101V?qs=ZcfC38r4Pouz7%2FLHthUDHQ%3D%3D"
+			(at 779.07 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "Panasonic"
+			(at 879.07 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "ERJ-UP6D5101V"
+			(at 979.07 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "3612ddb0-9ad7-45c4-8d2e-89a8815abba1")
+		)
+		(pin "2"
+			(uuid "e9d0ed0c-09d3-46fa-b98b-bf64fc205d9d")
+		)
+		(instances
+			(project "nixie_alarm_main_board"
+				(path "/a0d555d7-39a0-4a98-b831-70d97d0aa5a1/b2a6ce56-694c-43c8-9bb8-05f271f1220a"
+					(reference "R7")
+					(unit 1)
+				)
+			)
+		)
 	)
 	(symbol
 		(lib_id "power:GND")
@@ -1595,6 +1765,126 @@
 		)
 	)
 	(symbol
+		(lib_id "SamacSys_Parts:ERJ-UP6D5101V")
+		(at 182.88 89.662 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "929b01f7-2d45-4aae-a293-47ae1cb57575")
+		(property "Reference" "R8"
+			(at 191.77 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "1k"
+			(at 191.77 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "ERJUP6"
+			(at 196.85 185.852 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://industrial.panasonic.com/cdbs/www-data/pdf/RDP0000/AOA0000C337.pdf"
+			(at 196.85 285.852 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "Anti-Sulfurated Thick Film Chip Resistors/ Anti-Surge Type, Power Rating (W): 0.5, Chip Size (LxW(EIA)) (mm): 2.0 x 1.25 (EIA:0805), Resistance Values (?): 5100, Resistance Tolerance (%): 0.5, T.C.R (?102/K): ?100"
+			(at 182.88 89.662 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Height" "0.7"
+			(at 196.85 485.852 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "667-ERJ-UP6D5101V"
+			(at 196.85 585.852 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Panasonic/ERJ-UP6D5101V?qs=ZcfC38r4Pouz7%2FLHthUDHQ%3D%3D"
+			(at 196.85 685.852 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "Panasonic"
+			(at 196.85 785.852 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "ERJ-UP6D5101V"
+			(at 196.85 885.852 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "f666b1a1-9ff7-422d-9c48-e986a434e8f5")
+		)
+		(pin "2"
+			(uuid "872e6d85-57c4-4ef5-a5da-46d13766df72")
+		)
+		(instances
+			(project "nixie_alarm_main_board"
+				(path "/a0d555d7-39a0-4a98-b831-70d97d0aa5a1/b2a6ce56-694c-43c8-9bb8-05f271f1220a"
+					(reference "R8")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "SamacSys_Parts:GRM033R71E101KA01J")
 		(at 129.286 84.328 90)
 		(unit 1)
@@ -2029,6 +2319,194 @@
 			(project "nixie_alarm_main_board"
 				(path "/a0d555d7-39a0-4a98-b831-70d97d0aa5a1/b2a6ce56-694c-43c8-9bb8-05f271f1220a"
 					(reference "R19")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 182.88 102.616 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "e6a239a0-16fc-4061-9606-8bade8ad41ef")
+		(property "Reference" "#PWR08"
+			(at 182.88 108.966 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 182.88 107.188 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 182.88 102.616 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 182.88 102.616 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 182.88 102.616 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "fddd0886-b289-49dc-b800-49269436fa96")
+		)
+		(instances
+			(project "nixie_alarm_main_board"
+				(path "/a0d555d7-39a0-4a98-b831-70d97d0aa5a1/b2a6ce56-694c-43c8-9bb8-05f271f1220a"
+					(reference "#PWR08")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "SamacSys_Parts:GRM033R71E101KA01J")
+		(at 182.88 89.916 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f2b87a51-2574-4674-9b79-a35bd9702d53")
+		(property "Reference" "C4"
+			(at 186.436 94.9959 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100nF 25V"
+			(at 186.436 97.5359 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "GRM033D70J224ME01D"
+			(at 86.69 98.806 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM033R71E101KA01-01A.pdf"
+			(at -13.31 98.806 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "Multilayer Ceramic Capacitors MLCC - SMD/SMT 100pF 25 volts 10%"
+			(at 182.88 89.916 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Height" "0.5"
+			(at -213.31 98.806 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "81-GRM033R71E101KA1J"
+			(at -313.31 98.806 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Murata-Electronics/GRM033R71E101KA01J?qs=563MOeNa05Lmru4oTW10Jw%3D%3D"
+			(at -413.31 98.806 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "Murata Electronics"
+			(at -513.31 98.806 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "GRM033R71E101KA01J"
+			(at -613.31 98.806 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "a0e385d0-ca26-43ba-9dd3-a9dfa7c25915")
+		)
+		(pin "2"
+			(uuid "47dcb2df-50c9-4c63-9cf4-f90dcd7a2d67")
+		)
+		(instances
+			(project "nixie_alarm_main_board"
+				(path "/a0d555d7-39a0-4a98-b831-70d97d0aa5a1/b2a6ce56-694c-43c8-9bb8-05f271f1220a"
+					(reference "C4")
 					(unit 1)
 				)
 			)

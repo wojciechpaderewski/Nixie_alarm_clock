@@ -1,0 +1,33 @@
+PACKAGE 'z570m'
+CLASS IC
+PINCOUNT 13
+PINORDER MAIN ,
+	0__0,
+	1__1,
+	2__2,
+	3__3,
+	4__4,
+	5__5,
+	6__6,
+	7__7,
+	8__8,
+	9__9,
+	h__h,
+	ic__ic,
+	u__u
+FUNCTION MAIN MAIN ,
+	0,
+	1,
+	2,
+	3,
+	4,
+	5,
+	6,
+	7,
+	8,
+	9,
+	h,
+	ic,
+	u
+PACKAGEPROP VALUE Z570M
+END

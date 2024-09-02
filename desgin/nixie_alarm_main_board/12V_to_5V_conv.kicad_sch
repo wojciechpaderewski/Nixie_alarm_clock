@@ -1086,6 +1086,12 @@
 		(uuid "3f862515-fe2c-475a-a1f7-d95cb169d6bc")
 	)
 	(junction
+		(at 85.09 73.152)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "7e8d52cc-381d-40d2-8536-ea1ec9a97f6c")
+	)
+	(junction
 		(at 157.226 81.788)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1161,7 +1167,7 @@
 	)
 	(wire
 		(pts
-			(xy 94.742 73.152) (xy 101.854 73.152)
+			(xy 74.676 73.152) (xy 85.09 73.152)
 		)
 		(stroke
 			(width 0)
@@ -1188,6 +1194,16 @@
 			(type default)
 		)
 		(uuid "410ea02a-3966-4493-a5ee-d75113ba2c93")
+	)
+	(wire
+		(pts
+			(xy 85.09 75.438) (xy 85.09 73.152)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "45989e02-03d6-4a52-8b71-5e8ccdc56717")
 	)
 	(wire
 		(pts
@@ -1341,6 +1357,16 @@
 	)
 	(wire
 		(pts
+			(xy 85.09 73.152) (xy 101.854 73.152)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b6f7c6dd-ada5-4e97-9ee0-3d5a2a2d3bfd")
+	)
+	(wire
+		(pts
 			(xy 157.226 63.246) (xy 157.226 63.5)
 		)
 		(stroke
@@ -1411,7 +1437,7 @@
 	)
 	(hierarchical_label "+12V"
 		(shape input)
-		(at 94.742 73.152 180)
+		(at 74.676 73.152 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2326,7 +2352,7 @@
 		(fields_autoplaced yes)
 		(uuid "6d381c08-8749-489a-b76f-e78bb57f7a3b")
 		(property "Reference" "R6"
-			(at 104.394 99.3139 90)
+			(at 104.14 99.3139 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2335,7 +2361,7 @@
 			)
 		)
 		(property "Value" "15kΩ"
-			(at 104.394 101.8539 90)
+			(at 104.14 101.8539 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2554,6 +2580,193 @@
 			(project "nixie_alarm_main_board"
 				(path "/a0d555d7-39a0-4a98-b831-70d97d0aa5a1/0943c442-6dd2-4b0d-a6a3-5c379f0041bb"
 					(reference "C1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 85.09 88.138 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "7e0dac0f-16d5-40c4-9501-5fa15917b1be")
+		(property "Reference" "#PWR017"
+			(at 85.09 94.488 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 85.09 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 85.09 88.138 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 85.09 88.138 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 85.09 88.138 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "a42425ed-d39b-496e-b1a3-d1e37c3854b3")
+		)
+		(instances
+			(project "nixie_alarm_main_board"
+				(path "/a0d555d7-39a0-4a98-b831-70d97d0aa5a1/0943c442-6dd2-4b0d-a6a3-5c379f0041bb"
+					(reference "#PWR017")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "SamacSys_Parts:GRM033R71E101KA01J")
+		(at 85.09 75.438 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "d3a5a653-d1c8-48c4-b621-8fe7a62145c8")
+		(property "Reference" "C5"
+			(at 90.678 79.756 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "100nF 25V"
+			(at 98.552 81.788 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "GRM033D70J224ME01D"
+			(at -11.1 84.328 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM033R71E101KA01-01A.pdf"
+			(at -111.1 84.328 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "Multilayer Ceramic Capacitors MLCC - SMD/SMT 100pF 25 volts 10%"
+			(at 85.09 75.438 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Height" "0.5"
+			(at -311.1 84.328 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "81-GRM033R71E101KA1J"
+			(at -411.1 84.328 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Murata-Electronics/GRM033R71E101KA01J?qs=563MOeNa05Lmru4oTW10Jw%3D%3D"
+			(at -511.1 84.328 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "Murata Electronics"
+			(at -611.1 84.328 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "GRM033R71E101KA01J"
+			(at -711.1 84.328 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "63fb3975-2db8-4152-a10f-207672c9a7e0")
+		)
+		(pin "2"
+			(uuid "d9d08a14-7b4c-4798-ba19-2db4a1177f1f")
+		)
+		(instances
+			(project "nixie_alarm_main_board"
+				(path "/a0d555d7-39a0-4a98-b831-70d97d0aa5a1/0943c442-6dd2-4b0d-a6a3-5c379f0041bb"
+					(reference "C5")
 					(unit 1)
 				)
 			)
