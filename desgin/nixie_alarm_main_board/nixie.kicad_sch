@@ -6945,7 +6945,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "GRM033D70J224ME01D"
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
 			(at -66.218 115.824 0)
 			(effects
 				(font
@@ -7066,7 +7066,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "RESC2012X60N"
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
 			(at 137.49 40.894 0)
 			(effects
 				(font
@@ -7178,7 +7178,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "25kΩ"
+		(property "Value" "27kΩ"
 			(at 254.508 54.864 90)
 			(effects
 				(font
@@ -7187,7 +7187,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "RESC2012X60N"
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
 			(at 165.938 58.674 0)
 			(effects
 				(font
@@ -8065,7 +8065,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "25kΩ"
+		(property "Value" "27kΩ"
 			(at 67.564 53.848 90)
 			(effects
 				(font
@@ -8074,7 +8074,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "RESC2012X60N"
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
 			(at -21.006 57.658 0)
 			(effects
 				(font
@@ -8430,7 +8430,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "RESC2012X60N"
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
 			(at 176.098 40.64 0)
 			(effects
 				(font
@@ -8945,7 +8945,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "GRM033D70J224ME01D"
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
 			(at -28.372 115.824 0)
 			(effects
 				(font
@@ -10021,7 +10021,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "402kΩ 1/4W"
+		(property "Value" "390kΩ 1/2W"
 			(at 103.378 55.1179 90)
 			(effects
 				(font
@@ -10030,7 +10030,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "RESC2012X60N"
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
 			(at 4.902 58.928 0)
 			(effects
 				(font
@@ -10151,7 +10151,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "RESC2012X60N"
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
 			(at -10.846 39.624 0)
 			(effects
 				(font
@@ -10388,7 +10388,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "25kΩ"
+		(property "Value" "27kΩ"
 			(at 122.174 54.61 90)
 			(effects
 				(font
@@ -10397,7 +10397,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "RESC2012X60N"
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
 			(at 33.35 58.674 0)
 			(effects
 				(font
@@ -10651,7 +10651,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "RESC2012X60N"
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
 			(at 43.51 40.64 0)
 			(effects
 				(font
@@ -10838,7 +10838,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "GRM033D70J224ME01D"
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
 			(at -65.71 141.732 0)
 			(effects
 				(font
@@ -10959,7 +10959,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "RESC2012X60N"
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
 			(at -50.216 40.132 0)
 			(effects
 				(font
@@ -11580,7 +11580,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "RESC2012X60N"
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
 			(at 82.372 40.132 0)
 			(effects
 				(font
@@ -11817,7 +11817,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "25kΩ"
+		(property "Value" "27kΩ"
 			(at 161.036 55.118 90)
 			(effects
 				(font
@@ -11826,7 +11826,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "RESC2012X60N"
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
 			(at 72.212 58.42 0)
 			(effects
 				(font
@@ -11938,7 +11938,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "25kΩ"
+		(property "Value" "27kΩ"
 			(at 215.9 55.118 90)
 			(effects
 				(font
@@ -11947,7 +11947,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "RESC2012X60N"
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
 			(at 127.33 58.928 0)
 			(effects
 				(font
@@ -12060,7 +12060,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "402kΩ 1/4W"
+		(property "Value" "390kΩ 1/2W"
 			(at 196.342 54.1019 90)
 			(effects
 				(font
@@ -12069,7 +12069,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "RESC2012X60N"
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
 			(at 97.866 57.912 0)
 			(effects
 				(font
@@ -12190,7 +12190,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "GRM033D70J224ME01D"
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
 			(at -27.864 141.732 0)
 			(effects
 				(font
@@ -12548,7 +12548,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "25kΩ"
+		(property "Value" "27kΩ"
 			(at 28.448 54.356 90)
 			(effects
 				(font
@@ -12557,7 +12557,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "RESC2012X60N"
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
 			(at -60.376 58.166 0)
 			(effects
 				(font

@@ -2060,12 +2060,6 @@
 		(uuid "2f5001da-7e18-4ccb-a0d6-f09a85dcfd9b")
 	)
 	(junction
-		(at 247.904 52.324)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "307c0501-3d48-4293-820e-56307d335e5e")
-	)
-	(junction
 		(at 29.718 53.34)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2148,6 +2142,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "cbaef213-ba9c-40ea-b96f-c6d9b88afe1d")
+	)
+	(junction
+		(at 247.904 52.324)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "ea88fd35-bc2b-4a4c-b33f-d068290a644e")
 	)
 	(junction
 		(at 259.588 69.088)
@@ -2547,7 +2547,7 @@
 	)
 	(wire
 		(pts
-			(xy 247.904 85.344) (xy 247.904 89.662)
+			(xy 247.904 73.66) (xy 247.904 89.662)
 		)
 		(stroke
 			(width 0)
@@ -2837,7 +2837,7 @@
 	)
 	(wire
 		(pts
-			(xy 247.904 52.324) (xy 247.904 77.724)
+			(xy 247.904 52.324) (xy 247.904 66.04)
 		)
 		(stroke
 			(width 0)
@@ -2847,7 +2847,7 @@
 	)
 	(text "horizontal\nradius: 16mm\nlength: 31.5mm\n"
 		(exclude_from_sim no)
-		(at 231.902 85.9791 0)
+		(at 231.902 74.2951 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3122,10 +3122,9 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "26d9cd56-67e1-4e1e-b853-8bc7fcb0a7dd")
 		(property "Reference" "C12"
-			(at 107.696 83.0579 90)
+			(at 107.188 83.058 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3133,8 +3132,8 @@
 				(justify right)
 			)
 		)
-		(property "Value" "220pF 16V"
-			(at 107.696 85.5979 90)
+		(property "Value" "220pF 50V"
+			(at 107.188 85.598 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3142,7 +3141,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "GRM033D70J224ME01D"
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
 			(at 199.822 81.788 0)
 			(effects
 				(font
@@ -3367,7 +3366,7 @@
 		(fields_autoplaced yes)
 		(uuid "406a253c-fa29-4626-862c-19aedad89b31")
 		(property "Reference" "R9"
-			(at 161.544 96.5199 90)
+			(at 161.29 96.5199 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3375,8 +3374,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "51.1kΩ"
-			(at 161.544 99.0599 90)
+		(property "Value" "51kΩ"
+			(at 161.29 99.0599 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3384,7 +3383,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "RESC1005X40N"
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
 			(at 62.814 102.87 0)
 			(effects
 				(font
@@ -3506,7 +3505,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "RESC2012X60N"
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
 			(at -34.976 128.524 0)
 			(effects
 				(font
@@ -3695,7 +3694,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "RESC1005X40N"
+		(property "Footprint" "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder"
 			(at 7.442 104.648 0)
 			(effects
 				(font
@@ -3791,7 +3790,7 @@
 	)
 	(symbol
 		(lib_id "Device:C_Polarized")
-		(at 247.904 81.534 0)
+		(at 247.904 69.85 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3799,7 +3798,7 @@
 		(dnp no)
 		(uuid "613f2a1a-4c2e-4630-ba35-799db5d12177")
 		(property "Reference" "C2"
-			(at 231.648 79.248 0)
+			(at 231.648 67.564 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3808,7 +3807,7 @@
 			)
 		)
 		(property "Value" "180uF 250V"
-			(at 231.648 81.788 0)
+			(at 231.648 70.104 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3817,7 +3816,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_THT:CP_Radial_D10.0mm_P7.50mm"
-			(at 248.8692 85.344 0)
+			(at 248.8692 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3826,7 +3825,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 247.904 81.534 0)
+			(at 247.904 69.85 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3835,7 +3834,7 @@
 			)
 		)
 		(property "Description" "Polarized capacitor"
-			(at 247.904 81.534 0)
+			(at 247.904 69.85 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4112,6 +4111,128 @@
 		)
 	)
 	(symbol
+		(lib_id "SamacSys_Parts:CRCW04022K74FKED")
+		(at 259.588 71.882 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "6e1c8cba-41c3-4f38-b0ab-23b14b5591cd")
+		(property "Reference" "R16"
+			(at 262.128 79.5019 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "14.3kΩ"
+			(at 262.128 82.0419 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
+			(at 163.398 85.852 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.vishay.com/docs/20035/dcrcwe3.pdf"
+			(at 63.398 85.852 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "CRCW0402 Resistor T/R 0.063W,1%,2K74 Vishay CRCW Series Thick Film Surface Mount Resistor 0402 Case 2.74k?? ??1% 0.063W ??100ppm/??C"
+			(at 259.588 71.882 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Height" "0.4"
+			(at -136.602 85.852 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "71-CRCW0402-2.74K-E3"
+			(at -236.602 85.852 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Vishay-Dale/CRCW04022K74FKED?qs=hD42E%2F8yzjqhiq0MwGcz5A%3D%3D"
+			(at -336.602 85.852 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "Vishay"
+			(at -436.602 85.852 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "CRCW04022K74FKED"
+			(at -536.602 85.852 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "65cc0902-df5f-4996-98ed-aef047dce593")
+		)
+		(pin "1"
+			(uuid "7392953a-d848-43d7-8f28-ee6aed44b1fe")
+		)
+		(instances
+			(project "nixie_alarm_main_board"
+				(path "/a0d555d7-39a0-4a98-b831-70d97d0aa5a1/01ca46d9-e95c-45f3-8c2d-e16b8652cb7d"
+					(reference "R16")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 118.618 91.44 0)
 		(unit 1)
@@ -4262,7 +4383,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "10pF 50V"
+		(property "Value" "10pF 25V"
 			(at 179.07 101.0919 90)
 			(effects
 				(font
@@ -4271,7 +4392,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "GRM033D70J224ME01D"
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
 			(at 271.196 97.282 0)
 			(effects
 				(font
@@ -4393,7 +4514,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "RESC1005X40N"
+		(property "Footprint" "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder"
 			(at -26.34 69.596 0)
 			(effects
 				(font
@@ -4653,7 +4774,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "RESC1005X40N"
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
 			(at -26.34 95.504 0)
 			(effects
 				(font
@@ -4886,128 +5007,6 @@
 		)
 	)
 	(symbol
-		(lib_id "SamacSys_Parts:CRCW04022K74FKED")
-		(at 259.588 71.882 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "a8f2fb97-15df-40eb-bc0f-b8b07ecbb5d8")
-		(property "Reference" "R16"
-			(at 261.62 79.5019 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "14.7kΩ"
-			(at 261.62 82.0419 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "RESC1005X40N"
-			(at 163.398 85.852 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "http://www.vishay.com/docs/20035/dcrcwe3.pdf"
-			(at 63.398 85.852 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Description" "CRCW0402 Resistor T/R 0.063W,1%,2K74 Vishay CRCW Series Thick Film Surface Mount Resistor 0402 Case 2.74k?? ??1% 0.063W ??100ppm/??C"
-			(at 259.588 71.882 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Height" "0.4"
-			(at -136.602 85.852 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Mouser Part Number" "71-CRCW0402-2.74K-E3"
-			(at -236.602 85.852 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Vishay-Dale/CRCW04022K74FKED?qs=hD42E%2F8yzjqhiq0MwGcz5A%3D%3D"
-			(at -336.602 85.852 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Name" "Vishay"
-			(at -436.602 85.852 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Part_Number" "CRCW04022K74FKED"
-			(at -536.602 85.852 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "acea6aae-0a0c-4875-8c6c-45cd3872794c")
-		)
-		(pin "1"
-			(uuid "7a8311be-dff3-45e4-ba0a-d2c8402bf688")
-		)
-		(instances
-			(project "nixie_alarm_main_board"
-				(path "/a0d555d7-39a0-4a98-b831-70d97d0aa5a1/01ca46d9-e95c-45f3-8c2d-e16b8652cb7d"
-					(reference "R16")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "SamacSys_Parts:GRM033R71E101KA01J")
 		(at 35.814 98.806 90)
 		(unit 1)
@@ -5034,7 +5033,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "GRM033D70J224ME01D"
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
 			(at 132.004 89.916 0)
 			(effects
 				(font
@@ -5156,7 +5155,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "RESC1005X40N"
+		(property "Footprint" "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder"
 			(at 163.398 61.976 0)
 			(effects
 				(font
@@ -5344,7 +5343,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "RESC2012X60N"
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
 			(at -60.376 128.524 0)
 			(effects
 				(font
@@ -5522,7 +5521,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "12pF 50V"
+		(property "Value" "12pF 16V"
 			(at 88.9 93.4719 90)
 			(effects
 				(font
@@ -5541,7 +5540,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://content.kemet.com/datasheets/KEM_C1002_X7R_SMD.pdf"
+		(property "Datasheet" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
 			(at -111.354 94.996 0)
 			(effects
 				(font
@@ -6050,7 +6049,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "ERJUP6"
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
 			(at 96.85 103.886 0)
 			(effects
 				(font
@@ -6294,7 +6293,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "GRM033D70J224ME01D"
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
 			(at 125.908 57.658 0)
 			(effects
 				(font

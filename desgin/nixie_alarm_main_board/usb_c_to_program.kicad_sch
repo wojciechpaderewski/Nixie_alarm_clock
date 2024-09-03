@@ -1421,7 +1421,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "RESC2012X60N"
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
 			(at 73.99 99.06 0)
 			(effects
 				(font
@@ -1543,7 +1543,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "RESC2012X60N"
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
 			(at 84.658 99.314 0)
 			(effects
 				(font
