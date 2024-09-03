@@ -5,164 +5,6 @@
 	(uuid "f6e64a55-e17d-46a1-a4f0-2bb3af8d6331")
 	(paper "A4")
 	(lib_symbols
-		(symbol "Device:C_Polarized"
-			(pin_numbers hide)
-			(pin_names
-				(offset 0.254)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "C"
-				(at 0.635 2.54 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Value" "C_Polarized"
-				(at 0.635 -2.54 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Footprint" ""
-				(at 0.9652 -3.81 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "~"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Polarized capacitor"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "cap capacitor"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "CP_*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "C_Polarized_0_1"
-				(rectangle
-					(start -2.286 0.508)
-					(end 2.286 1.016)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.778 2.286) (xy -0.762 2.286)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.27 2.794) (xy -1.27 1.778)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(rectangle
-					(start 2.286 -0.508)
-					(end -2.286 -1.016)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-			)
-			(symbol "C_Polarized_1_1"
-				(pin passive line
-					(at 0 3.81 270)
-					(length 2.794)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -3.81 90)
-					(length 2.794)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-		)
 		(symbol "SamacSys_Parts:74437529203331"
 			(pin_names hide)
 			(exclude_from_sim no)
@@ -693,6 +535,195 @@
 				)
 			)
 		)
+		(symbol "SamacSys_Parts:ECW-FE2W475K"
+			(pin_names hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "C"
+				(at 8.89 6.35 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Value" "ECW-FE2W475K"
+				(at 8.89 3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Footprint" "ECWFE2W475K"
+				(at 8.89 -96.19 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://industrial.panasonic.com/cdbs/www-data/pdf/RDI0000/ABD0000C202.pdf"
+				(at 8.89 -196.19 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Description" "Film Capacitors 4.7uF 450VDC 10% MPP L/S=22.5mm"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Height" "19.5"
+				(at 8.89 -396.19 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Mouser Part Number" "667-ECW-FE2W475K"
+				(at 8.89 -496.19 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Panasonic/ECW-FE2W475K?qs=wYonFgBYHKmU5lz%2F582eTg%3D%3D"
+				(at 8.89 -596.19 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer_Name" "Panasonic"
+				(at 8.89 -696.19 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer_Part_Number" "ECW-FE2W475K"
+				(at 8.89 -796.19 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(symbol "ECW-FE2W475K_1_1"
+				(polyline
+					(pts
+						(xy 5.08 0) (xy 5.588 0)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 5.588 2.54) (xy 5.588 -2.54)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 7.112 0) (xy 7.62 0)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 7.112 2.54) (xy 7.112 -2.54)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at 0 0 0)
+					(length 5.08)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 12.7 0 180)
+					(length 5.08)
+					(name "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
 		(symbol "SamacSys_Parts:ERJ-UP6D5101V"
 			(pin_names hide)
 			(exclude_from_sim no)
@@ -829,6 +860,195 @@
 					(at 17.78 0 180)
 					(length 5.08)
 					(name "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "SamacSys_Parts:ES1G"
+			(pin_names hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "D"
+				(at 11.43 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Value" "ES1G"
+				(at 11.43 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Footprint" "DIOM5227X260N"
+				(at 11.43 -97.46 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://www.onsemi.com/pdf/datasheet/es1j-d.pdf"
+				(at 11.43 -197.46 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Description" "Rectifiers 1.0 A Ultra Fast Recovery Rect"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Height" "2.6"
+				(at 11.43 -397.46 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Mouser Part Number" "512-ES1G"
+				(at 11.43 -497.46 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/onsemi-Fairchild/ES1G?qs=ZaZfTJZxipjU7h0zd5PGAw%3D%3D"
+				(at 11.43 -597.46 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer_Name" "onsemi"
+				(at 11.43 -697.46 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer_Part_Number" "ES1G"
+				(at 11.43 -797.46 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(symbol "ES1G_1_1"
+				(polyline
+					(pts
+						(xy 2.54 0) (xy 5.08 0)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 5.08 2.54) (xy 5.08 -2.54)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 10.16 0) (xy 12.7 0)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 5.08 0) (xy 10.16 2.54) (xy 10.16 -2.54) (xy 5.08 0)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(pin passive line
+					(at 0 0 0)
+					(length 2.54)
+					(name "K"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 15.24 0 180)
+					(length 2.54)
+					(name "A"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1025,265 +1245,6 @@
 						)
 					)
 					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-		)
-		(symbol "SamacSys_Parts:IRF8707TRPBF"
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "IC"
-				(at 21.59 7.62 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-				)
-			)
-			(property "Value" "IRF8707TRPBF"
-				(at 21.59 5.08 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-				)
-			)
-			(property "Footprint" "SOIC127P600X175-8N"
-				(at 21.59 -94.92 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "https://www.infineon.com/dgdl/irf8707pbf.pdf?fileId=5546d462533600a40153560d57f81d6b"
-				(at 21.59 -194.92 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-					(hide yes)
-				)
-			)
-			(property "Description" "MOSFET MOSFT 30V 11A 11.9mOhm 6.2nC Qg"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Height" "1.75"
-				(at 21.59 -394.92 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-					(hide yes)
-				)
-			)
-			(property "Mouser Part Number" "942-IRF8707TRPBF"
-				(at 21.59 -494.92 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-					(hide yes)
-				)
-			)
-			(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Infineon-Technologies/IRF8707TRPBF?qs=9%252BKlkBgLFf1gD64itQSNdA%3D%3D"
-				(at 21.59 -594.92 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-					(hide yes)
-				)
-			)
-			(property "Manufacturer_Name" "Infineon"
-				(at 21.59 -694.92 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-					(hide yes)
-				)
-			)
-			(property "Manufacturer_Part_Number" "IRF8707TRPBF"
-				(at 21.59 -794.92 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-					(hide yes)
-				)
-			)
-			(symbol "IRF8707TRPBF_1_1"
-				(rectangle
-					(start 5.08 2.54)
-					(end 20.32 -10.16)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-				(pin passive line
-					(at 0 0 0)
-					(length 5.08)
-					(name "S_1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -2.54 0)
-					(length 5.08)
-					(name "S_2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -5.08 0)
-					(length 5.08)
-					(name "S_3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -7.62 0)
-					(length 5.08)
-					(name "G"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 25.4 -7.62 180)
-					(length 5.08)
-					(name "D_1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "5"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 25.4 -5.08 180)
-					(length 5.08)
-					(name "D_2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "6"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 25.4 -2.54 180)
-					(length 5.08)
-					(name "D_3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "7"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 25.4 0 180)
-					(length 5.08)
-					(name "D_4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "8"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1775,12 +1736,13 @@
 				)
 			)
 		)
-		(symbol "SamacSys_Parts:STTH1003SBY-TR"
+		(symbol "SamacSys_Parts:RK73H2ATTE1003F"
+			(pin_names hide)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
-			(property "Reference" "D"
-				(at 19.05 7.62 0)
+			(property "Reference" "R"
+				(at 13.97 6.35 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -1788,8 +1750,8 @@
 					(justify left top)
 				)
 			)
-			(property "Value" "STTH1003SBY-TR"
-				(at 19.05 5.08 0)
+			(property "Value" "RK73H2ATTE1003F"
+				(at 13.97 3.81 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -1797,18 +1759,8 @@
 					(justify left top)
 				)
 			)
-			(property "Footprint" "STTH1003SBYTR"
-				(at 19.05 -94.92 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "https://www.st.com/resource/en/datasheet/stth1003s-y.pdf"
-				(at 19.05 -194.92 0)
+			(property "Footprint" "RESC2012X60N"
+				(at 13.97 -96.19 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -1817,7 +1769,17 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "Rectifiers Auto Hi efficiency 10A 300V 13ns 0.9V"
+			(property "Datasheet" "http://www.koaspeer.com/catimages/Products/RK73H/RK73H.pdf"
+				(at 13.97 -196.19 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Description" "Thick Film Resistors - SMD 1/4W 100K OHM 1%"
 				(at 0 0 0)
 				(effects
 					(font
@@ -1826,8 +1788,8 @@
 					(hide yes)
 				)
 			)
-			(property "Height" "2.63"
-				(at 19.05 -394.92 0)
+			(property "Height" "0.6"
+				(at 13.97 -396.19 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -1836,8 +1798,8 @@
 					(hide yes)
 				)
 			)
-			(property "Mouser Part Number" "511-STTH1003SBY-TR"
-				(at 19.05 -494.92 0)
+			(property "Mouser Part Number" "660-RK73H2ATTE1003F"
+				(at 13.97 -496.19 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -1846,8 +1808,8 @@
 					(hide yes)
 				)
 			)
-			(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/STMicroelectronics/STTH1003SBY-TR?qs=FvSsTZlmX3CqVL%252BVLEOJzw%3D%3D"
-				(at 19.05 -594.92 0)
+			(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/KOA-Speer/RK73H2ATTE1003F?qs=JXEKNMc11mPgE5iv74bcPQ%3D%3D"
+				(at 13.97 -596.19 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -1856,8 +1818,8 @@
 					(hide yes)
 				)
 			)
-			(property "Manufacturer_Name" "STMicroelectronics"
-				(at 19.05 -694.92 0)
+			(property "Manufacturer_Name" "KOA Speer"
+				(at 13.97 -696.19 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -1866,8 +1828,8 @@
 					(hide yes)
 				)
 			)
-			(property "Manufacturer_Part_Number" "STTH1003SBY-TR"
-				(at 19.05 -794.92 0)
+			(property "Manufacturer_Part_Number" "RK73H2ATTE1003F"
+				(at 13.97 -796.19 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -1876,10 +1838,10 @@
 					(hide yes)
 				)
 			)
-			(symbol "STTH1003SBY-TR_1_1"
+			(symbol "RK73H2ATTE1003F_1_1"
 				(rectangle
-					(start 5.08 2.54)
-					(end 17.78 -5.08)
+					(start 5.08 1.27)
+					(end 12.7 -1.27)
 					(stroke
 						(width 0.254)
 						(type default)
@@ -1891,7 +1853,7 @@
 				(pin passive line
 					(at 0 0 0)
 					(length 5.08)
-					(name "A_1"
+					(name "1"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1907,9 +1869,293 @@
 					)
 				)
 				(pin passive line
-					(at 22.86 0 180)
+					(at 17.78 0 180)
 					(length 5.08)
-					(name "K"
+					(name "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "SamacSys_Parts:STL2N80K5"
+			(pin_names hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "Q"
+				(at 11.43 3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Value" "STL2N80K5"
+				(at 11.43 1.27 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Footprint" "STL2N80K5"
+				(at 11.43 -98.73 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://www.st.com/resource/en/datasheet/stl2n80k5.pdf"
+				(at 11.43 -198.73 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Description" "N-channel 800 V, 3.7  typ., 1.5 A MDmesh K5 Power MOSFET in a PowerFLAT 5x6 VHV package"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Height" "1"
+				(at 11.43 -398.73 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Mouser Part Number" "511-STL2N80K5"
+				(at 11.43 -498.73 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/STMicroelectronics/STL2N80K5?qs=4b8myOmUP%252BsfWZXTMw9GBA%3D%3D"
+				(at 11.43 -598.73 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer_Name" "STMicroelectronics"
+				(at 11.43 -698.73 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer_Part_Number" "STL2N80K5"
+				(at 11.43 -798.73 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(symbol "STL2N80K5_1_1"
+				(polyline
+					(pts
+						(xy 2.54 0) (xy 5.08 0)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 5.08 5.08) (xy 5.08 0)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 5.842 -0.508) (xy 5.842 0.508)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 5.842 0) (xy 7.62 0)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 5.842 2.032) (xy 5.842 3.048)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 5.842 5.588) (xy 5.842 4.572)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 7.62 2.54) (xy 5.842 2.54)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 7.62 2.54) (xy 7.62 -2.54)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 7.62 5.08) (xy 5.842 5.08)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 7.62 5.08) (xy 7.62 7.62)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 5.842 2.54) (xy 6.858 3.048) (xy 6.858 2.032) (xy 5.842 2.54)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(circle
+					(center 6.35 2.54)
+					(radius 3.81)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at 7.62 -5.08 90)
+					(length 2.54)
+					(name "S"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 0 0)
+					(length 2.54)
+					(name "G"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1925,9 +2171,9 @@
 					)
 				)
 				(pin passive line
-					(at 0 -2.54 0)
-					(length 5.08)
-					(name "A_2"
+					(at 7.62 10.16 270)
+					(length 2.54)
+					(name "D"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2042,34 +2288,28 @@
 		)
 	)
 	(junction
+		(at 198.628 89.916)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "2752ea86-ab0e-4b1f-8e9d-f3c4a948fc89")
+	)
+	(junction
 		(at 247.904 43.434)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "275ba5db-23da-44fb-9cae-255986f2848c")
 	)
 	(junction
-		(at 221.234 77.978)
+		(at 198.628 53.34)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "2806b2a4-8678-4956-abbd-6034887abf1e")
-	)
-	(junction
-		(at 220.98 53.34)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "2f5001da-7e18-4ccb-a0d6-f09a85dcfd9b")
+		(uuid "3ae846ee-4cc7-42f4-a306-c41686c47978")
 	)
 	(junction
 		(at 29.718 53.34)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "43664746-d74f-4792-96d4-446a5adcee8c")
-	)
-	(junction
-		(at 195.834 77.978)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "5912179b-06ca-46d4-9d46-21810d83d430")
 	)
 	(junction
 		(at 69.85 80.518)
@@ -2102,22 +2342,10 @@
 		(uuid "8daef686-b50d-44bd-a4da-bd5a34faf2ad")
 	)
 	(junction
-		(at 223.012 53.34)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "93650fa6-78a4-4b8c-b8cc-05238accfad0")
-	)
-	(junction
 		(at 35.814 114.554)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "b0b3ab48-fd1c-4b26-9708-675a633814f8")
-	)
-	(junction
-		(at 221.234 75.438)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "b3f1de4d-82f4-4a89-9591-087062245759")
 	)
 	(junction
 		(at 259.588 43.434)
@@ -2126,34 +2354,32 @@
 		(uuid "bcdc96cd-ffd8-4303-bf92-a04b947af852")
 	)
 	(junction
-		(at 193.04 89.916)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "c2bb3c3c-85f7-477d-863f-beb9c3916720")
-	)
-	(junction
 		(at 175.006 89.916)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "c8831123-cdf0-4803-9c03-54df3031e4be")
 	)
 	(junction
-		(at 221.234 80.518)
+		(at 247.904 53.34)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "cbaef213-ba9c-40ea-b96f-c6d9b88afe1d")
-	)
-	(junction
-		(at 247.904 52.324)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "ea88fd35-bc2b-4a4c-b33f-d068290a644e")
+		(uuid "d3f53314-d681-4b6f-a491-e1eed5095c4b")
 	)
 	(junction
 		(at 259.588 69.088)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "ec4c25af-8a29-4ad0-aa99-0ef6a0c27c25")
+	)
+	(wire
+		(pts
+			(xy 231.394 53.34) (xy 247.904 53.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "09c2a0df-a2f3-4908-923a-1a085b77a112")
 	)
 	(wire
 		(pts
@@ -2217,16 +2443,6 @@
 	)
 	(wire
 		(pts
-			(xy 220.98 75.438) (xy 221.234 75.438)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1b9a7b98-f915-4bb0-b4fd-44ed5e0e29b5")
-	)
-	(wire
-		(pts
 			(xy 154.178 75.438) (xy 154.178 53.34)
 		)
 		(stroke
@@ -2244,36 +2460,6 @@
 			(type default)
 		)
 		(uuid "1d125edd-b455-4155-97b5-94196507c7cd")
-	)
-	(wire
-		(pts
-			(xy 195.072 53.34) (xy 220.98 53.34)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1fb3131d-ba2d-4ae2-b430-380a6637f63c")
-	)
-	(wire
-		(pts
-			(xy 223.012 52.324) (xy 223.012 53.34)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "208c6495-a0e1-4b96-afd9-c07bc3098d33")
-	)
-	(wire
-		(pts
-			(xy 186.182 83.058) (xy 186.182 69.088)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "23f71de8-a5b1-4930-b603-ae527df771d4")
 	)
 	(wire
 		(pts
@@ -2297,6 +2483,26 @@
 	)
 	(wire
 		(pts
+			(xy 198.628 82.55) (xy 198.628 89.916)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2dc19304-8a7c-4757-a80e-bc2e8a8cc95c")
+	)
+	(wire
+		(pts
+			(xy 247.904 53.34) (xy 247.904 66.04)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2f01b396-499e-4b14-9eb4-dd10d1c046e5")
+	)
+	(wire
+		(pts
 			(xy 175.006 70.612) (xy 175.006 65.024)
 		)
 		(stroke
@@ -2307,23 +2513,13 @@
 	)
 	(wire
 		(pts
-			(xy 195.834 83.058) (xy 186.182 83.058)
+			(xy 186.182 69.088) (xy 186.182 77.47)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "353cd18d-e60a-4b16-913d-458b00cae984")
-	)
-	(wire
-		(pts
-			(xy 247.904 43.434) (xy 247.904 52.324)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3e79a5a6-3375-4143-af2b-565550d9183c")
+		(uuid "37ce14f0-d176-4a56-b568-509d9cf83db4")
 	)
 	(wire
 		(pts
@@ -2337,17 +2533,7 @@
 	)
 	(wire
 		(pts
-			(xy 195.834 75.438) (xy 195.834 77.978)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "49c33651-a367-4aaf-9599-add8ffbe59e6")
-	)
-	(wire
-		(pts
-			(xy 175.006 89.916) (xy 193.04 89.916)
+			(xy 175.006 89.916) (xy 198.628 89.916)
 		)
 		(stroke
 			(width 0)
@@ -2397,23 +2583,13 @@
 	)
 	(wire
 		(pts
-			(xy 193.04 77.978) (xy 193.04 89.916)
+			(xy 186.182 77.47) (xy 191.008 77.47)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "5c7e8a5a-2baa-4fba-b97d-2137de6819e7")
-	)
-	(wire
-		(pts
-			(xy 221.234 80.518) (xy 221.234 83.058)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "612fc904-ee7f-4057-861b-909fd9f20505")
+		(uuid "5dcefd7d-143d-4ab2-b23f-f8663b49b71b")
 	)
 	(wire
 		(pts
@@ -2427,13 +2603,13 @@
 	)
 	(wire
 		(pts
-			(xy 223.012 53.34) (xy 223.012 54.864)
+			(xy 198.628 53.34) (xy 216.154 53.34)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "6add1766-ccf4-4c71-9e43-552a22f23d76")
+		(uuid "6766abfe-03b2-4642-951c-d63edc15707a")
 	)
 	(wire
 		(pts
@@ -2467,16 +2643,6 @@
 	)
 	(wire
 		(pts
-			(xy 221.234 75.438) (xy 221.234 77.978)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7583980c-9206-4197-9f13-f4334409fa1c")
-	)
-	(wire
-		(pts
 			(xy 103.632 77.724) (xy 103.632 77.978)
 		)
 		(stroke
@@ -2484,16 +2650,6 @@
 			(type default)
 		)
 		(uuid "77be17eb-4ebc-4909-9753-f92d1b845fa0")
-	)
-	(wire
-		(pts
-			(xy 221.234 77.978) (xy 221.234 80.518)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7a89e7d3-93e3-4c4d-be0e-f46b0290f126")
 	)
 	(wire
 		(pts
@@ -2517,13 +2673,13 @@
 	)
 	(wire
 		(pts
-			(xy 245.872 52.324) (xy 247.904 52.324)
+			(xy 247.904 78.74) (xy 247.904 89.662)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "850fa695-e3b0-4003-8b6c-e18b98eaa044")
+		(uuid "87b750a8-8183-4cf6-9161-f7dd8bee6685")
 	)
 	(wire
 		(pts
@@ -2547,13 +2703,13 @@
 	)
 	(wire
 		(pts
-			(xy 247.904 73.66) (xy 247.904 89.662)
+			(xy 198.628 53.34) (xy 198.628 67.31)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "8ae8fb7a-2f0d-43d0-ae92-c4dc38f3a161")
+		(uuid "898476f4-8fbd-4b83-81d2-d3d867300392")
 	)
 	(wire
 		(pts
@@ -2574,16 +2730,6 @@
 			(type default)
 		)
 		(uuid "8f50afff-50ed-47e9-910b-669545258a6c")
-	)
-	(wire
-		(pts
-			(xy 195.834 77.978) (xy 193.04 77.978)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "91bd23b3-e014-4336-806b-d1c85f060066")
 	)
 	(wire
 		(pts
@@ -2634,16 +2780,6 @@
 			(type default)
 		)
 		(uuid "a94f4920-0301-495e-9cb3-3b329d88d8e2")
-	)
-	(wire
-		(pts
-			(xy 220.98 53.34) (xy 220.98 75.438)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ad93c36c-29bb-435d-9ebf-2be1cd846647")
 	)
 	(wire
 		(pts
@@ -2717,7 +2853,7 @@
 	)
 	(wire
 		(pts
-			(xy 220.98 53.34) (xy 223.012 53.34)
+			(xy 195.072 53.34) (xy 198.628 53.34)
 		)
 		(stroke
 			(width 0)
@@ -2827,34 +2963,13 @@
 	)
 	(wire
 		(pts
-			(xy 195.834 77.978) (xy 195.834 80.518)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f64c3204-1522-417d-a32d-f767dc775acc")
-	)
-	(wire
-		(pts
-			(xy 247.904 52.324) (xy 247.904 66.04)
+			(xy 247.904 43.434) (xy 247.904 53.34)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "f6f2361b-7512-49a3-87cc-565936b95f93")
-	)
-	(text "horizontal\nradius: 16mm\nlength: 31.5mm\n"
-		(exclude_from_sim no)
-		(at 231.902 74.2951 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "db390d1a-a1ea-4daa-8a14-9de843762438")
 	)
 	(global_label "+3.3V"
 		(shape input)
@@ -3246,22 +3361,22 @@
 		(fields_autoplaced yes)
 		(uuid "2e89afd1-44de-41de-a999-4e7a46440a8c")
 		(property "Reference" "L2"
-			(at 184.912 46.736 0)
+			(at 184.912 46.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" "330uH 6A"
-			(at 184.912 49.276 0)
+		(property "Value" "180uH 0.9A 6.3mΩ"
+			(at 184.912 49.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" "INDPM250280X2050N"
+		(property "Footprint" "Inductor_SMD:L_12x12mm_H6mm"
 			(at 191.262 149.53 0)
 			(effects
 				(font
@@ -3350,128 +3465,6 @@
 			(project "nixie_alarm_main_board"
 				(path "/a0d555d7-39a0-4a98-b831-70d97d0aa5a1/01ca46d9-e95c-45f3-8c2d-e16b8652cb7d"
 					(reference "L2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "SamacSys_Parts:CRCW04022K74FKED")
-		(at 159.004 88.9 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "406a253c-fa29-4626-862c-19aedad89b31")
-		(property "Reference" "R9"
-			(at 161.29 96.5199 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "51kΩ"
-			(at 161.29 99.0599 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
-			(at 62.814 102.87 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "http://www.vishay.com/docs/20035/dcrcwe3.pdf"
-			(at -37.186 102.87 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Description" "CRCW0402 Resistor T/R 0.063W,1%,2K74 Vishay CRCW Series Thick Film Surface Mount Resistor 0402 Case 2.74k?? ??1% 0.063W ??100ppm/??C"
-			(at 159.004 88.9 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Height" "0.4"
-			(at -237.186 102.87 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Mouser Part Number" "71-CRCW0402-2.74K-E3"
-			(at -337.186 102.87 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Vishay-Dale/CRCW04022K74FKED?qs=hD42E%2F8yzjqhiq0MwGcz5A%3D%3D"
-			(at -437.186 102.87 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Name" "Vishay"
-			(at -537.186 102.87 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Part_Number" "CRCW04022K74FKED"
-			(at -637.186 102.87 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "da2f7994-37c5-469b-b767-10e28118bdf1")
-		)
-		(pin "1"
-			(uuid "5eda7049-dc48-488d-ac9c-cd955f507d1c")
-		)
-		(instances
-			(project "nixie_alarm_main_board"
-				(path "/a0d555d7-39a0-4a98-b831-70d97d0aa5a1/01ca46d9-e95c-45f3-8c2d-e16b8652cb7d"
-					(reference "R9")
 					(unit 1)
 				)
 			)
@@ -3789,112 +3782,33 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C_Polarized")
-		(at 247.904 69.85 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "613f2a1a-4c2e-4630-ba35-799db5d12177")
-		(property "Reference" "C2"
-			(at 231.648 67.564 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "180uF 250V"
-			(at 231.648 70.104 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Capacitor_THT:CP_Radial_D10.0mm_P7.50mm"
-			(at 248.8692 73.66 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 247.904 69.85 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Polarized capacitor"
-			(at 247.904 69.85 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "395fae94-e3ea-41d6-909b-0cf627c32344")
-		)
-		(pin "1"
-			(uuid "7c2483c2-060f-4cc6-8a23-6b905a488366")
-		)
-		(instances
-			(project "nixie_alarm_main_board"
-				(path "/a0d555d7-39a0-4a98-b831-70d97d0aa5a1/01ca46d9-e95c-45f3-8c2d-e16b8652cb7d"
-					(reference "C2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "SamacSys_Parts:STTH1003SBY-TR")
-		(at 223.012 52.324 0)
+		(lib_id "SamacSys_Parts:ES1G")
+		(at 231.394 53.34 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "63dd8281-5499-4efd-9126-11ef08763a15")
-		(property "Reference" "D1"
-			(at 234.442 45.212 0)
+		(uuid "52a596a6-3e5d-4a59-a4d3-9c74c2ce5644")
+		(property "Reference" "D2"
+			(at 223.774 45.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" "STTH1003SBY-TR"
-			(at 234.442 47.752 0)
+		(property "Value" "ES1G"
+			(at 223.774 48.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" "STTH1003SBYTR"
-			(at 242.062 147.244 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.st.com/resource/en/datasheet/stth1003s-y.pdf"
-			(at 242.062 247.244 0)
+		(property "Footprint" "DIOM5227X260N"
+			(at 219.964 -44.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3903,17 +3817,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Rectifiers Auto Hi efficiency 10A 300V 13ns 0.9V"
-			(at 223.012 52.324 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Height" "2.63"
-			(at 242.062 447.244 0)
+		(property "Datasheet" "https://www.onsemi.com/pdf/datasheet/es1j-d.pdf"
+			(at 219.964 -144.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3922,8 +3827,17 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser Part Number" "511-STTH1003SBY-TR"
-			(at 242.062 547.244 0)
+		(property "Description" "Rectifiers 1.0 A Ultra Fast Recovery Rect"
+			(at 231.394 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Height" "2.6"
+			(at 219.964 -344.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3932,8 +3846,140 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/STMicroelectronics/STTH1003SBY-TR?qs=FvSsTZlmX3CqVL%252BVLEOJzw%3D%3D"
-			(at 242.062 647.244 0)
+		(property "Mouser Part Number" "512-ES1G"
+			(at 219.964 -444.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/onsemi-Fairchild/ES1G?qs=ZaZfTJZxipjU7h0zd5PGAw%3D%3D"
+			(at 219.964 -544.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "onsemi"
+			(at 219.964 -644.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "ES1G"
+			(at 219.964 -744.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "83c236b0-8534-4a9c-a7ae-f32856f9a82a")
+		)
+		(pin "2"
+			(uuid "f86b91cc-2032-4497-be2a-c83981215949")
+		)
+		(instances
+			(project "nixie_alarm_main_board"
+				(path "/a0d555d7-39a0-4a98-b831-70d97d0aa5a1/01ca46d9-e95c-45f3-8c2d-e16b8652cb7d"
+					(reference "D2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "SamacSys_Parts:STL2N80K5")
+		(at 191.008 77.47 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "673efd47-9ba4-4387-b643-1d39956497e3")
+		(property "Reference" "Q8"
+			(at 202.692 73.6599 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "STL2N80K5"
+			(at 202.692 76.1999 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "STL2N80K5"
+			(at 202.438 176.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.st.com/resource/en/datasheet/stl2n80k5.pdf"
+			(at 202.438 276.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "N-channel 800 V, 3.7  typ., 1.5 A MDmesh K5 Power MOSFET in a PowerFLAT 5x6 VHV package"
+			(at 191.008 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Height" "1"
+			(at 202.438 476.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "511-STL2N80K5"
+			(at 202.438 576.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/STMicroelectronics/STL2N80K5?qs=4b8myOmUP%252BsfWZXTMw9GBA%3D%3D"
+			(at 202.438 676.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3943,7 +3989,7 @@
 			)
 		)
 		(property "Manufacturer_Name" "STMicroelectronics"
-			(at 242.062 747.244 0)
+			(at 202.438 776.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3952,8 +3998,8 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer_Part_Number" "STTH1003SBY-TR"
-			(at 242.062 847.244 0)
+		(property "Manufacturer_Part_Number" "STL2N80K5"
+			(at 202.438 876.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3963,18 +4009,18 @@
 			)
 		)
 		(pin "1"
-			(uuid "e7656286-6530-4950-8daa-2d4c167de30e")
+			(uuid "f72b5c79-2247-43c8-8737-fdc34efb181e")
 		)
 		(pin "3"
-			(uuid "27a9d66c-4f0e-47e4-9092-4bed7b6859a4")
+			(uuid "71e69432-589c-46a7-8dd3-69ed3c2dd7dc")
 		)
 		(pin "2"
-			(uuid "63fd6c51-bbb2-4ebe-98a1-1a692c5ca3b8")
+			(uuid "d034d5af-de3e-4d8a-9712-af3c607e5e3c")
 		)
 		(instances
 			(project "nixie_alarm_main_board"
 				(path "/a0d555d7-39a0-4a98-b831-70d97d0aa5a1/01ca46d9-e95c-45f3-8c2d-e16b8652cb7d"
-					(reference "D1")
+					(reference "Q8")
 					(unit 1)
 				)
 			)
@@ -4365,6 +4411,127 @@
 		)
 	)
 	(symbol
+		(lib_id "SamacSys_Parts:ECW-FE2W475K")
+		(at 247.904 66.04 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "7e290ceb-9fff-459e-8755-e45bb40ce33e")
+		(property "Reference" "C26"
+			(at 233.172 71.374 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "4.7uF 450V"
+			(at 233.172 73.914 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "ECWFE2W475K"
+			(at 151.714 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://industrial.panasonic.com/cdbs/www-data/pdf/RDI0000/ABD0000C202.pdf"
+			(at 51.714 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "Film Capacitors 4.7uF 450VDC 10% MPP L/S=22.5mm"
+			(at 247.904 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Height" "19.5"
+			(at -148.286 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "667-ECW-FE2W475K"
+			(at -248.286 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Panasonic/ECW-FE2W475K?qs=wYonFgBYHKmU5lz%2F582eTg%3D%3D"
+			(at -348.286 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "Panasonic"
+			(at -448.286 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "ECW-FE2W475K"
+			(at -548.286 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "c26957b8-01fa-43e7-94c3-3d52e6650ff3")
+		)
+		(pin "2"
+			(uuid "01a90098-42c1-489e-8840-841c49ebc6ca")
+		)
+		(instances
+			(project "nixie_alarm_main_board"
+				(path "/a0d555d7-39a0-4a98-b831-70d97d0aa5a1/01ca46d9-e95c-45f3-8c2d-e16b8652cb7d"
+					(reference "C26")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "SamacSys_Parts:GRM033R71E101KA01J")
 		(at 175.006 106.172 90)
 		(unit 1)
@@ -4609,43 +4776,34 @@
 		)
 	)
 	(symbol
-		(lib_id "SamacSys_Parts:IRF8707TRPBF")
-		(at 195.834 75.438 0)
+		(lib_id "SamacSys_Parts:RK73H2ATTE1003F")
+		(at 159.004 88.9 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "95261a6b-4dc9-4ef1-bf71-dd540f65dd5f")
-		(property "Reference" "IC5"
-			(at 208.534 68.326 0)
+		(uuid "89164319-207b-41fc-b327-a7f8fc280967")
+		(property "Reference" "R44"
+			(at 161.544 96.774 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
-		(property "Value" "TPH5200FNH"
-			(at 208.534 70.866 0)
+		(property "Value" "27kΩ"
+			(at 161.544 99.314 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
-		(property "Footprint" "footprints:SOP Advance_TOS-L"
-			(at 217.424 170.358 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.infineon.com/dgdl/irf8707pbf.pdf?fileId=5546d462533600a40153560d57f81d6b"
-			(at 217.424 270.358 0)
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
+			(at 62.814 102.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4654,17 +4812,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "MOSFET MOSFT 30V 11A 11.9mOhm 6.2nC Qg"
-			(at 195.834 75.438 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Height" "1.75"
-			(at 217.424 470.358 0)
+		(property "Datasheet" "http://www.koaspeer.com/catimages/Products/RK73H/RK73H.pdf"
+			(at -37.186 102.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4673,8 +4822,17 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser Part Number" "942-IRF8707TRPBF"
-			(at 217.424 570.358 0)
+		(property "Description" "Thick Film Resistors - SMD 1/4W 100K OHM 1%"
+			(at 159.004 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Height" "0.6"
+			(at -237.186 102.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4683,8 +4841,8 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Infineon-Technologies/IRF8707TRPBF?qs=9%252BKlkBgLFf1gD64itQSNdA%3D%3D"
-			(at 217.424 670.358 0)
+		(property "Mouser Part Number" "660-RK73H2ATTE1003F"
+			(at -337.186 102.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4693,8 +4851,8 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer_Name" "Infineon"
-			(at 217.424 770.358 0)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/KOA-Speer/RK73H2ATTE1003F?qs=JXEKNMc11mPgE5iv74bcPQ%3D%3D"
+			(at -437.186 102.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4703,8 +4861,8 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer_Part_Number" "IRF8707TRPBF"
-			(at 217.424 870.358 0)
+		(property "Manufacturer_Name" "KOA Speer"
+			(at -537.186 102.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4713,34 +4871,26 @@
 				(hide yes)
 			)
 		)
-		(pin "7"
-			(uuid "ea82d847-9f78-4821-98e6-6a9221e47faf")
-		)
-		(pin "4"
-			(uuid "61ebc084-442f-44fa-87b4-cbf0e1119acb")
+		(property "Manufacturer_Part_Number" "RK73H2ATTE1003F"
+			(at -637.186 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
 		)
 		(pin "2"
-			(uuid "a42c5a40-cd51-4b47-be04-a512aea5139e")
-		)
-		(pin "8"
-			(uuid "f1fe6264-b000-43be-b18c-6de80fedd34d")
+			(uuid "6b880c73-22c7-4938-8cf8-740e85fc0e83")
 		)
 		(pin "1"
-			(uuid "c76750f1-91a2-4511-b450-bbd1fc541dfb")
-		)
-		(pin "3"
-			(uuid "b6c299d9-6515-442c-a9df-986eb5c9d78b")
-		)
-		(pin "6"
-			(uuid "1edc7e83-99c2-4213-a0e0-0d222ee34b8f")
-		)
-		(pin "5"
-			(uuid "12132f21-4393-4dfd-858e-dd22d5f4c0f6")
+			(uuid "b907e225-03c6-43bd-a90a-2c19506248c5")
 		)
 		(instances
 			(project "nixie_alarm_main_board"
 				(path "/a0d555d7-39a0-4a98-b831-70d97d0aa5a1/01ca46d9-e95c-45f3-8c2d-e16b8652cb7d"
-					(reference "IC5")
+					(reference "R44")
 					(unit 1)
 				)
 			)
@@ -5824,7 +5974,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 193.04 107.696 0)
+		(at 198.628 107.696 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5833,7 +5983,7 @@
 		(fields_autoplaced yes)
 		(uuid "db375906-002c-4914-ad60-e89e35d6f25a")
 		(property "Reference" "#PWR026"
-			(at 193.04 114.046 0)
+			(at 198.628 114.046 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5842,7 +5992,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 193.04 112.776 0)
+			(at 198.628 112.776 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5850,7 +6000,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 193.04 107.696 0)
+			(at 198.628 107.696 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5859,7 +6009,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 193.04 107.696 0)
+			(at 198.628 107.696 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5868,7 +6018,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 193.04 107.696 0)
+			(at 198.628 107.696 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6023,7 +6173,7 @@
 	)
 	(symbol
 		(lib_id "SamacSys_Parts:ERJ-UP6D5101V")
-		(at 193.04 89.916 270)
+		(at 198.628 89.916 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6032,7 +6182,7 @@
 		(fields_autoplaced yes)
 		(uuid "e9d1b27f-4da8-46b9-bcef-4ce7d0282a13")
 		(property "Reference" "R14"
-			(at 195.072 97.5359 90)
+			(at 201.168 97.5359 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6041,7 +6191,7 @@
 			)
 		)
 		(property "Value" "75mΩ"
-			(at 195.072 100.0759 90)
+			(at 201.168 100.0759 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6050,7 +6200,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
-			(at 96.85 103.886 0)
+			(at 102.438 103.886 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6060,7 +6210,7 @@
 			)
 		)
 		(property "Datasheet" "https://industrial.panasonic.com/cdbs/www-data/pdf/RDP0000/AOA0000C337.pdf"
-			(at -3.15 103.886 0)
+			(at 2.438 103.886 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6070,7 +6220,7 @@
 			)
 		)
 		(property "Description" "Anti-Sulfurated Thick Film Chip Resistors/ Anti-Surge Type, Power Rating (W): 0.5, Chip Size (LxW(EIA)) (mm): 2.0 x 1.25 (EIA:0805), Resistance Values (?): 5100, Resistance Tolerance (%): 0.5, T.C.R (?102/K): ?100"
-			(at 193.04 89.916 0)
+			(at 198.628 89.916 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6079,7 +6229,7 @@
 			)
 		)
 		(property "Height" "0.7"
-			(at -203.15 103.886 0)
+			(at -197.562 103.886 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6089,7 +6239,7 @@
 			)
 		)
 		(property "Mouser Part Number" "667-ERJ-UP6D5101V"
-			(at -303.15 103.886 0)
+			(at -297.562 103.886 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6099,7 +6249,7 @@
 			)
 		)
 		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Panasonic/ERJ-UP6D5101V?qs=ZcfC38r4Pouz7%2FLHthUDHQ%3D%3D"
-			(at -403.15 103.886 0)
+			(at -397.562 103.886 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6109,7 +6259,7 @@
 			)
 		)
 		(property "Manufacturer_Name" "Panasonic"
-			(at -503.15 103.886 0)
+			(at -497.562 103.886 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6119,7 +6269,7 @@
 			)
 		)
 		(property "Manufacturer_Part_Number" "ERJ-UP6D5101V"
-			(at -603.15 103.886 0)
+			(at -597.562 103.886 0)
 			(effects
 				(font
 					(size 1.27 1.27)
