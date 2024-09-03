@@ -665,7 +665,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "GRM033D70J224ME01D"
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
 			(at 254.94 76.962 0)
 			(effects
 				(font

@@ -875,7 +875,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "GRM033D70J224ME01D"
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
 			(at 182.042 101.092 0)
 			(effects
 				(font
@@ -997,7 +997,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "GRM033D70J224ME01D"
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
 			(at 233.858 101.346 0)
 			(effects
 				(font
@@ -1119,7 +1119,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "CAPC2012X135N"
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
 			(at 24.206 106.426 0)
 			(effects
 				(font
@@ -1241,7 +1241,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "CAPC2012X135N"
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
 			(at 7.95 106.426 0)
 			(effects
 				(font
