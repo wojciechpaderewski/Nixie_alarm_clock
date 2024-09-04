@@ -1,4 +1,4 @@
-23125581959084664
+23132486112254808
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -87157,9 +87157,23 @@ Connector
 4
 4
 SamacSys_Parts
+DIOM5227X260N
+SMA CASE 403AE ISSUE O-ren1
+Diode
+0
+2
+2
+SamacSys_Parts
 DIOM7959X250N
 AP02002
 Schottky Diode
+0
+2
+2
+SamacSys_Parts
+ECWFE2W475K
+ECW-FE2W475K-2
+Capacitor
 0
 2
 2
@@ -87346,6 +87360,13 @@ MOSFET (N-Channel)
 3
 3
 SamacSys_Parts
+STL2N80K5
+STL2N80K5-1
+MOSFET (N-Channel)
+0
+3
+3
+SamacSys_Parts
 STTH1003SBYTR
 DPAK_2
 Diode
@@ -87359,6 +87380,13 @@ Variable Resistor
 0
 3
 3
+SamacSys_Parts
+TPH1110FNHL1Q
+TPH1110FNH,L1Q-3
+MOSFET (N-Channel)
+0
+9
+9
 SamacSys_Parts
 USB4510031A
 USB4510-03-1-A-5

@@ -5,6 +5,164 @@
 	(uuid "f6e64a55-e17d-46a1-a4f0-2bb3af8d6331")
 	(paper "A4")
 	(lib_symbols
+		(symbol "Device:C_Polarized"
+			(pin_numbers hide)
+			(pin_names
+				(offset 0.254)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "C"
+				(at 0.635 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "C_Polarized"
+				(at 0.635 -2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" ""
+				(at 0.9652 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Polarized capacitor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "cap capacitor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "CP_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "C_Polarized_0_1"
+				(rectangle
+					(start -2.286 0.508)
+					(end 2.286 1.016)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.778 2.286) (xy -0.762 2.286)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 2.794) (xy -1.27 1.778)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start 2.286 -0.508)
+					(end -2.286 -1.016)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+			)
+			(symbol "C_Polarized_1_1"
+				(pin passive line
+					(at 0 3.81 270)
+					(length 2.794)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -3.81 90)
+					(length 2.794)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
 		(symbol "SamacSys_Parts:74437529203331"
 			(pin_names hide)
 			(exclude_from_sim no)
@@ -517,195 +675,6 @@
 				)
 				(pin passive line
 					(at 17.78 0 180)
-					(length 5.08)
-					(name "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-		)
-		(symbol "SamacSys_Parts:ECW-FE2W475K"
-			(pin_names hide)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "C"
-				(at 8.89 6.35 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-				)
-			)
-			(property "Value" "ECW-FE2W475K"
-				(at 8.89 3.81 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-				)
-			)
-			(property "Footprint" "ECWFE2W475K"
-				(at 8.89 -96.19 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "https://industrial.panasonic.com/cdbs/www-data/pdf/RDI0000/ABD0000C202.pdf"
-				(at 8.89 -196.19 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-					(hide yes)
-				)
-			)
-			(property "Description" "Film Capacitors 4.7uF 450VDC 10% MPP L/S=22.5mm"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Height" "19.5"
-				(at 8.89 -396.19 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-					(hide yes)
-				)
-			)
-			(property "Mouser Part Number" "667-ECW-FE2W475K"
-				(at 8.89 -496.19 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-					(hide yes)
-				)
-			)
-			(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Panasonic/ECW-FE2W475K?qs=wYonFgBYHKmU5lz%2F582eTg%3D%3D"
-				(at 8.89 -596.19 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-					(hide yes)
-				)
-			)
-			(property "Manufacturer_Name" "Panasonic"
-				(at 8.89 -696.19 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-					(hide yes)
-				)
-			)
-			(property "Manufacturer_Part_Number" "ECW-FE2W475K"
-				(at 8.89 -796.19 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-					(hide yes)
-				)
-			)
-			(symbol "ECW-FE2W475K_1_1"
-				(polyline
-					(pts
-						(xy 5.08 0) (xy 5.588 0)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 5.588 2.54) (xy 5.588 -2.54)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 7.112 0) (xy 7.62 0)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 7.112 2.54) (xy 7.112 -2.54)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(pin passive line
-					(at 0 0 0)
-					(length 5.08)
-					(name "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 12.7 0 180)
 					(length 5.08)
 					(name "2"
 						(effects
@@ -1888,13 +1857,12 @@
 				)
 			)
 		)
-		(symbol "SamacSys_Parts:STL2N80K5"
-			(pin_names hide)
+		(symbol "SamacSys_Parts:TPH1110FNH,L1Q"
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
 			(property "Reference" "Q"
-				(at 11.43 3.81 0)
+				(at 34.29 7.62 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -1902,8 +1870,8 @@
 					(justify left top)
 				)
 			)
-			(property "Value" "STL2N80K5"
-				(at 11.43 1.27 0)
+			(property "Value" "TPH1110FNH,L1Q"
+				(at 34.29 5.08 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -1911,18 +1879,8 @@
 					(justify left top)
 				)
 			)
-			(property "Footprint" "STL2N80K5"
-				(at 11.43 -98.73 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "https://www.st.com/resource/en/datasheet/stl2n80k5.pdf"
-				(at 11.43 -198.73 0)
+			(property "Footprint" "TPH1110FNHL1Q"
+				(at 34.29 -94.92 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -1931,7 +1889,17 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "N-channel 800 V, 3.7  typ., 1.5 A MDmesh K5 Power MOSFET in a PowerFLAT 5x6 VHV package"
+			(property "Datasheet" "https://www.arrow.com/en/products/tph1110fnhl1q/toshiba"
+				(at 34.29 -194.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Description" "MOSFET X35PBF Power MOSFET Transistr95ohm250V"
 				(at 0 0 0)
 				(effects
 					(font
@@ -1941,7 +1909,7 @@
 				)
 			)
 			(property "Height" "1"
-				(at 11.43 -398.73 0)
+				(at 34.29 -394.92 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -1950,8 +1918,8 @@
 					(hide yes)
 				)
 			)
-			(property "Mouser Part Number" "511-STL2N80K5"
-				(at 11.43 -498.73 0)
+			(property "Mouser Part Number" "757-TPH1110FNHL1Q"
+				(at 34.29 -494.92 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -1960,8 +1928,8 @@
 					(hide yes)
 				)
 			)
-			(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/STMicroelectronics/STL2N80K5?qs=4b8myOmUP%252BsfWZXTMw9GBA%3D%3D"
-				(at 11.43 -598.73 0)
+			(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Toshiba/TPH1110FNHL1Q?qs=HVbQlW5zcXXl6UrfgWJSxw%3D%3D"
+				(at 34.29 -594.92 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -1970,8 +1938,8 @@
 					(hide yes)
 				)
 			)
-			(property "Manufacturer_Name" "STMicroelectronics"
-				(at 11.43 -698.73 0)
+			(property "Manufacturer_Name" "Toshiba"
+				(at 34.29 -694.92 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -1980,8 +1948,8 @@
 					(hide yes)
 				)
 			)
-			(property "Manufacturer_Part_Number" "STL2N80K5"
-				(at 11.43 -798.73 0)
+			(property "Manufacturer_Part_Number" "TPH1110FNH,L1Q"
+				(at 34.29 -794.92 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -1990,154 +1958,22 @@
 					(hide yes)
 				)
 			)
-			(symbol "STL2N80K5_1_1"
-				(polyline
-					(pts
-						(xy 2.54 0) (xy 5.08 0)
-					)
+			(symbol "TPH1110FNH,L1Q_1_1"
+				(rectangle
+					(start 5.08 2.54)
+					(end 33.02 -12.7)
 					(stroke
 						(width 0.254)
 						(type default)
 					)
 					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 5.08 5.08) (xy 5.08 0)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 5.842 -0.508) (xy 5.842 0.508)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 5.842 0) (xy 7.62 0)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 5.842 2.032) (xy 5.842 3.048)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 5.842 5.588) (xy 5.842 4.572)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 7.62 2.54) (xy 5.842 2.54)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 7.62 2.54) (xy 7.62 -2.54)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 7.62 5.08) (xy 5.842 5.08)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 7.62 5.08) (xy 7.62 7.62)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 5.842 2.54) (xy 6.858 3.048) (xy 6.858 2.032) (xy 5.842 2.54)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(circle
-					(center 6.35 2.54)
-					(radius 3.81)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
+						(type background)
 					)
 				)
 				(pin passive line
-					(at 7.62 -5.08 90)
-					(length 2.54)
-					(name "S"
+					(at 0 0 0)
+					(length 5.08)
+					(name "SOURCE_1"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2153,9 +1989,9 @@
 					)
 				)
 				(pin passive line
-					(at 0 0 0)
-					(length 2.54)
-					(name "G"
+					(at 0 -2.54 0)
+					(length 5.08)
+					(name "SOURCE_2"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2171,9 +2007,9 @@
 					)
 				)
 				(pin passive line
-					(at 7.62 10.16 270)
-					(length 2.54)
-					(name "D"
+					(at 0 -5.08 0)
+					(length 5.08)
+					(name "SOURCE_3"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2181,6 +2017,114 @@
 						)
 					)
 					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -7.62 0)
+					(length 5.08)
+					(name "GATE"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -10.16 0)
+					(length 5.08)
+					(name "DRAIN_1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 38.1 0 180)
+					(length 5.08)
+					(name "DRAIN_2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 38.1 -2.54 180)
+					(length 5.08)
+					(name "DRAIN_3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 38.1 -5.08 180)
+					(length 5.08)
+					(name "DRAIN_4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 38.1 -7.62 180)
+					(length 5.08)
+					(name "DRAIN_5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "9"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2288,22 +2232,16 @@
 		)
 	)
 	(junction
-		(at 198.628 89.916)
+		(at 230.124 77.47)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "2752ea86-ab0e-4b1f-8e9d-f3c4a948fc89")
+		(uuid "17d6c643-7493-400d-96c6-cc8b29abfb77")
 	)
 	(junction
-		(at 247.904 43.434)
+		(at 250.952 43.434)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "275ba5db-23da-44fb-9cae-255986f2848c")
-	)
-	(junction
-		(at 198.628 53.34)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "3ae846ee-4cc7-42f4-a306-c41686c47978")
 	)
 	(junction
 		(at 29.718 53.34)
@@ -2324,6 +2262,12 @@
 		(uuid "7a61fc09-0a98-4c93-93a2-7d029df31f23")
 	)
 	(junction
+		(at 198.628 89.916)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "829a3617-724d-45f5-84b0-7c6e31ff3554")
+	)
+	(junction
 		(at 154.178 53.34)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2342,13 +2286,19 @@
 		(uuid "8daef686-b50d-44bd-a4da-bd5a34faf2ad")
 	)
 	(junction
+		(at 192.024 72.39)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "9bd125b2-da9b-449a-b196-392168571e52")
+	)
+	(junction
 		(at 35.814 114.554)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "b0b3ab48-fd1c-4b26-9708-675a633814f8")
 	)
 	(junction
-		(at 259.588 43.434)
+		(at 262.636 43.434)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "bcdc96cd-ffd8-4303-bf92-a04b947af852")
@@ -2360,26 +2310,50 @@
 		(uuid "c8831123-cdf0-4803-9c03-54df3031e4be")
 	)
 	(junction
-		(at 247.904 53.34)
+		(at 230.124 69.85)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "cae78150-5e14-4c32-8c3a-3bb0df6e97ff")
+	)
+	(junction
+		(at 199.136 53.34)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "d1ba65f9-0f21-48bd-b908-d397ba134e1c")
+	)
+	(junction
+		(at 250.952 53.34)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "d3f53314-d681-4b6f-a491-e1eed5095c4b")
 	)
 	(junction
-		(at 259.588 69.088)
+		(at 230.124 74.93)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "dffb6394-13c4-4c69-a2fd-9a760dea749a")
+	)
+	(junction
+		(at 262.636 69.088)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "ec4c25af-8a29-4ad0-aa99-0ef6a0c27c25")
 	)
+	(junction
+		(at 230.124 72.39)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "edbf9db6-6e60-4a6a-adc5-aa7a7ea09e5c")
+	)
 	(wire
 		(pts
-			(xy 231.394 53.34) (xy 247.904 53.34)
+			(xy 192.024 85.344) (xy 230.124 85.344)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "09c2a0df-a2f3-4908-923a-1a085b77a112")
+		(uuid "09a6bd2c-9f5c-4863-af07-c0856cc8d9f0")
 	)
 	(wire
 		(pts
@@ -2443,6 +2417,16 @@
 	)
 	(wire
 		(pts
+			(xy 230.124 69.85) (xy 230.124 59.69)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1bd88e36-21f2-4232-8ce2-83d20a4ef0f5")
+	)
+	(wire
+		(pts
 			(xy 154.178 75.438) (xy 154.178 53.34)
 		)
 		(stroke
@@ -2463,7 +2447,7 @@
 	)
 	(wire
 		(pts
-			(xy 259.588 69.088) (xy 259.588 65.786)
+			(xy 262.636 69.088) (xy 262.636 65.786)
 		)
 		(stroke
 			(width 0)
@@ -2483,23 +2467,23 @@
 	)
 	(wire
 		(pts
-			(xy 198.628 82.55) (xy 198.628 89.916)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2dc19304-8a7c-4757-a80e-bc2e8a8cc95c")
-	)
-	(wire
-		(pts
-			(xy 247.904 53.34) (xy 247.904 66.04)
+			(xy 250.952 53.34) (xy 250.952 66.04)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "2f01b396-499e-4b14-9eb4-dd10d1c046e5")
+	)
+	(wire
+		(pts
+			(xy 231.394 53.34) (xy 250.952 53.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "344a2f98-065a-4123-9d42-ae63c8049610")
 	)
 	(wire
 		(pts
@@ -2523,6 +2507,26 @@
 	)
 	(wire
 		(pts
+			(xy 230.124 59.69) (xy 199.136 59.69)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "40b8f717-547c-46aa-b01c-890bc6b20e0e")
+	)
+	(wire
+		(pts
+			(xy 230.124 69.85) (xy 230.124 72.39)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "46da72d5-5c4e-43cb-9ed1-e64ede1660d1")
+	)
+	(wire
+		(pts
 			(xy 61.214 102.362) (xy 61.468 102.362)
 		)
 		(stroke
@@ -2530,6 +2534,36 @@
 			(type default)
 		)
 		(uuid "470c5356-109b-4e0a-a397-2ceb38fc0c05")
+	)
+	(wire
+		(pts
+			(xy 189.23 87.884) (xy 198.882 87.884)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4b2a5c44-57c5-4a58-8bc0-62216aee831b")
+	)
+	(wire
+		(pts
+			(xy 72.898 43.688) (xy 69.85 43.688)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4bde083d-046f-4ca4-b1ee-013a9536db28")
+	)
+	(wire
+		(pts
+			(xy 189.23 72.39) (xy 189.23 87.884)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4de0d868-8bf0-4b38-a1ec-82a45a1b9212")
 	)
 	(wire
 		(pts
@@ -2583,13 +2617,23 @@
 	)
 	(wire
 		(pts
-			(xy 186.182 77.47) (xy 191.008 77.47)
+			(xy 198.882 87.884) (xy 198.882 89.916)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "5dcefd7d-143d-4ab2-b23f-f8663b49b71b")
+		(uuid "5e045cf7-0931-4d45-8f81-9c1c7e90bb6f")
+	)
+	(wire
+		(pts
+			(xy 199.136 53.34) (xy 216.154 53.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6029ff2f-6728-4f53-b92e-e5259b4ec0c9")
 	)
 	(wire
 		(pts
@@ -2603,7 +2647,7 @@
 	)
 	(wire
 		(pts
-			(xy 198.628 53.34) (xy 216.154 53.34)
+			(xy 195.072 53.34) (xy 199.136 53.34)
 		)
 		(stroke
 			(width 0)
@@ -2623,6 +2667,16 @@
 	)
 	(wire
 		(pts
+			(xy 186.182 77.47) (xy 192.024 77.47)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6c21f77c-09fa-4f7f-b2f3-a0ff886c993b")
+	)
+	(wire
+		(pts
 			(xy 25.4 53.34) (xy 29.718 53.34)
 		)
 		(stroke
@@ -2630,6 +2684,16 @@
 			(type default)
 		)
 		(uuid "6da8ee46-6758-42c1-a1af-9e8697e1d583")
+	)
+	(wire
+		(pts
+			(xy 230.124 85.344) (xy 230.124 77.47)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "70f7c8dc-379c-4952-9534-ab5c93ef2d26")
 	)
 	(wire
 		(pts
@@ -2653,6 +2717,16 @@
 	)
 	(wire
 		(pts
+			(xy 230.124 74.93) (xy 230.124 77.47)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7d20aba0-d529-4386-b33e-c979960310d9")
+	)
+	(wire
+		(pts
 			(xy 186.182 69.088) (xy 168.91 69.088)
 		)
 		(stroke
@@ -2673,7 +2747,17 @@
 	)
 	(wire
 		(pts
-			(xy 247.904 78.74) (xy 247.904 89.662)
+			(xy 69.85 43.688) (xy 69.85 55.626)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "879785f3-1d68-432d-a602-6d0759af56e2")
+	)
+	(wire
+		(pts
+			(xy 250.952 73.66) (xy 250.952 89.662)
 		)
 		(stroke
 			(width 0)
@@ -2693,23 +2777,13 @@
 	)
 	(wire
 		(pts
-			(xy 259.588 43.434) (xy 259.588 48.006)
+			(xy 262.636 43.434) (xy 262.636 48.006)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "8897912e-e139-43f8-94e0-b8cd8191d80f")
-	)
-	(wire
-		(pts
-			(xy 198.628 53.34) (xy 198.628 67.31)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "898476f4-8fbd-4b83-81d2-d3d867300392")
 	)
 	(wire
 		(pts
@@ -2723,7 +2797,17 @@
 	)
 	(wire
 		(pts
-			(xy 259.588 69.088) (xy 268.986 69.088)
+			(xy 230.124 69.85) (xy 230.378 69.85)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8ca24a4e-09d5-4bf8-81cb-cafece1f6c9d")
+	)
+	(wire
+		(pts
+			(xy 262.636 69.088) (xy 272.034 69.088)
 		)
 		(stroke
 			(width 0)
@@ -2743,7 +2827,7 @@
 	)
 	(wire
 		(pts
-			(xy 271.526 43.434) (xy 259.588 43.434)
+			(xy 274.574 43.434) (xy 262.636 43.434)
 		)
 		(stroke
 			(width 0)
@@ -2753,7 +2837,7 @@
 	)
 	(wire
 		(pts
-			(xy 247.904 43.434) (xy 259.588 43.434)
+			(xy 250.952 43.434) (xy 262.636 43.434)
 		)
 		(stroke
 			(width 0)
@@ -2770,6 +2854,16 @@
 			(type default)
 		)
 		(uuid "a24f8bbf-4508-42ac-826d-e298c74cc796")
+	)
+	(wire
+		(pts
+			(xy 192.024 69.85) (xy 192.024 72.39)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a7c23c04-97e0-4fac-b167-6c6852a148a1")
 	)
 	(wire
 		(pts
@@ -2803,6 +2897,16 @@
 	)
 	(wire
 		(pts
+			(xy 192.024 72.39) (xy 192.024 74.93)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b6555006-1cfb-48a5-a06b-e8a9530add3b")
+	)
+	(wire
+		(pts
 			(xy 168.91 69.088) (xy 168.91 80.518)
 		)
 		(stroke
@@ -2813,7 +2917,7 @@
 	)
 	(wire
 		(pts
-			(xy 69.85 55.626) (xy 69.85 43.434)
+			(xy 72.898 43.688) (xy 72.898 43.434)
 		)
 		(stroke
 			(width 0)
@@ -2853,16 +2957,6 @@
 	)
 	(wire
 		(pts
-			(xy 195.072 53.34) (xy 198.628 53.34)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c5794652-d18f-4b2a-af7b-171b33f3e6d7")
-	)
-	(wire
-		(pts
 			(xy 84.836 77.978) (xy 103.632 77.978)
 		)
 		(stroke
@@ -2870,6 +2964,16 @@
 			(type default)
 		)
 		(uuid "c6517383-ab2e-41c0-b741-3b9df7e35062")
+	)
+	(wire
+		(pts
+			(xy 230.124 72.39) (xy 230.124 74.93)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c8b87e01-ddee-4344-be44-176dca02df42")
 	)
 	(wire
 		(pts
@@ -2883,13 +2987,23 @@
 	)
 	(wire
 		(pts
-			(xy 259.588 71.882) (xy 259.588 69.088)
+			(xy 262.636 71.882) (xy 262.636 69.088)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "cb8132fe-934d-42c4-a0cb-e6b99d590cec")
+	)
+	(wire
+		(pts
+			(xy 192.024 80.01) (xy 192.024 85.344)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cd3f59e2-c17d-4bae-852e-8b5af98c2dbb")
 	)
 	(wire
 		(pts
@@ -2943,13 +3057,43 @@
 	)
 	(wire
 		(pts
-			(xy 69.85 43.434) (xy 247.904 43.434)
+			(xy 192.024 72.39) (xy 189.23 72.39)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "eb367f6a-f3dd-4a35-8cd7-bd18397b739e")
+	)
+	(wire
+		(pts
+			(xy 198.882 89.916) (xy 198.628 89.916)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "eb6a4e5e-a610-444c-9f12-9c50e48952b2")
+	)
+	(wire
+		(pts
+			(xy 72.898 43.434) (xy 250.952 43.434)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "f1cb8f23-9af7-49a1-abed-69e5ab681d63")
+	)
+	(wire
+		(pts
+			(xy 199.136 59.69) (xy 199.136 53.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f30e1f31-4153-476a-8846-f431da137bf4")
 	)
 	(wire
 		(pts
@@ -2963,13 +3107,24 @@
 	)
 	(wire
 		(pts
-			(xy 247.904 43.434) (xy 247.904 53.34)
+			(xy 250.952 43.434) (xy 250.952 53.34)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "f6f2361b-7512-49a3-87cc-565936b95f93")
+	)
+	(text "horizontal\nlen. 12.5mm\ndiamiter: 10mm"
+		(exclude_from_sim no)
+		(at 234.95 73.66 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "9b9e11b1-a9cd-443f-9069-cd048c74cd6f")
 	)
 	(global_label "+3.3V"
 		(shape input)
@@ -3039,7 +3194,7 @@
 	)
 	(hierarchical_label "HV"
 		(shape input)
-		(at 271.526 43.434 0)
+		(at 274.574 43.434 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3087,7 +3242,7 @@
 	)
 	(hierarchical_label "HV_FB"
 		(shape input)
-		(at 268.986 69.088 0)
+		(at 272.034 69.088 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3902,17 +4057,16 @@
 		)
 	)
 	(symbol
-		(lib_id "SamacSys_Parts:STL2N80K5")
-		(at 191.008 77.47 0)
+		(lib_id "Device:C_Polarized")
+		(at 250.952 69.85 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "673efd47-9ba4-4387-b643-1d39956497e3")
-		(property "Reference" "Q8"
-			(at 202.692 73.6599 0)
+		(uuid "5acca06d-d3db-475f-bec2-813fe125c500")
+		(property "Reference" "C2"
+			(at 234.95 66.548 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3920,8 +4074,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "STL2N80K5"
-			(at 202.692 76.1999 0)
+		(property "Value" "12uF 250V"
+			(at 234.95 69.088 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3929,28 +4083,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "STL2N80K5"
-			(at 202.438 176.2 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.st.com/resource/en/datasheet/stl2n80k5.pdf"
-			(at 202.438 276.2 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Description" "N-channel 800 V, 3.7  typ., 1.5 A MDmesh K5 Power MOSFET in a PowerFLAT 5x6 VHV package"
-			(at 191.008 77.47 0)
+		(property "Footprint" "Capacitor_THT:CP_Radial_D10.0mm_P5.00mm"
+			(at 251.9172 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3958,69 +4092,34 @@
 				(hide yes)
 			)
 		)
-		(property "Height" "1"
-			(at 202.438 476.2 0)
+		(property "Datasheet" "~"
+			(at 250.952 69.85 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left top)
 				(hide yes)
 			)
 		)
-		(property "Mouser Part Number" "511-STL2N80K5"
-			(at 202.438 576.2 0)
+		(property "Description" "Polarized capacitor"
+			(at 250.952 69.85 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/STMicroelectronics/STL2N80K5?qs=4b8myOmUP%252BsfWZXTMw9GBA%3D%3D"
-			(at 202.438 676.2 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Name" "STMicroelectronics"
-			(at 202.438 776.2 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Part_Number" "STL2N80K5"
-			(at 202.438 876.2 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
 				(hide yes)
 			)
 		)
 		(pin "1"
-			(uuid "f72b5c79-2247-43c8-8737-fdc34efb181e")
-		)
-		(pin "3"
-			(uuid "71e69432-589c-46a7-8dd3-69ed3c2dd7dc")
+			(uuid "47b2a6f4-51dd-42d6-aa9b-55603e2d0a24")
 		)
 		(pin "2"
-			(uuid "d034d5af-de3e-4d8a-9712-af3c607e5e3c")
+			(uuid "3d026076-0a56-45ea-aa3c-d7c48caaa5ac")
 		)
 		(instances
 			(project "nixie_alarm_main_board"
 				(path "/a0d555d7-39a0-4a98-b831-70d97d0aa5a1/01ca46d9-e95c-45f3-8c2d-e16b8652cb7d"
-					(reference "Q8")
+					(reference "C2")
 					(unit 1)
 				)
 			)
@@ -4158,7 +4257,7 @@
 	)
 	(symbol
 		(lib_id "SamacSys_Parts:CRCW04022K74FKED")
-		(at 259.588 71.882 270)
+		(at 262.636 71.882 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4167,7 +4266,7 @@
 		(fields_autoplaced yes)
 		(uuid "6e1c8cba-41c3-4f38-b0ab-23b14b5591cd")
 		(property "Reference" "R16"
-			(at 262.128 79.5019 90)
+			(at 265.176 79.5019 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4176,7 +4275,7 @@
 			)
 		)
 		(property "Value" "14.3kΩ"
-			(at 262.128 82.0419 90)
+			(at 265.176 82.0419 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4185,7 +4284,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
-			(at 163.398 85.852 0)
+			(at 166.446 85.852 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4195,7 +4294,7 @@
 			)
 		)
 		(property "Datasheet" "http://www.vishay.com/docs/20035/dcrcwe3.pdf"
-			(at 63.398 85.852 0)
+			(at 66.446 85.852 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4205,7 +4304,7 @@
 			)
 		)
 		(property "Description" "CRCW0402 Resistor T/R 0.063W,1%,2K74 Vishay CRCW Series Thick Film Surface Mount Resistor 0402 Case 2.74k?? ??1% 0.063W ??100ppm/??C"
-			(at 259.588 71.882 0)
+			(at 262.636 71.882 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4214,7 +4313,7 @@
 			)
 		)
 		(property "Height" "0.4"
-			(at -136.602 85.852 0)
+			(at -133.554 85.852 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4224,7 +4323,7 @@
 			)
 		)
 		(property "Mouser Part Number" "71-CRCW0402-2.74K-E3"
-			(at -236.602 85.852 0)
+			(at -233.554 85.852 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4234,7 +4333,7 @@
 			)
 		)
 		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Vishay-Dale/CRCW04022K74FKED?qs=hD42E%2F8yzjqhiq0MwGcz5A%3D%3D"
-			(at -336.602 85.852 0)
+			(at -333.554 85.852 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4244,7 +4343,7 @@
 			)
 		)
 		(property "Manufacturer_Name" "Vishay"
-			(at -436.602 85.852 0)
+			(at -433.554 85.852 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4254,7 +4353,7 @@
 			)
 		)
 		(property "Manufacturer_Part_Number" "CRCW04022K74FKED"
-			(at -536.602 85.852 0)
+			(at -533.554 85.852 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4346,7 +4445,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 259.588 89.662 0)
+		(at 262.636 89.662 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4355,7 +4454,7 @@
 		(fields_autoplaced yes)
 		(uuid "79926dba-9899-4d1d-9960-6b34466eb34c")
 		(property "Reference" "#PWR042"
-			(at 259.588 96.012 0)
+			(at 262.636 96.012 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4364,7 +4463,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 259.588 94.742 0)
+			(at 262.636 94.742 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4372,7 +4471,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 259.588 89.662 0)
+			(at 262.636 89.662 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4381,7 +4480,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 259.588 89.662 0)
+			(at 262.636 89.662 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4390,7 +4489,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 259.588 89.662 0)
+			(at 262.636 89.662 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4405,127 +4504,6 @@
 			(project "nixie_alarm_main_board"
 				(path "/a0d555d7-39a0-4a98-b831-70d97d0aa5a1/01ca46d9-e95c-45f3-8c2d-e16b8652cb7d"
 					(reference "#PWR042")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "SamacSys_Parts:ECW-FE2W475K")
-		(at 247.904 66.04 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "7e290ceb-9fff-459e-8755-e45bb40ce33e")
-		(property "Reference" "C26"
-			(at 233.172 71.374 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "4.7uF 450V"
-			(at 233.172 73.914 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "ECWFE2W475K"
-			(at 151.714 74.93 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://industrial.panasonic.com/cdbs/www-data/pdf/RDI0000/ABD0000C202.pdf"
-			(at 51.714 74.93 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Description" "Film Capacitors 4.7uF 450VDC 10% MPP L/S=22.5mm"
-			(at 247.904 66.04 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Height" "19.5"
-			(at -148.286 74.93 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Mouser Part Number" "667-ECW-FE2W475K"
-			(at -248.286 74.93 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Panasonic/ECW-FE2W475K?qs=wYonFgBYHKmU5lz%2F582eTg%3D%3D"
-			(at -348.286 74.93 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Name" "Panasonic"
-			(at -448.286 74.93 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Part_Number" "ECW-FE2W475K"
-			(at -548.286 74.93 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "c26957b8-01fa-43e7-94c3-3d52e6650ff3")
-		)
-		(pin "2"
-			(uuid "01a90098-42c1-489e-8840-841c49ebc6ca")
-		)
-		(instances
-			(project "nixie_alarm_main_board"
-				(path "/a0d555d7-39a0-4a98-b831-70d97d0aa5a1/01ca46d9-e95c-45f3-8c2d-e16b8652cb7d"
-					(reference "C26")
 					(unit 1)
 				)
 			)
@@ -5279,7 +5257,7 @@
 	)
 	(symbol
 		(lib_id "SamacSys_Parts:CRCW04022K74FKED")
-		(at 259.588 48.006 270)
+		(at 262.636 48.006 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5288,7 +5266,7 @@
 		(fields_autoplaced yes)
 		(uuid "b8553e4d-71a4-41fd-bfe8-cbc4e37a7b60")
 		(property "Reference" "R15"
-			(at 261.874 55.6259 90)
+			(at 264.922 55.6259 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5297,7 +5275,7 @@
 			)
 		)
 		(property "Value" "1MΩ"
-			(at 261.874 58.1659 90)
+			(at 264.922 58.1659 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5306,7 +5284,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder"
-			(at 163.398 61.976 0)
+			(at 166.446 61.976 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5316,7 +5294,7 @@
 			)
 		)
 		(property "Datasheet" "http://www.vishay.com/docs/20035/dcrcwe3.pdf"
-			(at 63.398 61.976 0)
+			(at 66.446 61.976 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5326,7 +5304,7 @@
 			)
 		)
 		(property "Description" "CRCW0402 Resistor T/R 0.063W,1%,2K74 Vishay CRCW Series Thick Film Surface Mount Resistor 0402 Case 2.74k?? ??1% 0.063W ??100ppm/??C"
-			(at 259.588 48.006 0)
+			(at 262.636 48.006 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5335,7 +5313,7 @@
 			)
 		)
 		(property "Height" "0.4"
-			(at -136.602 61.976 0)
+			(at -133.554 61.976 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5345,7 +5323,7 @@
 			)
 		)
 		(property "Mouser Part Number" "71-CRCW0402-2.74K-E3"
-			(at -236.602 61.976 0)
+			(at -233.554 61.976 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5355,7 +5333,7 @@
 			)
 		)
 		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Vishay-Dale/CRCW04022K74FKED?qs=hD42E%2F8yzjqhiq0MwGcz5A%3D%3D"
-			(at -336.602 61.976 0)
+			(at -333.554 61.976 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5365,7 +5343,7 @@
 			)
 		)
 		(property "Manufacturer_Name" "Vishay"
-			(at -436.602 61.976 0)
+			(at -433.554 61.976 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5375,7 +5353,7 @@
 			)
 		)
 		(property "Manufacturer_Part_Number" "CRCW04022K74FKED"
-			(at -536.602 61.976 0)
+			(at -533.554 61.976 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5401,7 +5379,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 247.904 89.662 0)
+		(at 250.952 89.662 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5410,7 +5388,7 @@
 		(fields_autoplaced yes)
 		(uuid "ba4a099b-fcfa-43a3-b894-1a7d81e4fd5a")
 		(property "Reference" "#PWR027"
-			(at 247.904 96.012 0)
+			(at 250.952 96.012 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5419,7 +5397,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 247.904 94.742 0)
+			(at 250.952 94.742 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5427,7 +5405,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 247.904 89.662 0)
+			(at 250.952 89.662 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5436,7 +5414,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 247.904 89.662 0)
+			(at 250.952 89.662 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5445,7 +5423,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 247.904 89.662 0)
+			(at 250.952 89.662 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6288,6 +6266,147 @@
 			(project "nixie_alarm_main_board"
 				(path "/a0d555d7-39a0-4a98-b831-70d97d0aa5a1/01ca46d9-e95c-45f3-8c2d-e16b8652cb7d"
 					(reference "R14")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "SamacSys_Parts:TPH1110FNH,L1Q")
+		(at 192.024 69.85 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "eabc1c90-cb40-4b32-a83b-74224d6b7479")
+		(property "Reference" "Q9"
+			(at 211.074 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "TPH5200FNH,L1Q"
+			(at 211.074 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Package_SO:SO-8_3.9x4.9mm_P1.27mm"
+			(at 226.314 164.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.arrow.com/en/products/tph1110fnhl1q/toshiba"
+			(at 226.314 264.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "MOSFET X35PBF Power MOSFET Transistr95ohm250V"
+			(at 192.024 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Height" "1"
+			(at 226.314 464.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "757-TPH1110FNHL1Q"
+			(at 226.314 564.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Toshiba/TPH1110FNHL1Q?qs=HVbQlW5zcXXl6UrfgWJSxw%3D%3D"
+			(at 226.314 664.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "Toshiba"
+			(at 226.314 764.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "TPH1110FNH,L1Q"
+			(at 226.314 864.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(pin "7"
+			(uuid "7420d44e-4448-46a4-ac85-83c5c8a216fb")
+		)
+		(pin "1"
+			(uuid "ccbc8479-cc0c-4670-a25d-9af57e0fa15e")
+		)
+		(pin "3"
+			(uuid "08f741a4-9e1a-4b7b-9f72-348e42b2b2ea")
+		)
+		(pin "4"
+			(uuid "ff49426e-cb4c-40ae-80a9-26580a93b13e")
+		)
+		(pin "5"
+			(uuid "b563dc30-811e-4af6-b38c-b3a40a3395fc")
+		)
+		(pin "8"
+			(uuid "e1d3a10b-d673-4c89-86a4-81cdb62068f4")
+		)
+		(pin "6"
+			(uuid "7e40909e-9b34-4824-963a-79284163202f")
+		)
+		(pin "9"
+			(uuid "2842194d-84ee-4aff-bd69-03bfc3336e8d")
+		)
+		(pin "2"
+			(uuid "1d6f931c-f34a-4ccc-aa45-ea9a563cc448")
+		)
+		(instances
+			(project "nixie_alarm_main_board"
+				(path "/a0d555d7-39a0-4a98-b831-70d97d0aa5a1/01ca46d9-e95c-45f3-8c2d-e16b8652cb7d"
+					(reference "Q9")
 					(unit 1)
 				)
 			)
