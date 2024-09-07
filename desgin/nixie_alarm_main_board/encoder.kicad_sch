@@ -11,7 +11,7 @@
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
-			(property "Reference" "SW"
+			(property "Reference" "ENC1"
 				(at 0 6.604 0)
 				(effects
 					(font
@@ -20,14 +20,15 @@
 				)
 			)
 			(property "Value" "RotaryEncoder_Switch"
-				(at 0 -6.604 0)
+				(at -0.254 -9.652 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
+					(hide yes)
 				)
 			)
-			(property "Footprint" ""
+			(property "Footprint" "SamacSys_Parts:PEC12R41BBFS0012"
 				(at -3.81 4.064 0)
 				(effects
 					(font
@@ -299,70 +300,16 @@
 			)
 			(symbol "RotaryEncoder_Switch_1_1"
 				(pin passive line
-					(at -7.62 2.54 0)
-					(length 2.54)
-					(name "A"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "A"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -7.62 -2.54 0)
-					(length 2.54)
-					(name "B"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "B"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -7.62 0 0)
-					(length 2.54)
-					(name "C"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "C"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
 					(at 7.62 2.54 180)
 					(length 2.54)
-					(name "S1"
+					(name "1"
 						(effects
 							(font
 								(size 1.27 1.27)
 							)
 						)
 					)
-					(number "S1"
+					(number "1"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -373,14 +320,68 @@
 				(pin passive line
 					(at 7.62 -2.54 180)
 					(length 2.54)
-					(name "S2"
+					(name "2"
 						(effects
 							(font
 								(size 1.27 1.27)
 							)
 						)
 					)
-					(number "S2"
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -7.62 2.54 0)
+					(length 2.54)
+					(name "A1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "A1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -7.62 -2.54 0)
+					(length 2.54)
+					(name "B1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "B1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -7.62 0 0)
+					(length 2.54)
+					(name "C1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "C1"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2565,19 +2566,19 @@
 				(hide yes)
 			)
 		)
-		(pin "A"
+		(pin "A1"
 			(uuid "eed4840d-5e62-4086-85e2-1190b8033f7f")
 		)
-		(pin "C"
+		(pin "2"
 			(uuid "d5035269-5cab-42f6-ac25-aea3fa530987")
 		)
-		(pin "S1"
+		(pin "B1"
 			(uuid "58c4143d-8c34-4d0f-b2a7-b34eea084b9c")
 		)
-		(pin "S2"
+		(pin "1"
 			(uuid "603c4fb7-0847-4a17-8848-e9b8e6b31538")
 		)
-		(pin "B"
+		(pin "C1"
 			(uuid "2e7ef244-1530-45b2-a4e9-1bff2ac1f2a3")
 		)
 		(instances
