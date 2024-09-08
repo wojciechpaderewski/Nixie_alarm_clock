@@ -1193,20 +1193,8 @@
 		(uuid "b9c589fe-3901-4279-b978-ccf7a7671009")
 	)
 	(no_connect
-		(at 142.748 112.522)
-		(uuid "ca087846-7471-430b-968a-235407ad6d73")
-	)
-	(no_connect
-		(at 142.748 132.842)
-		(uuid "cc33cc5e-5c6f-4505-ae2a-869075461e4e")
-	)
-	(no_connect
 		(at 142.748 104.902)
 		(uuid "deeef2e6-efc1-4b78-b48c-23dbb8b9fca1")
-	)
-	(no_connect
-		(at 142.748 130.302)
-		(uuid "e4c089cc-5e13-4714-adde-cd6863158659")
 	)
 	(wire
 		(pts
@@ -1550,6 +1538,16 @@
 	)
 	(wire
 		(pts
+			(xy 111.76 112.522) (xy 112.268 112.522)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ee74d85a-619b-49ad-a369-f65ea544fffb")
+	)
+	(wire
+		(pts
 			(xy 108.712 33.528) (xy 123.952 33.528)
 		)
 		(stroke
@@ -1592,7 +1590,7 @@
 	)
 	(global_label "NX_LE"
 		(shape input)
-		(at 112.268 122.682 180)
+		(at 112.268 117.602 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -1602,7 +1600,7 @@
 		)
 		(uuid "15d678ad-93b3-4c3b-99fc-f7c4807d9169")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 103.5981 122.682 0)
+			(at 103.5981 117.602 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1636,7 +1634,7 @@
 	)
 	(global_label "NX_DATA_INPUT"
 		(shape input)
-		(at 112.268 109.982 180)
+		(at 112.268 115.062 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -1646,7 +1644,7 @@
 		)
 		(uuid "1c66389c-b019-4211-b998-ba8d8a56c48f")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 94.8894 109.982 0)
+			(at 94.8894 115.062 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1724,7 +1722,7 @@
 	)
 	(global_label "ENC_SW"
 		(shape input)
-		(at 112.268 99.822 180)
+		(at 112.268 125.222 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -1734,7 +1732,7 @@
 		)
 		(uuid "2e00c989-a1b2-487d-a3ba-78eb7ff27189")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 101.9048 99.822 0)
+			(at 101.9048 125.222 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1768,22 +1766,22 @@
 	)
 	(global_label "HV_FB"
 		(shape input)
-		(at 112.268 94.742 180)
+		(at 142.748 94.742 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right)
+			(justify left)
 		)
 		(uuid "3303ae68-d504-4e00-bc4a-65490bdb8117")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 103.5375 94.742 0)
+			(at 151.4785 94.742 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 				(hide yes)
 			)
 		)
@@ -1812,7 +1810,7 @@
 	)
 	(global_label "LED_DATA"
 		(shape input)
-		(at 112.268 97.282 180)
+		(at 112.268 94.742 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -1822,7 +1820,7 @@
 		)
 		(uuid "43013895-a34d-4de5-96c8-a59102fae87e")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 100.4533 97.282 0)
+			(at 100.4533 94.742 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1900,22 +1898,22 @@
 	)
 	(global_label "ENC_B"
 		(shape input)
-		(at 112.268 104.902 180)
+		(at 142.748 112.522 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right)
+			(justify left)
 		)
 		(uuid "4fc92a8d-10fb-49a9-a570-f43dd5c5b5a8")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 103.2957 104.902 0)
+			(at 151.7203 112.522 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 				(hide yes)
 			)
 		)
@@ -1944,22 +1942,22 @@
 	)
 	(global_label "NX_DOT_5"
 		(shape input)
-		(at 142.748 92.202 0)
+		(at 112.268 127.762 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left)
+			(justify right)
 		)
 		(uuid "59a10398-44e1-40ee-88a9-05c5e17ac0fc")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 154.986 92.202 0)
+			(at 100.03 127.762 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 				(hide yes)
 			)
 		)
@@ -1988,44 +1986,44 @@
 	)
 	(global_label "BUZZER"
 		(shape input)
-		(at 112.268 107.442 180)
+		(at 142.748 92.202 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right)
+			(justify left)
 		)
 		(uuid "6578402d-55ce-4bf6-90d2-eff0df1141ae")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 101.8443 107.442 0)
+			(at 153.1717 92.202 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 				(hide yes)
 			)
 		)
 	)
 	(global_label "DPOT_SDA"
 		(shape input)
-		(at 112.268 112.522 180)
+		(at 142.748 132.842 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right)
+			(justify left)
 		)
 		(uuid "6785f092-a7be-4cfa-9f3e-1a89d092264a")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 99.909 112.522 0)
+			(at 155.107 132.842 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 				(hide yes)
 			)
 		)
@@ -2142,7 +2140,7 @@
 	)
 	(global_label "NX_BL"
 		(shape input)
-		(at 112.268 117.602 180)
+		(at 112.268 99.822 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2152,7 +2150,7 @@
 		)
 		(uuid "9121d422-f17c-4fad-9f52-4ad3df0c39c8")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 103.4771 117.602 0)
+			(at 103.4771 99.822 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2186,7 +2184,7 @@
 	)
 	(global_label "NX_DOT_3"
 		(shape input)
-		(at 112.268 130.302 180)
+		(at 111.76 112.522 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2196,7 +2194,7 @@
 		)
 		(uuid "963c481a-c427-499e-84e1-04ba2b072abb")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 100.03 130.302 0)
+			(at 99.522 112.522 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2252,7 +2250,7 @@
 	)
 	(global_label "NX_DOT_1"
 		(shape input)
-		(at 112.268 125.222 180)
+		(at 112.268 102.362 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2262,7 +2260,7 @@
 		)
 		(uuid "acd4c250-b485-4c16-b5cc-d1c361e974d9")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 100.03 125.222 0)
+			(at 100.03 102.362 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2340,7 +2338,7 @@
 	)
 	(global_label "NX_DOT_6"
 		(shape input)
-		(at 142.748 94.742 0)
+		(at 142.748 102.362 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2350,7 +2348,7 @@
 		)
 		(uuid "c6aef8f8-89e6-42ab-b4d1-a1e719f29740")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 154.986 94.742 0)
+			(at 154.986 102.362 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2450,7 +2448,7 @@
 	)
 	(global_label "ENC_A"
 		(shape input)
-		(at 112.268 102.362 180)
+		(at 112.268 97.282 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2460,7 +2458,7 @@
 		)
 		(uuid "dae92afa-d8ca-4f4e-8d80-e3949181c202")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 103.4771 102.362 0)
+			(at 103.4771 97.282 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2472,7 +2470,7 @@
 	)
 	(global_label "NX_DOT_2"
 		(shape input)
-		(at 112.268 127.762 180)
+		(at 112.268 132.842 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2482,7 +2480,7 @@
 		)
 		(uuid "dd73d590-a525-410d-b346-25ea2c9c9617")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 100.03 127.762 0)
+			(at 100.03 132.842 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2560,7 +2558,7 @@
 	)
 	(global_label "NX_DOT_4"
 		(shape input)
-		(at 112.268 132.842 180)
+		(at 112.268 122.682 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2570,7 +2568,7 @@
 		)
 		(uuid "f308111f-8e52-48cb-af7b-13d68dbd3ecd")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 100.03 132.842 0)
+			(at 100.03 122.682 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2582,22 +2580,22 @@
 	)
 	(global_label "DPOT_SCL"
 		(shape input)
-		(at 112.268 115.062 180)
+		(at 142.748 130.302 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right)
+			(justify left)
 		)
 		(uuid "f94f9e16-5fd3-4cd8-9ffe-4b9ec3574264")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 99.9695 115.062 0)
+			(at 155.0465 130.302 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 				(hide yes)
 			)
 		)
