@@ -1,4 +1,4 @@
-23134211590586317
+23135937590965012
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -87390,6 +87390,13 @@ Variable Resistor
 SamacSys_Parts
 TPH1110FNHL1Q
 TPH1110FNH,L1Q-3
+MOSFET (N-Channel)
+0
+9
+9
+SamacSys_Parts
+TPHR6503PL1LQ
+TPHR6503PL1,LQ-2
 MOSFET (N-Channel)
 0
 9

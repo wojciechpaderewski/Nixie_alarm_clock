@@ -1857,12 +1857,12 @@
 				)
 			)
 		)
-		(symbol "SamacSys_Parts:TPH1110FNH,L1Q"
+		(symbol "SamacSys_Parts:TPHR6503PL1,LQ"
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
 			(property "Reference" "Q"
-				(at 34.29 7.62 0)
+				(at 21.59 7.62 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -1870,8 +1870,8 @@
 					(justify left top)
 				)
 			)
-			(property "Value" "TPH1110FNH,L1Q"
-				(at 34.29 5.08 0)
+			(property "Value" "TPHR6503PL1,LQ"
+				(at 21.59 5.08 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -1879,18 +1879,8 @@
 					(justify left top)
 				)
 			)
-			(property "Footprint" "TPH1110FNHL1Q"
-				(at 34.29 -94.92 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "https://www.arrow.com/en/products/tph1110fnhl1q/toshiba"
-				(at 34.29 -194.92 0)
+			(property "Footprint" "TPHR6503PL1LQ"
+				(at 21.59 -94.92 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -1899,7 +1889,17 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "MOSFET X35PBF Power MOSFET Transistr95ohm250V"
+			(property "Datasheet" "https://toshiba.semicon-storage.com/eu/semiconductor/product/mosfets/12v-300v-mosfets/detail.TPHR6503PL1.html"
+				(at 21.59 -194.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Description" "N-Channel 30 V 150A (Tc) 960mW (Ta), 210W (Tc) Surface Mount 8-SOP Advance (5x5.75)"
 				(at 0 0 0)
 				(effects
 					(font
@@ -1908,8 +1908,8 @@
 					(hide yes)
 				)
 			)
-			(property "Height" "1"
-				(at 34.29 -394.92 0)
+			(property "Height" "1.1"
+				(at 21.59 -394.92 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -1918,8 +1918,8 @@
 					(hide yes)
 				)
 			)
-			(property "Mouser Part Number" "757-TPH1110FNHL1Q"
-				(at 34.29 -494.92 0)
+			(property "Mouser Part Number" "757-TPHR6503PL1LQ"
+				(at 21.59 -494.92 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -1928,8 +1928,8 @@
 					(hide yes)
 				)
 			)
-			(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Toshiba/TPH1110FNHL1Q?qs=HVbQlW5zcXXl6UrfgWJSxw%3D%3D"
-				(at 34.29 -594.92 0)
+			(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Toshiba/TPHR6503PL1LQ?qs=QNEnbhJQKvYzrm%252BVKo%252BntQ%3D%3D"
+				(at 21.59 -594.92 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -1939,7 +1939,7 @@
 				)
 			)
 			(property "Manufacturer_Name" "Toshiba"
-				(at 34.29 -694.92 0)
+				(at 21.59 -694.92 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -1948,8 +1948,8 @@
 					(hide yes)
 				)
 			)
-			(property "Manufacturer_Part_Number" "TPH1110FNH,L1Q"
-				(at 34.29 -794.92 0)
+			(property "Manufacturer_Part_Number" "TPHR6503PL1,LQ"
+				(at 21.59 -794.92 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -1958,10 +1958,10 @@
 					(hide yes)
 				)
 			)
-			(symbol "TPH1110FNH,L1Q_1_1"
+			(symbol "TPHR6503PL1,LQ_1_1"
 				(rectangle
 					(start 5.08 2.54)
-					(end 33.02 -12.7)
+					(end 20.32 -12.7)
 					(stroke
 						(width 0.254)
 						(type default)
@@ -1973,7 +1973,7 @@
 				(pin passive line
 					(at 0 0 0)
 					(length 5.08)
-					(name "SOURCE_1"
+					(name "S_1"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1991,7 +1991,7 @@
 				(pin passive line
 					(at 0 -2.54 0)
 					(length 5.08)
-					(name "SOURCE_2"
+					(name "S_2"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2009,7 +2009,7 @@
 				(pin passive line
 					(at 0 -5.08 0)
 					(length 5.08)
-					(name "SOURCE_3"
+					(name "S_3"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2027,7 +2027,7 @@
 				(pin passive line
 					(at 0 -7.62 0)
 					(length 5.08)
-					(name "GATE"
+					(name "G"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2045,7 +2045,7 @@
 				(pin passive line
 					(at 0 -10.16 0)
 					(length 5.08)
-					(name "DRAIN_1"
+					(name "D_1"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2061,9 +2061,9 @@
 					)
 				)
 				(pin passive line
-					(at 38.1 0 180)
+					(at 25.4 0 180)
 					(length 5.08)
-					(name "DRAIN_2"
+					(name "D_2"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2079,9 +2079,9 @@
 					)
 				)
 				(pin passive line
-					(at 38.1 -2.54 180)
+					(at 25.4 -2.54 180)
 					(length 5.08)
-					(name "DRAIN_3"
+					(name "D_3"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2097,9 +2097,9 @@
 					)
 				)
 				(pin passive line
-					(at 38.1 -5.08 180)
+					(at 25.4 -5.08 180)
 					(length 5.08)
-					(name "DRAIN_4"
+					(name "D_4"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2115,9 +2115,9 @@
 					)
 				)
 				(pin passive line
-					(at 38.1 -7.62 180)
+					(at 25.4 -7.62 180)
 					(length 5.08)
-					(name "DRAIN_5"
+					(name "D_5"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2232,12 +2232,6 @@
 		)
 	)
 	(junction
-		(at 230.124 77.47)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "17d6c643-7493-400d-96c6-cc8b29abfb77")
-	)
-	(junction
 		(at 250.952 43.434)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2250,10 +2244,28 @@
 		(uuid "43664746-d74f-4792-96d4-446a5adcee8c")
 	)
 	(junction
+		(at 217.424 72.39)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "61001df7-5c44-4da9-b230-c2dadc8ba89c")
+	)
+	(junction
+		(at 217.424 74.93)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "649f5796-86ac-4c2f-a960-43f042427cb1")
+	)
+	(junction
 		(at 69.85 80.518)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "6a4aa912-d4ab-44a5-9d08-d2d8e4427de0")
+	)
+	(junction
+		(at 230.124 73.66)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "6ecee902-ba14-416e-842a-22c22cc09b33")
 	)
 	(junction
 		(at 61.214 114.554)
@@ -2310,10 +2322,10 @@
 		(uuid "c8831123-cdf0-4803-9c03-54df3031e4be")
 	)
 	(junction
-		(at 230.124 69.85)
+		(at 217.424 73.66)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "cae78150-5e14-4c32-8c3a-3bb0df6e97ff")
+		(uuid "cbd433aa-d93a-41b2-bad7-91150b143f6d")
 	)
 	(junction
 		(at 199.136 53.34)
@@ -2328,22 +2340,10 @@
 		(uuid "d3f53314-d681-4b6f-a491-e1eed5095c4b")
 	)
 	(junction
-		(at 230.124 74.93)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "dffb6394-13c4-4c69-a2fd-9a760dea749a")
-	)
-	(junction
 		(at 262.636 69.088)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "ec4c25af-8a29-4ad0-aa99-0ef6a0c27c25")
-	)
-	(junction
-		(at 230.124 72.39)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "edbf9db6-6e60-4a6a-adc5-aa7a7ea09e5c")
 	)
 	(wire
 		(pts
@@ -2417,7 +2417,17 @@
 	)
 	(wire
 		(pts
-			(xy 230.124 69.85) (xy 230.124 59.69)
+			(xy 217.424 73.66) (xy 230.124 73.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1bd07589-0234-425d-82c0-0fe37b32f77b")
+	)
+	(wire
+		(pts
+			(xy 230.124 59.69) (xy 230.124 73.66)
 		)
 		(stroke
 			(width 0)
@@ -2517,16 +2527,6 @@
 	)
 	(wire
 		(pts
-			(xy 230.124 69.85) (xy 230.124 72.39)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "46da72d5-5c4e-43cb-9ed1-e64ede1660d1")
-	)
-	(wire
-		(pts
 			(xy 61.214 102.362) (xy 61.468 102.362)
 		)
 		(stroke
@@ -2577,6 +2577,16 @@
 	)
 	(wire
 		(pts
+			(xy 217.424 74.93) (xy 217.424 77.47)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4f69f57c-0732-43d8-906b-e63e8774d8f4")
+	)
+	(wire
+		(pts
 			(xy 61.214 99.822) (xy 69.85 99.822)
 		)
 		(stroke
@@ -2614,6 +2624,16 @@
 			(type default)
 		)
 		(uuid "542e1de3-7153-4929-902c-7b2c8f247779")
+	)
+	(wire
+		(pts
+			(xy 217.424 73.66) (xy 217.424 74.93)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5c8f3e75-a741-4412-a2da-0f8b9afae3d6")
 	)
 	(wire
 		(pts
@@ -2687,16 +2707,6 @@
 	)
 	(wire
 		(pts
-			(xy 230.124 85.344) (xy 230.124 77.47)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "70f7c8dc-379c-4952-9534-ab5c93ef2d26")
-	)
-	(wire
-		(pts
 			(xy 103.886 77.724) (xy 103.886 77.978)
 		)
 		(stroke
@@ -2714,16 +2724,6 @@
 			(type default)
 		)
 		(uuid "77be17eb-4ebc-4909-9753-f92d1b845fa0")
-	)
-	(wire
-		(pts
-			(xy 230.124 74.93) (xy 230.124 77.47)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7d20aba0-d529-4386-b33e-c979960310d9")
 	)
 	(wire
 		(pts
@@ -2797,16 +2797,6 @@
 	)
 	(wire
 		(pts
-			(xy 230.124 69.85) (xy 230.378 69.85)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8ca24a4e-09d5-4bf8-81cb-cafece1f6c9d")
-	)
-	(wire
-		(pts
 			(xy 262.636 69.088) (xy 272.034 69.088)
 		)
 		(stroke
@@ -2844,6 +2834,16 @@
 			(type default)
 		)
 		(uuid "98a9887a-d5dd-493f-bf6d-d5ed4402db2c")
+	)
+	(wire
+		(pts
+			(xy 217.424 69.85) (xy 217.424 72.39)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9eeedb02-d386-422b-9145-a37f72e0c41c")
 	)
 	(wire
 		(pts
@@ -2967,16 +2967,6 @@
 	)
 	(wire
 		(pts
-			(xy 230.124 72.39) (xy 230.124 74.93)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c8b87e01-ddee-4344-be44-176dca02df42")
-	)
-	(wire
-		(pts
 			(xy 103.886 77.724) (xy 103.632 77.724)
 		)
 		(stroke
@@ -3047,6 +3037,16 @@
 	)
 	(wire
 		(pts
+			(xy 217.424 72.39) (xy 217.424 73.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e97b60f9-1e09-48f8-ad06-71f2f686f2f7")
+	)
+	(wire
+		(pts
 			(xy 175.006 93.472) (xy 175.006 89.916)
 		)
 		(stroke
@@ -3104,6 +3104,16 @@
 			(type default)
 		)
 		(uuid "f5853258-7017-40dc-b23d-2094fe300eb9")
+	)
+	(wire
+		(pts
+			(xy 230.124 73.66) (xy 230.124 85.344)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f6ead9bb-4252-4de7-b7b5-6ae78617446d")
 	)
 	(wire
 		(pts
@@ -4626,6 +4636,147 @@
 			(project "nixie_alarm_main_board"
 				(path "/a0d555d7-39a0-4a98-b831-70d97d0aa5a1/01ca46d9-e95c-45f3-8c2d-e16b8652cb7d"
 					(reference "C13")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "SamacSys_Parts:TPHR6503PL1,LQ")
+		(at 192.024 69.85 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "8443734d-5695-4553-a133-769011ff133e")
+		(property "Reference" "Q8"
+			(at 204.724 62.738 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "TPH5200FNH,L1Q"
+			(at 204.724 65.278 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "TPHR6503PL1LQ"
+			(at 213.614 164.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://toshiba.semicon-storage.com/eu/semiconductor/product/mosfets/12v-300v-mosfets/detail.TPHR6503PL1.html"
+			(at 213.614 264.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "N-Channel 30 V 150A (Tc) 960mW (Ta), 210W (Tc) Surface Mount 8-SOP Advance (5x5.75)"
+			(at 192.024 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Height" "1.1"
+			(at 213.614 464.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "757-TPHR6503PL1LQ"
+			(at 213.614 564.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Toshiba/TPHR6503PL1LQ?qs=QNEnbhJQKvYzrm%252BVKo%252BntQ%3D%3D"
+			(at 213.614 664.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "Toshiba"
+			(at 213.614 764.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "TPHR6503PL1,LQ"
+			(at 213.614 864.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(pin "9"
+			(uuid "02e40787-3ffc-4ae2-a9da-4be0465a5507")
+		)
+		(pin "2"
+			(uuid "ad136b01-bf83-44a8-a25a-8a94e2d72908")
+		)
+		(pin "4"
+			(uuid "c11ae794-6379-430d-adc4-62e1e1121086")
+		)
+		(pin "1"
+			(uuid "697cc631-8b30-431b-8333-201ae094d173")
+		)
+		(pin "7"
+			(uuid "dc33f71c-4419-4d13-b2de-1cc4f34e1cd3")
+		)
+		(pin "8"
+			(uuid "4b3cb2b6-a71d-433e-b645-9ce7d41a1ec1")
+		)
+		(pin "3"
+			(uuid "b69c02a6-0dbe-41bb-af67-2fe049b324aa")
+		)
+		(pin "6"
+			(uuid "fc8d5c82-034a-4754-89d7-56a99693db94")
+		)
+		(pin "5"
+			(uuid "8f13589a-6de1-4902-ac3e-4068c53d428f")
+		)
+		(instances
+			(project "nixie_alarm_main_board"
+				(path "/a0d555d7-39a0-4a98-b831-70d97d0aa5a1/01ca46d9-e95c-45f3-8c2d-e16b8652cb7d"
+					(reference "Q8")
 					(unit 1)
 				)
 			)
@@ -6266,147 +6417,6 @@
 			(project "nixie_alarm_main_board"
 				(path "/a0d555d7-39a0-4a98-b831-70d97d0aa5a1/01ca46d9-e95c-45f3-8c2d-e16b8652cb7d"
 					(reference "R14")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "SamacSys_Parts:TPH1110FNH,L1Q")
-		(at 192.024 69.85 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "eabc1c90-cb40-4b32-a83b-74224d6b7479")
-		(property "Reference" "Q9"
-			(at 211.074 62.23 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "TPH5200FNH,L1Q"
-			(at 211.074 64.77 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Package_SO:SO-8_3.9x4.9mm_P1.27mm"
-			(at 226.314 164.77 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.arrow.com/en/products/tph1110fnhl1q/toshiba"
-			(at 226.314 264.77 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Description" "MOSFET X35PBF Power MOSFET Transistr95ohm250V"
-			(at 192.024 69.85 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Height" "1"
-			(at 226.314 464.77 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Mouser Part Number" "757-TPH1110FNHL1Q"
-			(at 226.314 564.77 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Toshiba/TPH1110FNHL1Q?qs=HVbQlW5zcXXl6UrfgWJSxw%3D%3D"
-			(at 226.314 664.77 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Name" "Toshiba"
-			(at 226.314 764.77 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Part_Number" "TPH1110FNH,L1Q"
-			(at 226.314 864.77 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(pin "7"
-			(uuid "7420d44e-4448-46a4-ac85-83c5c8a216fb")
-		)
-		(pin "1"
-			(uuid "ccbc8479-cc0c-4670-a25d-9af57e0fa15e")
-		)
-		(pin "3"
-			(uuid "08f741a4-9e1a-4b7b-9f72-348e42b2b2ea")
-		)
-		(pin "4"
-			(uuid "ff49426e-cb4c-40ae-80a9-26580a93b13e")
-		)
-		(pin "5"
-			(uuid "b563dc30-811e-4af6-b38c-b3a40a3395fc")
-		)
-		(pin "8"
-			(uuid "e1d3a10b-d673-4c89-86a4-81cdb62068f4")
-		)
-		(pin "6"
-			(uuid "7e40909e-9b34-4824-963a-79284163202f")
-		)
-		(pin "9"
-			(uuid "2842194d-84ee-4aff-bd69-03bfc3336e8d")
-		)
-		(pin "2"
-			(uuid "1d6f931c-f34a-4ccc-aa45-ea9a563cc448")
-		)
-		(instances
-			(project "nixie_alarm_main_board"
-				(path "/a0d555d7-39a0-4a98-b831-70d97d0aa5a1/01ca46d9-e95c-45f3-8c2d-e16b8652cb7d"
-					(reference "Q9")
 					(unit 1)
 				)
 			)
