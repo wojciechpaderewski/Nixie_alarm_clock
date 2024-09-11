@@ -1110,10 +1110,10 @@
 		(uuid "0937a250-3929-40e7-a08d-b468f5cc3ea8")
 	)
 	(junction
-		(at 159.004 57.658)
+		(at 154.94 57.658)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "1429320d-81a8-4462-acfc-c6f388b22ec3")
+		(uuid "20400a37-6d82-4cd7-8738-6a7b5a2b8492")
 	)
 	(junction
 		(at 108.204 73.152)
@@ -1293,7 +1293,7 @@
 	)
 	(wire
 		(pts
-			(xy 110.236 57.658) (xy 159.004 57.658)
+			(xy 110.236 57.658) (xy 154.94 57.658)
 		)
 		(stroke
 			(width 0)
@@ -1403,7 +1403,7 @@
 	)
 	(wire
 		(pts
-			(xy 159.004 57.658) (xy 159.004 75.692)
+			(xy 154.94 57.658) (xy 154.94 80.772)
 		)
 		(stroke
 			(width 0)
@@ -1433,6 +1433,16 @@
 	)
 	(wire
 		(pts
+			(xy 141.986 75.692) (xy 139.192 75.692)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d2e3745a-5275-4f8d-9e5b-c74c285c3f31")
+	)
+	(wire
+		(pts
 			(xy 185.42 45.212) (xy 185.42 57.658)
 		)
 		(stroke
@@ -1443,7 +1453,7 @@
 	)
 	(wire
 		(pts
-			(xy 139.192 75.692) (xy 146.304 75.692)
+			(xy 141.986 80.772) (xy 142.24 80.772)
 		)
 		(stroke
 			(width 0)
@@ -1483,6 +1493,16 @@
 	)
 	(wire
 		(pts
+			(xy 141.986 80.772) (xy 141.986 75.692)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ea1da84b-a322-4483-a9c7-d72a53aa5061")
+	)
+	(wire
+		(pts
 			(xy 108.204 73.152) (xy 111.252 73.152)
 		)
 		(stroke
@@ -1503,6 +1523,16 @@
 	)
 	(wire
 		(pts
+			(xy 154.94 57.658) (xy 160.782 57.658)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f2332137-103e-440d-9082-a413cfc89646")
+	)
+	(wire
+		(pts
 			(xy 144.272 96.774) (xy 144.272 102.108)
 		)
 		(stroke
@@ -1520,16 +1550,6 @@
 			(type default)
 		)
 		(uuid "f65c6e21-79cd-49f8-a0ee-f8cf18ac9106")
-	)
-	(wire
-		(pts
-			(xy 159.004 57.658) (xy 160.782 57.658)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f6a6d7c7-873d-4949-84ae-aaea21940d39")
 	)
 	(wire
 		(pts
@@ -2718,7 +2738,7 @@
 	)
 	(symbol
 		(lib_id "SamacSys_Parts:GRM033R71E101KA01J")
-		(at 159.004 75.692 180)
+		(at 154.94 80.772 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2726,7 +2746,7 @@
 		(dnp no)
 		(uuid "8aad1d25-33c4-43f2-baa9-1387d843b319")
 		(property "Reference" "C26"
-			(at 148.336 79.502 0)
+			(at 144.272 84.582 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2735,7 +2755,7 @@
 			)
 		)
 		(property "Value" "100nF 25V"
-			(at 148.336 81.534 0)
+			(at 144.272 86.614 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2744,7 +2764,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
-			(at 150.114 -20.498 0)
+			(at 146.05 -15.418 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2754,7 +2774,7 @@
 			)
 		)
 		(property "Datasheet" "https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM033R71E101KA01-01A.pdf"
-			(at 150.114 -120.498 0)
+			(at 146.05 -115.418 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2764,7 +2784,7 @@
 			)
 		)
 		(property "Description" "Multilayer Ceramic Capacitors MLCC - SMD/SMT 100pF 25 volts 10%"
-			(at 159.004 75.692 0)
+			(at 154.94 80.772 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2773,7 +2793,7 @@
 			)
 		)
 		(property "Height" "0.5"
-			(at 150.114 -320.498 0)
+			(at 146.05 -315.418 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2783,7 +2803,7 @@
 			)
 		)
 		(property "Mouser Part Number" "81-GRM033R71E101KA1J"
-			(at 150.114 -420.498 0)
+			(at 146.05 -415.418 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2793,7 +2813,7 @@
 			)
 		)
 		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Murata-Electronics/GRM033R71E101KA01J?qs=563MOeNa05Lmru4oTW10Jw%3D%3D"
-			(at 150.114 -520.498 0)
+			(at 146.05 -515.418 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2803,7 +2823,7 @@
 			)
 		)
 		(property "Manufacturer_Name" "Murata Electronics"
-			(at 150.114 -620.498 0)
+			(at 146.05 -615.418 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2813,7 +2833,7 @@
 			)
 		)
 		(property "Manufacturer_Part_Number" "GRM033R71E101KA01J"
-			(at 150.114 -720.498 0)
+			(at 146.05 -715.418 0)
 			(effects
 				(font
 					(size 1.27 1.27)
