@@ -5,193 +5,6 @@
 	(uuid "38d2f3a6-6464-44f1-83fa-992a724b8cae")
 	(paper "A4")
 	(lib_symbols
-		(symbol "SamacSys_Parts:DCJ200-05-A-K1-A"
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "J"
-				(at 19.05 7.62 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-				)
-			)
-			(property "Value" "DCJ200-05-A-K1-A"
-				(at 19.05 5.08 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-				)
-			)
-			(property "Footprint" "DCJ20005AK1A"
-				(at 19.05 -94.92 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "https://componentsearchengine.com/Datasheets/2/DCJ200-05-A-K1-A.pdf"
-				(at 19.05 -194.92 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-					(hide yes)
-				)
-			)
-			(property "Description" "DCJ200 Series 20 V 5 A 2 Conductors/3 Contacts Horizontal SMT DC Power Jack"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Height" "11.3"
-				(at 19.05 -394.92 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-					(hide yes)
-				)
-			)
-			(property "Mouser Part Number" "640-DCJ200-05-A-K1-A"
-				(at 19.05 -494.92 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-					(hide yes)
-				)
-			)
-			(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/GCT/DCJ200-05-A-K1-A?qs=KUoIvG%2F9IlZdgC%252BD5EAHVw%3D%3D"
-				(at 19.05 -594.92 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-					(hide yes)
-				)
-			)
-			(property "Manufacturer_Name" "GCT (GLOBAL CONNECTOR TECHNOLOGY)"
-				(at 19.05 -694.92 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-					(hide yes)
-				)
-			)
-			(property "Manufacturer_Part_Number" "DCJ200-05-A-K1-A"
-				(at 19.05 -794.92 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-					(hide yes)
-				)
-			)
-			(symbol "DCJ200-05-A-K1-A_1_1"
-				(rectangle
-					(start 5.08 2.54)
-					(end 17.78 -5.08)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-				(pin passive line
-					(at 0 -2.54 0)
-					(length 5.08)
-					(name "1_1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 22.86 -2.54 180)
-					(length 5.08)
-					(name "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 22.86 0 180)
-					(length 5.08)
-					(name "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 0 0)
-					(length 5.08)
-					(name "1_2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-		)
 		(symbol "SamacSys_Parts:GRM033R71E101KA01J"
 			(pin_names hide)
 			(exclude_from_sim no)
@@ -372,6 +185,211 @@
 						)
 					)
 					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "SamacSys_Parts:PJ-094H-SMT-TR"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "J"
+				(at 19.05 7.62 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Value" "PJ-094H-SMT-TR"
+				(at 19.05 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Footprint" "PJ094HSMTTR"
+				(at 19.05 -94.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://www.cuidevices.com/product/resource/digikeypdf/pj-094h-smt-tr.pdf"
+				(at 19.05 -194.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Description" "DC Power Connectors power jack, 0.65 x 2.75 mm, horizontal, SMT, high current, 1 switch, w/ shielding, T&R package"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Height" "3.7"
+				(at 19.05 -394.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Mouser Part Number" "490-PJ-094H-SMT-TR"
+				(at 19.05 -494.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/CUI-Devices/PJ-094H-SMT-TR?qs=l7cgNqFNU1iCmsfPShkP7A%3D%3D"
+				(at 19.05 -594.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer_Name" "Same Sky"
+				(at 19.05 -694.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer_Part_Number" "PJ-094H-SMT-TR"
+				(at 19.05 -794.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(symbol "PJ-094H-SMT-TR_1_1"
+				(rectangle
+					(start 5.08 2.54)
+					(end 17.78 -7.62)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin passive line
+					(at 0 0 0)
+					(length 5.08)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -2.54 0)
+					(length 5.08)
+					(name "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -5.08 0)
+					(length 5.08)
+					(name "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 22.86 0 180)
+					(length 5.08)
+					(name "MP1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "MP1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 22.86 -2.54 180)
+					(length 5.08)
+					(name "MP2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "MP2"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -697,12 +715,6 @@
 		(uuid "04e39155-c3f2-402b-81d9-bf3ae6a56457")
 	)
 	(junction
-		(at 104.14 93.472)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "683da589-7a09-47c1-9104-d50cec46fb9a")
-	)
-	(junction
 		(at 165.1 70.612)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -715,10 +727,20 @@
 		(uuid "b360660c-1aeb-445d-81c4-e895490d5767")
 	)
 	(junction
-		(at 105.41 70.612)
+		(at 103.886 86.106)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "dfb3e36b-3c3c-4656-b665-43b47e19d83b")
+		(uuid "b73b1840-9e5d-4b60-950f-fda6d8fe0906")
+	)
+	(wire
+		(pts
+			(xy 102.87 70.612) (xy 102.87 81.026)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0019d82d-db80-4923-82e6-397d1a633b15")
 	)
 	(wire
 		(pts
@@ -742,7 +764,7 @@
 	)
 	(wire
 		(pts
-			(xy 102.87 70.612) (xy 105.41 70.612)
+			(xy 102.87 70.612) (xy 143.002 70.612)
 		)
 		(stroke
 			(width 0)
@@ -752,13 +774,13 @@
 	)
 	(wire
 		(pts
-			(xy 105.41 70.612) (xy 143.002 70.612)
+			(xy 102.87 81.026) (xy 103.886 81.026)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "51b4bba8-b82e-443f-b695-10688892d9c2")
+		(uuid "57fae701-8198-41b1-8ffa-73c244b633d1")
 	)
 	(wire
 		(pts
@@ -772,13 +794,13 @@
 	)
 	(wire
 		(pts
-			(xy 104.14 93.472) (xy 105.41 93.472)
+			(xy 103.886 83.566) (xy 103.886 86.106)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "71b2362a-40c8-49e7-80cf-e0a6c4d7aaaa")
+		(uuid "79071216-766d-4ba4-b7aa-2cdc11747d47")
 	)
 	(wire
 		(pts
@@ -822,6 +844,16 @@
 	)
 	(wire
 		(pts
+			(xy 103.886 86.106) (xy 103.886 93.472)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b3f15cd0-2ab8-4441-a4a5-78c054c26731")
+	)
+	(wire
+		(pts
 			(xy 165.1 70.612) (xy 143.002 70.612)
 		)
 		(stroke
@@ -839,16 +871,6 @@
 			(type default)
 		)
 		(uuid "b72129f4-e4f2-4f5b-8a30-68e594cf4448")
-	)
-	(wire
-		(pts
-			(xy 102.87 93.472) (xy 104.14 93.472)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b99f621b-bc21-4d83-a6e2-d0c409f5588d")
 	)
 	(text "Tantal\n"
 		(exclude_from_sim no)
@@ -1127,134 +1149,6 @@
 		)
 	)
 	(symbol
-		(lib_id "SamacSys_Parts:DCJ200-05-A-K1-A")
-		(at 105.41 70.612 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "5087d603-1a37-4413-979f-298a26b61299")
-		(property "Reference" "J1"
-			(at 109.22 80.7719 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "DCPLUG 2x6.4mm 2A"
-			(at 109.22 83.3119 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "DCJ20005AK1A"
-			(at 10.49 89.662 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://componentsearchengine.com/Datasheets/2/DCJ200-05-A-K1-A.pdf"
-			(at -89.51 89.662 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Description" "DCJ200 Series 20 V 5 A 2 Conductors/3 Contacts Horizontal SMT DC Power Jack"
-			(at 105.41 70.612 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Height" "11.3"
-			(at -289.51 89.662 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Mouser Part Number" "640-DCJ200-05-A-K1-A"
-			(at -389.51 89.662 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/GCT/DCJ200-05-A-K1-A?qs=KUoIvG%2F9IlZdgC%252BD5EAHVw%3D%3D"
-			(at -489.51 89.662 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Name" "GCT (GLOBAL CONNECTOR TECHNOLOGY)"
-			(at -589.51 89.662 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Part_Number" "DCJ200-05-A-K1-A"
-			(at -689.51 89.662 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "56d5c7ca-8717-47f3-8ee8-4a976d441fea")
-		)
-		(pin "4"
-			(uuid "0262a679-c5c6-4aa4-af4a-c04fd0702977")
-		)
-		(pin "3"
-			(uuid "ee3aac3b-9abf-4af4-83ea-279a21a204bd")
-		)
-		(pin "1"
-			(uuid "d8afb2bc-efdd-4ac0-a8fa-c3b45279d8a1")
-		)
-		(instances
-			(project "nixie_alarm_main_board"
-				(path "/a0d555d7-39a0-4a98-b831-70d97d0aa5a1/3f162d9f-7cb0-459b-831b-ac42fb433594"
-					(reference "J1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
 		(at 186.182 104.14 0)
 		(unit 1)
@@ -1387,6 +1281,135 @@
 		)
 	)
 	(symbol
+		(lib_id "SamacSys_Parts:PJ-094H-SMT-TR")
+		(at 103.886 81.026 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "8cc41e9d-d0ac-4bdb-a974-f1b4909938b0")
+		(property "Reference" "J1"
+			(at 115.316 73.914 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "PJ-094H-SMT-TR"
+			(at 115.316 76.454 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "PJ094HSMTTR"
+			(at 122.936 175.946 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.cuidevices.com/product/resource/digikeypdf/pj-094h-smt-tr.pdf"
+			(at 122.936 275.946 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "DC Power Connectors power jack, 0.65 x 2.75 mm, horizontal, SMT, high current, 1 switch, w/ shielding, T&R package"
+			(at 103.886 81.026 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Height" "3.7"
+			(at 122.936 475.946 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "490-PJ-094H-SMT-TR"
+			(at 122.936 575.946 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/CUI-Devices/PJ-094H-SMT-TR?qs=l7cgNqFNU1iCmsfPShkP7A%3D%3D"
+			(at 122.936 675.946 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "Same Sky"
+			(at 122.936 775.946 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "PJ-094H-SMT-TR"
+			(at 122.936 875.946 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "1a1c763d-7c05-4c3f-8d85-b95bc3649a27")
+		)
+		(pin "2"
+			(uuid "aea47a94-2b02-43da-b09d-c9640b4c9550")
+		)
+		(pin "MP1"
+			(uuid "4d2fff3b-a384-47ce-a561-ea9f67137d26")
+		)
+		(pin "3"
+			(uuid "35f058a4-75fc-46e0-83b9-becba2f8d552")
+		)
+		(pin "MP2"
+			(uuid "4ac8e352-9545-4a2c-9632-e5ae6bd7c1c4")
+		)
+		(instances
+			(project "nixie_alarm_main_board"
+				(path "/a0d555d7-39a0-4a98-b831-70d97d0aa5a1/3f162d9f-7cb0-459b-831b-ac42fb433594"
+					(reference "J1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 143.002 104.14 0)
 		(unit 1)
@@ -1454,7 +1477,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 104.14 93.472 0)
+		(at 103.886 93.472 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1463,7 +1486,7 @@
 		(fields_autoplaced yes)
 		(uuid "9943e734-d178-4764-ae02-c2b17af7cb27")
 		(property "Reference" "#PWR050"
-			(at 104.14 99.822 0)
+			(at 103.886 99.822 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1472,7 +1495,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 104.14 98.552 0)
+			(at 103.886 98.552 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1480,7 +1503,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 104.14 93.472 0)
+			(at 103.886 93.472 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1489,7 +1512,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 104.14 93.472 0)
+			(at 103.886 93.472 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1498,7 +1521,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 104.14 93.472 0)
+			(at 103.886 93.472 0)
 			(effects
 				(font
 					(size 1.27 1.27)
