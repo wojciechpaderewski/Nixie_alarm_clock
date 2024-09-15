@@ -770,7 +770,7 @@
 		(fields_autoplaced yes)
 		(uuid "83dc1762-fa1f-427f-af3e-d1c323f301ec")
 		(property "Reference" "J2"
-			(at 141.097 86.614 0)
+			(at 141.097 87.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -778,7 +778,7 @@
 			)
 		)
 		(property "Value" "JST XH 2.54 3 pin"
-			(at 141.097 89.154 0)
+			(at 141.097 90.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)

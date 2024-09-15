@@ -2938,6 +2938,44 @@
 		)
 	)
 	(sheet
+		(at 82.042 145.796)
+		(size 30.48 12.7)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "1fdd9e0c-5909-450c-9e00-c17b847bc6ac")
+		(property "Sheetname" "Debug_UART"
+			(at 82.042 145.0844 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "Debug_UART.kicad_sch"
+			(at 82.042 159.0806 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "nixie_alarm_main_board"
+				(path "/a0d555d7-39a0-4a98-b831-70d97d0aa5a1"
+					(page "11")
+				)
+			)
+		)
+	)
+	(sheet
 		(at 191.516 113.284)
 		(size 26.924 9.652)
 		(fields_autoplaced yes)
