@@ -5,21 +5,21 @@
 	(uuid "571de997-fdbc-48d6-907b-d5eb6efbd3a4")
 	(paper "A4")
 	(lib_symbols
-		(symbol "Connector:Conn_01x02_Pin"
+		(symbol "Connector:Conn_01x03_Pin"
 			(pin_names
 				(offset 1.016) hide)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
 			(property "Reference" "J"
-				(at 0 2.54 0)
+				(at 0 5.08 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
 				)
 			)
-			(property "Value" "Conn_01x02_Pin"
+			(property "Value" "Conn_01x03_Pin"
 				(at 0 -5.08 0)
 				(effects
 					(font
@@ -45,7 +45,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "Generic connector, single row, 01x02, script generated"
+			(property "Description" "Generic connector, single row, 01x03, script generated"
 				(at 0 0 0)
 				(effects
 					(font
@@ -80,7 +80,7 @@
 					(hide yes)
 				)
 			)
-			(symbol "Conn_01x02_Pin_1_1"
+			(symbol "Conn_01x03_Pin_1_1"
 				(polyline
 					(pts
 						(xy 1.27 -2.54) (xy 0.8636 -2.54)
@@ -96,6 +96,18 @@
 				(polyline
 					(pts
 						(xy 1.27 0) (xy 0.8636 0)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 2.54) (xy 0.8636 2.54)
 					)
 					(stroke
 						(width 0.1524)
@@ -127,8 +139,19 @@
 						(type outline)
 					)
 				)
+				(rectangle
+					(start 0.8636 2.667)
+					(end 0 2.413)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
 				(pin passive line
-					(at 5.08 0 180)
+					(at 5.08 2.54 180)
 					(length 3.81)
 					(name "Pin_1"
 						(effects
@@ -146,7 +169,7 @@
 					)
 				)
 				(pin passive line
-					(at 5.08 -2.54 180)
+					(at 5.08 0 180)
 					(length 3.81)
 					(name "Pin_2"
 						(effects
@@ -163,12 +186,136 @@
 						)
 					)
 				)
+				(pin passive line
+					(at 5.08 -2.54 180)
+					(length 3.81)
+					(name "Pin_3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "power:GND"
+			(power)
+			(pin_numbers hide)
+			(pin_names
+				(offset 0) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "#PWR"
+				(at 0 -6.35 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" "GND"
+				(at 0 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "global power"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "GND_0_1"
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 -1.27) (xy 1.27 -1.27) (xy 0 -2.54) (xy -1.27 -1.27) (xy 0 -1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "GND_1_1"
+				(pin power_in line
+					(at 0 0 270)
+					(length 0)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
 			)
 		)
 	)
+	(wire
+		(pts
+			(xy 118.618 101.854) (xy 118.618 103.378)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c305c432-f36d-4326-b830-47ae7ac09f6c")
+	)
 	(global_label "DEBUG_UART_RX"
 		(shape input)
-		(at 130.556 93.218 0)
+		(at 118.618 99.314 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -178,7 +325,7 @@
 		)
 		(uuid "8a232e13-9f68-4ce4-bef1-b43d06150cdd")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 148.9021 93.218 0)
+			(at 136.9641 99.314 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -190,7 +337,7 @@
 	)
 	(global_label "DEBUG_UART_TX"
 		(shape input)
-		(at 130.556 90.678 0)
+		(at 118.618 96.774 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -200,7 +347,7 @@
 		)
 		(uuid "dfd7a177-5d8a-4dba-8282-6e0df4f86aac")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 148.5997 90.678 0)
+			(at 136.6617 96.774 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -211,33 +358,98 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector:Conn_01x02_Pin")
-		(at 125.476 90.678 0)
+		(lib_id "power:GND")
+		(at 118.618 103.378 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "3e561b56-87bb-45b4-adc7-ba08cd85fd28")
-		(property "Reference" "J4"
-			(at 126.111 85.09 0)
+		(uuid "6bb9a520-59e4-469f-a013-718c83ca4211")
+		(property "Reference" "#PWR041"
+			(at 118.618 109.728 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 118.618 108.458 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" "JST XH 2.54 3 pin"
-			(at 126.111 87.63 0)
+		(property "Footprint" ""
+			(at 118.618 103.378 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 118.618 103.378 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 118.618 103.378 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "2504cddf-f8e4-45ae-8cf2-2b3952ae36e2")
+		)
+		(instances
+			(project "nixie_alarm_main_board"
+				(path "/a0d555d7-39a0-4a98-b831-70d97d0aa5a1/1fdd9e0c-5909-450c-9e00-c17b847bc6ac"
+					(reference "#PWR041")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:Conn_01x03_Pin")
+		(at 113.538 99.314 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "f291fcb3-4de7-484b-a0ab-8cabb58ae8ae")
+		(property "Reference" "J5"
+			(at 116.332 91.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" "Connector_JST:JST_EH_S2B-EH_1x02_P2.50mm_Horizontal"
-			(at 125.476 90.678 0)
+		(property "Value" "Goldpin 3pin "
+			(at 116.84 93.726 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Horizontal"
+			(at 113.538 99.314 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -246,7 +458,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 125.476 90.678 0)
+			(at 113.538 99.314 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -254,8 +466,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Generic connector, single row, 01x02, script generated"
-			(at 125.476 90.678 0)
+		(property "Description" "Generic connector, single row, 01x03, script generated"
+			(at 113.538 99.314 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -264,15 +476,18 @@
 			)
 		)
 		(pin "2"
-			(uuid "e6f8f0ce-1488-45f3-ac4c-531cc8b465b7")
+			(uuid "54cbf763-3a86-4154-9048-0a86add5dee4")
+		)
+		(pin "3"
+			(uuid "06d8173a-a716-4abc-8251-fa74d832b015")
 		)
 		(pin "1"
-			(uuid "dc27f396-0280-46b2-b4cb-1376d07a2627")
+			(uuid "e6e41e72-0ce8-4649-8b49-ef7284d19f7a")
 		)
 		(instances
 			(project "nixie_alarm_main_board"
 				(path "/a0d555d7-39a0-4a98-b831-70d97d0aa5a1/1fdd9e0c-5909-450c-9e00-c17b847bc6ac"
-					(reference "J4")
+					(reference "J5")
 					(unit 1)
 				)
 			)

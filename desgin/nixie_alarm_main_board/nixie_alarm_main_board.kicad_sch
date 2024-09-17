@@ -1699,7 +1699,7 @@
 	)
 	(global_label "ENC_B"
 		(shape input)
-		(at 112.268 97.282 180)
+		(at 112.268 94.742 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -1709,7 +1709,7 @@
 		)
 		(uuid "4fc92a8d-10fb-49a9-a570-f43dd5c5b5a8")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 103.2957 97.282 0)
+			(at 103.2957 94.742 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2249,7 +2249,7 @@
 	)
 	(global_label "ENC_A"
 		(shape input)
-		(at 112.268 94.742 180)
+		(at 112.268 97.282 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2259,7 +2259,7 @@
 		)
 		(uuid "dae92afa-d8ca-4f4e-8d80-e3949181c202")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 103.4771 94.742 0)
+			(at 103.4771 97.282 0)
 			(effects
 				(font
 					(size 1.27 1.27)
