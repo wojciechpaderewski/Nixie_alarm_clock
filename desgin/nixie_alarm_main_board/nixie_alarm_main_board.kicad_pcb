@@ -6104,7 +6104,7 @@
 		(descr "Resistor SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC_7351 nominal with elongated pad for handsoldering. (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "resistor handsolder")
 		(property "Reference" "R34"
-			(at -0.05 1.65 90)
+			(at 0.012 -1.74 90)
 			(layer "F.SilkS")
 			(uuid "498ac5f8-6d14-419a-a48a-e63096ce60f8")
 			(effects
@@ -24934,7 +24934,7 @@
 		(descr "SRP5030CA-4R7M-1")
 		(tags "Inductor")
 		(property "Reference" "L1"
-			(at 0 0 270)
+			(at 0 0 -90)
 			(layer "B.SilkS")
 			(uuid "ad30a163-44a3-4758-a1f9-d011817baf3e")
 			(effects
@@ -24946,7 +24946,7 @@
 			)
 		)
 		(property "Value" "2.2uH 9.7A"
-			(at 0 0 270)
+			(at 0 0 -90)
 			(layer "B.SilkS")
 			(hide yes)
 			(uuid "94f77ac2-e425-494c-8936-ef069fb22105")
@@ -25192,7 +25192,7 @@
 			(uuid "41ab3f38-8ef9-4c13-81f7-5dc87da92017")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 0 270)
+			(at 0 0 -90)
 			(layer "B.Fab")
 			(uuid "3ef85159-0ad5-4190-8a02-025a489722b4")
 			(effects
