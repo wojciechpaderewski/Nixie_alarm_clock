@@ -1291,7 +1291,7 @@
 		(fields_autoplaced yes)
 		(uuid "8cc41e9d-d0ac-4bdb-a974-f1b4909938b0")
 		(property "Reference" "J1"
-			(at 115.316 73.914 0)
+			(at 115.316 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1299,7 +1299,7 @@
 			)
 		)
 		(property "Value" "PJ-094H-SMT-TR"
-			(at 115.316 76.454 0)
+			(at 115.316 76.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)

@@ -2938,8 +2938,8 @@
 		)
 	)
 	(sheet
-		(at 82.042 145.796)
-		(size 30.48 12.7)
+		(at 83.566 62.738)
+		(size 30.48 8.128)
 		(fields_autoplaced yes)
 		(stroke
 			(width 0.1524)
@@ -2950,7 +2950,7 @@
 		)
 		(uuid "1fdd9e0c-5909-450c-9e00-c17b847bc6ac")
 		(property "Sheetname" "Debug_UART"
-			(at 82.042 145.0844 0)
+			(at 83.566 62.0264 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2959,7 +2959,7 @@
 			)
 		)
 		(property "Sheetfile" "Debug_UART.kicad_sch"
-			(at 82.042 159.0806 0)
+			(at 83.566 71.4506 0)
 			(effects
 				(font
 					(size 1.27 1.27)
