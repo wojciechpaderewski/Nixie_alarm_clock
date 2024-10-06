@@ -1,4 +1,4 @@
-23137667960921571
+23144579464229433
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -87080,6 +87080,13 @@ Integrated Circuit
 3
 3
 SamacSys_Parts
+B74121U0033M060
+B74121U0033M060-1
+Integrated Circuit
+0
+2
+2
+SamacSys_Parts
 C0603
 C0603
 Capacitor
@@ -87188,6 +87195,13 @@ SamacSys_Parts
 ERJUP6
 ERJUP6
 Resistor
+0
+2
+2
+SamacSys_Parts
+ESD7551N2T5G
+X2DFN2 1.0x0.6, 0.65P CASE-714AB ISSUE B
+TVS Diode (Bi-directional)
 0
 2
 2
@@ -87318,6 +87332,13 @@ Integrated Circuit
 16
 16
 SamacSys_Parts
+SON50P100X250X50-10N
+SOT 1176-1
+Diode ESD (Uni-directional)
+0
+10
+10
+SamacSys_Parts
 SOP65P490X110-8N
 DGK  (S-PDSO-G8)
 Integrated Circuit
@@ -87366,6 +87387,13 @@ Integrated Circuit
 0
 4
 4
+SamacSys_Parts
+SRP5030CA4R7M
+SRP5030CA-4R7M-1
+Inductor
+0
+2
+2
 SamacSys_Parts
 SSM3K35AMFVL3F
 SSM3K35AMFV,L3F-1

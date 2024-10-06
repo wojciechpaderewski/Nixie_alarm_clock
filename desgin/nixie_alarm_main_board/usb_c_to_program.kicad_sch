@@ -695,6 +695,151 @@
 				)
 			)
 		)
+		(symbol "Device:D_TVS"
+			(pin_numbers hide)
+			(pin_names
+				(offset 1.016) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "D"
+				(at 0 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "D_TVS"
+				(at 0 -2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Bidirectional transient-voltage-suppression diode"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "diode TVS thyrector"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "TO-???* *_Diode_* *SingleDiode* D_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "D_TVS_0_1"
+				(polyline
+					(pts
+						(xy 1.27 0) (xy -1.27 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.508 1.27) (xy 0 1.27) (xy 0 -1.27) (xy -0.508 -1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.54 1.27) (xy -2.54 -1.27) (xy 2.54 1.27) (xy 2.54 -1.27) (xy -2.54 1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "D_TVS_1_1"
+				(pin passive line
+					(at -3.81 0 0)
+					(length 2.54)
+					(name "A1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 3.81 0 180)
+					(length 2.54)
+					(name "A2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
 		(symbol "SamacSys_Parts:ERJ-UP6D5101V"
 			(pin_names hide)
 			(exclude_from_sim no)
@@ -945,16 +1090,28 @@
 		)
 	)
 	(junction
-		(at 146.05 96.52)
+		(at 178.054 96.52)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "07f7ef9d-f607-4729-828c-ddbfc4d35557")
+		(uuid "0e3d924c-a0fc-48f9-829d-7e3228822554")
 	)
 	(junction
 		(at 146.05 91.44)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "3d7d3e6b-f218-4135-a3e0-442b85b66666")
+	)
+	(junction
+		(at 156.464 91.44)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "53fdc3c5-8aea-4196-a6be-7673331b76d3")
+	)
+	(junction
+		(at 146.05 96.52)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "7a48aeae-86ef-4087-8c77-7729e0968f2b")
 	)
 	(no_connect
 		(at 146.05 107.95)
@@ -970,6 +1127,16 @@
 	)
 	(wire
 		(pts
+			(xy 146.05 82.55) (xy 227.076 82.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1d09f820-231d-48ef-89c0-82d21ad2da38")
+	)
+	(wire
+		(pts
 			(xy 146.05 95.25) (xy 146.05 96.52)
 		)
 		(stroke
@@ -980,13 +1147,13 @@
 	)
 	(wire
 		(pts
-			(xy 146.05 96.52) (xy 146.05 97.79)
+			(xy 146.05 85.09) (xy 216.408 85.09)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "46790a23-bdad-4ef5-bafe-b895d10a9d9c")
+		(uuid "4a4a097f-fbc7-4712-92e9-bdf47ed1b1b4")
 	)
 	(wire
 		(pts
@@ -1000,6 +1167,56 @@
 	)
 	(wire
 		(pts
+			(xy 178.054 105.41) (xy 178.054 104.648)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "651d471a-2497-408f-9a34-797e947614fd")
+	)
+	(wire
+		(pts
+			(xy 156.464 97.282) (xy 156.464 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6707f529-7bcb-4ff5-b6ca-16f3781169ba")
+	)
+	(wire
+		(pts
+			(xy 146.05 96.52) (xy 178.054 96.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "733710f5-b4ec-4000-9468-1da8a2cfa8bd")
+	)
+	(wire
+		(pts
+			(xy 156.464 104.902) (xy 156.464 104.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "84655488-9023-488b-8304-89c13749206c")
+	)
+	(wire
+		(pts
+			(xy 156.464 91.44) (xy 197.358 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "885a86cf-4315-4a80-a99a-ddeb03882e6f")
+	)
+	(wire
+		(pts
 			(xy 146.05 90.17) (xy 146.05 91.44)
 		)
 		(stroke
@@ -1010,27 +1227,17 @@
 	)
 	(wire
 		(pts
-			(xy 147.828 91.44) (xy 146.05 91.44)
+			(xy 178.054 96.52) (xy 197.358 96.52)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "9d40e805-2e12-420a-b787-c5ab9e64095a")
+		(uuid "96bf671f-7b0d-43ae-afa7-5078d1a32c8a")
 	)
 	(wire
 		(pts
-			(xy 146.05 82.55) (xy 180.848 82.55)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a4079340-2afa-4a88-a569-f41b991f2a42")
-	)
-	(wire
-		(pts
-			(xy 180.848 82.55) (xy 180.848 85.344)
+			(xy 227.076 82.55) (xy 227.076 85.344)
 		)
 		(stroke
 			(width 0)
@@ -1040,27 +1247,37 @@
 	)
 	(wire
 		(pts
-			(xy 146.05 85.09) (xy 170.18 85.09)
+			(xy 146.05 91.44) (xy 156.464 91.44)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "c2359122-f6d8-434b-99ab-4f15d4862381")
+		(uuid "d139e7b1-b943-4a3c-9726-bf3d834596bb")
 	)
 	(wire
 		(pts
-			(xy 147.828 96.52) (xy 146.05 96.52)
+			(xy 146.05 96.52) (xy 146.05 97.79)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "d10b32b4-9645-4797-85f1-86052c7e1929")
+		(uuid "d8745348-579c-4e5a-96b8-46c59cbb45e4")
+	)
+	(wire
+		(pts
+			(xy 178.054 96.52) (xy 178.054 97.79)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fb7ae9ea-d6a1-45f5-807d-6712bf6617ce")
 	)
 	(hierarchical_label "USB_D-"
 		(shape input)
-		(at 147.828 91.44 0)
+		(at 197.358 91.44 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -1072,7 +1289,7 @@
 	)
 	(hierarchical_label "USB_D+"
 		(shape input)
-		(at 147.828 96.52 0)
+		(at 197.358 96.52 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -1084,7 +1301,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 180.848 103.124 0)
+		(at 227.076 103.124 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1093,7 +1310,7 @@
 		(fields_autoplaced yes)
 		(uuid "0233405d-d19d-41d9-8d6c-ac456f43cc68")
 		(property "Reference" "#PWR013"
-			(at 180.848 109.474 0)
+			(at 227.076 109.474 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1102,7 +1319,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 180.848 108.204 0)
+			(at 227.076 108.204 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1110,7 +1327,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 180.848 103.124 0)
+			(at 227.076 103.124 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1119,7 +1336,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 180.848 103.124 0)
+			(at 227.076 103.124 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1128,7 +1345,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 180.848 103.124 0)
+			(at 227.076 103.124 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1149,8 +1366,78 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:D_TVS")
+		(at 156.464 101.092 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "240907c2-8bfe-40b4-abda-3c727cf4cfb7")
+		(property "Reference" "D1"
+			(at 158.496 99.8219 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "ESD7551N2T5G"
+			(at 158.496 102.3619 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "ESD7551N2T5G"
+			(at 156.464 101.092 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 156.464 101.092 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Bidirectional transient-voltage-suppression diode"
+			(at 156.464 101.092 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "6788f44b-bca2-4983-a8b4-92b457756553")
+		)
+		(pin "2"
+			(uuid "812cffbf-e004-4e81-9efb-93e031012943")
+		)
+		(instances
+			(project "nixie_alarm_main_board"
+				(path "/a0d555d7-39a0-4a98-b831-70d97d0aa5a1/eded432e-9895-4ae7-b3d2-c757b1fd23fa"
+					(reference "D1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
-		(at 170.18 102.87 0)
+		(at 216.408 102.87 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1159,7 +1446,7 @@
 		(fields_autoplaced yes)
 		(uuid "49c64939-7cb6-4318-8212-6ee060bcb1e9")
 		(property "Reference" "#PWR012"
-			(at 170.18 109.22 0)
+			(at 216.408 109.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1168,7 +1455,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 170.18 107.95 0)
+			(at 216.408 107.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1176,7 +1463,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 170.18 102.87 0)
+			(at 216.408 102.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1185,7 +1472,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 170.18 102.87 0)
+			(at 216.408 102.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1194,7 +1481,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 170.18 102.87 0)
+			(at 216.408 102.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1209,6 +1496,76 @@
 			(project "nixie_alarm_main_board"
 				(path "/a0d555d7-39a0-4a98-b831-70d97d0aa5a1/eded432e-9895-4ae7-b3d2-c757b1fd23fa"
 					(reference "#PWR012")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:D_TVS")
+		(at 178.054 101.6 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "4c35afb9-585a-42eb-98c0-b1d7755cdb74")
+		(property "Reference" "D3"
+			(at 180.086 100.3299 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "ESD7551N2T5G"
+			(at 180.086 102.8699 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "ESD7551N2T5G"
+			(at 178.054 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 178.054 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Bidirectional transient-voltage-suppression diode"
+			(at 178.054 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "69bf619c-0b4c-4bd7-82e2-4af8993a3008")
+		)
+		(pin "2"
+			(uuid "95eb9808-a291-4498-a60a-6e32006e2269")
+		)
+		(instances
+			(project "nixie_alarm_main_board"
+				(path "/a0d555d7-39a0-4a98-b831-70d97d0aa5a1/eded432e-9895-4ae7-b3d2-c757b1fd23fa"
+					(reference "D3")
 					(unit 1)
 				)
 			)
@@ -1395,7 +1752,7 @@
 	)
 	(symbol
 		(lib_id "SamacSys_Parts:ERJ-UP6D5101V")
-		(at 170.18 85.09 270)
+		(at 216.408 85.09 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1404,7 +1761,7 @@
 		(fields_autoplaced yes)
 		(uuid "d58cafdd-c2bf-4b38-80da-89282d717bd7")
 		(property "Reference" "R3"
-			(at 172.72 92.7099 90)
+			(at 218.948 92.7099 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1413,7 +1770,7 @@
 			)
 		)
 		(property "Value" "5.1kΩ"
-			(at 172.72 95.2499 90)
+			(at 218.948 95.2499 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1422,7 +1779,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
-			(at 73.99 99.06 0)
+			(at 120.218 99.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1432,7 +1789,7 @@
 			)
 		)
 		(property "Datasheet" "https://industrial.panasonic.com/cdbs/www-data/pdf/RDP0000/AOA0000C337.pdf"
-			(at -26.01 99.06 0)
+			(at 20.218 99.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1442,7 +1799,7 @@
 			)
 		)
 		(property "Description" "Anti-Sulfurated Thick Film Chip Resistors/ Anti-Surge Type, Power Rating (W): 0.5, Chip Size (LxW(EIA)) (mm): 2.0 x 1.25 (EIA:0805), Resistance Values (?): 5100, Resistance Tolerance (%): 0.5, T.C.R (?102/K): ?100"
-			(at 170.18 85.09 0)
+			(at 216.408 85.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1451,7 +1808,7 @@
 			)
 		)
 		(property "Height" "0.7"
-			(at -226.01 99.06 0)
+			(at -179.782 99.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1461,7 +1818,7 @@
 			)
 		)
 		(property "Mouser Part Number" "667-ERJ-UP6D5101V"
-			(at -326.01 99.06 0)
+			(at -279.782 99.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1471,7 +1828,7 @@
 			)
 		)
 		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Panasonic/ERJ-UP6D5101V?qs=ZcfC38r4Pouz7%2FLHthUDHQ%3D%3D"
-			(at -426.01 99.06 0)
+			(at -379.782 99.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1481,7 +1838,7 @@
 			)
 		)
 		(property "Manufacturer_Name" "Panasonic"
-			(at -526.01 99.06 0)
+			(at -479.782 99.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1491,7 +1848,7 @@
 			)
 		)
 		(property "Manufacturer_Part_Number" "ERJ-UP6D5101V"
-			(at -626.01 99.06 0)
+			(at -579.782 99.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1517,7 +1874,7 @@
 	)
 	(symbol
 		(lib_id "SamacSys_Parts:ERJ-UP6D5101V")
-		(at 180.848 85.344 270)
+		(at 227.076 85.344 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1526,7 +1883,7 @@
 		(fields_autoplaced yes)
 		(uuid "dde5d5b1-e230-402b-80e2-b36d9d7f1661")
 		(property "Reference" "R4"
-			(at 183.134 92.9639 90)
+			(at 229.362 92.9639 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1535,7 +1892,7 @@
 			)
 		)
 		(property "Value" "5.1kΩ"
-			(at 183.134 95.5039 90)
+			(at 229.362 95.5039 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1544,7 +1901,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
-			(at 84.658 99.314 0)
+			(at 130.886 99.314 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1554,7 +1911,7 @@
 			)
 		)
 		(property "Datasheet" "https://industrial.panasonic.com/cdbs/www-data/pdf/RDP0000/AOA0000C337.pdf"
-			(at -15.342 99.314 0)
+			(at 30.886 99.314 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1564,7 +1921,7 @@
 			)
 		)
 		(property "Description" "Anti-Sulfurated Thick Film Chip Resistors/ Anti-Surge Type, Power Rating (W): 0.5, Chip Size (LxW(EIA)) (mm): 2.0 x 1.25 (EIA:0805), Resistance Values (?): 5100, Resistance Tolerance (%): 0.5, T.C.R (?102/K): ?100"
-			(at 180.848 85.344 0)
+			(at 227.076 85.344 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1573,7 +1930,7 @@
 			)
 		)
 		(property "Height" "0.7"
-			(at -215.342 99.314 0)
+			(at -169.114 99.314 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1583,7 +1940,7 @@
 			)
 		)
 		(property "Mouser Part Number" "667-ERJ-UP6D5101V"
-			(at -315.342 99.314 0)
+			(at -269.114 99.314 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1593,7 +1950,7 @@
 			)
 		)
 		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Panasonic/ERJ-UP6D5101V?qs=ZcfC38r4Pouz7%2FLHthUDHQ%3D%3D"
-			(at -415.342 99.314 0)
+			(at -369.114 99.314 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1603,7 +1960,7 @@
 			)
 		)
 		(property "Manufacturer_Name" "Panasonic"
-			(at -515.342 99.314 0)
+			(at -469.114 99.314 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1613,7 +1970,7 @@
 			)
 		)
 		(property "Manufacturer_Part_Number" "ERJ-UP6D5101V"
-			(at -615.342 99.314 0)
+			(at -569.114 99.314 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1698,6 +2055,138 @@
 			(project "nixie_alarm_main_board"
 				(path "/a0d555d7-39a0-4a98-b831-70d97d0aa5a1/eded432e-9895-4ae7-b3d2-c757b1fd23fa"
 					(reference "#PWR011")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 156.464 104.14 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ed8c43f7-5286-4feb-bec9-fd721cf042aa")
+		(property "Reference" "#PWR056"
+			(at 156.464 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 156.464 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 156.464 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 156.464 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 156.464 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "92cb356d-060e-4b56-9ef9-a8d153ebd570")
+		)
+		(instances
+			(project "nixie_alarm_main_board"
+				(path "/a0d555d7-39a0-4a98-b831-70d97d0aa5a1/eded432e-9895-4ae7-b3d2-c757b1fd23fa"
+					(reference "#PWR056")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 178.054 104.648 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f02d3b04-88ee-4dab-9a07-c83f933cabff")
+		(property "Reference" "#PWR057"
+			(at 178.054 110.998 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 178.054 109.728 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 178.054 104.648 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 178.054 104.648 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 178.054 104.648 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "148e1b83-2397-4fe4-a089-19827c4b4004")
+		)
+		(instances
+			(project "nixie_alarm_main_board"
+				(path "/a0d555d7-39a0-4a98-b831-70d97d0aa5a1/eded432e-9895-4ae7-b3d2-c757b1fd23fa"
+					(reference "#PWR057")
 					(unit 1)
 				)
 			)
