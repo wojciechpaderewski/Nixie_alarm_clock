@@ -999,6 +999,16 @@
 	)
 	(wire
 		(pts
+			(xy 114.046 65.024) (xy 115.316 65.024)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "020f94bd-8a81-4372-a617-172cf594807e")
+	)
+	(wire
+		(pts
 			(xy 179.832 29.718) (xy 179.832 33.528)
 		)
 		(stroke
@@ -1266,6 +1276,16 @@
 			(type default)
 		)
 		(uuid "b7f81d9f-2c46-47da-9de8-4138eddd2909")
+	)
+	(wire
+		(pts
+			(xy 114.046 67.564) (xy 115.316 67.564)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bd27bd12-8ee3-41e8-a89d-8d3720b9a206")
 	)
 	(wire
 		(pts
@@ -1715,6 +1735,28 @@
 					(size 1.27 1.27)
 				)
 				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "DEBUG_UART_RX"
+		(shape input)
+		(at 115.316 65.024 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "57d38149-1835-4daa-93b6-035f7572c148")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 133.6621 65.024 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
 				(hide yes)
 			)
 		)
@@ -2379,6 +2421,28 @@
 			)
 		)
 	)
+	(global_label "DEBUG_UART_TX"
+		(shape input)
+		(at 115.316 67.564 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "f4185768-7f09-4490-9659-6493dc380d3c")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 133.3597 67.564 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "DPOT_SCL"
 		(shape input)
 		(at 142.748 130.302 0)
@@ -2966,6 +3030,26 @@
 				)
 				(justify left top)
 			)
+		)
+		(pin "DEBUG_UART_RX" input
+			(at 114.046 65.024 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "d12b8707-2571-4d37-95dc-d9e2757dea54")
+		)
+		(pin "DEBUG_UART_TX" input
+			(at 114.046 67.564 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "b2b50c41-4c66-4c9a-8485-6861a2f204c5")
 		)
 		(instances
 			(project "nixie_alarm_main_board"

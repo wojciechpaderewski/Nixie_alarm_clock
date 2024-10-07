@@ -206,6 +206,301 @@
 				)
 			)
 		)
+		(symbol "SamacSys_Parts:PUSB3AB4Z"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "D"
+				(at 29.21 7.62 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Value" "PUSB3AB4Z"
+				(at 29.21 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Footprint" "SON50P100X250X50-10N"
+				(at 29.21 -94.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/PUSB3AB4.pdf"
+				(at 29.21 -194.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Description" "PUSB3AB4 - ESD protection for ultra high-speed interfaces"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Height" "0.5"
+				(at 29.21 -394.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Mouser Part Number" "771-PUSB3AB4Z"
+				(at 29.21 -494.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Nexperia/PUSB3AB4Z?qs=sPdA%252BpIfi%2F%252BQqDUUBPFV5w%3D%3D"
+				(at 29.21 -594.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer_Name" "Nexperia"
+				(at 29.21 -694.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer_Part_Number" "PUSB3AB4Z"
+				(at 29.21 -794.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(symbol "PUSB3AB4Z_1_1"
+				(rectangle
+					(start 5.08 2.54)
+					(end 27.94 -12.7)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin passive line
+					(at 0 0 0)
+					(length 5.08)
+					(name "CH1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 33.02 0 180)
+					(length 5.08)
+					(name "N.C._4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "10"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -2.54 0)
+					(length 5.08)
+					(name "CH2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -5.08 0)
+					(length 5.08)
+					(name "GND_1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -7.62 0)
+					(length 5.08)
+					(name "CH3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -10.16 0)
+					(length 5.08)
+					(name "CH4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 33.02 -10.16 180)
+					(length 5.08)
+					(name "N.C._1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 33.02 -7.62 180)
+					(length 5.08)
+					(name "N.C._2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 33.02 -5.08 180)
+					(length 5.08)
+					(name "GND_2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 33.02 -2.54 180)
+					(length 5.08)
+					(name "N.C._3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "9"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
 		(symbol "power:GND"
 			(power)
 			(pin_numbers hide)
@@ -303,6 +598,98 @@
 			)
 		)
 	)
+	(junction
+		(at 134.112 96.774)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "cf3e1955-8fd0-4fe8-b615-71d5784d3b5e")
+	)
+	(junction
+		(at 144.272 99.314)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "e4221bbd-4a74-406c-aa1b-bd77a49cf524")
+	)
+	(no_connect
+		(at 134.112 147.32)
+		(uuid "64d8841d-ffb1-4c6e-b72f-ddb92e10d7dc")
+	)
+	(no_connect
+		(at 141.732 147.32)
+		(uuid "66237de5-e0f2-43d4-9abe-a2a29cd1c3df")
+	)
+	(no_connect
+		(at 136.652 147.32)
+		(uuid "91c26b32-6188-4f90-bcce-a8a422497856")
+	)
+	(no_connect
+		(at 144.272 147.32)
+		(uuid "94d457aa-f55c-4635-b526-0ff52995b5d2")
+	)
+	(no_connect
+		(at 136.652 114.3)
+		(uuid "b291331e-527b-479e-9af0-a9e6f16df7ad")
+	)
+	(wire
+		(pts
+			(xy 118.618 99.314) (xy 144.272 99.314)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2acdeff5-04c1-472d-9796-50202a882f07")
+	)
+	(wire
+		(pts
+			(xy 118.618 96.774) (xy 134.112 96.774)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "32aec8a8-ac06-4c91-b9f5-21cc69d9925e")
+	)
+	(wire
+		(pts
+			(xy 134.112 96.774) (xy 161.29 96.774)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "35a5bf2a-0098-4a06-949c-1fa84111e526")
+	)
+	(wire
+		(pts
+			(xy 139.192 114.3) (xy 139.192 113.538)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7ebb8072-f2b7-448a-974a-be4bade04081")
+	)
+	(wire
+		(pts
+			(xy 144.272 99.314) (xy 144.272 114.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "97be75ce-17aa-444a-b2a5-2bb58656477b")
+	)
+	(wire
+		(pts
+			(xy 134.112 96.774) (xy 134.112 114.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a446d851-c87a-4814-9d4e-87668d6a0e2b")
+	)
 	(wire
 		(pts
 			(xy 118.618 101.854) (xy 118.618 103.378)
@@ -313,9 +700,19 @@
 		)
 		(uuid "c305c432-f36d-4326-b830-47ae7ac09f6c")
 	)
-	(global_label "DEBUG_UART_RX"
+	(wire
+		(pts
+			(xy 144.272 99.314) (xy 161.544 99.314)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d6fb1f57-27a6-4cca-b7e3-5e99aea1ac9a")
+	)
+	(hierarchical_label "DEBUG_UART_TX"
 		(shape input)
-		(at 118.618 99.314 0)
+		(at 161.29 96.774 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -323,37 +720,229 @@
 			)
 			(justify left)
 		)
-		(uuid "8a232e13-9f68-4ce4-bef1-b43d06150cdd")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 136.9641 99.314 0)
+		(uuid "7925bc60-da49-4e62-99ef-78536efe6f86")
+	)
+	(hierarchical_label "DEBUG_UART_RX"
+		(shape input)
+		(at 161.544 99.314 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "d965efcb-6fec-463e-b71d-108f7874f64d")
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 139.192 147.32 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "0dadd478-339c-4f7a-aa72-3ba7b9102bb1")
+		(property "Reference" "#PWR059"
+			(at 139.192 153.67 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 139.192 151.638 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 139.192 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 139.192 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 139.192 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "0154b050-d57a-43d2-ad0a-1b208746b7e8")
+		)
+		(instances
+			(project "nixie_alarm_main_board"
+				(path "/a0d555d7-39a0-4a98-b831-70d97d0aa5a1/1fdd9e0c-5909-450c-9e00-c17b847bc6ac"
+					(reference "#PWR059")
+					(unit 1)
+				)
 			)
 		)
 	)
-	(global_label "DEBUG_UART_TX"
-		(shape input)
-		(at 118.618 96.774 0)
+	(symbol
+		(lib_id "SamacSys_Parts:PUSB3AB4Z")
+		(at 144.272 114.3 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
 		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "dfd7a177-5d8a-4dba-8282-6e0df4f86aac")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 136.6617 96.774 0)
+		(uuid "102ba866-764f-4208-944e-f532457e2db4")
+		(property "Reference" "D3"
+			(at 148.082 129.5399 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
+			)
+		)
+		(property "Value" "PUSB3AB4Z"
+			(at 148.082 132.0799 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "SON50P100X250X50-10N"
+			(at 49.352 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
 				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/PUSB3AB4.pdf"
+			(at -50.648 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "PUSB3AB4 - ESD protection for ultra high-speed interfaces"
+			(at 144.272 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Height" "0.5"
+			(at -250.648 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "771-PUSB3AB4Z"
+			(at -350.648 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Nexperia/PUSB3AB4Z?qs=sPdA%252BpIfi%2F%252BQqDUUBPFV5w%3D%3D"
+			(at -450.648 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "Nexperia"
+			(at -550.648 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "PUSB3AB4Z"
+			(at -650.648 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(pin "10"
+			(uuid "2d6a27a8-46fa-4213-a30b-a7057531a45b")
+		)
+		(pin "3"
+			(uuid "d5eb74ff-8526-48af-9109-a82c2b230336")
+		)
+		(pin "5"
+			(uuid "ce2e628a-0609-49f0-b97c-ce4cd12f5cb7")
+		)
+		(pin "6"
+			(uuid "25c9068c-aa7c-412a-b250-af3ac5a0f8ce")
+		)
+		(pin "8"
+			(uuid "f3876e49-ac63-490b-a982-a824acbcd2a4")
+		)
+		(pin "2"
+			(uuid "606d0986-5bad-4d05-aa43-600b37e78cc3")
+		)
+		(pin "4"
+			(uuid "9be1c816-0a00-450c-8452-09f61cead4d6")
+		)
+		(pin "7"
+			(uuid "6d84da32-30b4-4fa4-b295-b3b563795abd")
+		)
+		(pin "9"
+			(uuid "1dd6d478-dadd-4f4e-8dd6-ac95d6f240bd")
+		)
+		(pin "1"
+			(uuid "8c125e66-db5e-4d32-9e6a-666f964fbc9f")
+		)
+		(instances
+			(project "nixie_alarm_main_board"
+				(path "/a0d555d7-39a0-4a98-b831-70d97d0aa5a1/1fdd9e0c-5909-450c-9e00-c17b847bc6ac"
+					(reference "D3")
+					(unit 1)
+				)
 			)
 		)
 	)
@@ -418,6 +1007,72 @@
 			(project "nixie_alarm_main_board"
 				(path "/a0d555d7-39a0-4a98-b831-70d97d0aa5a1/1fdd9e0c-5909-450c-9e00-c17b847bc6ac"
 					(reference "#PWR041")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 139.192 113.538 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "e21f19f5-4cbd-45da-8aa7-1f9c95056598")
+		(property "Reference" "#PWR058"
+			(at 139.192 107.188 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 139.192 108.204 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 139.192 113.538 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 139.192 113.538 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 139.192 113.538 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "ac796d3c-3417-4b1c-bdfc-4771e1b26d31")
+		)
+		(instances
+			(project "nixie_alarm_main_board"
+				(path "/a0d555d7-39a0-4a98-b831-70d97d0aa5a1/1fdd9e0c-5909-450c-9e00-c17b847bc6ac"
+					(reference "#PWR058")
 					(unit 1)
 				)
 			)

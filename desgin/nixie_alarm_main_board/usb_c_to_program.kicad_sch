@@ -695,151 +695,6 @@
 				)
 			)
 		)
-		(symbol "Device:D_TVS"
-			(pin_numbers hide)
-			(pin_names
-				(offset 1.016) hide)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "D"
-				(at 0 2.54 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "D_TVS"
-				(at 0 -2.54 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "~"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Bidirectional transient-voltage-suppression diode"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "diode TVS thyrector"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "TO-???* *_Diode_* *SingleDiode* D_*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "D_TVS_0_1"
-				(polyline
-					(pts
-						(xy 1.27 0) (xy -1.27 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.508 1.27) (xy 0 1.27) (xy 0 -1.27) (xy -0.508 -1.27)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -2.54 1.27) (xy -2.54 -1.27) (xy 2.54 1.27) (xy 2.54 -1.27) (xy -2.54 1.27)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "D_TVS_1_1"
-				(pin passive line
-					(at -3.81 0 0)
-					(length 2.54)
-					(name "A1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 3.81 0 180)
-					(length 2.54)
-					(name "A2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-		)
 		(symbol "SamacSys_Parts:ERJ-UP6D5101V"
 			(pin_names hide)
 			(exclude_from_sim no)
@@ -992,6 +847,301 @@
 				)
 			)
 		)
+		(symbol "SamacSys_Parts:PUSB3AB4Z"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "D"
+				(at 29.21 7.62 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Value" "PUSB3AB4Z"
+				(at 29.21 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Footprint" "SON50P100X250X50-10N"
+				(at 29.21 -94.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/PUSB3AB4.pdf"
+				(at 29.21 -194.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Description" "PUSB3AB4 - ESD protection for ultra high-speed interfaces"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Height" "0.5"
+				(at 29.21 -394.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Mouser Part Number" "771-PUSB3AB4Z"
+				(at 29.21 -494.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Nexperia/PUSB3AB4Z?qs=sPdA%252BpIfi%2F%252BQqDUUBPFV5w%3D%3D"
+				(at 29.21 -594.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer_Name" "Nexperia"
+				(at 29.21 -694.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer_Part_Number" "PUSB3AB4Z"
+				(at 29.21 -794.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(symbol "PUSB3AB4Z_1_1"
+				(rectangle
+					(start 5.08 2.54)
+					(end 27.94 -12.7)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin passive line
+					(at 0 0 0)
+					(length 5.08)
+					(name "CH1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 33.02 0 180)
+					(length 5.08)
+					(name "N.C._4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "10"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -2.54 0)
+					(length 5.08)
+					(name "CH2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -5.08 0)
+					(length 5.08)
+					(name "GND_1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -7.62 0)
+					(length 5.08)
+					(name "CH3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -10.16 0)
+					(length 5.08)
+					(name "CH4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 33.02 -10.16 180)
+					(length 5.08)
+					(name "N.C._1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 33.02 -7.62 180)
+					(length 5.08)
+					(name "N.C._2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 33.02 -5.08 180)
+					(length 5.08)
+					(name "GND_2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 33.02 -2.54 180)
+					(length 5.08)
+					(name "N.C._3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "9"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
 		(symbol "power:GND"
 			(power)
 			(pin_numbers hide)
@@ -1090,28 +1240,28 @@
 		)
 	)
 	(junction
-		(at 178.054 96.52)
+		(at 163.068 92.71)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "0e3d924c-a0fc-48f9-829d-7e3228822554")
+		(uuid "966e8e82-545e-4f1c-8200-0f08c79c7775")
 	)
 	(junction
-		(at 146.05 91.44)
+		(at 157.988 97.79)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "3d7d3e6b-f218-4135-a3e0-442b85b66666")
+		(uuid "b7d9e044-054d-459f-8bb2-bf0def951ee3")
 	)
 	(junction
-		(at 156.464 91.44)
+		(at 165.608 92.71)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "53fdc3c5-8aea-4196-a6be-7673331b76d3")
+		(uuid "c3d2428f-a15e-4015-99b7-a015fe8b75f0")
 	)
 	(junction
-		(at 146.05 96.52)
+		(at 155.448 97.79)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "7a48aeae-86ef-4087-8c77-7729e0968f2b")
+		(uuid "daa3366c-571f-488a-a71f-105a5b9725d7")
 	)
 	(no_connect
 		(at 146.05 107.95)
@@ -1122,8 +1272,34 @@
 		(uuid "0bdcb1f6-95df-4d25-9033-15dcb892a1d2")
 	)
 	(no_connect
+		(at 163.068 144.018)
+		(uuid "1fe727a9-b6dc-4115-94a8-2cf90b81f37a")
+	)
+	(no_connect
 		(at 146.05 105.41)
 		(uuid "9c87c9f2-a85b-46e7-be37-7efc8c4c9028")
+	)
+	(no_connect
+		(at 157.988 144.018)
+		(uuid "cdbe8132-6c5b-4df5-b8b5-300c4de86171")
+	)
+	(no_connect
+		(at 165.608 144.018)
+		(uuid "d9a15671-79d9-45b2-b59d-dcb80e48d01b")
+	)
+	(no_connect
+		(at 155.448 144.018)
+		(uuid "ebc97f99-c3c5-4edc-90cf-e1d0a93f17ed")
+	)
+	(wire
+		(pts
+			(xy 146.05 97.79) (xy 155.448 97.79)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0b971199-6011-400c-8b8b-60c18f59acc9")
 	)
 	(wire
 		(pts
@@ -1137,13 +1313,23 @@
 	)
 	(wire
 		(pts
-			(xy 146.05 95.25) (xy 146.05 96.52)
+			(xy 163.068 92.71) (xy 163.068 110.998)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "222a436d-384c-4fb9-806b-1a67ec9cb010")
+		(uuid "20ee4e7a-8e25-4872-8c3e-f26fdda51c14")
+	)
+	(wire
+		(pts
+			(xy 155.448 97.79) (xy 155.448 110.998)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3e6c4675-1af6-43b6-83bc-c033ce21d79d")
 	)
 	(wire
 		(pts
@@ -1157,83 +1343,83 @@
 	)
 	(wire
 		(pts
-			(xy 146.05 91.44) (xy 146.05 92.71)
+			(xy 146.05 92.71) (xy 163.068 92.71)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "637544d8-146c-4f43-bb88-7ed267d7d8d1")
+		(uuid "61e53afe-02ab-4de5-bd0a-a52c835c2eb3")
 	)
 	(wire
 		(pts
-			(xy 178.054 105.41) (xy 178.054 104.648)
+			(xy 157.988 97.79) (xy 157.988 110.998)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "651d471a-2497-408f-9a34-797e947614fd")
+		(uuid "713d3439-c061-4940-92f7-dcad51e63e53")
 	)
 	(wire
 		(pts
-			(xy 156.464 97.282) (xy 156.464 91.44)
+			(xy 155.448 95.25) (xy 155.448 97.79)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "6707f529-7bcb-4ff5-b6ca-16f3781169ba")
+		(uuid "7590e28a-e9a9-47bf-be57-3e6eb44bcb37")
 	)
 	(wire
 		(pts
-			(xy 146.05 96.52) (xy 178.054 96.52)
+			(xy 160.528 110.998) (xy 160.528 110.236)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "733710f5-b4ec-4000-9468-1da8a2cfa8bd")
+		(uuid "80561a05-0c4e-46bd-93b4-64bdb8ed66a1")
 	)
 	(wire
 		(pts
-			(xy 156.464 104.902) (xy 156.464 104.14)
+			(xy 165.608 92.71) (xy 197.358 92.71)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "84655488-9023-488b-8304-89c13749206c")
+		(uuid "8da059d1-8250-4c78-a7f4-36833069dd8c")
 	)
 	(wire
 		(pts
-			(xy 156.464 91.44) (xy 197.358 91.44)
+			(xy 163.068 92.71) (xy 165.608 92.71)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "885a86cf-4315-4a80-a99a-ddeb03882e6f")
+		(uuid "a09b5f55-fb05-4632-a336-4282938a90bc")
 	)
 	(wire
 		(pts
-			(xy 146.05 90.17) (xy 146.05 91.44)
+			(xy 165.608 110.998) (xy 165.608 92.71)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "8e4f3074-257d-4b17-9bc0-c2f4a630a4d8")
+		(uuid "a7d16e3c-7afe-422d-aba0-9fb5784f58d9")
 	)
 	(wire
 		(pts
-			(xy 178.054 96.52) (xy 197.358 96.52)
+			(xy 157.988 97.79) (xy 197.358 97.79)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "96bf671f-7b0d-43ae-afa7-5078d1a32c8a")
+		(uuid "ab2de3f0-0e9a-41e6-a664-9c40cf0124f7")
 	)
 	(wire
 		(pts
@@ -1247,37 +1433,47 @@
 	)
 	(wire
 		(pts
-			(xy 146.05 91.44) (xy 156.464 91.44)
+			(xy 163.068 90.17) (xy 163.068 92.71)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "d139e7b1-b943-4a3c-9726-bf3d834596bb")
+		(uuid "b99e2bd1-e649-4848-8062-f1e47988e3cb")
 	)
 	(wire
 		(pts
-			(xy 146.05 96.52) (xy 146.05 97.79)
+			(xy 146.05 90.17) (xy 163.068 90.17)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "d8745348-579c-4e5a-96b8-46c59cbb45e4")
+		(uuid "dc9bcc0e-6b28-43c3-ae9c-2e277b2a4054")
 	)
 	(wire
 		(pts
-			(xy 178.054 96.52) (xy 178.054 97.79)
+			(xy 146.05 95.25) (xy 155.448 95.25)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "fb7ae9ea-d6a1-45f5-807d-6712bf6617ce")
+		(uuid "fa86964a-f103-4d07-9e2d-3c9179d75c00")
+	)
+	(wire
+		(pts
+			(xy 155.448 97.79) (xy 157.988 97.79)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fd5eac48-67a9-4fac-8a9f-08cf1f8d62e9")
 	)
 	(hierarchical_label "USB_D-"
 		(shape input)
-		(at 197.358 91.44 0)
+		(at 197.358 92.71 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -1289,7 +1485,7 @@
 	)
 	(hierarchical_label "USB_D+"
 		(shape input)
-		(at 197.358 96.52 0)
+		(at 197.358 97.79 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -1298,6 +1494,152 @@
 			(justify left)
 		)
 		(uuid "39db4979-9cc3-425f-8cee-57ef0210d774")
+	)
+	(symbol
+		(lib_id "SamacSys_Parts:PUSB3AB4Z")
+		(at 165.608 110.998 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "00fb4dba-9b7b-426d-8f0d-9209d6d2197d")
+		(property "Reference" "D1"
+			(at 169.418 126.2379 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "PUSB3AB4Z"
+			(at 169.418 128.7779 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "SON50P100X250X50-10N"
+			(at 70.688 140.208 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/PUSB3AB4.pdf"
+			(at -29.312 140.208 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "PUSB3AB4 - ESD protection for ultra high-speed interfaces"
+			(at 165.608 110.998 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Height" "0.5"
+			(at -229.312 140.208 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "771-PUSB3AB4Z"
+			(at -329.312 140.208 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Nexperia/PUSB3AB4Z?qs=sPdA%252BpIfi%2F%252BQqDUUBPFV5w%3D%3D"
+			(at -429.312 140.208 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "Nexperia"
+			(at -529.312 140.208 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "PUSB3AB4Z"
+			(at -629.312 140.208 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(pin "10"
+			(uuid "f68649df-cb6c-427b-8720-0b4e7d3b2a57")
+		)
+		(pin "3"
+			(uuid "fff5591d-99c9-4dee-b06a-6f37d3ef6acb")
+		)
+		(pin "5"
+			(uuid "0b760f38-08bf-43ae-b94e-b41818e9a0cc")
+		)
+		(pin "6"
+			(uuid "6f116b9d-3e54-4431-b866-e47bf17b92fc")
+		)
+		(pin "8"
+			(uuid "4a88794e-e77a-40c2-b012-7c7c52f46be6")
+		)
+		(pin "2"
+			(uuid "cd300fa5-c182-4f44-8710-d33159bfee5c")
+		)
+		(pin "4"
+			(uuid "ed76ec8e-d812-4314-9501-1475d0926aaf")
+		)
+		(pin "7"
+			(uuid "cbf3508f-7a50-4f53-b802-62499ba04360")
+		)
+		(pin "9"
+			(uuid "d831ae83-4943-4a19-9ee4-bfa8006cd819")
+		)
+		(pin "1"
+			(uuid "10cd66b4-483a-4877-8149-b29669b3f921")
+		)
+		(instances
+			(project "nixie_alarm_main_board"
+				(path "/a0d555d7-39a0-4a98-b831-70d97d0aa5a1/eded432e-9895-4ae7-b3d2-c757b1fd23fa"
+					(reference "D1")
+					(unit 1)
+				)
+			)
+		)
 	)
 	(symbol
 		(lib_id "power:GND")
@@ -1366,35 +1708,17 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:D_TVS")
-		(at 156.464 101.092 90)
+		(lib_id "power:GND")
+		(at 160.528 144.018 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "240907c2-8bfe-40b4-abda-3c727cf4cfb7")
-		(property "Reference" "D1"
-			(at 158.496 99.8219 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "ESD7551N2T5G"
-			(at 158.496 102.3619 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "ESD7551N2T5G"
-			(at 156.464 101.092 0)
+		(uuid "06e8e3dc-51b2-4479-89be-bcf2798e53ae")
+		(property "Reference" "#PWR057"
+			(at 160.528 150.368 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1402,8 +1726,16 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
-			(at 156.464 101.092 0)
+		(property "Value" "GND"
+			(at 160.528 148.336 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 160.528 144.018 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1411,8 +1743,17 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Bidirectional transient-voltage-suppression diode"
-			(at 156.464 101.092 0)
+		(property "Datasheet" ""
+			(at 160.528 144.018 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 160.528 144.018 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1421,15 +1762,12 @@
 			)
 		)
 		(pin "1"
-			(uuid "6788f44b-bca2-4983-a8b4-92b457756553")
-		)
-		(pin "2"
-			(uuid "812cffbf-e004-4e81-9efb-93e031012943")
+			(uuid "37976df8-5e83-40ff-9bc6-8b7c89c9a9af")
 		)
 		(instances
 			(project "nixie_alarm_main_board"
 				(path "/a0d555d7-39a0-4a98-b831-70d97d0aa5a1/eded432e-9895-4ae7-b3d2-c757b1fd23fa"
-					(reference "D1")
+					(reference "#PWR057")
 					(unit 1)
 				)
 			)
@@ -1496,76 +1834,6 @@
 			(project "nixie_alarm_main_board"
 				(path "/a0d555d7-39a0-4a98-b831-70d97d0aa5a1/eded432e-9895-4ae7-b3d2-c757b1fd23fa"
 					(reference "#PWR012")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:D_TVS")
-		(at 178.054 101.6 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "4c35afb9-585a-42eb-98c0-b1d7755cdb74")
-		(property "Reference" "D3"
-			(at 180.086 100.3299 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "ESD7551N2T5G"
-			(at 180.086 102.8699 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "ESD7551N2T5G"
-			(at 178.054 101.6 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 178.054 101.6 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Bidirectional transient-voltage-suppression diode"
-			(at 178.054 101.6 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "69bf619c-0b4c-4bd7-82e2-4af8993a3008")
-		)
-		(pin "2"
-			(uuid "95eb9808-a291-4498-a60a-6e32006e2269")
-		)
-		(instances
-			(project "nixie_alarm_main_board"
-				(path "/a0d555d7-39a0-4a98-b831-70d97d0aa5a1/eded432e-9895-4ae7-b3d2-c757b1fd23fa"
-					(reference "D3")
 					(unit 1)
 				)
 			)
@@ -1745,6 +2013,72 @@
 			(project "nixie_alarm_main_board"
 				(path "/a0d555d7-39a0-4a98-b831-70d97d0aa5a1/eded432e-9895-4ae7-b3d2-c757b1fd23fa"
 					(reference "#PWR06")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 160.528 110.236 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c891d146-7677-438c-bcdc-93600b8099f4")
+		(property "Reference" "#PWR056"
+			(at 160.528 103.886 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 160.528 104.902 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 160.528 110.236 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 160.528 110.236 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 160.528 110.236 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "cf851c30-988e-46f8-a2c4-566227f11de1")
+		)
+		(instances
+			(project "nixie_alarm_main_board"
+				(path "/a0d555d7-39a0-4a98-b831-70d97d0aa5a1/eded432e-9895-4ae7-b3d2-c757b1fd23fa"
+					(reference "#PWR056")
 					(unit 1)
 				)
 			)
@@ -2055,138 +2389,6 @@
 			(project "nixie_alarm_main_board"
 				(path "/a0d555d7-39a0-4a98-b831-70d97d0aa5a1/eded432e-9895-4ae7-b3d2-c757b1fd23fa"
 					(reference "#PWR011")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 156.464 104.14 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "ed8c43f7-5286-4feb-bec9-fd721cf042aa")
-		(property "Reference" "#PWR056"
-			(at 156.464 110.49 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 156.464 109.22 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 156.464 104.14 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 156.464 104.14 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 156.464 104.14 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "92cb356d-060e-4b56-9ef9-a8d153ebd570")
-		)
-		(instances
-			(project "nixie_alarm_main_board"
-				(path "/a0d555d7-39a0-4a98-b831-70d97d0aa5a1/eded432e-9895-4ae7-b3d2-c757b1fd23fa"
-					(reference "#PWR056")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 178.054 104.648 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "f02d3b04-88ee-4dab-9a07-c83f933cabff")
-		(property "Reference" "#PWR057"
-			(at 178.054 110.998 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 178.054 109.728 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 178.054 104.648 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 178.054 104.648 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 178.054 104.648 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "148e1b83-2397-4fe4-a089-19827c4b4004")
-		)
-		(instances
-			(project "nixie_alarm_main_board"
-				(path "/a0d555d7-39a0-4a98-b831-70d97d0aa5a1/eded432e-9895-4ae7-b3d2-c757b1fd23fa"
-					(reference "#PWR057")
 					(unit 1)
 				)
 			)
