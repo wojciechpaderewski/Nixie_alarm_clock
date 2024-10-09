@@ -2232,122 +2232,122 @@
 		)
 	)
 	(junction
-		(at 250.952 43.434)
+		(at 248.158 53.34)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "275ba5db-23da-44fb-9cae-255986f2848c")
+		(uuid "11bd69fd-cfbe-4f92-a2fe-df53d425fab8")
 	)
 	(junction
-		(at 29.718 53.34)
+		(at 26.924 63.246)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "43664746-d74f-4792-96d4-446a5adcee8c")
 	)
 	(junction
-		(at 217.424 72.39)
+		(at 214.63 82.296)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "61001df7-5c44-4da9-b230-c2dadc8ba89c")
 	)
 	(junction
-		(at 217.424 74.93)
+		(at 214.63 84.836)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "649f5796-86ac-4c2f-a960-43f042427cb1")
 	)
 	(junction
-		(at 69.85 80.518)
+		(at 67.056 90.424)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "6a4aa912-d4ab-44a5-9d08-d2d8e4427de0")
 	)
 	(junction
-		(at 230.124 73.66)
+		(at 227.33 83.566)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "6ecee902-ba14-416e-842a-22c22cc09b33")
 	)
 	(junction
-		(at 61.214 114.554)
+		(at 267.97 53.848)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "6f837d09-58b3-4092-9510-a00efa56b009")
+	)
+	(junction
+		(at 58.42 124.46)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "7a61fc09-0a98-4c93-93a2-7d029df31f23")
 	)
 	(junction
-		(at 198.628 89.916)
+		(at 195.834 99.822)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "829a3617-724d-45f5-84b0-7c6e31ff3554")
 	)
 	(junction
-		(at 154.178 53.34)
+		(at 151.384 63.246)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "8971881b-7d71-4a54-89e1-838eabfd8c1c")
 	)
 	(junction
-		(at 35.814 99.822)
+		(at 33.02 109.728)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "8b2cdedd-4dda-4ebd-b92a-dc0f9c6bec36")
 	)
 	(junction
-		(at 103.632 77.978)
+		(at 100.838 87.884)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "8daef686-b50d-44bd-a4da-bd5a34faf2ad")
 	)
 	(junction
-		(at 192.024 72.39)
+		(at 189.23 82.296)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "9bd125b2-da9b-449a-b196-392168571e52")
 	)
 	(junction
-		(at 35.814 114.554)
+		(at 33.02 124.46)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "b0b3ab48-fd1c-4b26-9708-675a633814f8")
 	)
 	(junction
-		(at 262.636 43.434)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "bcdc96cd-ffd8-4303-bf92-a04b947af852")
-	)
-	(junction
-		(at 175.006 89.916)
+		(at 172.212 99.822)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "c8831123-cdf0-4803-9c03-54df3031e4be")
 	)
 	(junction
-		(at 217.424 73.66)
+		(at 214.63 83.566)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "cbd433aa-d93a-41b2-bad7-91150b143f6d")
 	)
 	(junction
-		(at 199.136 53.34)
+		(at 196.342 63.246)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "d1ba65f9-0f21-48bd-b908-d397ba134e1c")
 	)
 	(junction
-		(at 250.952 53.34)
+		(at 248.158 63.246)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "d3f53314-d681-4b6f-a491-e1eed5095c4b")
 	)
 	(junction
-		(at 262.636 69.088)
+		(at 267.97 79.502)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "ec4c25af-8a29-4ad0-aa99-0ef6a0c27c25")
 	)
 	(wire
 		(pts
-			(xy 192.024 85.344) (xy 230.124 85.344)
+			(xy 189.23 95.25) (xy 227.33 95.25)
 		)
 		(stroke
 			(width 0)
@@ -2357,7 +2357,7 @@
 	)
 	(wire
 		(pts
-			(xy 69.85 73.406) (xy 69.85 80.518)
+			(xy 67.056 83.312) (xy 67.056 90.424)
 		)
 		(stroke
 			(width 0)
@@ -2367,7 +2367,7 @@
 	)
 	(wire
 		(pts
-			(xy 154.178 83.058) (xy 154.178 91.44)
+			(xy 151.384 92.964) (xy 151.384 101.346)
 		)
 		(stroke
 			(width 0)
@@ -2377,7 +2377,7 @@
 	)
 	(wire
 		(pts
-			(xy 32.258 99.822) (xy 35.814 99.822)
+			(xy 29.464 109.728) (xy 33.02 109.728)
 		)
 		(stroke
 			(width 0)
@@ -2387,7 +2387,7 @@
 	)
 	(wire
 		(pts
-			(xy 29.718 53.34) (xy 29.718 53.848)
+			(xy 26.924 63.246) (xy 26.924 63.754)
 		)
 		(stroke
 			(width 0)
@@ -2397,7 +2397,7 @@
 	)
 	(wire
 		(pts
-			(xy 84.836 98.806) (xy 84.836 108.712)
+			(xy 82.042 108.712) (xy 82.042 118.618)
 		)
 		(stroke
 			(width 0)
@@ -2407,7 +2407,7 @@
 	)
 	(wire
 		(pts
-			(xy 69.85 99.822) (xy 69.85 99.314)
+			(xy 67.056 109.728) (xy 67.056 109.22)
 		)
 		(stroke
 			(width 0)
@@ -2417,7 +2417,7 @@
 	)
 	(wire
 		(pts
-			(xy 217.424 73.66) (xy 230.124 73.66)
+			(xy 214.63 83.566) (xy 227.33 83.566)
 		)
 		(stroke
 			(width 0)
@@ -2427,7 +2427,7 @@
 	)
 	(wire
 		(pts
-			(xy 230.124 59.69) (xy 230.124 73.66)
+			(xy 227.33 69.596) (xy 227.33 83.566)
 		)
 		(stroke
 			(width 0)
@@ -2437,7 +2437,7 @@
 	)
 	(wire
 		(pts
-			(xy 154.178 75.438) (xy 154.178 53.34)
+			(xy 151.384 85.344) (xy 151.384 63.246)
 		)
 		(stroke
 			(width 0)
@@ -2447,7 +2447,7 @@
 	)
 	(wire
 		(pts
-			(xy 159.004 88.9) (xy 159.004 77.978)
+			(xy 156.21 98.806) (xy 156.21 87.884)
 		)
 		(stroke
 			(width 0)
@@ -2457,7 +2457,7 @@
 	)
 	(wire
 		(pts
-			(xy 262.636 69.088) (xy 262.636 65.786)
+			(xy 267.97 79.502) (xy 267.97 76.2)
 		)
 		(stroke
 			(width 0)
@@ -2467,7 +2467,7 @@
 	)
 	(wire
 		(pts
-			(xy 29.718 66.548) (xy 29.718 70.358)
+			(xy 26.924 76.454) (xy 26.924 80.264)
 		)
 		(stroke
 			(width 0)
@@ -2477,7 +2477,7 @@
 	)
 	(wire
 		(pts
-			(xy 250.952 53.34) (xy 250.952 66.04)
+			(xy 248.158 63.246) (xy 248.158 75.946)
 		)
 		(stroke
 			(width 0)
@@ -2487,7 +2487,7 @@
 	)
 	(wire
 		(pts
-			(xy 231.394 53.34) (xy 250.952 53.34)
+			(xy 228.6 63.246) (xy 248.158 63.246)
 		)
 		(stroke
 			(width 0)
@@ -2497,7 +2497,7 @@
 	)
 	(wire
 		(pts
-			(xy 175.006 70.612) (xy 175.006 65.024)
+			(xy 172.212 80.518) (xy 172.212 74.93)
 		)
 		(stroke
 			(width 0)
@@ -2507,7 +2507,7 @@
 	)
 	(wire
 		(pts
-			(xy 186.182 69.088) (xy 186.182 77.47)
+			(xy 183.388 78.994) (xy 183.388 87.376)
 		)
 		(stroke
 			(width 0)
@@ -2517,7 +2517,17 @@
 	)
 	(wire
 		(pts
-			(xy 230.124 59.69) (xy 199.136 59.69)
+			(xy 248.92 53.34) (xy 248.158 53.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "40708c7e-dfba-4c10-a677-b06554ae3e80")
+	)
+	(wire
+		(pts
+			(xy 227.33 69.596) (xy 196.342 69.596)
 		)
 		(stroke
 			(width 0)
@@ -2527,7 +2537,7 @@
 	)
 	(wire
 		(pts
-			(xy 61.214 102.362) (xy 61.468 102.362)
+			(xy 58.42 112.268) (xy 58.674 112.268)
 		)
 		(stroke
 			(width 0)
@@ -2537,7 +2547,7 @@
 	)
 	(wire
 		(pts
-			(xy 189.23 87.884) (xy 198.882 87.884)
+			(xy 186.436 97.79) (xy 196.088 97.79)
 		)
 		(stroke
 			(width 0)
@@ -2547,7 +2557,7 @@
 	)
 	(wire
 		(pts
-			(xy 72.898 43.688) (xy 69.85 43.688)
+			(xy 70.104 53.086) (xy 67.056 53.086)
 		)
 		(stroke
 			(width 0)
@@ -2557,7 +2567,7 @@
 	)
 	(wire
 		(pts
-			(xy 189.23 72.39) (xy 189.23 87.884)
+			(xy 186.436 82.296) (xy 186.436 97.79)
 		)
 		(stroke
 			(width 0)
@@ -2567,7 +2577,7 @@
 	)
 	(wire
 		(pts
-			(xy 175.006 89.916) (xy 198.628 89.916)
+			(xy 172.212 99.822) (xy 195.834 99.822)
 		)
 		(stroke
 			(width 0)
@@ -2577,7 +2587,7 @@
 	)
 	(wire
 		(pts
-			(xy 217.424 74.93) (xy 217.424 77.47)
+			(xy 214.63 84.836) (xy 214.63 87.376)
 		)
 		(stroke
 			(width 0)
@@ -2587,7 +2597,7 @@
 	)
 	(wire
 		(pts
-			(xy 61.214 99.822) (xy 69.85 99.822)
+			(xy 58.42 109.728) (xy 67.056 109.728)
 		)
 		(stroke
 			(width 0)
@@ -2597,7 +2607,7 @@
 	)
 	(wire
 		(pts
-			(xy 159.004 77.978) (xy 154.178 77.978)
+			(xy 156.21 87.884) (xy 151.384 87.884)
 		)
 		(stroke
 			(width 0)
@@ -2607,7 +2617,7 @@
 	)
 	(wire
 		(pts
-			(xy 118.618 80.518) (xy 69.85 80.518)
+			(xy 115.824 90.424) (xy 67.056 90.424)
 		)
 		(stroke
 			(width 0)
@@ -2617,7 +2627,17 @@
 	)
 	(wire
 		(pts
-			(xy 61.214 104.902) (xy 61.214 114.554)
+			(xy 267.97 53.848) (xy 267.97 58.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "53d9cb46-67b3-4167-a9f8-f4e1b326d3ef")
+	)
+	(wire
+		(pts
+			(xy 58.42 114.808) (xy 58.42 124.46)
 		)
 		(stroke
 			(width 0)
@@ -2627,7 +2647,7 @@
 	)
 	(wire
 		(pts
-			(xy 217.424 73.66) (xy 217.424 74.93)
+			(xy 214.63 83.566) (xy 214.63 84.836)
 		)
 		(stroke
 			(width 0)
@@ -2637,7 +2657,7 @@
 	)
 	(wire
 		(pts
-			(xy 198.882 87.884) (xy 198.882 89.916)
+			(xy 196.088 97.79) (xy 196.088 99.822)
 		)
 		(stroke
 			(width 0)
@@ -2647,7 +2667,7 @@
 	)
 	(wire
 		(pts
-			(xy 199.136 53.34) (xy 216.154 53.34)
+			(xy 196.342 63.246) (xy 213.36 63.246)
 		)
 		(stroke
 			(width 0)
@@ -2657,7 +2677,7 @@
 	)
 	(wire
 		(pts
-			(xy 118.618 83.058) (xy 118.618 91.44)
+			(xy 115.824 92.964) (xy 115.824 101.346)
 		)
 		(stroke
 			(width 0)
@@ -2667,7 +2687,7 @@
 	)
 	(wire
 		(pts
-			(xy 195.072 53.34) (xy 199.136 53.34)
+			(xy 192.278 63.246) (xy 196.342 63.246)
 		)
 		(stroke
 			(width 0)
@@ -2677,7 +2697,7 @@
 	)
 	(wire
 		(pts
-			(xy 29.718 53.34) (xy 154.178 53.34)
+			(xy 26.924 63.246) (xy 151.384 63.246)
 		)
 		(stroke
 			(width 0)
@@ -2687,7 +2707,7 @@
 	)
 	(wire
 		(pts
-			(xy 186.182 77.47) (xy 192.024 77.47)
+			(xy 183.388 87.376) (xy 189.23 87.376)
 		)
 		(stroke
 			(width 0)
@@ -2697,7 +2717,7 @@
 	)
 	(wire
 		(pts
-			(xy 25.4 53.34) (xy 29.718 53.34)
+			(xy 22.606 63.246) (xy 26.924 63.246)
 		)
 		(stroke
 			(width 0)
@@ -2707,7 +2727,7 @@
 	)
 	(wire
 		(pts
-			(xy 103.886 77.724) (xy 103.886 77.978)
+			(xy 101.092 87.63) (xy 101.092 87.884)
 		)
 		(stroke
 			(width 0)
@@ -2717,7 +2737,7 @@
 	)
 	(wire
 		(pts
-			(xy 103.632 77.724) (xy 103.632 77.978)
+			(xy 100.838 87.63) (xy 100.838 87.884)
 		)
 		(stroke
 			(width 0)
@@ -2727,7 +2747,7 @@
 	)
 	(wire
 		(pts
-			(xy 186.182 69.088) (xy 168.91 69.088)
+			(xy 183.388 78.994) (xy 166.116 78.994)
 		)
 		(stroke
 			(width 0)
@@ -2737,7 +2757,7 @@
 	)
 	(wire
 		(pts
-			(xy 103.886 77.978) (xy 118.618 77.978)
+			(xy 101.092 87.884) (xy 115.824 87.884)
 		)
 		(stroke
 			(width 0)
@@ -2747,7 +2767,7 @@
 	)
 	(wire
 		(pts
-			(xy 69.85 43.688) (xy 69.85 55.626)
+			(xy 67.056 53.086) (xy 67.056 65.532)
 		)
 		(stroke
 			(width 0)
@@ -2757,7 +2777,7 @@
 	)
 	(wire
 		(pts
-			(xy 250.952 73.66) (xy 250.952 89.662)
+			(xy 248.158 83.566) (xy 248.158 99.568)
 		)
 		(stroke
 			(width 0)
@@ -2767,7 +2787,7 @@
 	)
 	(wire
 		(pts
-			(xy 118.618 65.024) (xy 118.618 75.438)
+			(xy 115.824 74.93) (xy 115.824 85.344)
 		)
 		(stroke
 			(width 0)
@@ -2777,7 +2797,7 @@
 	)
 	(wire
 		(pts
-			(xy 262.636 43.434) (xy 262.636 48.006)
+			(xy 267.97 53.34) (xy 267.97 53.848)
 		)
 		(stroke
 			(width 0)
@@ -2787,7 +2807,7 @@
 	)
 	(wire
 		(pts
-			(xy 69.85 80.518) (xy 69.85 81.534)
+			(xy 67.056 90.424) (xy 67.056 91.44)
 		)
 		(stroke
 			(width 0)
@@ -2797,7 +2817,7 @@
 	)
 	(wire
 		(pts
-			(xy 262.636 69.088) (xy 272.034 69.088)
+			(xy 267.97 79.502) (xy 277.368 79.502)
 		)
 		(stroke
 			(width 0)
@@ -2807,7 +2827,7 @@
 	)
 	(wire
 		(pts
-			(xy 154.178 53.34) (xy 174.752 53.34)
+			(xy 151.384 63.246) (xy 171.958 63.246)
 		)
 		(stroke
 			(width 0)
@@ -2817,7 +2837,7 @@
 	)
 	(wire
 		(pts
-			(xy 274.574 43.434) (xy 262.636 43.434)
+			(xy 279.908 53.848) (xy 267.97 53.848)
 		)
 		(stroke
 			(width 0)
@@ -2827,17 +2847,7 @@
 	)
 	(wire
 		(pts
-			(xy 250.952 43.434) (xy 262.636 43.434)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "98a9887a-d5dd-493f-bf6d-d5ed4402db2c")
-	)
-	(wire
-		(pts
-			(xy 217.424 69.85) (xy 217.424 72.39)
+			(xy 214.63 79.756) (xy 214.63 82.296)
 		)
 		(stroke
 			(width 0)
@@ -2847,7 +2857,7 @@
 	)
 	(wire
 		(pts
-			(xy 175.006 106.172) (xy 175.006 107.442)
+			(xy 172.212 116.078) (xy 172.212 117.348)
 		)
 		(stroke
 			(width 0)
@@ -2857,7 +2867,7 @@
 	)
 	(wire
 		(pts
-			(xy 192.024 69.85) (xy 192.024 72.39)
+			(xy 189.23 79.756) (xy 189.23 82.296)
 		)
 		(stroke
 			(width 0)
@@ -2867,7 +2877,7 @@
 	)
 	(wire
 		(pts
-			(xy 35.814 114.3) (xy 35.814 104.902)
+			(xy 33.02 124.206) (xy 33.02 114.808)
 		)
 		(stroke
 			(width 0)
@@ -2877,7 +2887,7 @@
 	)
 	(wire
 		(pts
-			(xy 175.006 89.916) (xy 175.006 88.392)
+			(xy 172.212 99.822) (xy 172.212 98.298)
 		)
 		(stroke
 			(width 0)
@@ -2887,7 +2897,7 @@
 	)
 	(wire
 		(pts
-			(xy 26.67 114.554) (xy 35.814 114.554)
+			(xy 23.876 124.46) (xy 33.02 124.46)
 		)
 		(stroke
 			(width 0)
@@ -2897,7 +2907,7 @@
 	)
 	(wire
 		(pts
-			(xy 192.024 72.39) (xy 192.024 74.93)
+			(xy 189.23 82.296) (xy 189.23 84.836)
 		)
 		(stroke
 			(width 0)
@@ -2907,7 +2917,7 @@
 	)
 	(wire
 		(pts
-			(xy 168.91 69.088) (xy 168.91 80.518)
+			(xy 166.116 78.994) (xy 166.116 90.424)
 		)
 		(stroke
 			(width 0)
@@ -2917,7 +2927,17 @@
 	)
 	(wire
 		(pts
-			(xy 72.898 43.688) (xy 72.898 43.434)
+			(xy 266.7 53.34) (xy 267.97 53.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bc41576b-ce59-4294-98f6-e010edec35af")
+	)
+	(wire
+		(pts
+			(xy 70.104 53.086) (xy 70.104 53.34)
 		)
 		(stroke
 			(width 0)
@@ -2927,7 +2947,7 @@
 	)
 	(wire
 		(pts
-			(xy 118.618 65.024) (xy 175.006 65.024)
+			(xy 115.824 74.93) (xy 172.212 74.93)
 		)
 		(stroke
 			(width 0)
@@ -2937,7 +2957,7 @@
 	)
 	(wire
 		(pts
-			(xy 35.814 98.806) (xy 35.814 99.822)
+			(xy 33.02 108.712) (xy 33.02 109.728)
 		)
 		(stroke
 			(width 0)
@@ -2947,7 +2967,7 @@
 	)
 	(wire
 		(pts
-			(xy 36.068 114.554) (xy 36.068 114.3)
+			(xy 33.274 124.46) (xy 33.274 124.206)
 		)
 		(stroke
 			(width 0)
@@ -2957,7 +2977,7 @@
 	)
 	(wire
 		(pts
-			(xy 84.836 77.978) (xy 103.632 77.978)
+			(xy 82.042 87.884) (xy 100.838 87.884)
 		)
 		(stroke
 			(width 0)
@@ -2967,7 +2987,7 @@
 	)
 	(wire
 		(pts
-			(xy 103.886 77.724) (xy 103.632 77.724)
+			(xy 101.092 87.63) (xy 100.838 87.63)
 		)
 		(stroke
 			(width 0)
@@ -2977,7 +2997,7 @@
 	)
 	(wire
 		(pts
-			(xy 262.636 71.882) (xy 262.636 69.088)
+			(xy 267.97 82.296) (xy 267.97 79.502)
 		)
 		(stroke
 			(width 0)
@@ -2987,7 +3007,7 @@
 	)
 	(wire
 		(pts
-			(xy 192.024 80.01) (xy 192.024 85.344)
+			(xy 189.23 89.916) (xy 189.23 95.25)
 		)
 		(stroke
 			(width 0)
@@ -2997,7 +3017,7 @@
 	)
 	(wire
 		(pts
-			(xy 61.214 114.554) (xy 68.58 114.554)
+			(xy 58.42 124.46) (xy 65.786 124.46)
 		)
 		(stroke
 			(width 0)
@@ -3007,7 +3027,7 @@
 	)
 	(wire
 		(pts
-			(xy 154.178 80.518) (xy 168.91 80.518)
+			(xy 151.384 90.424) (xy 166.116 90.424)
 		)
 		(stroke
 			(width 0)
@@ -3017,7 +3037,7 @@
 	)
 	(wire
 		(pts
-			(xy 36.068 114.3) (xy 35.814 114.3)
+			(xy 33.274 124.206) (xy 33.02 124.206)
 		)
 		(stroke
 			(width 0)
@@ -3027,7 +3047,7 @@
 	)
 	(wire
 		(pts
-			(xy 84.836 77.978) (xy 84.836 86.106)
+			(xy 82.042 87.884) (xy 82.042 96.012)
 		)
 		(stroke
 			(width 0)
@@ -3037,7 +3057,7 @@
 	)
 	(wire
 		(pts
-			(xy 217.424 72.39) (xy 217.424 73.66)
+			(xy 214.63 82.296) (xy 214.63 83.566)
 		)
 		(stroke
 			(width 0)
@@ -3047,7 +3067,7 @@
 	)
 	(wire
 		(pts
-			(xy 175.006 93.472) (xy 175.006 89.916)
+			(xy 172.212 103.378) (xy 172.212 99.822)
 		)
 		(stroke
 			(width 0)
@@ -3057,7 +3077,7 @@
 	)
 	(wire
 		(pts
-			(xy 192.024 72.39) (xy 189.23 72.39)
+			(xy 189.23 82.296) (xy 186.436 82.296)
 		)
 		(stroke
 			(width 0)
@@ -3067,7 +3087,7 @@
 	)
 	(wire
 		(pts
-			(xy 198.882 89.916) (xy 198.628 89.916)
+			(xy 196.088 99.822) (xy 195.834 99.822)
 		)
 		(stroke
 			(width 0)
@@ -3077,7 +3097,7 @@
 	)
 	(wire
 		(pts
-			(xy 72.898 43.434) (xy 250.952 43.434)
+			(xy 70.104 53.34) (xy 248.158 53.34)
 		)
 		(stroke
 			(width 0)
@@ -3087,7 +3107,7 @@
 	)
 	(wire
 		(pts
-			(xy 199.136 59.69) (xy 199.136 53.34)
+			(xy 196.342 69.596) (xy 196.342 63.246)
 		)
 		(stroke
 			(width 0)
@@ -3097,7 +3117,7 @@
 	)
 	(wire
 		(pts
-			(xy 35.814 114.554) (xy 36.068 114.554)
+			(xy 33.02 124.46) (xy 33.274 124.46)
 		)
 		(stroke
 			(width 0)
@@ -3107,7 +3127,7 @@
 	)
 	(wire
 		(pts
-			(xy 230.124 73.66) (xy 230.124 85.344)
+			(xy 227.33 83.566) (xy 227.33 95.25)
 		)
 		(stroke
 			(width 0)
@@ -3117,7 +3137,7 @@
 	)
 	(wire
 		(pts
-			(xy 250.952 43.434) (xy 250.952 53.34)
+			(xy 248.158 53.34) (xy 248.158 63.246)
 		)
 		(stroke
 			(width 0)
@@ -3127,7 +3147,7 @@
 	)
 	(text "horizontal\nlen. 12.5mm\ndiamiter: 10mm"
 		(exclude_from_sim no)
-		(at 234.95 73.66 0)
+		(at 232.156 83.566 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3138,7 +3158,7 @@
 	)
 	(global_label "+3.3V"
 		(shape input)
-		(at 32.258 99.822 180)
+		(at 29.464 109.728 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3148,7 +3168,7 @@
 		)
 		(uuid "187a370c-abcb-4288-98fb-d525582233bc")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 23.588 99.822 0)
+			(at 20.794 109.728 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3160,7 +3180,7 @@
 	)
 	(global_label "+3.3V"
 		(shape input)
-		(at 61.214 132.334 270)
+		(at 58.42 142.24 270)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3170,7 +3190,7 @@
 		)
 		(uuid "d2a35520-ba6a-4a57-a637-8d144328ef18")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 61.214 141.004 90)
+			(at 58.42 150.91 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3182,7 +3202,7 @@
 	)
 	(global_label "+3.3V"
 		(shape input)
-		(at 35.814 132.334 270)
+		(at 33.02 142.24 270)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3192,7 +3212,7 @@
 		)
 		(uuid "e88e72bf-72a7-4561-86a9-2797003ae9d4")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 35.814 141.004 90)
+			(at 33.02 150.91 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3204,7 +3224,7 @@
 	)
 	(hierarchical_label "HV"
 		(shape input)
-		(at 274.574 43.434 0)
+		(at 279.908 53.848 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3216,7 +3236,7 @@
 	)
 	(hierarchical_label "DPOT_SCL"
 		(shape input)
-		(at 26.67 114.554 180)
+		(at 23.876 124.46 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3228,7 +3248,7 @@
 	)
 	(hierarchical_label "DPOT_SDA"
 		(shape input)
-		(at 68.58 114.554 0)
+		(at 65.786 124.46 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3240,7 +3260,7 @@
 	)
 	(hierarchical_label "+12V"
 		(shape input)
-		(at 25.4 53.34 180)
+		(at 22.606 63.246 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3252,7 +3272,7 @@
 	)
 	(hierarchical_label "HV_FB"
 		(shape input)
-		(at 272.034 69.088 0)
+		(at 277.368 79.502 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3263,8 +3283,128 @@
 		(uuid "debb5844-04b6-4ec8-bd41-4b3477575e06")
 	)
 	(symbol
+		(lib_id "SamacSys_Parts:CRCW04022K74FKED")
+		(at 248.92 53.34 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "1e271f93-c6e7-45ad-982f-ceb2eda3824e")
+		(property "Reference" "R5"
+			(at 257.81 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "0Ω"
+			(at 257.81 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
+			(at 262.89 149.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.vishay.com/docs/20035/dcrcwe3.pdf"
+			(at 262.89 249.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "CRCW0402 Resistor T/R 0.063W,1%,2K74 Vishay CRCW Series Thick Film Surface Mount Resistor 0402 Case 2.74k?? ??1% 0.063W ??100ppm/??C"
+			(at 248.92 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Height" "0.4"
+			(at 262.89 449.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "71-CRCW0402-2.74K-E3"
+			(at 262.89 549.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Vishay-Dale/CRCW04022K74FKED?qs=hD42E%2F8yzjqhiq0MwGcz5A%3D%3D"
+			(at 262.89 649.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "Vishay"
+			(at 262.89 749.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "CRCW04022K74FKED"
+			(at 262.89 849.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "e9c8cbfd-4f47-4dfc-a793-8cd02c0e627e")
+		)
+		(pin "1"
+			(uuid "5c3b757c-d8fb-43cc-a091-da8b75b8e636")
+		)
+		(instances
+			(project "nixie_alarm_main_board"
+				(path "/a0d555d7-39a0-4a98-b831-70d97d0aa5a1/01ca46d9-e95c-45f3-8c2d-e16b8652cb7d"
+					(reference "R5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
-		(at 35.814 86.106 180)
+		(at 33.02 96.012 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3273,7 +3413,7 @@
 		(fields_autoplaced yes)
 		(uuid "235e5418-bb2a-4d69-8a35-850f37b1005e")
 		(property "Reference" "#PWR043"
-			(at 35.814 79.756 0)
+			(at 33.02 89.662 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3282,7 +3422,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 35.814 81.534 0)
+			(at 33.02 91.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3290,7 +3430,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 35.814 86.106 0)
+			(at 33.02 96.012 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3299,7 +3439,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 35.814 86.106 0)
+			(at 33.02 96.012 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3308,7 +3448,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 35.814 86.106 0)
+			(at 33.02 96.012 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3330,7 +3470,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 84.836 108.712 0)
+		(at 82.042 118.618 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3339,7 +3479,7 @@
 		(fields_autoplaced yes)
 		(uuid "256af22f-9f2f-48b5-9dbf-28c16f10f4e6")
 		(property "Reference" "#PWR022"
-			(at 84.836 115.062 0)
+			(at 82.042 124.968 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3348,7 +3488,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 84.836 113.792 0)
+			(at 82.042 123.698 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3356,7 +3496,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 84.836 108.712 0)
+			(at 82.042 118.618 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3365,7 +3505,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 84.836 108.712 0)
+			(at 82.042 118.618 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3374,7 +3514,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 84.836 108.712 0)
+			(at 82.042 118.618 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3396,7 +3536,7 @@
 	)
 	(symbol
 		(lib_id "SamacSys_Parts:GRM033R71E101KA01J")
-		(at 103.632 90.678 90)
+		(at 100.838 100.584 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3404,7 +3544,7 @@
 		(dnp no)
 		(uuid "26d9cd56-67e1-4e1e-b853-8bc7fcb0a7dd")
 		(property "Reference" "C12"
-			(at 107.188 83.058 90)
+			(at 104.394 92.964 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3413,7 +3553,7 @@
 			)
 		)
 		(property "Value" "220pF 50V"
-			(at 107.188 85.598 90)
+			(at 104.394 95.504 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3422,7 +3562,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
-			(at 199.822 81.788 0)
+			(at 197.028 91.694 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3432,7 +3572,7 @@
 			)
 		)
 		(property "Datasheet" "https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM033R71E101KA01-01A.pdf"
-			(at 299.822 81.788 0)
+			(at 297.028 91.694 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3442,7 +3582,7 @@
 			)
 		)
 		(property "Description" "Multilayer Ceramic Capacitors MLCC - SMD/SMT 100pF 25 volts 10%"
-			(at 103.632 90.678 0)
+			(at 100.838 100.584 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3451,7 +3591,7 @@
 			)
 		)
 		(property "Height" "0.5"
-			(at 499.822 81.788 0)
+			(at 497.028 91.694 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3461,7 +3601,7 @@
 			)
 		)
 		(property "Mouser Part Number" "81-GRM033R71E101KA1J"
-			(at 599.822 81.788 0)
+			(at 597.028 91.694 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3471,7 +3611,7 @@
 			)
 		)
 		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Murata-Electronics/GRM033R71E101KA01J?qs=563MOeNa05Lmru4oTW10Jw%3D%3D"
-			(at 699.822 81.788 0)
+			(at 697.028 91.694 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3481,7 +3621,7 @@
 			)
 		)
 		(property "Manufacturer_Name" "Murata Electronics"
-			(at 799.822 81.788 0)
+			(at 797.028 91.694 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3491,7 +3631,7 @@
 			)
 		)
 		(property "Manufacturer_Part_Number" "GRM033R71E101KA01J"
-			(at 899.822 81.788 0)
+			(at 897.028 91.694 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3517,7 +3657,7 @@
 	)
 	(symbol
 		(lib_id "SamacSys_Parts:74437529203331")
-		(at 174.752 53.34 0)
+		(at 171.958 63.246 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3526,7 +3666,7 @@
 		(fields_autoplaced yes)
 		(uuid "2e89afd1-44de-41de-a999-4e7a46440a8c")
 		(property "Reference" "L2"
-			(at 184.912 46.99 0)
+			(at 182.118 56.896 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3534,7 +3674,7 @@
 			)
 		)
 		(property "Value" "180uH 0.9A 6.3mΩ"
-			(at 184.912 49.53 0)
+			(at 182.118 59.436 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3542,7 +3682,7 @@
 			)
 		)
 		(property "Footprint" "Inductor_SMD:L_12x12mm_H6mm"
-			(at 191.262 149.53 0)
+			(at 188.468 159.436 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3552,7 +3692,7 @@
 			)
 		)
 		(property "Datasheet" "https://katalog.we-online.de/pbs/datasheet/74437529203331.pdf"
-			(at 191.262 249.53 0)
+			(at 188.468 259.436 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3562,7 +3702,7 @@
 			)
 		)
 		(property "Description" "WURTH ELEKTRONIK - 74437529203331 - INDUCTOR, 330UH, 6.1A, 20%, SHIELDED"
-			(at 174.752 53.34 0)
+			(at 171.958 63.246 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3571,7 +3711,7 @@
 			)
 		)
 		(property "Height" "20.5"
-			(at 191.262 449.53 0)
+			(at 188.468 459.436 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3581,7 +3721,7 @@
 			)
 		)
 		(property "Mouser Part Number" "710-74437529203331"
-			(at 191.262 549.53 0)
+			(at 188.468 559.436 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3591,7 +3731,7 @@
 			)
 		)
 		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Wurth-Elektronik/74437529203331?qs=f9yNj16SXrJKb%252BtIC2CsHA%3D%3D"
-			(at 191.262 649.53 0)
+			(at 188.468 659.436 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3601,7 +3741,7 @@
 			)
 		)
 		(property "Manufacturer_Name" "Wurth Elektronik"
-			(at 191.262 749.53 0)
+			(at 188.468 759.436 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3611,7 +3751,7 @@
 			)
 		)
 		(property "Manufacturer_Part_Number" "74437529203331"
-			(at 191.262 849.53 0)
+			(at 188.468 859.436 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3637,7 +3777,7 @@
 	)
 	(symbol
 		(lib_id "SamacSys_Parts:ERJ-UP6D5101V")
-		(at 61.214 114.554 270)
+		(at 58.42 124.46 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3646,7 +3786,7 @@
 		(fields_autoplaced yes)
 		(uuid "4c556242-f96a-40eb-882e-5ae3ddf1254b")
 		(property "Reference" "R43"
-			(at 63.5 122.1739 90)
+			(at 60.706 132.0799 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3655,7 +3795,7 @@
 			)
 		)
 		(property "Value" "5.1kΩ"
-			(at 63.5 124.7139 90)
+			(at 60.706 134.6199 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3664,7 +3804,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
-			(at -34.976 128.524 0)
+			(at -37.77 138.43 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3674,7 +3814,7 @@
 			)
 		)
 		(property "Datasheet" "https://industrial.panasonic.com/cdbs/www-data/pdf/RDP0000/AOA0000C337.pdf"
-			(at -134.976 128.524 0)
+			(at -137.77 138.43 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3684,7 +3824,7 @@
 			)
 		)
 		(property "Description" "Anti-Sulfurated Thick Film Chip Resistors/ Anti-Surge Type, Power Rating (W): 0.5, Chip Size (LxW(EIA)) (mm): 2.0 x 1.25 (EIA:0805), Resistance Values (?): 5100, Resistance Tolerance (%): 0.5, T.C.R (?102/K): ?100"
-			(at 61.214 114.554 0)
+			(at 58.42 124.46 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3693,7 +3833,7 @@
 			)
 		)
 		(property "Height" "0.7"
-			(at -334.976 128.524 0)
+			(at -337.77 138.43 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3703,7 +3843,7 @@
 			)
 		)
 		(property "Mouser Part Number" "667-ERJ-UP6D5101V"
-			(at -434.976 128.524 0)
+			(at -437.77 138.43 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3713,7 +3853,7 @@
 			)
 		)
 		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Panasonic/ERJ-UP6D5101V?qs=ZcfC38r4Pouz7%2FLHthUDHQ%3D%3D"
-			(at -534.976 128.524 0)
+			(at -537.77 138.43 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3723,7 +3863,7 @@
 			)
 		)
 		(property "Manufacturer_Name" "Panasonic"
-			(at -634.976 128.524 0)
+			(at -637.77 138.43 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3733,7 +3873,7 @@
 			)
 		)
 		(property "Manufacturer_Part_Number" "ERJ-UP6D5101V"
-			(at -734.976 128.524 0)
+			(at -737.77 138.43 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3759,7 +3899,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 61.468 102.362 90)
+		(at 58.674 112.268 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3768,7 +3908,7 @@
 		(fields_autoplaced yes)
 		(uuid "5149eb8a-e3ae-4ee2-afad-af71e4ba21a1")
 		(property "Reference" "#PWR024"
-			(at 67.818 102.362 0)
+			(at 65.024 112.268 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3777,7 +3917,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 64.77 102.3619 90)
+			(at 61.976 112.2679 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3786,7 +3926,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 61.468 102.362 0)
+			(at 58.674 112.268 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3795,7 +3935,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 61.468 102.362 0)
+			(at 58.674 112.268 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3804,7 +3944,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 61.468 102.362 0)
+			(at 58.674 112.268 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3826,7 +3966,7 @@
 	)
 	(symbol
 		(lib_id "SamacSys_Parts:CRCW04022K74FKED")
-		(at 103.632 90.678 270)
+		(at 100.838 100.584 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3835,7 +3975,7 @@
 		(fields_autoplaced yes)
 		(uuid "527216bd-1230-4cc6-bc78-babb2fe51fcb")
 		(property "Reference" "R10"
-			(at 105.918 98.2979 90)
+			(at 103.124 108.2039 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3844,7 +3984,7 @@
 			)
 		)
 		(property "Value" "1MΩ"
-			(at 105.918 100.8379 90)
+			(at 103.124 110.7439 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3853,7 +3993,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder"
-			(at 7.442 104.648 0)
+			(at 4.648 114.554 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3863,7 +4003,7 @@
 			)
 		)
 		(property "Datasheet" "http://www.vishay.com/docs/20035/dcrcwe3.pdf"
-			(at -92.558 104.648 0)
+			(at -95.352 114.554 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3873,7 +4013,7 @@
 			)
 		)
 		(property "Description" "CRCW0402 Resistor T/R 0.063W,1%,2K74 Vishay CRCW Series Thick Film Surface Mount Resistor 0402 Case 2.74k?? ??1% 0.063W ??100ppm/??C"
-			(at 103.632 90.678 0)
+			(at 100.838 100.584 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3882,7 +4022,7 @@
 			)
 		)
 		(property "Height" "0.4"
-			(at -292.558 104.648 0)
+			(at -295.352 114.554 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3892,7 +4032,7 @@
 			)
 		)
 		(property "Mouser Part Number" "71-CRCW0402-2.74K-E3"
-			(at -392.558 104.648 0)
+			(at -395.352 114.554 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3902,7 +4042,7 @@
 			)
 		)
 		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Vishay-Dale/CRCW04022K74FKED?qs=hD42E%2F8yzjqhiq0MwGcz5A%3D%3D"
-			(at -492.558 104.648 0)
+			(at -495.352 114.554 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3912,7 +4052,7 @@
 			)
 		)
 		(property "Manufacturer_Name" "Vishay"
-			(at -592.558 104.648 0)
+			(at -595.352 114.554 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3922,7 +4062,7 @@
 			)
 		)
 		(property "Manufacturer_Part_Number" "CRCW04022K74FKED"
-			(at -692.558 104.648 0)
+			(at -695.352 114.554 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3948,7 +4088,7 @@
 	)
 	(symbol
 		(lib_id "SamacSys_Parts:ES1G")
-		(at 231.394 53.34 180)
+		(at 228.6 63.246 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3957,7 +4097,7 @@
 		(fields_autoplaced yes)
 		(uuid "52a596a6-3e5d-4a59-a4d3-9c74c2ce5644")
 		(property "Reference" "D2"
-			(at 223.774 45.72 0)
+			(at 220.98 55.626 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3965,7 +4105,7 @@
 			)
 		)
 		(property "Value" "ES1G"
-			(at 223.774 48.26 0)
+			(at 220.98 58.166 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3973,7 +4113,7 @@
 			)
 		)
 		(property "Footprint" "DIOM5227X260N"
-			(at 219.964 -44.12 0)
+			(at 217.17 -34.214 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3983,7 +4123,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.onsemi.com/pdf/datasheet/es1j-d.pdf"
-			(at 219.964 -144.12 0)
+			(at 217.17 -134.214 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3993,7 +4133,7 @@
 			)
 		)
 		(property "Description" "Rectifiers 1.0 A Ultra Fast Recovery Rect"
-			(at 231.394 53.34 0)
+			(at 228.6 63.246 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4002,7 +4142,7 @@
 			)
 		)
 		(property "Height" "2.6"
-			(at 219.964 -344.12 0)
+			(at 217.17 -334.214 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4012,7 +4152,7 @@
 			)
 		)
 		(property "Mouser Part Number" "512-ES1G"
-			(at 219.964 -444.12 0)
+			(at 217.17 -434.214 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4022,7 +4162,7 @@
 			)
 		)
 		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/onsemi-Fairchild/ES1G?qs=ZaZfTJZxipjU7h0zd5PGAw%3D%3D"
-			(at 219.964 -544.12 0)
+			(at 217.17 -534.214 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4032,7 +4172,7 @@
 			)
 		)
 		(property "Manufacturer_Name" "onsemi"
-			(at 219.964 -644.12 0)
+			(at 217.17 -634.214 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4042,7 +4182,7 @@
 			)
 		)
 		(property "Manufacturer_Part_Number" "ES1G"
-			(at 219.964 -744.12 0)
+			(at 217.17 -734.214 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4068,7 +4208,7 @@
 	)
 	(symbol
 		(lib_id "Device:C_Polarized")
-		(at 250.952 69.85 0)
+		(at 248.158 79.756 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4076,7 +4216,7 @@
 		(dnp no)
 		(uuid "5acca06d-d3db-475f-bec2-813fe125c500")
 		(property "Reference" "C2"
-			(at 234.95 66.548 0)
+			(at 232.156 76.454 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4085,7 +4225,7 @@
 			)
 		)
 		(property "Value" "12uF 250V"
-			(at 234.95 69.088 0)
+			(at 232.156 78.994 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4094,7 +4234,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_THT:CP_Radial_D10.0mm_P5.00mm"
-			(at 251.9172 73.66 0)
+			(at 249.1232 83.566 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4103,7 +4243,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 250.952 69.85 0)
+			(at 248.158 79.756 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4112,7 +4252,7 @@
 			)
 		)
 		(property "Description" "Polarized capacitor"
-			(at 250.952 69.85 0)
+			(at 248.158 79.756 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4137,7 +4277,7 @@
 	)
 	(symbol
 		(lib_id "SamacSys_Parts:MCP4018T-502E_LT")
-		(at 35.814 99.822 0)
+		(at 33.02 109.728 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4145,7 +4285,7 @@
 		(dnp no)
 		(uuid "6d3c81b4-0715-438f-a92e-ed5c6b82259e")
 		(property "Reference" "IC8"
-			(at 48.514 91.694 0)
+			(at 45.72 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4153,7 +4293,7 @@
 			)
 		)
 		(property "Value" "MCP4018T-502E_LT"
-			(at 48.514 94.234 0)
+			(at 45.72 104.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4161,7 +4301,7 @@
 			)
 		)
 		(property "Footprint" "SOT65P210X110-6N"
-			(at 57.404 194.742 0)
+			(at 54.61 204.648 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4171,7 +4311,7 @@
 			)
 		)
 		(property "Datasheet" "https://datasheet.datasheetarchive.com/originals/distributors/Datasheets-DGA14/624353.pdf"
-			(at 57.404 294.742 0)
+			(at 54.61 304.648 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4181,7 +4321,7 @@
 			)
 		)
 		(property "Description" "5kΩ 7-bit"
-			(at 48.768 108.966 0)
+			(at 45.974 118.872 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4189,7 +4329,7 @@
 			)
 		)
 		(property "Height" "1.1"
-			(at 57.404 494.742 0)
+			(at 54.61 504.648 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4199,7 +4339,7 @@
 			)
 		)
 		(property "Mouser Part Number" "579-MCP4018T502ELT"
-			(at 57.404 594.742 0)
+			(at 54.61 604.648 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4209,7 +4349,7 @@
 			)
 		)
 		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Microchip-Technology/MCP4018T-502E-LT?qs=b4vKS93X7SzuTyLLpFMzBg%3D%3D"
-			(at 57.404 694.742 0)
+			(at 54.61 704.648 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4219,7 +4359,7 @@
 			)
 		)
 		(property "Manufacturer_Name" "Microchip"
-			(at 57.404 794.742 0)
+			(at 54.61 804.648 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4229,7 +4369,7 @@
 			)
 		)
 		(property "Manufacturer_Part_Number" "MCP4018T-502E/LT"
-			(at 57.404 894.742 0)
+			(at 54.61 904.648 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4267,7 +4407,7 @@
 	)
 	(symbol
 		(lib_id "SamacSys_Parts:CRCW04022K74FKED")
-		(at 262.636 71.882 270)
+		(at 267.97 82.296 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4276,7 +4416,7 @@
 		(fields_autoplaced yes)
 		(uuid "6e1c8cba-41c3-4f38-b0ab-23b14b5591cd")
 		(property "Reference" "R16"
-			(at 265.176 79.5019 90)
+			(at 270.51 89.9159 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4285,7 +4425,7 @@
 			)
 		)
 		(property "Value" "14.3kΩ"
-			(at 265.176 82.0419 90)
+			(at 270.51 92.4559 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4294,7 +4434,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
-			(at 166.446 85.852 0)
+			(at 171.78 96.266 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4304,7 +4444,7 @@
 			)
 		)
 		(property "Datasheet" "http://www.vishay.com/docs/20035/dcrcwe3.pdf"
-			(at 66.446 85.852 0)
+			(at 71.78 96.266 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4314,7 +4454,7 @@
 			)
 		)
 		(property "Description" "CRCW0402 Resistor T/R 0.063W,1%,2K74 Vishay CRCW Series Thick Film Surface Mount Resistor 0402 Case 2.74k?? ??1% 0.063W ??100ppm/??C"
-			(at 262.636 71.882 0)
+			(at 267.97 82.296 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4323,7 +4463,7 @@
 			)
 		)
 		(property "Height" "0.4"
-			(at -133.554 85.852 0)
+			(at -128.22 96.266 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4333,7 +4473,7 @@
 			)
 		)
 		(property "Mouser Part Number" "71-CRCW0402-2.74K-E3"
-			(at -233.554 85.852 0)
+			(at -228.22 96.266 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4343,7 +4483,7 @@
 			)
 		)
 		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Vishay-Dale/CRCW04022K74FKED?qs=hD42E%2F8yzjqhiq0MwGcz5A%3D%3D"
-			(at -333.554 85.852 0)
+			(at -328.22 96.266 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4353,7 +4493,7 @@
 			)
 		)
 		(property "Manufacturer_Name" "Vishay"
-			(at -433.554 85.852 0)
+			(at -428.22 96.266 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4363,7 +4503,7 @@
 			)
 		)
 		(property "Manufacturer_Part_Number" "CRCW04022K74FKED"
-			(at -533.554 85.852 0)
+			(at -528.22 96.266 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4389,7 +4529,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 118.618 91.44 0)
+		(at 115.824 101.346 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4398,7 +4538,7 @@
 		(fields_autoplaced yes)
 		(uuid "74656861-96ac-4de0-af44-20e819228456")
 		(property "Reference" "#PWR018"
-			(at 118.618 97.79 0)
+			(at 115.824 107.696 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4407,7 +4547,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 118.618 96.52 0)
+			(at 115.824 106.426 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4415,7 +4555,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 118.618 91.44 0)
+			(at 115.824 101.346 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4424,7 +4564,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 118.618 91.44 0)
+			(at 115.824 101.346 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4433,7 +4573,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 118.618 91.44 0)
+			(at 115.824 101.346 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4455,7 +4595,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 262.636 89.662 0)
+		(at 267.97 100.076 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4464,7 +4604,7 @@
 		(fields_autoplaced yes)
 		(uuid "79926dba-9899-4d1d-9960-6b34466eb34c")
 		(property "Reference" "#PWR042"
-			(at 262.636 96.012 0)
+			(at 267.97 106.426 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4473,7 +4613,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 262.636 94.742 0)
+			(at 267.97 105.156 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4481,7 +4621,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 262.636 89.662 0)
+			(at 267.97 100.076 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4490,7 +4630,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 262.636 89.662 0)
+			(at 267.97 100.076 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4499,7 +4639,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 262.636 89.662 0)
+			(at 267.97 100.076 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4521,7 +4661,7 @@
 	)
 	(symbol
 		(lib_id "SamacSys_Parts:GRM033R71E101KA01J")
-		(at 175.006 106.172 90)
+		(at 172.212 116.078 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4530,7 +4670,7 @@
 		(fields_autoplaced yes)
 		(uuid "820e07b3-cbd4-4fc0-8bbf-03b998af2460")
 		(property "Reference" "C13"
-			(at 179.07 98.5519 90)
+			(at 176.276 108.4579 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4539,7 +4679,7 @@
 			)
 		)
 		(property "Value" "10pF 25V"
-			(at 179.07 101.0919 90)
+			(at 176.276 110.9979 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4548,7 +4688,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
-			(at 271.196 97.282 0)
+			(at 268.402 107.188 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4558,7 +4698,7 @@
 			)
 		)
 		(property "Datasheet" "https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM033R71E101KA01-01A.pdf"
-			(at 371.196 97.282 0)
+			(at 368.402 107.188 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4568,7 +4708,7 @@
 			)
 		)
 		(property "Description" "Multilayer Ceramic Capacitors MLCC - SMD/SMT 100pF 25 volts 10%"
-			(at 175.006 106.172 0)
+			(at 172.212 116.078 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4577,7 +4717,7 @@
 			)
 		)
 		(property "Height" "0.5"
-			(at 571.196 97.282 0)
+			(at 568.402 107.188 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4587,7 +4727,7 @@
 			)
 		)
 		(property "Mouser Part Number" "81-GRM033R71E101KA1J"
-			(at 671.196 97.282 0)
+			(at 668.402 107.188 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4597,7 +4737,7 @@
 			)
 		)
 		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Murata-Electronics/GRM033R71E101KA01J?qs=563MOeNa05Lmru4oTW10Jw%3D%3D"
-			(at 771.196 97.282 0)
+			(at 768.402 107.188 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4607,7 +4747,7 @@
 			)
 		)
 		(property "Manufacturer_Name" "Murata Electronics"
-			(at 871.196 97.282 0)
+			(at 868.402 107.188 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4617,7 +4757,7 @@
 			)
 		)
 		(property "Manufacturer_Part_Number" "GRM033R71E101KA01J"
-			(at 971.196 97.282 0)
+			(at 968.402 107.188 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4643,7 +4783,7 @@
 	)
 	(symbol
 		(lib_id "SamacSys_Parts:TPHR6503PL1,LQ")
-		(at 192.024 69.85 0)
+		(at 189.23 79.756 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4652,7 +4792,7 @@
 		(fields_autoplaced yes)
 		(uuid "8443734d-5695-4553-a133-769011ff133e")
 		(property "Reference" "Q8"
-			(at 204.724 62.738 0)
+			(at 201.93 72.644 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4660,7 +4800,7 @@
 			)
 		)
 		(property "Value" "TPH5200FNH,L1Q"
-			(at 204.724 65.278 0)
+			(at 201.93 75.184 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4668,7 +4808,7 @@
 			)
 		)
 		(property "Footprint" "TPHR6503PL1LQ"
-			(at 213.614 164.77 0)
+			(at 210.82 174.676 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4678,7 +4818,7 @@
 			)
 		)
 		(property "Datasheet" "https://toshiba.semicon-storage.com/eu/semiconductor/product/mosfets/12v-300v-mosfets/detail.TPHR6503PL1.html"
-			(at 213.614 264.77 0)
+			(at 210.82 274.676 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4688,7 +4828,7 @@
 			)
 		)
 		(property "Description" "N-Channel 30 V 150A (Tc) 960mW (Ta), 210W (Tc) Surface Mount 8-SOP Advance (5x5.75)"
-			(at 192.024 69.85 0)
+			(at 189.23 79.756 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4697,7 +4837,7 @@
 			)
 		)
 		(property "Height" "1.1"
-			(at 213.614 464.77 0)
+			(at 210.82 474.676 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4707,7 +4847,7 @@
 			)
 		)
 		(property "Mouser Part Number" "757-TPHR6503PL1LQ"
-			(at 213.614 564.77 0)
+			(at 210.82 574.676 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4717,7 +4857,7 @@
 			)
 		)
 		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Toshiba/TPHR6503PL1LQ?qs=QNEnbhJQKvYzrm%252BVKo%252BntQ%3D%3D"
-			(at 213.614 664.77 0)
+			(at 210.82 674.676 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4727,7 +4867,7 @@
 			)
 		)
 		(property "Manufacturer_Name" "Toshiba"
-			(at 213.614 764.77 0)
+			(at 210.82 774.676 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4737,7 +4877,7 @@
 			)
 		)
 		(property "Manufacturer_Part_Number" "TPHR6503PL1,LQ"
-			(at 213.614 864.77 0)
+			(at 210.82 874.676 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4784,7 +4924,7 @@
 	)
 	(symbol
 		(lib_id "SamacSys_Parts:CRCW04022K74FKED")
-		(at 69.85 55.626 270)
+		(at 67.056 65.532 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4793,7 +4933,7 @@
 		(fields_autoplaced yes)
 		(uuid "84873518-8351-4151-b568-35b3278705a0")
 		(property "Reference" "R12"
-			(at 72.136 63.2459 90)
+			(at 69.342 73.1519 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4802,7 +4942,7 @@
 			)
 		)
 		(property "Value" "2.49MΩ"
-			(at 72.136 65.7859 90)
+			(at 69.342 75.6919 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4811,7 +4951,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder"
-			(at -26.34 69.596 0)
+			(at -29.134 79.502 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4821,7 +4961,7 @@
 			)
 		)
 		(property "Datasheet" "http://www.vishay.com/docs/20035/dcrcwe3.pdf"
-			(at -126.34 69.596 0)
+			(at -129.134 79.502 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4831,7 +4971,7 @@
 			)
 		)
 		(property "Description" "CRCW0402 Resistor T/R 0.063W,1%,2K74 Vishay CRCW Series Thick Film Surface Mount Resistor 0402 Case 2.74k?? ??1% 0.063W ??100ppm/??C"
-			(at 69.85 55.626 0)
+			(at 67.056 65.532 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4840,7 +4980,7 @@
 			)
 		)
 		(property "Height" "0.4"
-			(at -326.34 69.596 0)
+			(at -329.134 79.502 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4850,7 +4990,7 @@
 			)
 		)
 		(property "Mouser Part Number" "71-CRCW0402-2.74K-E3"
-			(at -426.34 69.596 0)
+			(at -429.134 79.502 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4860,7 +5000,7 @@
 			)
 		)
 		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Vishay-Dale/CRCW04022K74FKED?qs=hD42E%2F8yzjqhiq0MwGcz5A%3D%3D"
-			(at -526.34 69.596 0)
+			(at -529.134 79.502 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4870,7 +5010,7 @@
 			)
 		)
 		(property "Manufacturer_Name" "Vishay"
-			(at -626.34 69.596 0)
+			(at -629.134 79.502 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4880,7 +5020,7 @@
 			)
 		)
 		(property "Manufacturer_Part_Number" "CRCW04022K74FKED"
-			(at -726.34 69.596 0)
+			(at -729.134 79.502 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4906,7 +5046,7 @@
 	)
 	(symbol
 		(lib_id "SamacSys_Parts:RK73H2ATTE1003F")
-		(at 159.004 88.9 270)
+		(at 156.21 98.806 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4914,7 +5054,7 @@
 		(dnp no)
 		(uuid "89164319-207b-41fc-b327-a7f8fc280967")
 		(property "Reference" "R44"
-			(at 161.544 96.774 90)
+			(at 158.75 106.68 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4923,7 +5063,7 @@
 			)
 		)
 		(property "Value" "27kΩ"
-			(at 161.544 99.314 90)
+			(at 158.75 109.22 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4932,7 +5072,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
-			(at 62.814 102.87 0)
+			(at 60.02 112.776 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4942,7 +5082,7 @@
 			)
 		)
 		(property "Datasheet" "http://www.koaspeer.com/catimages/Products/RK73H/RK73H.pdf"
-			(at -37.186 102.87 0)
+			(at -39.98 112.776 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4952,7 +5092,7 @@
 			)
 		)
 		(property "Description" "Thick Film Resistors - SMD 1/4W 100K OHM 1%"
-			(at 159.004 88.9 0)
+			(at 156.21 98.806 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4961,7 +5101,7 @@
 			)
 		)
 		(property "Height" "0.6"
-			(at -237.186 102.87 0)
+			(at -239.98 112.776 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4971,7 +5111,7 @@
 			)
 		)
 		(property "Mouser Part Number" "660-RK73H2ATTE1003F"
-			(at -337.186 102.87 0)
+			(at -339.98 112.776 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4981,7 +5121,7 @@
 			)
 		)
 		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/KOA-Speer/RK73H2ATTE1003F?qs=JXEKNMc11mPgE5iv74bcPQ%3D%3D"
-			(at -437.186 102.87 0)
+			(at -439.98 112.776 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4991,7 +5131,7 @@
 			)
 		)
 		(property "Manufacturer_Name" "KOA Speer"
-			(at -537.186 102.87 0)
+			(at -539.98 112.776 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5001,7 +5141,7 @@
 			)
 		)
 		(property "Manufacturer_Part_Number" "RK73H2ATTE1003F"
-			(at -637.186 102.87 0)
+			(at -639.98 112.776 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5027,7 +5167,7 @@
 	)
 	(symbol
 		(lib_id "SamacSys_Parts:CRCW04022K74FKED")
-		(at 69.85 81.534 270)
+		(at 67.056 91.44 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5036,7 +5176,7 @@
 		(fields_autoplaced yes)
 		(uuid "a4223e25-bb3a-42e7-9fdf-ba2106f609a4")
 		(property "Reference" "R11"
-			(at 72.39 89.1539 90)
+			(at 69.596 99.0599 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5045,7 +5185,7 @@
 			)
 		)
 		(property "Value" "14.3kΩ"
-			(at 72.39 91.6939 90)
+			(at 69.596 101.5999 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5054,7 +5194,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
-			(at -26.34 95.504 0)
+			(at -29.134 105.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5064,7 +5204,7 @@
 			)
 		)
 		(property "Datasheet" "http://www.vishay.com/docs/20035/dcrcwe3.pdf"
-			(at -126.34 95.504 0)
+			(at -129.134 105.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5074,7 +5214,7 @@
 			)
 		)
 		(property "Description" "CRCW0402 Resistor T/R 0.063W,1%,2K74 Vishay CRCW Series Thick Film Surface Mount Resistor 0402 Case 2.74k?? ??1% 0.063W ??100ppm/??C"
-			(at 69.85 81.534 0)
+			(at 67.056 91.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5083,7 +5223,7 @@
 			)
 		)
 		(property "Height" "0.4"
-			(at -326.34 95.504 0)
+			(at -329.134 105.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5093,7 +5233,7 @@
 			)
 		)
 		(property "Mouser Part Number" "71-CRCW0402-2.74K-E3"
-			(at -426.34 95.504 0)
+			(at -429.134 105.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5103,7 +5243,7 @@
 			)
 		)
 		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Vishay-Dale/CRCW04022K74FKED?qs=hD42E%2F8yzjqhiq0MwGcz5A%3D%3D"
-			(at -526.34 95.504 0)
+			(at -529.134 105.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5113,7 +5253,7 @@
 			)
 		)
 		(property "Manufacturer_Name" "Vishay"
-			(at -626.34 95.504 0)
+			(at -629.134 105.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5123,7 +5263,7 @@
 			)
 		)
 		(property "Manufacturer_Part_Number" "CRCW04022K74FKED"
-			(at -726.34 95.504 0)
+			(at -729.134 105.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5149,7 +5289,7 @@
 	)
 	(symbol
 		(lib_id "SamacSys_Parts:LM3488MM")
-		(at 118.618 75.438 0)
+		(at 115.824 85.344 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5158,7 +5298,7 @@
 		(fields_autoplaced yes)
 		(uuid "a6e1ec12-1216-46d7-9d9d-6c013dcf7d21")
 		(property "Reference" "IC1"
-			(at 136.398 67.818 0)
+			(at 133.604 77.724 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5166,7 +5306,7 @@
 			)
 		)
 		(property "Value" "LM3488MM"
-			(at 136.398 70.358 0)
+			(at 133.604 80.264 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5174,7 +5314,7 @@
 			)
 		)
 		(property "Footprint" "SOP65P490X110-8N"
-			(at 150.368 170.358 0)
+			(at 147.574 180.264 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5184,7 +5324,7 @@
 			)
 		)
 		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/lm3488.pdf"
-			(at 150.368 270.358 0)
+			(at 147.574 280.264 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5194,7 +5334,7 @@
 			)
 		)
 		(property "Description" "2.97V to 40V Wide Vin Low-Side N-Channel Controller for Switching Regulators"
-			(at 118.618 75.438 0)
+			(at 115.824 85.344 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5203,7 +5343,7 @@
 			)
 		)
 		(property "Height" "1.1"
-			(at 150.368 470.358 0)
+			(at 147.574 480.264 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5213,7 +5353,7 @@
 			)
 		)
 		(property "Mouser Part Number" "926-LM3488MM"
-			(at 150.368 570.358 0)
+			(at 147.574 580.264 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5223,7 +5363,7 @@
 			)
 		)
 		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Texas-Instruments/LM3488MM?qs=X1J7HmVL2ZF99wiIrTysxw%3D%3D"
-			(at 150.368 670.358 0)
+			(at 147.574 680.264 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5233,7 +5373,7 @@
 			)
 		)
 		(property "Manufacturer_Name" "Texas Instruments"
-			(at 150.368 770.358 0)
+			(at 147.574 780.264 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5243,7 +5383,7 @@
 			)
 		)
 		(property "Manufacturer_Part_Number" "LM3488MM"
-			(at 150.368 870.358 0)
+			(at 147.574 880.264 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5287,7 +5427,7 @@
 	)
 	(symbol
 		(lib_id "SamacSys_Parts:GRM033R71E101KA01J")
-		(at 35.814 98.806 90)
+		(at 33.02 108.712 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5295,7 +5435,7 @@
 		(dnp no)
 		(uuid "b3984130-db5d-4688-9539-c3512a605c15")
 		(property "Reference" "C16"
-			(at 22.352 89.662 90)
+			(at 19.558 99.568 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5304,7 +5444,7 @@
 			)
 		)
 		(property "Value" "100nF 25V"
-			(at 22.352 92.456 90)
+			(at 19.558 102.362 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5313,7 +5453,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
-			(at 132.004 89.916 0)
+			(at 129.21 99.822 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5323,7 +5463,7 @@
 			)
 		)
 		(property "Datasheet" "https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM033R71E101KA01-01A.pdf"
-			(at 232.004 89.916 0)
+			(at 229.21 99.822 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5333,7 +5473,7 @@
 			)
 		)
 		(property "Description" "Multilayer Ceramic Capacitors MLCC - SMD/SMT 100pF 25 volts 10%"
-			(at 35.814 98.806 0)
+			(at 33.02 108.712 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5342,7 +5482,7 @@
 			)
 		)
 		(property "Height" "0.5"
-			(at 432.004 89.916 0)
+			(at 429.21 99.822 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5352,7 +5492,7 @@
 			)
 		)
 		(property "Mouser Part Number" "81-GRM033R71E101KA1J"
-			(at 532.004 89.916 0)
+			(at 529.21 99.822 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5362,7 +5502,7 @@
 			)
 		)
 		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Murata-Electronics/GRM033R71E101KA01J?qs=563MOeNa05Lmru4oTW10Jw%3D%3D"
-			(at 632.004 89.916 0)
+			(at 629.21 99.822 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5372,7 +5512,7 @@
 			)
 		)
 		(property "Manufacturer_Name" "Murata Electronics"
-			(at 732.004 89.916 0)
+			(at 729.21 99.822 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5382,7 +5522,7 @@
 			)
 		)
 		(property "Manufacturer_Part_Number" "GRM033R71E101KA01J"
-			(at 832.004 89.916 0)
+			(at 829.21 99.822 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5408,7 +5548,7 @@
 	)
 	(symbol
 		(lib_id "SamacSys_Parts:CRCW04022K74FKED")
-		(at 262.636 48.006 270)
+		(at 267.97 58.42 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5417,7 +5557,7 @@
 		(fields_autoplaced yes)
 		(uuid "b8553e4d-71a4-41fd-bfe8-cbc4e37a7b60")
 		(property "Reference" "R15"
-			(at 264.922 55.6259 90)
+			(at 270.256 66.0399 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5426,7 +5566,7 @@
 			)
 		)
 		(property "Value" "1MΩ"
-			(at 264.922 58.1659 90)
+			(at 270.256 68.5799 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5435,7 +5575,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder"
-			(at 166.446 61.976 0)
+			(at 171.78 72.39 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5445,7 +5585,7 @@
 			)
 		)
 		(property "Datasheet" "http://www.vishay.com/docs/20035/dcrcwe3.pdf"
-			(at 66.446 61.976 0)
+			(at 71.78 72.39 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5455,7 +5595,7 @@
 			)
 		)
 		(property "Description" "CRCW0402 Resistor T/R 0.063W,1%,2K74 Vishay CRCW Series Thick Film Surface Mount Resistor 0402 Case 2.74k?? ??1% 0.063W ??100ppm/??C"
-			(at 262.636 48.006 0)
+			(at 267.97 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5464,7 +5604,7 @@
 			)
 		)
 		(property "Height" "0.4"
-			(at -133.554 61.976 0)
+			(at -128.22 72.39 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5474,7 +5614,7 @@
 			)
 		)
 		(property "Mouser Part Number" "71-CRCW0402-2.74K-E3"
-			(at -233.554 61.976 0)
+			(at -228.22 72.39 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5484,7 +5624,7 @@
 			)
 		)
 		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Vishay-Dale/CRCW04022K74FKED?qs=hD42E%2F8yzjqhiq0MwGcz5A%3D%3D"
-			(at -333.554 61.976 0)
+			(at -328.22 72.39 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5494,7 +5634,7 @@
 			)
 		)
 		(property "Manufacturer_Name" "Vishay"
-			(at -433.554 61.976 0)
+			(at -428.22 72.39 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5504,7 +5644,7 @@
 			)
 		)
 		(property "Manufacturer_Part_Number" "CRCW04022K74FKED"
-			(at -533.554 61.976 0)
+			(at -528.22 72.39 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5530,7 +5670,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 250.952 89.662 0)
+		(at 248.158 99.568 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5539,7 +5679,7 @@
 		(fields_autoplaced yes)
 		(uuid "ba4a099b-fcfa-43a3-b894-1a7d81e4fd5a")
 		(property "Reference" "#PWR027"
-			(at 250.952 96.012 0)
+			(at 248.158 105.918 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5548,7 +5688,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 250.952 94.742 0)
+			(at 248.158 104.648 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5556,7 +5696,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 250.952 89.662 0)
+			(at 248.158 99.568 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5565,7 +5705,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 250.952 89.662 0)
+			(at 248.158 99.568 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5574,7 +5714,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 250.952 89.662 0)
+			(at 248.158 99.568 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5596,7 +5736,7 @@
 	)
 	(symbol
 		(lib_id "SamacSys_Parts:ERJ-UP6D5101V")
-		(at 35.814 114.554 270)
+		(at 33.02 124.46 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5605,7 +5745,7 @@
 		(fields_autoplaced yes)
 		(uuid "bc81f7b9-af12-415a-b2ea-2b1d6f52abfc")
 		(property "Reference" "R42"
-			(at 38.1 122.1739 90)
+			(at 35.306 132.0799 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5614,7 +5754,7 @@
 			)
 		)
 		(property "Value" "5.1kΩ"
-			(at 38.1 124.7139 90)
+			(at 35.306 134.6199 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5623,7 +5763,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
-			(at -60.376 128.524 0)
+			(at -63.17 138.43 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5633,7 +5773,7 @@
 			)
 		)
 		(property "Datasheet" "https://industrial.panasonic.com/cdbs/www-data/pdf/RDP0000/AOA0000C337.pdf"
-			(at -160.376 128.524 0)
+			(at -163.17 138.43 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5643,7 +5783,7 @@
 			)
 		)
 		(property "Description" "Anti-Sulfurated Thick Film Chip Resistors/ Anti-Surge Type, Power Rating (W): 0.5, Chip Size (LxW(EIA)) (mm): 2.0 x 1.25 (EIA:0805), Resistance Values (?): 5100, Resistance Tolerance (%): 0.5, T.C.R (?102/K): ?100"
-			(at 35.814 114.554 0)
+			(at 33.02 124.46 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5652,7 +5792,7 @@
 			)
 		)
 		(property "Height" "0.7"
-			(at -360.376 128.524 0)
+			(at -363.17 138.43 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5662,7 +5802,7 @@
 			)
 		)
 		(property "Mouser Part Number" "667-ERJ-UP6D5101V"
-			(at -460.376 128.524 0)
+			(at -463.17 138.43 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5672,7 +5812,7 @@
 			)
 		)
 		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Panasonic/ERJ-UP6D5101V?qs=ZcfC38r4Pouz7%2FLHthUDHQ%3D%3D"
-			(at -560.376 128.524 0)
+			(at -563.17 138.43 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5682,7 +5822,7 @@
 			)
 		)
 		(property "Manufacturer_Name" "Panasonic"
-			(at -660.376 128.524 0)
+			(at -663.17 138.43 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5692,7 +5832,7 @@
 			)
 		)
 		(property "Manufacturer_Part_Number" "ERJ-UP6D5101V"
-			(at -760.376 128.524 0)
+			(at -763.17 138.43 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5718,7 +5858,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 103.632 108.458 0)
+		(at 100.838 118.364 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5727,7 +5867,7 @@
 		(fields_autoplaced yes)
 		(uuid "bf2f7dd2-d781-4400-94a2-07e1741d1e7a")
 		(property "Reference" "#PWR023"
-			(at 103.632 114.808 0)
+			(at 100.838 124.714 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5736,7 +5876,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 103.632 113.538 0)
+			(at 100.838 123.444 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5744,7 +5884,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 103.632 108.458 0)
+			(at 100.838 118.364 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5753,7 +5893,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 103.632 108.458 0)
+			(at 100.838 118.364 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5762,7 +5902,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 103.632 108.458 0)
+			(at 100.838 118.364 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5784,7 +5924,7 @@
 	)
 	(symbol
 		(lib_id "SamacSys_Parts:C0805C332K5RACTU")
-		(at 84.836 86.106 270)
+		(at 82.042 96.012 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5792,7 +5932,7 @@
 		(dnp no)
 		(uuid "c5756970-e180-4711-a257-8b9670471285")
 		(property "Reference" "C11"
-			(at 88.9 90.9319 90)
+			(at 86.106 100.8379 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5801,7 +5941,7 @@
 			)
 		)
 		(property "Value" "12pF 16V"
-			(at 88.9 93.4719 90)
+			(at 86.106 103.3779 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5810,7 +5950,7 @@
 			)
 		)
 		(property "Footprint" "C0805"
-			(at -11.354 94.996 0)
+			(at -14.148 104.902 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5820,7 +5960,7 @@
 			)
 		)
 		(property "Datasheet" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
-			(at -111.354 94.996 0)
+			(at -114.148 104.902 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5830,7 +5970,7 @@
 			)
 		)
 		(property "Description" "SMD Comm X7R, Ceramic, 3300 pF, 10%, 50 VDC, 125 VDC, 125C, -55C, X7R, SMD, MLCC, Temperature Stable, Class II, 2.5 % , 100 GOhms, 11 mg, 0805, 2mm, 1.25mm, 0.78mm, 0.75mm, 0.5mm, 4000, 78  Weeks, 80"
-			(at 84.836 86.106 0)
+			(at 82.042 96.012 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5839,7 +5979,7 @@
 			)
 		)
 		(property "Height" "1.1"
-			(at -311.354 94.996 0)
+			(at -314.148 104.902 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5849,7 +5989,7 @@
 			)
 		)
 		(property "Mouser Part Number" "80-C0805C332K5R"
-			(at -411.354 94.996 0)
+			(at -414.148 104.902 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5859,7 +5999,7 @@
 			)
 		)
 		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/KEMET/C0805C332K5RACTU?qs=9Ckr3kBGebPEiNRdyCmHqQ%3D%3D"
-			(at -511.354 94.996 0)
+			(at -514.148 104.902 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5869,7 +6009,7 @@
 			)
 		)
 		(property "Manufacturer_Name" "KEMET"
-			(at -611.354 94.996 0)
+			(at -614.148 104.902 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5879,7 +6019,7 @@
 			)
 		)
 		(property "Manufacturer_Part_Number" "C0805C332K5RACTU"
-			(at -711.354 94.996 0)
+			(at -714.148 104.902 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5905,7 +6045,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 154.178 91.44 0)
+		(at 151.384 101.346 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5914,7 +6054,7 @@
 		(fields_autoplaced yes)
 		(uuid "c9ac8f05-abca-4eb9-90a9-908b5da8d7ed")
 		(property "Reference" "#PWR019"
-			(at 154.178 97.79 0)
+			(at 151.384 107.696 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5923,7 +6063,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 154.178 96.52 0)
+			(at 151.384 106.426 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5931,7 +6071,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 154.178 91.44 0)
+			(at 151.384 101.346 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5940,7 +6080,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 154.178 91.44 0)
+			(at 151.384 101.346 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5949,7 +6089,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 154.178 91.44 0)
+			(at 151.384 101.346 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5971,7 +6111,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 175.006 107.442 0)
+		(at 172.212 117.348 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5980,7 +6120,7 @@
 		(fields_autoplaced yes)
 		(uuid "ca055de5-e941-4e2b-b919-1b7607ee9c27")
 		(property "Reference" "#PWR025"
-			(at 175.006 113.792 0)
+			(at 172.212 123.698 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5989,7 +6129,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 175.006 112.522 0)
+			(at 172.212 122.428 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5997,7 +6137,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 175.006 107.442 0)
+			(at 172.212 117.348 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6006,7 +6146,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 175.006 107.442 0)
+			(at 172.212 117.348 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6015,7 +6155,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 175.006 107.442 0)
+			(at 172.212 117.348 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6037,7 +6177,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 159.004 106.68 0)
+		(at 156.21 116.586 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6046,7 +6186,7 @@
 		(fields_autoplaced yes)
 		(uuid "cff2f479-3bc8-48e8-adcc-1b2f77e37bdc")
 		(property "Reference" "#PWR020"
-			(at 159.004 113.03 0)
+			(at 156.21 122.936 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6055,7 +6195,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 159.004 111.76 0)
+			(at 156.21 121.666 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6063,7 +6203,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 159.004 106.68 0)
+			(at 156.21 116.586 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6072,7 +6212,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 159.004 106.68 0)
+			(at 156.21 116.586 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6081,7 +6221,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 159.004 106.68 0)
+			(at 156.21 116.586 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6103,7 +6243,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 198.628 107.696 0)
+		(at 195.834 117.602 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6112,7 +6252,7 @@
 		(fields_autoplaced yes)
 		(uuid "db375906-002c-4914-ad60-e89e35d6f25a")
 		(property "Reference" "#PWR026"
-			(at 198.628 114.046 0)
+			(at 195.834 123.952 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6121,7 +6261,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 198.628 112.776 0)
+			(at 195.834 122.682 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6129,7 +6269,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 198.628 107.696 0)
+			(at 195.834 117.602 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6138,7 +6278,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 198.628 107.696 0)
+			(at 195.834 117.602 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6147,7 +6287,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 198.628 107.696 0)
+			(at 195.834 117.602 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6169,7 +6309,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 35.814 102.362 270)
+		(at 33.02 112.268 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6178,7 +6318,7 @@
 		(fields_autoplaced yes)
 		(uuid "def4bb19-d1aa-429b-a31c-2bfa206100d6")
 		(property "Reference" "#PWR045"
-			(at 29.464 102.362 0)
+			(at 26.67 112.268 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6187,7 +6327,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 32.512 102.3619 90)
+			(at 29.718 112.2679 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6196,7 +6336,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 35.814 102.362 0)
+			(at 33.02 112.268 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6205,7 +6345,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 35.814 102.362 0)
+			(at 33.02 112.268 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6214,7 +6354,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 35.814 102.362 0)
+			(at 33.02 112.268 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6236,7 +6376,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 29.718 70.358 0)
+		(at 26.924 80.264 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6245,7 +6385,7 @@
 		(fields_autoplaced yes)
 		(uuid "e3b089ac-9a0d-40fc-9ea3-76951edae4e3")
 		(property "Reference" "#PWR021"
-			(at 29.718 76.708 0)
+			(at 26.924 86.614 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6254,7 +6394,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 29.718 75.438 0)
+			(at 26.924 85.344 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6262,7 +6402,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 29.718 70.358 0)
+			(at 26.924 80.264 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6271,7 +6411,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 29.718 70.358 0)
+			(at 26.924 80.264 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6280,7 +6420,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 29.718 70.358 0)
+			(at 26.924 80.264 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6302,7 +6442,7 @@
 	)
 	(symbol
 		(lib_id "SamacSys_Parts:ERJ-UP6D5101V")
-		(at 198.628 89.916 270)
+		(at 195.834 99.822 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6311,7 +6451,7 @@
 		(fields_autoplaced yes)
 		(uuid "e9d1b27f-4da8-46b9-bcef-4ce7d0282a13")
 		(property "Reference" "R14"
-			(at 201.168 97.5359 90)
+			(at 198.374 107.4419 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6320,7 +6460,7 @@
 			)
 		)
 		(property "Value" "75mΩ"
-			(at 201.168 100.0759 90)
+			(at 198.374 109.9819 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6329,7 +6469,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
-			(at 102.438 103.886 0)
+			(at 99.644 113.792 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6339,7 +6479,7 @@
 			)
 		)
 		(property "Datasheet" "https://industrial.panasonic.com/cdbs/www-data/pdf/RDP0000/AOA0000C337.pdf"
-			(at 2.438 103.886 0)
+			(at -0.356 113.792 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6349,7 +6489,7 @@
 			)
 		)
 		(property "Description" "Anti-Sulfurated Thick Film Chip Resistors/ Anti-Surge Type, Power Rating (W): 0.5, Chip Size (LxW(EIA)) (mm): 2.0 x 1.25 (EIA:0805), Resistance Values (?): 5100, Resistance Tolerance (%): 0.5, T.C.R (?102/K): ?100"
-			(at 198.628 89.916 0)
+			(at 195.834 99.822 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6358,7 +6498,7 @@
 			)
 		)
 		(property "Height" "0.7"
-			(at -197.562 103.886 0)
+			(at -200.356 113.792 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6368,7 +6508,7 @@
 			)
 		)
 		(property "Mouser Part Number" "667-ERJ-UP6D5101V"
-			(at -297.562 103.886 0)
+			(at -300.356 113.792 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6378,7 +6518,7 @@
 			)
 		)
 		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Panasonic/ERJ-UP6D5101V?qs=ZcfC38r4Pouz7%2FLHthUDHQ%3D%3D"
-			(at -397.562 103.886 0)
+			(at -400.356 113.792 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6388,7 +6528,7 @@
 			)
 		)
 		(property "Manufacturer_Name" "Panasonic"
-			(at -497.562 103.886 0)
+			(at -500.356 113.792 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6398,7 +6538,7 @@
 			)
 		)
 		(property "Manufacturer_Part_Number" "ERJ-UP6D5101V"
-			(at -597.562 103.886 0)
+			(at -600.356 113.792 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6424,7 +6564,7 @@
 	)
 	(symbol
 		(lib_id "SamacSys_Parts:CRCW04022K74FKED")
-		(at 175.006 70.612 270)
+		(at 172.212 80.518 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6433,7 +6573,7 @@
 		(fields_autoplaced yes)
 		(uuid "eac96509-0388-4cc7-9bdd-7e60e848fad7")
 		(property "Reference" "R13"
-			(at 177.292 78.2319 90)
+			(at 174.498 88.1379 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6442,7 +6582,7 @@
 			)
 		)
 		(property "Value" "100Ω"
-			(at 177.292 80.7719 90)
+			(at 174.498 90.6779 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6451,7 +6591,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
-			(at 78.816 84.582 0)
+			(at 76.022 94.488 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6461,7 +6601,7 @@
 			)
 		)
 		(property "Datasheet" "http://www.vishay.com/docs/20035/dcrcwe3.pdf"
-			(at -21.184 84.582 0)
+			(at -23.978 94.488 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6471,7 +6611,7 @@
 			)
 		)
 		(property "Description" "CRCW0402 Resistor T/R 0.063W,1%,2K74 Vishay CRCW Series Thick Film Surface Mount Resistor 0402 Case 2.74k?? ??1% 0.063W ??100ppm/??C"
-			(at 175.006 70.612 0)
+			(at 172.212 80.518 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6480,7 +6620,7 @@
 			)
 		)
 		(property "Height" "0.4"
-			(at -221.184 84.582 0)
+			(at -223.978 94.488 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6490,7 +6630,7 @@
 			)
 		)
 		(property "Mouser Part Number" "71-CRCW0402-2.74K-E3"
-			(at -321.184 84.582 0)
+			(at -323.978 94.488 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6500,7 +6640,7 @@
 			)
 		)
 		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Vishay-Dale/CRCW04022K74FKED?qs=hD42E%2F8yzjqhiq0MwGcz5A%3D%3D"
-			(at -421.184 84.582 0)
+			(at -423.978 94.488 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6510,7 +6650,7 @@
 			)
 		)
 		(property "Manufacturer_Name" "Vishay"
-			(at -521.184 84.582 0)
+			(at -523.978 94.488 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6520,7 +6660,7 @@
 			)
 		)
 		(property "Manufacturer_Part_Number" "CRCW04022K74FKED"
-			(at -621.184 84.582 0)
+			(at -623.978 94.488 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6546,7 +6686,7 @@
 	)
 	(symbol
 		(lib_id "SamacSys_Parts:GRM033R71E101KA01J")
-		(at 29.718 66.548 90)
+		(at 26.924 76.454 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6555,7 +6695,7 @@
 		(fields_autoplaced yes)
 		(uuid "fb14b1a9-4690-4f94-a7cf-3efce330be7a")
 		(property "Reference" "C10"
-			(at 33.02 58.9279 90)
+			(at 30.226 68.8339 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6564,7 +6704,7 @@
 			)
 		)
 		(property "Value" "100nF 25V"
-			(at 33.02 61.4679 90)
+			(at 30.226 71.3739 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6573,7 +6713,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
-			(at 125.908 57.658 0)
+			(at 123.114 67.564 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6583,7 +6723,7 @@
 			)
 		)
 		(property "Datasheet" "https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM033R71E101KA01-01A.pdf"
-			(at 225.908 57.658 0)
+			(at 223.114 67.564 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6593,7 +6733,7 @@
 			)
 		)
 		(property "Description" "Multilayer Ceramic Capacitors MLCC - SMD/SMT 100pF 25 volts 10%"
-			(at 29.718 66.548 0)
+			(at 26.924 76.454 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6602,7 +6742,7 @@
 			)
 		)
 		(property "Height" "0.5"
-			(at 425.908 57.658 0)
+			(at 423.114 67.564 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6612,7 +6752,7 @@
 			)
 		)
 		(property "Mouser Part Number" "81-GRM033R71E101KA1J"
-			(at 525.908 57.658 0)
+			(at 523.114 67.564 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6622,7 +6762,7 @@
 			)
 		)
 		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Murata-Electronics/GRM033R71E101KA01J?qs=563MOeNa05Lmru4oTW10Jw%3D%3D"
-			(at 625.908 57.658 0)
+			(at 623.114 67.564 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6632,7 +6772,7 @@
 			)
 		)
 		(property "Manufacturer_Name" "Murata Electronics"
-			(at 725.908 57.658 0)
+			(at 723.114 67.564 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6642,7 +6782,7 @@
 			)
 		)
 		(property "Manufacturer_Part_Number" "GRM033R71E101KA01J"
-			(at 825.908 57.658 0)
+			(at 823.114 67.564 0)
 			(effects
 				(font
 					(size 1.27 1.27)

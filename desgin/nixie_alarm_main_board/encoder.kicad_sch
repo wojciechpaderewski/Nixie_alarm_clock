@@ -20,7 +20,7 @@
 				)
 			)
 			(property "Value" "RotaryEncoder_Switch"
-				(at -0.254 -9.652 0)
+				(at 0.762 9.144 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -38,7 +38,7 @@
 				)
 			)
 			(property "Datasheet" "~"
-				(at 0 6.604 0)
+				(at 11.938 8.89 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -121,6 +121,18 @@
 				)
 				(polyline
 					(pts
+						(xy -2.54 -6.35) (xy -2.54 -5.08)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
 						(xy -0.635 -1.778) (xy -0.635 1.778)
 					)
 					(stroke
@@ -149,6 +161,18 @@
 					)
 					(stroke
 						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 -6.35) (xy 2.54 -5.08)
+					)
+					(stroke
+						(width 0)
 						(type default)
 					)
 					(fill
@@ -382,6 +406,42 @@
 						)
 					)
 					(number "C1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -2.54 -8.89 90)
+					(length 2.54)
+					(name "MH1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "MH1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 2.54 -8.89 90)
+					(length 2.54)
+					(name "MH12"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "MH2"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -830,38 +890,38 @@
 		)
 	)
 	(junction
-		(at 155.702 89.662)
+		(at 151.13 88.9)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "59d106f4-0be5-4406-af18-dfb30f72bc49")
 	)
 	(junction
-		(at 155.702 94.742)
+		(at 151.13 93.98)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "67fc2d47-324d-442d-984d-2842287e3f51")
 	)
 	(junction
-		(at 129.286 89.662)
+		(at 124.714 88.9)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "92197973-7c57-402b-abdd-428d8ee6c81f")
 	)
 	(junction
-		(at 182.88 89.662)
+		(at 178.308 88.9)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "bea572ab-60dd-4d85-a336-51468c07c653")
 	)
 	(junction
-		(at 129.286 94.742)
+		(at 124.714 93.98)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "d0c98b73-e9ed-4fd9-a63d-952b147b27c9")
 	)
 	(wire
 		(pts
-			(xy 127.508 94.742) (xy 129.286 94.742)
+			(xy 122.936 93.98) (xy 124.714 93.98)
 		)
 		(stroke
 			(width 0)
@@ -871,7 +931,7 @@
 	)
 	(wire
 		(pts
-			(xy 182.88 89.662) (xy 182.88 89.916)
+			(xy 178.308 88.9) (xy 178.308 89.154)
 		)
 		(stroke
 			(width 0)
@@ -881,7 +941,7 @@
 	)
 	(wire
 		(pts
-			(xy 148.59 89.662) (xy 155.702 89.662)
+			(xy 144.018 88.9) (xy 151.13 88.9)
 		)
 		(stroke
 			(width 0)
@@ -891,7 +951,7 @@
 	)
 	(wire
 		(pts
-			(xy 129.286 84.328) (xy 129.286 89.662)
+			(xy 124.714 83.566) (xy 124.714 88.9)
 		)
 		(stroke
 			(width 0)
@@ -901,7 +961,7 @@
 	)
 	(wire
 		(pts
-			(xy 182.88 88.9) (xy 182.88 89.662)
+			(xy 178.308 88.138) (xy 178.308 88.9)
 		)
 		(stroke
 			(width 0)
@@ -911,7 +971,7 @@
 	)
 	(wire
 		(pts
-			(xy 129.286 94.742) (xy 130.81 94.742)
+			(xy 124.714 93.98) (xy 126.238 93.98)
 		)
 		(stroke
 			(width 0)
@@ -921,7 +981,7 @@
 	)
 	(wire
 		(pts
-			(xy 129.286 89.662) (xy 130.81 89.662)
+			(xy 124.714 88.9) (xy 126.238 88.9)
 		)
 		(stroke
 			(width 0)
@@ -931,7 +991,7 @@
 	)
 	(wire
 		(pts
-			(xy 170.942 89.662) (xy 182.88 89.662)
+			(xy 166.37 88.9) (xy 178.308 88.9)
 		)
 		(stroke
 			(width 0)
@@ -941,7 +1001,7 @@
 	)
 	(wire
 		(pts
-			(xy 170.942 94.742) (xy 175.514 94.742)
+			(xy 166.37 93.98) (xy 170.942 93.98)
 		)
 		(stroke
 			(width 0)
@@ -951,7 +1011,7 @@
 	)
 	(wire
 		(pts
-			(xy 129.286 99.822) (xy 129.286 94.742)
+			(xy 124.714 99.06) (xy 124.714 93.98)
 		)
 		(stroke
 			(width 0)
@@ -961,7 +1021,7 @@
 	)
 	(wire
 		(pts
-			(xy 175.514 94.742) (xy 175.514 95.25)
+			(xy 170.942 93.98) (xy 170.942 94.488)
 		)
 		(stroke
 			(width 0)
@@ -971,7 +1031,7 @@
 	)
 	(wire
 		(pts
-			(xy 127.254 89.662) (xy 129.286 89.662)
+			(xy 122.682 88.9) (xy 124.714 88.9)
 		)
 		(stroke
 			(width 0)
@@ -981,7 +1041,7 @@
 	)
 	(wire
 		(pts
-			(xy 148.59 94.742) (xy 155.702 94.742)
+			(xy 144.018 93.98) (xy 151.13 93.98)
 		)
 		(stroke
 			(width 0)
@@ -991,7 +1051,7 @@
 	)
 	(global_label "+5V"
 		(shape input)
-		(at 182.88 71.12 90)
+		(at 178.308 70.358 90)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -1001,7 +1061,7 @@
 		)
 		(uuid "291c13c2-a6a4-44ad-8500-7356c68bd374")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 182.88 64.2643 90)
+			(at 178.308 63.5023 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1013,7 +1073,7 @@
 	)
 	(global_label "+5V"
 		(shape input)
-		(at 155.702 112.522 270)
+		(at 151.13 111.76 270)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -1023,7 +1083,7 @@
 		)
 		(uuid "7fc7233e-b7ba-4508-9909-7781423de64a")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 155.702 119.3777 90)
+			(at 151.13 118.6157 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1035,7 +1095,7 @@
 	)
 	(global_label "+5V"
 		(shape input)
-		(at 155.702 71.882 90)
+		(at 151.13 71.12 90)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -1045,7 +1105,7 @@
 		)
 		(uuid "8d195c89-452f-4a81-b975-b42dcc2c2268")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 155.702 65.0263 90)
+			(at 151.13 64.2643 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1057,7 +1117,7 @@
 	)
 	(hierarchical_label "ENC_SW"
 		(shape input)
-		(at 200.66 89.662 0)
+		(at 196.088 88.9 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -1069,7 +1129,7 @@
 	)
 	(hierarchical_label "ENC_A"
 		(shape input)
-		(at 127.254 89.662 180)
+		(at 122.682 88.9 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -1081,7 +1141,7 @@
 	)
 	(hierarchical_label "ENC_B"
 		(shape input)
-		(at 127.508 94.742 180)
+		(at 122.936 93.98 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -1093,7 +1153,7 @@
 	)
 	(symbol
 		(lib_id "SamacSys_Parts:ERJ-UP6D5101V")
-		(at 182.88 88.9 90)
+		(at 178.308 88.138 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1102,7 +1162,7 @@
 		(fields_autoplaced yes)
 		(uuid "22a629f3-636d-4a8e-b6af-1529da13cb3f")
 		(property "Reference" "R7"
-			(at 185.928 78.7399 90)
+			(at 181.356 77.9779 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1111,7 +1171,7 @@
 			)
 		)
 		(property "Value" "10k"
-			(at 185.928 81.2799 90)
+			(at 181.356 80.5179 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1120,7 +1180,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
-			(at 279.07 74.93 0)
+			(at 274.498 74.168 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1130,7 +1190,7 @@
 			)
 		)
 		(property "Datasheet" "https://industrial.panasonic.com/cdbs/www-data/pdf/RDP0000/AOA0000C337.pdf"
-			(at 379.07 74.93 0)
+			(at 374.498 74.168 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1140,7 +1200,7 @@
 			)
 		)
 		(property "Description" "Anti-Sulfurated Thick Film Chip Resistors/ Anti-Surge Type, Power Rating (W): 0.5, Chip Size (LxW(EIA)) (mm): 2.0 x 1.25 (EIA:0805), Resistance Values (?): 5100, Resistance Tolerance (%): 0.5, T.C.R (?102/K): ?100"
-			(at 182.88 88.9 0)
+			(at 178.308 88.138 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1149,7 +1209,7 @@
 			)
 		)
 		(property "Height" "0.7"
-			(at 579.07 74.93 0)
+			(at 574.498 74.168 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1159,7 +1219,7 @@
 			)
 		)
 		(property "Mouser Part Number" "667-ERJ-UP6D5101V"
-			(at 679.07 74.93 0)
+			(at 674.498 74.168 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1169,7 +1229,7 @@
 			)
 		)
 		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Panasonic/ERJ-UP6D5101V?qs=ZcfC38r4Pouz7%2FLHthUDHQ%3D%3D"
-			(at 779.07 74.93 0)
+			(at 774.498 74.168 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1179,7 +1239,7 @@
 			)
 		)
 		(property "Manufacturer_Name" "Panasonic"
-			(at 879.07 74.93 0)
+			(at 874.498 74.168 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1189,7 +1249,7 @@
 			)
 		)
 		(property "Manufacturer_Part_Number" "ERJ-UP6D5101V"
-			(at 979.07 74.93 0)
+			(at 974.498 74.168 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1215,7 +1275,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 175.514 95.25 0)
+		(at 170.942 94.488 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1224,7 +1284,7 @@
 		(fields_autoplaced yes)
 		(uuid "27e009c5-d49b-4e3c-a540-14ce3dbb58c8")
 		(property "Reference" "#PWR033"
-			(at 175.514 101.6 0)
+			(at 170.942 100.838 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1233,7 +1293,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 175.514 99.822 0)
+			(at 170.942 99.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1241,7 +1301,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 175.514 95.25 0)
+			(at 170.942 94.488 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1250,7 +1310,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 175.514 95.25 0)
+			(at 170.942 94.488 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1259,7 +1319,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 175.514 95.25 0)
+			(at 170.942 94.488 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1281,7 +1341,7 @@
 	)
 	(symbol
 		(lib_id "SamacSys_Parts:GRM033R71E101KA01J")
-		(at 129.286 99.822 270)
+		(at 124.714 99.06 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1290,7 +1350,7 @@
 		(fields_autoplaced yes)
 		(uuid "2ac870a0-715b-4ac5-a5b9-bcd6239232fa")
 		(property "Reference" "C14"
-			(at 132.842 104.9019 90)
+			(at 128.27 104.1399 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1299,7 +1359,7 @@
 			)
 		)
 		(property "Value" "100nF 25V"
-			(at 132.842 107.4419 90)
+			(at 128.27 106.6799 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1308,7 +1368,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
-			(at 33.096 108.712 0)
+			(at 28.524 107.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1318,7 +1378,7 @@
 			)
 		)
 		(property "Datasheet" "https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM033R71E101KA01-01A.pdf"
-			(at -66.904 108.712 0)
+			(at -71.476 107.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1328,7 +1388,7 @@
 			)
 		)
 		(property "Description" "Multilayer Ceramic Capacitors MLCC - SMD/SMT 100pF 25 volts 10%"
-			(at 129.286 99.822 0)
+			(at 124.714 99.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1337,7 +1397,7 @@
 			)
 		)
 		(property "Height" "0.5"
-			(at -266.904 108.712 0)
+			(at -271.476 107.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1347,7 +1407,7 @@
 			)
 		)
 		(property "Mouser Part Number" "81-GRM033R71E101KA1J"
-			(at -366.904 108.712 0)
+			(at -371.476 107.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1357,7 +1417,7 @@
 			)
 		)
 		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Murata-Electronics/GRM033R71E101KA01J?qs=563MOeNa05Lmru4oTW10Jw%3D%3D"
-			(at -466.904 108.712 0)
+			(at -471.476 107.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1367,7 +1427,7 @@
 			)
 		)
 		(property "Manufacturer_Name" "Murata Electronics"
-			(at -566.904 108.712 0)
+			(at -571.476 107.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1377,7 +1437,7 @@
 			)
 		)
 		(property "Manufacturer_Part_Number" "GRM033R71E101KA01J"
-			(at -666.904 108.712 0)
+			(at -671.476 107.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1403,7 +1463,7 @@
 	)
 	(symbol
 		(lib_id "SamacSys_Parts:ERJ-UP6D5101V")
-		(at 155.702 89.662 90)
+		(at 151.13 88.9 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1412,7 +1472,7 @@
 		(fields_autoplaced yes)
 		(uuid "35b61b4f-6729-4fb0-b29c-ac0c56e55b01")
 		(property "Reference" "R17"
-			(at 158.75 79.5019 90)
+			(at 154.178 78.7399 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1421,7 +1481,7 @@
 			)
 		)
 		(property "Value" "10k"
-			(at 158.75 82.0419 90)
+			(at 154.178 81.2799 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1430,7 +1490,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
-			(at 251.892 75.692 0)
+			(at 247.32 74.93 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1440,7 +1500,7 @@
 			)
 		)
 		(property "Datasheet" "https://industrial.panasonic.com/cdbs/www-data/pdf/RDP0000/AOA0000C337.pdf"
-			(at 351.892 75.692 0)
+			(at 347.32 74.93 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1450,7 +1510,7 @@
 			)
 		)
 		(property "Description" "Anti-Sulfurated Thick Film Chip Resistors/ Anti-Surge Type, Power Rating (W): 0.5, Chip Size (LxW(EIA)) (mm): 2.0 x 1.25 (EIA:0805), Resistance Values (?): 5100, Resistance Tolerance (%): 0.5, T.C.R (?102/K): ?100"
-			(at 155.702 89.662 0)
+			(at 151.13 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1459,7 +1519,7 @@
 			)
 		)
 		(property "Height" "0.7"
-			(at 551.892 75.692 0)
+			(at 547.32 74.93 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1469,7 +1529,7 @@
 			)
 		)
 		(property "Mouser Part Number" "667-ERJ-UP6D5101V"
-			(at 651.892 75.692 0)
+			(at 647.32 74.93 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1479,7 +1539,7 @@
 			)
 		)
 		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Panasonic/ERJ-UP6D5101V?qs=ZcfC38r4Pouz7%2FLHthUDHQ%3D%3D"
-			(at 751.892 75.692 0)
+			(at 747.32 74.93 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1489,7 +1549,7 @@
 			)
 		)
 		(property "Manufacturer_Name" "Panasonic"
-			(at 851.892 75.692 0)
+			(at 847.32 74.93 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1499,7 +1559,7 @@
 			)
 		)
 		(property "Manufacturer_Part_Number" "ERJ-UP6D5101V"
-			(at 951.892 75.692 0)
+			(at 947.32 74.93 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1525,16 +1585,15 @@
 	)
 	(symbol
 		(lib_id "SamacSys_Parts:ERJ-UP6D5101V")
-		(at 155.702 112.522 90)
+		(at 151.13 111.76 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "3b0e6672-34c5-4315-a48b-88bac9934035")
 		(property "Reference" "R18"
-			(at 158.75 102.3619 90)
+			(at 144.78 101.6 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1543,7 +1602,7 @@
 			)
 		)
 		(property "Value" "10k"
-			(at 158.75 104.9019 90)
+			(at 144.78 104.14 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1552,7 +1611,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
-			(at 251.892 98.552 0)
+			(at 247.32 97.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1562,7 +1621,7 @@
 			)
 		)
 		(property "Datasheet" "https://industrial.panasonic.com/cdbs/www-data/pdf/RDP0000/AOA0000C337.pdf"
-			(at 351.892 98.552 0)
+			(at 347.32 97.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1572,7 +1631,7 @@
 			)
 		)
 		(property "Description" "Anti-Sulfurated Thick Film Chip Resistors/ Anti-Surge Type, Power Rating (W): 0.5, Chip Size (LxW(EIA)) (mm): 2.0 x 1.25 (EIA:0805), Resistance Values (?): 5100, Resistance Tolerance (%): 0.5, T.C.R (?102/K): ?100"
-			(at 155.702 112.522 0)
+			(at 151.13 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1581,7 +1640,7 @@
 			)
 		)
 		(property "Height" "0.7"
-			(at 551.892 98.552 0)
+			(at 547.32 97.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1591,7 +1650,7 @@
 			)
 		)
 		(property "Mouser Part Number" "667-ERJ-UP6D5101V"
-			(at 651.892 98.552 0)
+			(at 647.32 97.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1601,7 +1660,7 @@
 			)
 		)
 		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Panasonic/ERJ-UP6D5101V?qs=ZcfC38r4Pouz7%2FLHthUDHQ%3D%3D"
-			(at 751.892 98.552 0)
+			(at 747.32 97.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1611,7 +1670,7 @@
 			)
 		)
 		(property "Manufacturer_Name" "Panasonic"
-			(at 851.892 98.552 0)
+			(at 847.32 97.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1621,7 +1680,7 @@
 			)
 		)
 		(property "Manufacturer_Part_Number" "ERJ-UP6D5101V"
-			(at 951.892 98.552 0)
+			(at 947.32 97.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1646,8 +1705,74 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 161.29 100.33 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "455c83ee-5c97-41e2-8503-c91ec84d6a1b")
+		(property "Reference" "#PWR064"
+			(at 161.29 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 161.29 104.902 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 161.29 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 161.29 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 161.29 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "88acefa3-c0db-4cfa-9984-94890e55eb56")
+		)
+		(instances
+			(project "nixie_alarm_main_board"
+				(path "/a0d555d7-39a0-4a98-b831-70d97d0aa5a1/b2a6ce56-694c-43c8-9bb8-05f271f1220a"
+					(reference "#PWR064")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "SamacSys_Parts:ERJ-UP6D5101V")
-		(at 148.59 89.662 180)
+		(at 144.018 88.9 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1656,7 +1781,7 @@
 		(fields_autoplaced yes)
 		(uuid "475d0cde-033b-4025-bcf1-88f4a780ec9f")
 		(property "Reference" "R20"
-			(at 139.7 83.312 0)
+			(at 135.128 82.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1664,7 +1789,7 @@
 			)
 		)
 		(property "Value" "10k"
-			(at 139.7 85.852 0)
+			(at 135.128 85.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1672,7 +1797,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
-			(at 134.62 -6.528 0)
+			(at 130.048 -7.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1682,7 +1807,7 @@
 			)
 		)
 		(property "Datasheet" "https://industrial.panasonic.com/cdbs/www-data/pdf/RDP0000/AOA0000C337.pdf"
-			(at 134.62 -106.528 0)
+			(at 130.048 -107.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1692,7 +1817,7 @@
 			)
 		)
 		(property "Description" "Anti-Sulfurated Thick Film Chip Resistors/ Anti-Surge Type, Power Rating (W): 0.5, Chip Size (LxW(EIA)) (mm): 2.0 x 1.25 (EIA:0805), Resistance Values (?): 5100, Resistance Tolerance (%): 0.5, T.C.R (?102/K): ?100"
-			(at 148.59 89.662 0)
+			(at 144.018 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1701,7 +1826,7 @@
 			)
 		)
 		(property "Height" "0.7"
-			(at 134.62 -306.528 0)
+			(at 130.048 -307.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1711,7 +1836,7 @@
 			)
 		)
 		(property "Mouser Part Number" "667-ERJ-UP6D5101V"
-			(at 134.62 -406.528 0)
+			(at 130.048 -407.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1721,7 +1846,7 @@
 			)
 		)
 		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Panasonic/ERJ-UP6D5101V?qs=ZcfC38r4Pouz7%2FLHthUDHQ%3D%3D"
-			(at 134.62 -506.528 0)
+			(at 130.048 -507.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1731,7 +1856,7 @@
 			)
 		)
 		(property "Manufacturer_Name" "Panasonic"
-			(at 134.62 -606.528 0)
+			(at 130.048 -607.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1741,7 +1866,7 @@
 			)
 		)
 		(property "Manufacturer_Part_Number" "ERJ-UP6D5101V"
-			(at 134.62 -706.528 0)
+			(at 130.048 -707.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1767,7 +1892,7 @@
 	)
 	(symbol
 		(lib_id "SamacSys_Parts:ERJ-UP6D5101V")
-		(at 182.88 89.662 0)
+		(at 178.308 88.9 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1776,7 +1901,7 @@
 		(fields_autoplaced yes)
 		(uuid "929b01f7-2d45-4aae-a293-47ae1cb57575")
 		(property "Reference" "R8"
-			(at 191.77 83.82 0)
+			(at 187.198 83.058 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1784,7 +1909,7 @@
 			)
 		)
 		(property "Value" "1k"
-			(at 191.77 86.36 0)
+			(at 187.198 85.598 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1792,7 +1917,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
-			(at 196.85 185.852 0)
+			(at 192.278 185.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1802,7 +1927,7 @@
 			)
 		)
 		(property "Datasheet" "https://industrial.panasonic.com/cdbs/www-data/pdf/RDP0000/AOA0000C337.pdf"
-			(at 196.85 285.852 0)
+			(at 192.278 285.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1812,7 +1937,7 @@
 			)
 		)
 		(property "Description" "Anti-Sulfurated Thick Film Chip Resistors/ Anti-Surge Type, Power Rating (W): 0.5, Chip Size (LxW(EIA)) (mm): 2.0 x 1.25 (EIA:0805), Resistance Values (?): 5100, Resistance Tolerance (%): 0.5, T.C.R (?102/K): ?100"
-			(at 182.88 89.662 0)
+			(at 178.308 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1821,7 +1946,7 @@
 			)
 		)
 		(property "Height" "0.7"
-			(at 196.85 485.852 0)
+			(at 192.278 485.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1831,7 +1956,7 @@
 			)
 		)
 		(property "Mouser Part Number" "667-ERJ-UP6D5101V"
-			(at 196.85 585.852 0)
+			(at 192.278 585.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1841,7 +1966,7 @@
 			)
 		)
 		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Panasonic/ERJ-UP6D5101V?qs=ZcfC38r4Pouz7%2FLHthUDHQ%3D%3D"
-			(at 196.85 685.852 0)
+			(at 192.278 685.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1851,7 +1976,7 @@
 			)
 		)
 		(property "Manufacturer_Name" "Panasonic"
-			(at 196.85 785.852 0)
+			(at 192.278 785.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1861,7 +1986,7 @@
 			)
 		)
 		(property "Manufacturer_Part_Number" "ERJ-UP6D5101V"
-			(at 196.85 885.852 0)
+			(at 192.278 885.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1887,7 +2012,7 @@
 	)
 	(symbol
 		(lib_id "SamacSys_Parts:GRM033R71E101KA01J")
-		(at 129.286 84.328 90)
+		(at 124.714 83.566 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1896,7 +2021,7 @@
 		(fields_autoplaced yes)
 		(uuid "ae384de0-3c8e-4533-a5ee-a4626484c33f")
 		(property "Reference" "C15"
-			(at 132.842 76.7079 90)
+			(at 128.27 75.9459 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1905,7 +2030,7 @@
 			)
 		)
 		(property "Value" "100nF 25V"
-			(at 132.842 79.2479 90)
+			(at 128.27 78.4859 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1914,7 +2039,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
-			(at 225.476 75.438 0)
+			(at 220.904 74.676 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1924,7 +2049,7 @@
 			)
 		)
 		(property "Datasheet" "https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM033R71E101KA01-01A.pdf"
-			(at 325.476 75.438 0)
+			(at 320.904 74.676 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1934,7 +2059,7 @@
 			)
 		)
 		(property "Description" "Multilayer Ceramic Capacitors MLCC - SMD/SMT 100pF 25 volts 10%"
-			(at 129.286 84.328 0)
+			(at 124.714 83.566 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1943,7 +2068,7 @@
 			)
 		)
 		(property "Height" "0.5"
-			(at 525.476 75.438 0)
+			(at 520.904 74.676 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1953,7 +2078,7 @@
 			)
 		)
 		(property "Mouser Part Number" "81-GRM033R71E101KA1J"
-			(at 625.476 75.438 0)
+			(at 620.904 74.676 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1963,7 +2088,7 @@
 			)
 		)
 		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Murata-Electronics/GRM033R71E101KA01J?qs=563MOeNa05Lmru4oTW10Jw%3D%3D"
-			(at 725.476 75.438 0)
+			(at 720.904 74.676 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1973,7 +2098,7 @@
 			)
 		)
 		(property "Manufacturer_Name" "Murata Electronics"
-			(at 825.476 75.438 0)
+			(at 820.904 74.676 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1983,7 +2108,7 @@
 			)
 		)
 		(property "Manufacturer_Part_Number" "GRM033R71E101KA01J"
-			(at 925.476 75.438 0)
+			(at 920.904 74.676 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2009,7 +2134,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 129.286 71.628 180)
+		(at 124.714 70.866 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2018,7 +2143,7 @@
 		(fields_autoplaced yes)
 		(uuid "c6b83571-adb1-4159-9de9-851f3e785079")
 		(property "Reference" "#PWR035"
-			(at 129.286 65.278 0)
+			(at 124.714 64.516 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2027,7 +2152,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 129.286 67.31 0)
+			(at 124.714 66.548 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2035,7 +2160,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 129.286 71.628 0)
+			(at 124.714 70.866 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2044,7 +2169,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 129.286 71.628 0)
+			(at 124.714 70.866 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2053,7 +2178,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 129.286 71.628 0)
+			(at 124.714 70.866 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2075,7 +2200,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 155.702 92.202 270)
+		(at 151.13 91.44 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2084,7 +2209,7 @@
 		(fields_autoplaced yes)
 		(uuid "c6c27724-faf5-452c-a2c0-ab0171406a65")
 		(property "Reference" "#PWR032"
-			(at 149.352 92.202 0)
+			(at 144.78 91.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2093,7 +2218,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 151.638 92.2019 90)
+			(at 147.066 91.4399 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2102,7 +2227,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 155.702 92.202 0)
+			(at 151.13 91.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2111,7 +2236,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 155.702 92.202 0)
+			(at 151.13 91.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2120,7 +2245,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 155.702 92.202 0)
+			(at 151.13 91.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2142,7 +2267,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 129.286 112.522 0)
+		(at 124.714 111.76 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2151,7 +2276,7 @@
 		(fields_autoplaced yes)
 		(uuid "ce0f4452-4ff3-44a9-b493-188f36f4170d")
 		(property "Reference" "#PWR034"
-			(at 129.286 118.872 0)
+			(at 124.714 118.11 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2160,7 +2285,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 129.286 117.094 0)
+			(at 124.714 116.332 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2168,7 +2293,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 129.286 112.522 0)
+			(at 124.714 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2177,7 +2302,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 129.286 112.522 0)
+			(at 124.714 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2186,7 +2311,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 129.286 112.522 0)
+			(at 124.714 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2208,7 +2333,7 @@
 	)
 	(symbol
 		(lib_id "SamacSys_Parts:ERJ-UP6D5101V")
-		(at 148.59 94.742 180)
+		(at 144.018 93.98 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2216,7 +2341,7 @@
 		(dnp no)
 		(uuid "dedae2ef-f86a-4642-aba9-bc413da493b5")
 		(property "Reference" "R19"
-			(at 139.7 97.282 0)
+			(at 135.128 96.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2224,7 +2349,7 @@
 			)
 		)
 		(property "Value" "10k"
-			(at 139.7 99.822 0)
+			(at 135.128 99.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2232,7 +2357,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
-			(at 134.62 -1.448 0)
+			(at 130.048 -2.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2242,7 +2367,7 @@
 			)
 		)
 		(property "Datasheet" "https://industrial.panasonic.com/cdbs/www-data/pdf/RDP0000/AOA0000C337.pdf"
-			(at 134.62 -101.448 0)
+			(at 130.048 -102.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2252,7 +2377,7 @@
 			)
 		)
 		(property "Description" "Anti-Sulfurated Thick Film Chip Resistors/ Anti-Surge Type, Power Rating (W): 0.5, Chip Size (LxW(EIA)) (mm): 2.0 x 1.25 (EIA:0805), Resistance Values (?): 5100, Resistance Tolerance (%): 0.5, T.C.R (?102/K): ?100"
-			(at 148.59 94.742 0)
+			(at 144.018 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2261,7 +2386,7 @@
 			)
 		)
 		(property "Height" "0.7"
-			(at 134.62 -301.448 0)
+			(at 130.048 -302.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2271,7 +2396,7 @@
 			)
 		)
 		(property "Mouser Part Number" "667-ERJ-UP6D5101V"
-			(at 134.62 -401.448 0)
+			(at 130.048 -402.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2281,7 +2406,7 @@
 			)
 		)
 		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Panasonic/ERJ-UP6D5101V?qs=ZcfC38r4Pouz7%2FLHthUDHQ%3D%3D"
-			(at 134.62 -501.448 0)
+			(at 130.048 -502.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2291,7 +2416,7 @@
 			)
 		)
 		(property "Manufacturer_Name" "Panasonic"
-			(at 134.62 -601.448 0)
+			(at 130.048 -602.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2301,7 +2426,7 @@
 			)
 		)
 		(property "Manufacturer_Part_Number" "ERJ-UP6D5101V"
-			(at 134.62 -701.448 0)
+			(at 130.048 -702.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2327,7 +2452,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 182.88 102.616 0)
+		(at 178.308 101.854 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2336,7 +2461,7 @@
 		(fields_autoplaced yes)
 		(uuid "e6a239a0-16fc-4061-9606-8bade8ad41ef")
 		(property "Reference" "#PWR08"
-			(at 182.88 108.966 0)
+			(at 178.308 108.204 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2345,7 +2470,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 182.88 107.188 0)
+			(at 178.308 106.426 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2353,7 +2478,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 182.88 102.616 0)
+			(at 178.308 101.854 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2362,7 +2487,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 182.88 102.616 0)
+			(at 178.308 101.854 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2371,7 +2496,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 182.88 102.616 0)
+			(at 178.308 101.854 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2393,7 +2518,7 @@
 	)
 	(symbol
 		(lib_id "SamacSys_Parts:GRM033R71E101KA01J")
-		(at 182.88 89.916 270)
+		(at 178.308 89.154 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2402,7 +2527,7 @@
 		(fields_autoplaced yes)
 		(uuid "f2b87a51-2574-4674-9b79-a35bd9702d53")
 		(property "Reference" "C4"
-			(at 186.436 94.9959 90)
+			(at 181.864 94.2339 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2411,7 +2536,7 @@
 			)
 		)
 		(property "Value" "100nF 25V"
-			(at 186.436 97.5359 90)
+			(at 181.864 96.7739 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2420,7 +2545,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
-			(at 86.69 98.806 0)
+			(at 82.118 98.044 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2430,7 +2555,7 @@
 			)
 		)
 		(property "Datasheet" "https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM033R71E101KA01-01A.pdf"
-			(at -13.31 98.806 0)
+			(at -17.882 98.044 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2440,7 +2565,7 @@
 			)
 		)
 		(property "Description" "Multilayer Ceramic Capacitors MLCC - SMD/SMT 100pF 25 volts 10%"
-			(at 182.88 89.916 0)
+			(at 178.308 89.154 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2449,7 +2574,7 @@
 			)
 		)
 		(property "Height" "0.5"
-			(at -213.31 98.806 0)
+			(at -217.882 98.044 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2459,7 +2584,7 @@
 			)
 		)
 		(property "Mouser Part Number" "81-GRM033R71E101KA1J"
-			(at -313.31 98.806 0)
+			(at -317.882 98.044 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2469,7 +2594,7 @@
 			)
 		)
 		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Murata-Electronics/GRM033R71E101KA01J?qs=563MOeNa05Lmru4oTW10Jw%3D%3D"
-			(at -413.31 98.806 0)
+			(at -417.882 98.044 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2479,7 +2604,7 @@
 			)
 		)
 		(property "Manufacturer_Name" "Murata Electronics"
-			(at -513.31 98.806 0)
+			(at -517.882 98.044 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2489,7 +2614,7 @@
 			)
 		)
 		(property "Manufacturer_Part_Number" "GRM033R71E101KA01J"
-			(at -613.31 98.806 0)
+			(at -617.882 98.044 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2514,8 +2639,74 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 156.21 100.33 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f6fe9a11-3f86-4794-9408-428aa6f710e9")
+		(property "Reference" "#PWR063"
+			(at 156.21 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 156.21 104.902 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 156.21 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 156.21 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 156.21 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "f9fc5e41-65dd-432d-9e28-2ee5f0753af2")
+		)
+		(instances
+			(project "nixie_alarm_main_board"
+				(path "/a0d555d7-39a0-4a98-b831-70d97d0aa5a1/b2a6ce56-694c-43c8-9bb8-05f271f1220a"
+					(reference "#PWR063")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:RotaryEncoder_Switch")
-		(at 163.322 92.202 0)
+		(at 158.75 91.44 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2523,7 +2714,7 @@
 		(dnp no)
 		(uuid "f89fece4-1529-4962-8a80-26805248b929")
 		(property "Reference" "ENC1"
-			(at 163.322 85.598 0)
+			(at 158.75 84.836 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2531,7 +2722,7 @@
 			)
 		)
 		(property "Value" "RotaryEncoder_Switch"
-			(at 163.068 101.854 0)
+			(at 159.512 82.296 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2540,7 +2731,7 @@
 			)
 		)
 		(property "Footprint" "SamacSys_Parts:PEC12R41BBFS0012"
-			(at 159.512 88.138 0)
+			(at 154.94 87.376 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2549,7 +2740,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 163.322 85.598 0)
+			(at 170.688 82.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2558,7 +2749,7 @@
 			)
 		)
 		(property "Description" "Rotary encoder, dual channel, incremental quadrate outputs, with switch"
-			(at 163.322 92.202 0)
+			(at 158.75 91.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2580,6 +2771,12 @@
 		)
 		(pin "C1"
 			(uuid "2e7ef244-1530-45b2-a4e9-1bff2ac1f2a3")
+		)
+		(pin "MH2"
+			(uuid "e2f57556-daf2-4685-b433-5604803c4394")
+		)
+		(pin "MH1"
+			(uuid "065cbe41-552f-4362-8171-aa56d62f01db")
 		)
 		(instances
 			(project "nixie_alarm_main_board"

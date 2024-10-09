@@ -1095,7 +1095,7 @@
 				)
 			)
 		)
-		(property "Value" "Goldpin 3pin "
+		(property "Value" "Goldpin 3pin"
 			(at 116.84 93.726 0)
 			(effects
 				(font

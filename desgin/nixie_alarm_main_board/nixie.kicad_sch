@@ -2808,6 +2808,16 @@
 	)
 	(wire
 		(pts
+			(xy 129.54 62.23) (xy 129.54 62.484)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "04d3e92b-712e-4272-a90f-29a177b3496b")
+	)
+	(wire
+		(pts
 			(xy 87.63 168.656) (xy 87.63 183.896)
 		)
 		(stroke
@@ -2818,7 +2828,7 @@
 	)
 	(wire
 		(pts
-			(xy 194.056 65.532) (xy 194.056 61.722)
+			(xy 194.31 66.04) (xy 194.31 62.23)
 		)
 		(stroke
 			(width 0)
@@ -2838,7 +2848,7 @@
 	)
 	(wire
 		(pts
-			(xy 101.092 76.708) (xy 101.092 80.01)
+			(xy 100.33 77.47) (xy 100.33 80.772)
 		)
 		(stroke
 			(width 0)
@@ -2958,7 +2968,7 @@
 	)
 	(wire
 		(pts
-			(xy 194.056 75.692) (xy 194.056 78.994)
+			(xy 194.31 76.2) (xy 194.31 79.502)
 		)
 		(stroke
 			(width 0)
@@ -2975,16 +2985,6 @@
 			(type default)
 		)
 		(uuid "26692223-d077-45f1-94b6-42bc44629c64")
-	)
-	(wire
-		(pts
-			(xy 35.814 32.766) (xy 35.814 44.196)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "29f5b596-92db-47b5-ad65-17593f0015e2")
 	)
 	(wire
 		(pts
@@ -3028,6 +3028,16 @@
 	)
 	(wire
 		(pts
+			(xy 35.56 33.02) (xy 35.56 41.91)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "33362e15-7dfe-42ef-8124-33e401865c48")
+	)
+	(wire
+		(pts
 			(xy 229.362 145.288) (xy 229.362 140.462)
 		)
 		(stroke
@@ -3035,16 +3045,6 @@
 			(type default)
 		)
 		(uuid "3339a630-7c7a-42fa-8a9c-ea354e536536")
-	)
-	(wire
-		(pts
-			(xy 101.092 31.496) (xy 101.092 44.958)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3d2e778d-60ac-4412-a6dd-6671dac5ffd1")
 	)
 	(wire
 		(pts
@@ -3138,26 +3138,6 @@
 	)
 	(wire
 		(pts
-			(xy 272.288 59.69) (xy 272.288 62.484)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "62d7ffa1-a3ce-4863-86d7-5c4583bd6cd6")
-	)
-	(wire
-		(pts
-			(xy 85.344 58.674) (xy 85.344 61.468)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "65087833-3d60-462b-bc87-40d90ced535b")
-	)
-	(wire
-		(pts
 			(xy 48.006 161.798) (xy 48.006 166.116)
 		)
 		(stroke
@@ -3188,23 +3168,13 @@
 	)
 	(wire
 		(pts
-			(xy 101.092 66.548) (xy 101.092 62.738)
+			(xy 100.33 67.31) (xy 100.33 63.5)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "6fba6b2e-38ed-4dd3-adff-914c03d074c6")
-	)
-	(wire
-		(pts
-			(xy 233.68 59.944) (xy 233.68 62.738)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7086374f-8493-4814-85ba-93fd3e3b95cc")
 	)
 	(wire
 		(pts
@@ -3228,7 +3198,7 @@
 	)
 	(wire
 		(pts
-			(xy 75.184 32.258) (xy 75.184 43.688)
+			(xy 74.93 33.02) (xy 74.93 44.45)
 		)
 		(stroke
 			(width 0)
@@ -3258,7 +3228,7 @@
 	)
 	(wire
 		(pts
-			(xy 262.128 33.274) (xy 262.128 44.704)
+			(xy 262.89 33.02) (xy 262.89 44.45)
 		)
 		(stroke
 			(width 0)
@@ -3275,16 +3245,6 @@
 			(type default)
 		)
 		(uuid "838f3042-4516-488b-a122-520ef9115f72")
-	)
-	(wire
-		(pts
-			(xy 139.7 59.69) (xy 139.7 62.484)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8cac676f-01d0-4e75-945e-c9dd18c6e1be")
 	)
 	(wire
 		(pts
@@ -3318,6 +3278,16 @@
 	)
 	(wire
 		(pts
+			(xy 35.56 59.69) (xy 35.56 62.23)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9bedb165-4186-460d-973a-9616bed2313b")
+	)
+	(wire
+		(pts
 			(xy 30.48 132.842) (xy 33.02 132.842)
 		)
 		(stroke
@@ -3345,6 +3315,16 @@
 			(type default)
 		)
 		(uuid "9e81be4f-376f-4d4f-bafa-07a8b8a7930d")
+	)
+	(wire
+		(pts
+			(xy 100.33 34.29) (xy 100.33 45.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a00a6db1-9b53-42b7-9d25-0d8a4d746f23")
 	)
 	(wire
 		(pts
@@ -3448,6 +3428,16 @@
 	)
 	(wire
 		(pts
+			(xy 223.52 62.23) (xy 223.52 62.738)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c193f6cf-e145-4381-8581-ed5ebe93e975")
+	)
+	(wire
+		(pts
 			(xy 168.402 173.482) (xy 168.402 154.686)
 		)
 		(stroke
@@ -3488,7 +3478,7 @@
 	)
 	(wire
 		(pts
-			(xy 168.402 32.766) (xy 168.402 44.45)
+			(xy 168.91 32.766) (xy 168.91 44.45)
 		)
 		(stroke
 			(width 0)
@@ -3498,13 +3488,13 @@
 	)
 	(wire
 		(pts
-			(xy 178.562 59.182) (xy 178.562 62.23)
+			(xy 139.7 60.96) (xy 139.7 62.23)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "d36d220c-9524-42ae-a3f5-b864c217b21e")
+		(uuid "da8e7f5d-6377-40fd-992d-555ac13a00c9")
 	)
 	(wire
 		(pts
@@ -3558,23 +3548,13 @@
 	)
 	(wire
 		(pts
-			(xy 194.056 32.512) (xy 194.056 43.942)
+			(xy 194.31 34.29) (xy 194.31 44.45)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "f3537eef-ffbf-484e-87a0-98e835059391")
-	)
-	(wire
-		(pts
-			(xy 45.974 59.182) (xy 45.974 61.976)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f824e4e1-4c36-44c7-bae8-d52b8d942791")
 	)
 	(wire
 		(pts
@@ -3618,7 +3598,7 @@
 	)
 	(text "HOURS\n"
 		(exclude_from_sim no)
-		(at 64.262 19.812 0)
+		(at 55.88 53.34 0)
 		(effects
 			(font
 				(size 2 2)
@@ -3640,7 +3620,7 @@
 	)
 	(text "SECONDS"
 		(exclude_from_sim no)
-		(at 251.968 20.574 0)
+		(at 244.856 53.848 0)
 		(effects
 			(font
 				(size 2 2)
@@ -3652,7 +3632,7 @@
 	)
 	(text "MINUTES\n"
 		(exclude_from_sim no)
-		(at 157.988 20.32 0)
+		(at 151.13 53.34 0)
 		(effects
 			(font
 				(size 2 2)
@@ -3686,7 +3666,7 @@
 	)
 	(global_label "N2_4"
 		(shape input)
-		(at 70.104 79.248 270)
+		(at 69.85 80.01 270)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3696,7 +3676,7 @@
 		)
 		(uuid "02a49d7c-4161-4969-babc-ad107d38c520")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 70.104 86.9503 90)
+			(at 69.85 87.7123 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3708,7 +3688,7 @@
 	)
 	(global_label "N4_0"
 		(shape input)
-		(at 178.562 80.01 270)
+		(at 179.07 80.01 270)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3718,7 +3698,7 @@
 		)
 		(uuid "038bbcae-75b6-419c-a5e4-c9cbb41c7e10")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 178.562 87.7123 90)
+			(at 179.07 87.7123 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3752,7 +3732,7 @@
 	)
 	(global_label "N3_0"
 		(shape input)
-		(at 139.7 80.264 270)
+		(at 139.7 80.01 270)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3762,7 +3742,7 @@
 		)
 		(uuid "0c0491d3-d7c9-447e-8511-f05ba48fde3e")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 139.7 87.9663 90)
+			(at 139.7 87.7123 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3862,7 +3842,7 @@
 	)
 	(global_label "NEON_1"
 		(shape input)
-		(at 101.092 80.01 270)
+		(at 100.33 80.772 270)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3872,7 +3852,7 @@
 		)
 		(uuid "16b34731-b185-4525-afc2-05b80cd6af28")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 101.092 90.3128 90)
+			(at 100.33 91.0748 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3884,7 +3864,7 @@
 	)
 	(global_label "N1_8"
 		(shape input)
-		(at 40.894 79.756 270)
+		(at 40.64 80.01 270)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3894,7 +3874,7 @@
 		)
 		(uuid "170b5be3-1e40-4f54-be69-d479e89562a8")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 40.894 87.4583 90)
+			(at 40.64 87.7123 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3928,7 +3908,7 @@
 	)
 	(global_label "N6_6"
 		(shape input)
-		(at 262.128 80.264 270)
+		(at 262.89 80.01 270)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3938,7 +3918,7 @@
 		)
 		(uuid "231aed14-2dbf-4e5d-91ff-fede450d5e3c")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 262.128 87.9663 90)
+			(at 262.89 87.7123 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4016,7 +3996,7 @@
 	)
 	(global_label "N2_3"
 		(shape input)
-		(at 67.564 79.248 270)
+		(at 67.31 80.01 270)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -4026,7 +4006,7 @@
 		)
 		(uuid "2aa6730a-e8ad-4c9a-b20a-28bf637726d8")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 67.564 86.9503 90)
+			(at 67.31 87.7123 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4060,7 +4040,7 @@
 	)
 	(global_label "N5_2"
 		(shape input)
-		(at 213.36 80.518 270)
+		(at 213.36 80.01 270)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -4070,7 +4050,7 @@
 		)
 		(uuid "2dcd2408-85cb-4d2a-8424-8c284db5f155")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 213.36 88.2203 90)
+			(at 213.36 87.7123 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4104,7 +4084,7 @@
 	)
 	(global_label "NEON_2"
 		(shape input)
-		(at 194.056 78.994 270)
+		(at 194.31 79.502 270)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -4114,7 +4094,7 @@
 		)
 		(uuid "317e9fa9-8342-46f8-ba57-abde2e2587e1")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 194.056 89.2968 90)
+			(at 194.31 89.8048 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4126,7 +4106,7 @@
 	)
 	(global_label "N5_7"
 		(shape input)
-		(at 226.06 80.518 270)
+		(at 226.06 80.01 270)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -4136,7 +4116,7 @@
 		)
 		(uuid "321a1965-efc1-4ef2-abb8-43eb1041ac3d")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 226.06 88.2203 90)
+			(at 226.06 87.7123 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4148,7 +4128,7 @@
 	)
 	(global_label "N3_9"
 		(shape input)
-		(at 137.16 80.264 270)
+		(at 137.16 80.01 270)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -4158,7 +4138,7 @@
 		)
 		(uuid "343db9fa-83e2-4872-bb2c-8d410e3ac3d2")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 137.16 87.9663 90)
+			(at 137.16 87.7123 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4192,7 +4172,7 @@
 	)
 	(global_label "HV"
 		(shape input)
-		(at 194.056 32.512 90)
+		(at 194.31 34.29 90)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -4202,7 +4182,7 @@
 		)
 		(uuid "374f8aba-0263-4b88-b0cf-7f735c995279")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 194.056 23.2373 90)
+			(at 194.31 25.0153 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4214,7 +4194,7 @@
 	)
 	(global_label "N1_3"
 		(shape input)
-		(at 28.194 79.756 270)
+		(at 27.94 80.01 270)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -4224,7 +4204,7 @@
 		)
 		(uuid "39fa9ab4-617d-4c62-85de-9833ae03b717")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 28.194 87.4583 90)
+			(at 27.94 87.7123 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4258,7 +4238,7 @@
 	)
 	(global_label "N4_6"
 		(shape input)
-		(at 168.402 80.01 270)
+		(at 168.91 80.01 270)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -4268,7 +4248,7 @@
 		)
 		(uuid "3df39976-1daf-4e46-8ff7-507765728f3c")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 168.402 87.7123 90)
+			(at 168.91 87.7123 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4324,7 +4304,7 @@
 	)
 	(global_label "N3_8"
 		(shape input)
-		(at 134.62 80.264 270)
+		(at 134.62 80.01 270)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -4334,7 +4314,7 @@
 		)
 		(uuid "415f5794-edda-459b-b5a7-5657c3ab8d2d")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 134.62 87.9663 90)
+			(at 134.62 87.7123 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4456,7 +4436,7 @@
 	)
 	(global_label "N3_6"
 		(shape input)
-		(at 129.54 80.264 270)
+		(at 129.54 80.01 270)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -4466,7 +4446,7 @@
 		)
 		(uuid "48965cb2-c7ee-4565-80c9-357f5621fb1f")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 129.54 87.9663 90)
+			(at 129.54 87.7123 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4522,7 +4502,7 @@
 	)
 	(global_label "N4_1"
 		(shape input)
-		(at 155.702 80.01 270)
+		(at 156.21 80.01 270)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -4532,7 +4512,7 @@
 		)
 		(uuid "4c43ceff-2a00-4853-b788-225feed4face")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 155.702 87.7123 90)
+			(at 156.21 87.7123 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4544,7 +4524,7 @@
 	)
 	(global_label "N2_5"
 		(shape input)
-		(at 72.644 79.248 270)
+		(at 72.39 80.01 270)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -4554,7 +4534,7 @@
 		)
 		(uuid "4c5e743b-5cc1-4837-baac-3b890c3bcdf3")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 72.644 86.9503 90)
+			(at 72.39 87.7123 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4566,7 +4546,7 @@
 	)
 	(global_label "N2_9"
 		(shape input)
-		(at 82.804 79.248 270)
+		(at 82.55 80.01 270)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -4576,7 +4556,7 @@
 		)
 		(uuid "512a349c-8025-4377-940a-6c2c558567ff")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 82.804 86.9503 90)
+			(at 82.55 87.7123 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4610,7 +4590,7 @@
 	)
 	(global_label "N5_1"
 		(shape input)
-		(at 210.82 80.518 270)
+		(at 210.82 80.01 270)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -4620,7 +4600,7 @@
 		)
 		(uuid "5485d6eb-b608-4d8c-8916-b9bfded143cb")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 210.82 88.2203 90)
+			(at 210.82 87.7123 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4676,7 +4656,7 @@
 	)
 	(global_label "N4_2"
 		(shape input)
-		(at 158.242 80.01 270)
+		(at 158.75 80.01 270)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -4686,7 +4666,7 @@
 		)
 		(uuid "5e137cfd-f31f-4385-96b1-2fa01569f0a9")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 158.242 87.7123 90)
+			(at 158.75 87.7123 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4698,7 +4678,7 @@
 	)
 	(global_label "N2_0"
 		(shape input)
-		(at 85.344 79.248 270)
+		(at 85.09 80.01 270)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -4708,7 +4688,7 @@
 		)
 		(uuid "5ec283b5-0916-42ac-92fe-d34b52e4ecb1")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 85.344 86.9503 90)
+			(at 85.09 87.7123 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4786,7 +4766,7 @@
 	)
 	(global_label "N4_4"
 		(shape input)
-		(at 163.322 80.01 270)
+		(at 163.83 80.01 270)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -4796,7 +4776,7 @@
 		)
 		(uuid "6841930d-dd73-4024-a03d-309f40654831")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 163.322 87.7123 90)
+			(at 163.83 87.7123 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4830,7 +4810,7 @@
 	)
 	(global_label "N6_9"
 		(shape input)
-		(at 269.748 80.264 270)
+		(at 270.51 80.01 270)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -4840,7 +4820,7 @@
 		)
 		(uuid "69cd16f6-2123-43f9-9b4c-da052bc25829")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 269.748 87.9663 90)
+			(at 270.51 87.7123 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4852,7 +4832,7 @@
 	)
 	(global_label "N1_9"
 		(shape input)
-		(at 43.434 79.756 270)
+		(at 43.18 80.01 270)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -4862,7 +4842,7 @@
 		)
 		(uuid "6a08c338-57d1-40cb-a36d-5e568987207e")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 43.434 87.4583 90)
+			(at 43.18 87.7123 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4918,7 +4898,7 @@
 	)
 	(global_label "N2_1"
 		(shape input)
-		(at 62.484 79.248 270)
+		(at 62.23 80.01 270)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -4928,7 +4908,7 @@
 		)
 		(uuid "71310513-6c9f-4fb4-b8d2-0f6b90d4cb1a")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 62.484 86.9503 90)
+			(at 62.23 87.7123 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5050,7 +5030,7 @@
 	)
 	(global_label "N3_4"
 		(shape input)
-		(at 124.46 80.264 270)
+		(at 124.46 80.01 270)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -5060,7 +5040,7 @@
 		)
 		(uuid "7b355652-0d82-43d9-9edb-6265127bbe40")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 124.46 87.9663 90)
+			(at 124.46 87.7123 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5094,7 +5074,7 @@
 	)
 	(global_label "HV"
 		(shape input)
-		(at 262.128 33.274 90)
+		(at 262.89 33.02 90)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -5104,7 +5084,7 @@
 		)
 		(uuid "82ff653a-4d41-4f3f-a6b2-4e48e081d29e")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 262.128 23.9993 90)
+			(at 262.89 23.7453 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5116,7 +5096,7 @@
 	)
 	(global_label "N1_7"
 		(shape input)
-		(at 38.354 79.756 270)
+		(at 38.1 80.01 270)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -5126,7 +5106,7 @@
 		)
 		(uuid "83d5c565-3ace-42bd-a46e-c947b0d65b7a")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 38.354 87.4583 90)
+			(at 38.1 87.7123 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5138,7 +5118,7 @@
 	)
 	(global_label "N4_8"
 		(shape input)
-		(at 173.482 80.01 270)
+		(at 173.99 80.01 270)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -5148,7 +5128,7 @@
 		)
 		(uuid "853746a9-bcb3-44a7-958b-ac861981c529")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 173.482 87.7123 90)
+			(at 173.99 87.7123 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5160,7 +5140,7 @@
 	)
 	(global_label "N5_9"
 		(shape input)
-		(at 231.14 80.518 270)
+		(at 231.14 80.01 270)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -5170,7 +5150,7 @@
 		)
 		(uuid "85ba6952-4c5d-4044-9b47-a6973ab86559")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 231.14 88.2203 90)
+			(at 231.14 87.7123 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5204,7 +5184,7 @@
 	)
 	(global_label "N6_0"
 		(shape input)
-		(at 272.288 80.264 270)
+		(at 273.05 80.01 270)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -5214,7 +5194,7 @@
 		)
 		(uuid "87ff484c-9b46-4c7c-9f56-0f929ac1310a")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 272.288 87.9663 90)
+			(at 273.05 87.7123 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5248,7 +5228,7 @@
 	)
 	(global_label "HV"
 		(shape input)
-		(at 75.184 32.258 90)
+		(at 74.93 33.02 90)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -5258,7 +5238,7 @@
 		)
 		(uuid "92074c50-5e72-4486-935b-22e3bdd61476")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 75.184 22.9833 90)
+			(at 74.93 23.7453 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5292,7 +5272,7 @@
 	)
 	(global_label "N3_7"
 		(shape input)
-		(at 132.08 80.264 270)
+		(at 132.08 80.01 270)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -5302,7 +5282,7 @@
 		)
 		(uuid "949e69e4-4d6c-496b-a9fc-4e5041fe17a5")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 132.08 87.9663 90)
+			(at 132.08 87.7123 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5380,7 +5360,7 @@
 	)
 	(global_label "N5_0"
 		(shape input)
-		(at 233.68 80.518 270)
+		(at 233.68 80.01 270)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -5390,7 +5370,7 @@
 		)
 		(uuid "9843fad8-090f-4248-8a21-d902fdf2dae1")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 233.68 88.2203 90)
+			(at 233.68 87.7123 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5446,7 +5426,7 @@
 	)
 	(global_label "N3_3"
 		(shape input)
-		(at 121.92 80.264 270)
+		(at 121.92 80.01 270)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -5456,7 +5436,7 @@
 		)
 		(uuid "9d97781a-f622-4056-86e5-2df222697bf4")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 121.92 87.9663 90)
+			(at 121.92 87.7123 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5534,7 +5514,7 @@
 	)
 	(global_label "N5_5"
 		(shape input)
-		(at 220.98 80.518 270)
+		(at 220.98 80.01 270)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -5544,7 +5524,7 @@
 		)
 		(uuid "a7b4dbd8-c640-4056-9ebb-6bfef1c46e93")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 220.98 88.2203 90)
+			(at 220.98 87.7123 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5600,7 +5580,7 @@
 	)
 	(global_label "N4_3"
 		(shape input)
-		(at 160.782 80.01 270)
+		(at 161.29 80.01 270)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -5610,7 +5590,7 @@
 		)
 		(uuid "ab09fa6c-5f2b-457b-b47d-6fee1e20cb58")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 160.782 87.7123 90)
+			(at 161.29 87.7123 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5622,7 +5602,7 @@
 	)
 	(global_label "N1_0"
 		(shape input)
-		(at 45.974 79.756 270)
+		(at 45.72 80.01 270)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -5632,7 +5612,7 @@
 		)
 		(uuid "ab85100a-2bb5-4527-91f1-17a83c703efc")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 45.974 87.4583 90)
+			(at 45.72 87.7123 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5644,7 +5624,7 @@
 	)
 	(global_label "HV"
 		(shape input)
-		(at 168.402 32.766 90)
+		(at 168.91 32.766 90)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -5654,7 +5634,7 @@
 		)
 		(uuid "ae227935-ccdc-4d7a-b819-877ef2a2f0b0")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 168.402 23.4913 90)
+			(at 168.91 23.4913 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5666,7 +5646,7 @@
 	)
 	(global_label "N3_2"
 		(shape input)
-		(at 119.38 80.264 270)
+		(at 119.38 80.01 270)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -5676,7 +5656,7 @@
 		)
 		(uuid "ae8e36a3-4082-4a33-bf17-40866f81a55d")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 119.38 87.9663 90)
+			(at 119.38 87.7123 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5688,7 +5668,7 @@
 	)
 	(global_label "N6_3"
 		(shape input)
-		(at 254.508 80.264 270)
+		(at 255.27 80.01 270)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -5698,7 +5678,7 @@
 		)
 		(uuid "ae962371-d47a-4d75-afce-40c79681058a")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 254.508 87.9663 90)
+			(at 255.27 87.7123 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5776,7 +5756,7 @@
 	)
 	(global_label "N2_7"
 		(shape input)
-		(at 77.724 79.248 270)
+		(at 77.47 80.01 270)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -5786,7 +5766,7 @@
 		)
 		(uuid "b3e94800-e80b-42bf-9699-d602ebd278ee")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 77.724 86.9503 90)
+			(at 77.47 87.7123 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5798,7 +5778,7 @@
 	)
 	(global_label "N2_6"
 		(shape input)
-		(at 75.184 79.248 270)
+		(at 74.93 80.01 270)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -5808,7 +5788,7 @@
 		)
 		(uuid "b67e9f00-690a-42a4-b39a-fba091f796c6")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 75.184 86.9503 90)
+			(at 74.93 87.7123 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5864,7 +5844,7 @@
 	)
 	(global_label "N6_4"
 		(shape input)
-		(at 257.048 80.264 270)
+		(at 257.81 80.01 270)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -5874,7 +5854,7 @@
 		)
 		(uuid "bb95a09e-e5e0-4af6-9daa-6671b978448d")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 257.048 87.9663 90)
+			(at 257.81 87.7123 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5886,7 +5866,7 @@
 	)
 	(global_label "N6_2"
 		(shape input)
-		(at 251.968 80.264 270)
+		(at 252.73 80.01 270)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -5896,7 +5876,7 @@
 		)
 		(uuid "bda8ca78-80f5-4551-97bb-56dc502af9a2")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 251.968 87.9663 90)
+			(at 252.73 87.7123 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5908,7 +5888,7 @@
 	)
 	(global_label "N6_8"
 		(shape input)
-		(at 267.208 80.264 270)
+		(at 267.97 80.01 270)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -5918,7 +5898,7 @@
 		)
 		(uuid "beb1e9ee-49f6-4705-8ece-f6c0cff52c60")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 267.208 87.9663 90)
+			(at 267.97 87.7123 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5952,7 +5932,7 @@
 	)
 	(global_label "HV"
 		(shape input)
-		(at 35.814 32.766 90)
+		(at 35.56 33.02 90)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -5962,7 +5942,7 @@
 		)
 		(uuid "c13119ab-ca0f-4713-bb3b-a5e1f1b6d150")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 35.814 23.4913 90)
+			(at 35.56 23.7453 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5974,7 +5954,7 @@
 	)
 	(global_label "N2_2"
 		(shape input)
-		(at 65.024 79.248 270)
+		(at 64.77 80.01 270)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -5984,7 +5964,7 @@
 		)
 		(uuid "c59c393e-111b-41e4-a397-dae032d2bcde")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 65.024 86.9503 90)
+			(at 64.77 87.7123 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5996,7 +5976,7 @@
 	)
 	(global_label "HV"
 		(shape input)
-		(at 101.092 31.496 90)
+		(at 100.33 34.29 90)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -6006,7 +5986,7 @@
 		)
 		(uuid "c61fd097-2cca-4fb9-a4a2-37547dea1e37")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 101.092 22.2213 90)
+			(at 100.33 25.0153 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6018,7 +5998,7 @@
 	)
 	(global_label "N6_7"
 		(shape input)
-		(at 264.668 80.264 270)
+		(at 265.43 80.01 270)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -6028,7 +6008,7 @@
 		)
 		(uuid "c6746b59-b2ea-4c66-a912-77055253b954")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 264.668 87.9663 90)
+			(at 265.43 87.7123 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6040,7 +6020,7 @@
 	)
 	(global_label "N3_1"
 		(shape input)
-		(at 116.84 80.264 270)
+		(at 116.84 80.01 270)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -6050,7 +6030,7 @@
 		)
 		(uuid "c803f394-43a9-4b28-a11f-48639d62cd93")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 116.84 87.9663 90)
+			(at 116.84 87.7123 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6062,7 +6042,7 @@
 	)
 	(global_label "N1_2"
 		(shape input)
-		(at 25.654 79.756 270)
+		(at 25.4 80.01 270)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -6072,7 +6052,7 @@
 		)
 		(uuid "c8f52bbc-7198-45de-8bab-76044d235fd6")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 25.654 87.4583 90)
+			(at 25.4 87.7123 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6084,7 +6064,7 @@
 	)
 	(global_label "N6_1"
 		(shape input)
-		(at 249.428 80.264 270)
+		(at 250.19 80.01 270)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -6094,7 +6074,7 @@
 		)
 		(uuid "caec9285-18cd-49ea-ad04-a0fefe4efedc")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 249.428 87.9663 90)
+			(at 250.19 87.7123 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6106,7 +6086,7 @@
 	)
 	(global_label "N4_9"
 		(shape input)
-		(at 176.022 80.01 270)
+		(at 176.53 80.01 270)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -6116,7 +6096,7 @@
 		)
 		(uuid "cb789934-b06d-4fc1-ae62-4fc9bb9e3f78")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 176.022 87.7123 90)
+			(at 176.53 87.7123 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6150,7 +6130,7 @@
 	)
 	(global_label "N2_8"
 		(shape input)
-		(at 80.264 79.248 270)
+		(at 80.01 80.01 270)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -6160,7 +6140,7 @@
 		)
 		(uuid "ceb19680-f6fa-41cb-bd68-e7749d0fe772")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 80.264 86.9503 90)
+			(at 80.01 87.7123 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6194,7 +6174,7 @@
 	)
 	(global_label "N5_4"
 		(shape input)
-		(at 218.44 80.518 270)
+		(at 218.44 80.01 270)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -6204,7 +6184,7 @@
 		)
 		(uuid "daacd65b-702a-4587-9089-86d5537699f4")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 218.44 88.2203 90)
+			(at 218.44 87.7123 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6216,7 +6196,7 @@
 	)
 	(global_label "N1_6"
 		(shape input)
-		(at 35.814 79.756 270)
+		(at 35.56 80.01 270)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -6226,7 +6206,7 @@
 		)
 		(uuid "de3401d7-fe5a-4d05-a56c-aef88c4b4bd1")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 35.814 87.4583 90)
+			(at 35.56 87.7123 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6282,7 +6262,7 @@
 	)
 	(global_label "N6_5"
 		(shape input)
-		(at 259.588 80.264 270)
+		(at 260.35 80.01 270)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -6292,7 +6272,7 @@
 		)
 		(uuid "e2638e6c-1147-4d4f-b643-8d145c591144")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 259.588 87.9663 90)
+			(at 260.35 87.7123 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6326,7 +6306,7 @@
 	)
 	(global_label "N4_5"
 		(shape input)
-		(at 165.862 80.01 270)
+		(at 166.37 80.01 270)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -6336,7 +6316,7 @@
 		)
 		(uuid "e88e6679-d5b2-405b-abed-3996585546a5")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 165.862 87.7123 90)
+			(at 166.37 87.7123 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6348,7 +6328,7 @@
 	)
 	(global_label "N1_4"
 		(shape input)
-		(at 30.734 79.756 270)
+		(at 30.48 80.01 270)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -6358,7 +6338,7 @@
 		)
 		(uuid "e9b338a2-e48e-4674-988c-e576bcbe59a2")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 30.734 87.4583 90)
+			(at 30.48 87.7123 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6370,7 +6350,7 @@
 	)
 	(global_label "N4_7"
 		(shape input)
-		(at 170.942 80.01 270)
+		(at 171.45 80.01 270)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -6380,7 +6360,7 @@
 		)
 		(uuid "eb76f4ea-7481-446c-810a-7f1e655a435d")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 170.942 87.7123 90)
+			(at 171.45 87.7123 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6392,7 +6372,7 @@
 	)
 	(global_label "N5_6"
 		(shape input)
-		(at 223.52 80.518 270)
+		(at 223.52 80.01 270)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -6402,7 +6382,7 @@
 		)
 		(uuid "ed077c6c-e479-4b92-b5a3-1df1a812569f")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 223.52 88.2203 90)
+			(at 223.52 87.7123 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6458,7 +6438,7 @@
 	)
 	(global_label "N3_5"
 		(shape input)
-		(at 127 80.264 270)
+		(at 127 80.01 270)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -6468,7 +6448,7 @@
 		)
 		(uuid "f083fe8a-8b58-4b78-9e00-e7a0d4e3a50a")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 127 87.9663 90)
+			(at 127 87.7123 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6502,7 +6482,7 @@
 	)
 	(global_label "N1_1"
 		(shape input)
-		(at 23.114 79.756 270)
+		(at 22.86 80.01 270)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -6512,7 +6492,7 @@
 		)
 		(uuid "f18ef280-f8f7-47b1-8118-bfa8c3129ec4")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 23.114 87.4583 90)
+			(at 22.86 87.7123 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6524,7 +6504,7 @@
 	)
 	(global_label "N1_5"
 		(shape input)
-		(at 33.274 79.756 270)
+		(at 33.02 80.01 270)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -6534,7 +6514,7 @@
 		)
 		(uuid "f22263c6-2499-4178-8d99-13981245ec6d")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 33.274 87.4583 90)
+			(at 33.02 87.7123 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6612,7 +6592,7 @@
 	)
 	(global_label "N5_3"
 		(shape input)
-		(at 215.9 80.518 270)
+		(at 215.9 80.01 270)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -6622,7 +6602,7 @@
 		)
 		(uuid "f5d3888c-4775-4839-b7d4-ce688d97f41c")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 215.9 88.2203 90)
+			(at 215.9 87.7123 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6700,7 +6680,7 @@
 	)
 	(global_label "N5_8"
 		(shape input)
-		(at 228.6 80.518 270)
+		(at 228.6 80.01 270)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -6710,7 +6690,7 @@
 		)
 		(uuid "f7aca199-5660-431b-aa9c-e032602fa38f")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 228.6 88.2203 90)
+			(at 228.6 87.7123 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6832,49 +6812,49 @@
 	)
 	(hierarchical_label "DOT_2"
 		(shape input)
-		(at 92.964 30.734 90)
+		(at 92.71 16.51 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left)
+			(justify right)
 		)
 		(uuid "00e9a8af-4615-4267-a4b7-a02bcec12840")
 	)
 	(hierarchical_label "DOT_5"
 		(shape input)
-		(at 241.3 32.004 90)
+		(at 241.3 16.51 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left)
+			(justify right)
 		)
 		(uuid "0e3973a4-a5d1-46bd-93df-65607d7abfa2")
 	)
 	(hierarchical_label "DOT_1"
 		(shape input)
-		(at 53.594 31.242 90)
+		(at 53.34 16.51 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left)
+			(justify right)
 		)
 		(uuid "2830eb2b-8224-4bc3-b8d0-41ce57916e55")
 	)
 	(hierarchical_label "DOT_3"
 		(shape input)
-		(at 147.32 31.75 90)
+		(at 147.32 15.24 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left)
+			(justify right)
 		)
 		(uuid "3e67bc43-729c-4ada-977b-83a7a3e2bc90")
 	)
@@ -6904,25 +6884,25 @@
 	)
 	(hierarchical_label "DOT_6"
 		(shape input)
-		(at 279.908 31.75 90)
+		(at 280.67 16.51 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left)
+			(justify right)
 		)
 		(uuid "74118604-2caa-449e-a909-a4782f97a6f9")
 	)
 	(hierarchical_label "DOT_4"
 		(shape input)
-		(at 186.182 31.242 90)
+		(at 186.69 16.51 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left)
+			(justify right)
 		)
 		(uuid "8aad8d55-a0fa-4c54-8fcb-55ed6919402e")
 	)
@@ -7073,7 +7053,7 @@
 	)
 	(symbol
 		(lib_id "SamacSys_Parts:RK73H2ATTE1003F")
-		(at 233.68 26.924 270)
+		(at 233.68 44.45 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -7081,7 +7061,7 @@
 		(dnp no)
 		(uuid "17417c1b-d2ca-4861-abf9-bd62041012ae")
 		(property "Reference" "R40"
-			(at 226.314 34.544 90)
+			(at 226.314 52.07 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7090,7 +7070,7 @@
 			)
 		)
 		(property "Value" "51kΩ"
-			(at 226.314 37.084 90)
+			(at 226.314 54.61 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7099,7 +7079,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
-			(at 137.49 40.894 0)
+			(at 137.49 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7109,7 +7089,7 @@
 			)
 		)
 		(property "Datasheet" "http://www.koaspeer.com/catimages/Products/RK73H/RK73H.pdf"
-			(at 37.49 40.894 0)
+			(at 37.49 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7119,7 +7099,7 @@
 			)
 		)
 		(property "Description" "Thick Film Resistors - SMD 1/4W 100K OHM 1%"
-			(at 233.68 26.924 0)
+			(at 233.68 44.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7128,7 +7108,7 @@
 			)
 		)
 		(property "Height" "0.6"
-			(at -162.51 40.894 0)
+			(at -162.51 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7138,7 +7118,7 @@
 			)
 		)
 		(property "Mouser Part Number" "660-RK73H2ATTE1003F"
-			(at -262.51 40.894 0)
+			(at -262.51 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7148,7 +7128,7 @@
 			)
 		)
 		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/KOA-Speer/RK73H2ATTE1003F?qs=JXEKNMc11mPgE5iv74bcPQ%3D%3D"
-			(at -362.51 40.894 0)
+			(at -362.51 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7158,7 +7138,7 @@
 			)
 		)
 		(property "Manufacturer_Name" "KOA Speer"
-			(at -462.51 40.894 0)
+			(at -462.51 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7168,7 +7148,7 @@
 			)
 		)
 		(property "Manufacturer_Part_Number" "RK73H2ATTE1003F"
-			(at -562.51 40.894 0)
+			(at -562.51 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7194,7 +7174,7 @@
 	)
 	(symbol
 		(lib_id "SamacSys_Parts:RK73H2ATTE1003F")
-		(at 262.128 44.704 270)
+		(at 262.89 44.45 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -7202,7 +7182,7 @@
 		(dnp no)
 		(uuid "197d2250-f580-4a84-b865-8ce123a0fb11")
 		(property "Reference" "R33"
-			(at 254.508 52.324 90)
+			(at 255.27 52.07 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7211,7 +7191,7 @@
 			)
 		)
 		(property "Value" "27kΩ"
-			(at 254.508 54.864 90)
+			(at 255.27 54.61 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7220,7 +7200,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
-			(at 165.938 58.674 0)
+			(at 166.7 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7230,7 +7210,7 @@
 			)
 		)
 		(property "Datasheet" "http://www.koaspeer.com/catimages/Products/RK73H/RK73H.pdf"
-			(at 65.938 58.674 0)
+			(at 66.7 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7240,7 +7220,7 @@
 			)
 		)
 		(property "Description" "Thick Film Resistors - SMD 1/4W 100K OHM 1%"
-			(at 262.128 44.704 0)
+			(at 262.89 44.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7249,7 +7229,7 @@
 			)
 		)
 		(property "Height" "0.6"
-			(at -134.062 58.674 0)
+			(at -133.3 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7259,7 +7239,7 @@
 			)
 		)
 		(property "Mouser Part Number" "660-RK73H2ATTE1003F"
-			(at -234.062 58.674 0)
+			(at -233.3 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7269,7 +7249,7 @@
 			)
 		)
 		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/KOA-Speer/RK73H2ATTE1003F?qs=JXEKNMc11mPgE5iv74bcPQ%3D%3D"
-			(at -334.062 58.674 0)
+			(at -333.3 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7279,7 +7259,7 @@
 			)
 		)
 		(property "Manufacturer_Name" "KOA Speer"
-			(at -434.062 58.674 0)
+			(at -433.3 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7289,7 +7269,7 @@
 			)
 		)
 		(property "Manufacturer_Part_Number" "RK73H2ATTE1003F"
-			(at -534.062 58.674 0)
+			(at -533.3 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7315,7 +7295,7 @@
 	)
 	(symbol
 		(lib_id "nixies-us:Z570M")
-		(at 223.52 72.898 90)
+		(at 223.52 72.39 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -7323,7 +7303,7 @@
 		(dnp no)
 		(uuid "1d38440c-ae22-4ebb-b151-f1e54a167cd7")
 		(property "Reference" "N5"
-			(at 222.504 71.882 90)
+			(at 222.504 71.374 90)
 			(effects
 				(font
 					(size 1.143 1.143)
@@ -7332,7 +7312,7 @@
 			)
 		)
 		(property "Value" "Z570M"
-			(at 223.52 72.898 0)
+			(at 223.52 72.39 0)
 			(effects
 				(font
 					(size 1.143 1.143)
@@ -7342,7 +7322,7 @@
 			)
 		)
 		(property "Footprint" "Z570M"
-			(at 219.71 72.136 0)
+			(at 219.71 71.628 0)
 			(effects
 				(font
 					(size 0.508 0.508)
@@ -7351,7 +7331,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 223.52 72.898 0)
+			(at 223.52 72.39 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7360,7 +7340,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 223.52 72.898 0)
+			(at 223.52 72.39 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7418,7 +7398,7 @@
 	)
 	(symbol
 		(lib_id "SamacSys_Parts:DMN60H080DS-13")
-		(at 147.32 49.53 180)
+		(at 147.32 33.02 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -7426,7 +7406,7 @@
 		(dnp no)
 		(uuid "1e4dfb02-9d19-48e2-aadc-9eddbd399805")
 		(property "Reference" "Q4"
-			(at 143.256 57.658 0)
+			(at 143.256 41.148 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7435,7 +7415,7 @@
 			)
 		)
 		(property "Value" "DMN60H080DS-13"
-			(at 159.004 59.436 0)
+			(at 159.004 42.926 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7445,7 +7425,7 @@
 			)
 		)
 		(property "Footprint" "SOT96P240X110-3N"
-			(at 135.89 -49.2 0)
+			(at 135.89 -65.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7455,7 +7435,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.diodes.com//assets/Datasheets/DMN60H080DS.pdf"
-			(at 135.89 -149.2 0)
+			(at 135.89 -165.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7465,7 +7445,7 @@
 			)
 		)
 		(property "Description" "MOSFET MOSFETBVDSS: 501V-650V"
-			(at 147.32 49.53 0)
+			(at 147.32 33.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7474,7 +7454,7 @@
 			)
 		)
 		(property "Height" "1.1"
-			(at 135.89 -349.2 0)
+			(at 135.89 -365.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7484,7 +7464,7 @@
 			)
 		)
 		(property "Mouser Part Number" "621-DMN60H080DS-13"
-			(at 135.89 -449.2 0)
+			(at 135.89 -465.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7494,7 +7474,7 @@
 			)
 		)
 		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Diodes-Incorporated/DMN60H080DS-13?qs=HXFqYaX1Q2wO6tm1AgR7Fw%3D%3D"
-			(at 135.89 -549.2 0)
+			(at 135.89 -565.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7504,7 +7484,7 @@
 			)
 		)
 		(property "Manufacturer_Name" "Diodes Incorporated"
-			(at 135.89 -649.2 0)
+			(at 135.89 -665.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7514,7 +7494,7 @@
 			)
 		)
 		(property "Manufacturer_Part_Number" "DMN60H080DS-13"
-			(at 135.89 -749.2 0)
+			(at 135.89 -765.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7543,7 +7523,7 @@
 	)
 	(symbol
 		(lib_id "SamacSys_Parts:ERJ-UP6D5101V")
-		(at 186.182 49.022 90)
+		(at 186.69 34.29 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -7552,7 +7532,7 @@
 		(fields_autoplaced yes)
 		(uuid "3637bef2-cc1c-4710-86d2-bcfb552aabec")
 		(property "Reference" "R30"
-			(at 189.23 38.8619 90)
+			(at 189.738 24.1299 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7561,7 +7541,7 @@
 			)
 		)
 		(property "Value" "10k"
-			(at 189.23 41.4019 90)
+			(at 189.738 26.6699 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7570,7 +7550,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
-			(at 282.372 35.052 0)
+			(at 282.88 20.32 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7580,7 +7560,7 @@
 			)
 		)
 		(property "Datasheet" "https://industrial.panasonic.com/cdbs/www-data/pdf/RDP0000/AOA0000C337.pdf"
-			(at 382.372 35.052 0)
+			(at 382.88 20.32 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7590,7 +7570,7 @@
 			)
 		)
 		(property "Description" "Anti-Sulfurated Thick Film Chip Resistors/ Anti-Surge Type, Power Rating (W): 0.5, Chip Size (LxW(EIA)) (mm): 2.0 x 1.25 (EIA:0805), Resistance Values (?): 5100, Resistance Tolerance (%): 0.5, T.C.R (?102/K): ?100"
-			(at 186.182 49.022 0)
+			(at 186.69 34.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7599,7 +7579,7 @@
 			)
 		)
 		(property "Height" "0.7"
-			(at 582.372 35.052 0)
+			(at 582.88 20.32 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7609,7 +7589,7 @@
 			)
 		)
 		(property "Mouser Part Number" "667-ERJ-UP6D5101V"
-			(at 682.372 35.052 0)
+			(at 682.88 20.32 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7619,7 +7599,7 @@
 			)
 		)
 		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Panasonic/ERJ-UP6D5101V?qs=ZcfC38r4Pouz7%2FLHthUDHQ%3D%3D"
-			(at 782.372 35.052 0)
+			(at 782.88 20.32 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7629,7 +7609,7 @@
 			)
 		)
 		(property "Manufacturer_Name" "Panasonic"
-			(at 882.372 35.052 0)
+			(at 882.88 20.32 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7639,7 +7619,7 @@
 			)
 		)
 		(property "Manufacturer_Part_Number" "ERJ-UP6D5101V"
-			(at 982.372 35.052 0)
+			(at 982.88 20.32 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7731,7 +7711,7 @@
 	)
 	(symbol
 		(lib_id "SamacSys_Parts:ERJ-UP6D5101V")
-		(at 92.964 48.514 90)
+		(at 92.71 34.29 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -7740,7 +7720,7 @@
 		(fields_autoplaced yes)
 		(uuid "397dd278-ae44-456f-9896-a3762f1628e8")
 		(property "Reference" "R24"
-			(at 96.012 38.3539 90)
+			(at 95.758 24.1299 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7749,7 +7729,7 @@
 			)
 		)
 		(property "Value" "10k"
-			(at 96.012 40.8939 90)
+			(at 95.758 26.6699 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7758,7 +7738,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
-			(at 189.154 34.544 0)
+			(at 188.9 20.32 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7768,7 +7748,7 @@
 			)
 		)
 		(property "Datasheet" "https://industrial.panasonic.com/cdbs/www-data/pdf/RDP0000/AOA0000C337.pdf"
-			(at 289.154 34.544 0)
+			(at 288.9 20.32 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7778,7 +7758,7 @@
 			)
 		)
 		(property "Description" "Anti-Sulfurated Thick Film Chip Resistors/ Anti-Surge Type, Power Rating (W): 0.5, Chip Size (LxW(EIA)) (mm): 2.0 x 1.25 (EIA:0805), Resistance Values (?): 5100, Resistance Tolerance (%): 0.5, T.C.R (?102/K): ?100"
-			(at 92.964 48.514 0)
+			(at 92.71 34.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7787,7 +7767,7 @@
 			)
 		)
 		(property "Height" "0.7"
-			(at 489.154 34.544 0)
+			(at 488.9 20.32 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7797,7 +7777,7 @@
 			)
 		)
 		(property "Mouser Part Number" "667-ERJ-UP6D5101V"
-			(at 589.154 34.544 0)
+			(at 588.9 20.32 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7807,7 +7787,7 @@
 			)
 		)
 		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Panasonic/ERJ-UP6D5101V?qs=ZcfC38r4Pouz7%2FLHthUDHQ%3D%3D"
-			(at 689.154 34.544 0)
+			(at 688.9 20.32 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7817,7 +7797,7 @@
 			)
 		)
 		(property "Manufacturer_Name" "Panasonic"
-			(at 789.154 34.544 0)
+			(at 788.9 20.32 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7827,7 +7807,7 @@
 			)
 		)
 		(property "Manufacturer_Part_Number" "ERJ-UP6D5101V"
-			(at 889.154 34.544 0)
+			(at 888.9 20.32 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7853,7 +7833,7 @@
 	)
 	(symbol
 		(lib_id "SamacSys_Parts:DMN60H080DS-13")
-		(at 186.182 49.022 180)
+		(at 186.69 34.29 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -7861,7 +7841,7 @@
 		(dnp no)
 		(uuid "3c7c55a2-f124-4e80-9ad2-d1d4c49164d1")
 		(property "Reference" "Q5"
-			(at 182.372 56.896 0)
+			(at 182.88 42.164 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7870,7 +7850,7 @@
 			)
 		)
 		(property "Value" "DMN60H080DS-13"
-			(at 197.866 58.928 0)
+			(at 198.374 44.196 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7880,7 +7860,7 @@
 			)
 		)
 		(property "Footprint" "SOT96P240X110-3N"
-			(at 174.752 -49.708 0)
+			(at 175.26 -64.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7890,7 +7870,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.diodes.com//assets/Datasheets/DMN60H080DS.pdf"
-			(at 174.752 -149.708 0)
+			(at 175.26 -164.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7900,7 +7880,7 @@
 			)
 		)
 		(property "Description" "MOSFET MOSFETBVDSS: 501V-650V"
-			(at 186.182 49.022 0)
+			(at 186.69 34.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7909,7 +7889,7 @@
 			)
 		)
 		(property "Height" "1.1"
-			(at 174.752 -349.708 0)
+			(at 175.26 -364.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7919,7 +7899,7 @@
 			)
 		)
 		(property "Mouser Part Number" "621-DMN60H080DS-13"
-			(at 174.752 -449.708 0)
+			(at 175.26 -464.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7929,7 +7909,7 @@
 			)
 		)
 		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Diodes-Incorporated/DMN60H080DS-13?qs=HXFqYaX1Q2wO6tm1AgR7Fw%3D%3D"
-			(at 174.752 -549.708 0)
+			(at 175.26 -564.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7939,7 +7919,7 @@
 			)
 		)
 		(property "Manufacturer_Name" "Diodes Incorporated"
-			(at 174.752 -649.708 0)
+			(at 175.26 -664.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7949,7 +7929,7 @@
 			)
 		)
 		(property "Manufacturer_Part_Number" "DMN60H080DS-13"
-			(at 174.752 -749.708 0)
+			(at 175.26 -764.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7978,7 +7958,7 @@
 	)
 	(symbol
 		(lib_id "nixies-us:Z570M")
-		(at 168.402 72.39 90)
+		(at 168.91 72.39 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -7986,7 +7966,7 @@
 		(dnp no)
 		(uuid "3d55bad4-e12a-4e70-9b33-16d93eff35cb")
 		(property "Reference" "N4"
-			(at 167.386 71.374 90)
+			(at 167.894 71.374 90)
 			(effects
 				(font
 					(size 1.143 1.143)
@@ -7995,7 +7975,7 @@
 			)
 		)
 		(property "Value" "Z570M"
-			(at 168.402 72.39 0)
+			(at 168.91 72.39 0)
 			(effects
 				(font
 					(size 1.143 1.143)
@@ -8005,7 +7985,7 @@
 			)
 		)
 		(property "Footprint" "Z570M"
-			(at 164.592 71.628 0)
+			(at 165.1 71.628 0)
 			(effects
 				(font
 					(size 0.508 0.508)
@@ -8014,7 +7994,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 168.402 72.39 0)
+			(at 168.91 72.39 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8023,7 +8003,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 168.402 72.39 0)
+			(at 168.91 72.39 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8081,7 +8061,7 @@
 	)
 	(symbol
 		(lib_id "SamacSys_Parts:RK73H2ATTE1003F")
-		(at 75.184 43.688 270)
+		(at 74.93 44.45 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -8089,7 +8069,7 @@
 		(dnp no)
 		(uuid "41f93439-2c52-4a9b-b52e-d5f931ec807d")
 		(property "Reference" "R22"
-			(at 67.564 51.308 90)
+			(at 67.31 52.07 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8098,7 +8078,7 @@
 			)
 		)
 		(property "Value" "27kΩ"
-			(at 67.564 53.848 90)
+			(at 67.31 54.61 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8107,7 +8087,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
-			(at -21.006 57.658 0)
+			(at -21.26 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8117,7 +8097,7 @@
 			)
 		)
 		(property "Datasheet" "http://www.koaspeer.com/catimages/Products/RK73H/RK73H.pdf"
-			(at -121.006 57.658 0)
+			(at -121.26 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8127,7 +8107,7 @@
 			)
 		)
 		(property "Description" "Thick Film Resistors - SMD 1/4W 100K OHM 1%"
-			(at 75.184 43.688 0)
+			(at 74.93 44.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8136,7 +8116,7 @@
 			)
 		)
 		(property "Height" "0.6"
-			(at -321.006 57.658 0)
+			(at -321.26 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8146,7 +8126,7 @@
 			)
 		)
 		(property "Mouser Part Number" "660-RK73H2ATTE1003F"
-			(at -421.006 57.658 0)
+			(at -421.26 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8156,7 +8136,7 @@
 			)
 		)
 		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/KOA-Speer/RK73H2ATTE1003F?qs=JXEKNMc11mPgE5iv74bcPQ%3D%3D"
-			(at -521.006 57.658 0)
+			(at -521.26 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8166,7 +8146,7 @@
 			)
 		)
 		(property "Manufacturer_Name" "KOA Speer"
-			(at -621.006 57.658 0)
+			(at -621.26 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8176,7 +8156,7 @@
 			)
 		)
 		(property "Manufacturer_Part_Number" "RK73H2ATTE1003F"
-			(at -721.006 57.658 0)
+			(at -721.26 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8202,7 +8182,7 @@
 	)
 	(symbol
 		(lib_id "nixies-us:Z570M")
-		(at 35.814 72.136 90)
+		(at 35.56 72.39 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -8210,7 +8190,7 @@
 		(dnp no)
 		(uuid "4bfb5262-0baa-4e59-83ef-d31bfe936028")
 		(property "Reference" "N1"
-			(at 34.798 71.12 90)
+			(at 34.544 71.374 90)
 			(effects
 				(font
 					(size 1.143 1.143)
@@ -8219,7 +8199,7 @@
 			)
 		)
 		(property "Value" "Z570M"
-			(at 35.814 72.136 0)
+			(at 35.56 72.39 0)
 			(effects
 				(font
 					(size 1.143 1.143)
@@ -8229,7 +8209,7 @@
 			)
 		)
 		(property "Footprint" "Z570M"
-			(at 32.004 71.374 0)
+			(at 31.75 71.628 0)
 			(effects
 				(font
 					(size 0.508 0.508)
@@ -8238,7 +8218,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 35.814 72.136 0)
+			(at 35.56 72.39 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8247,7 +8227,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 35.814 72.136 0)
+			(at 35.56 72.39 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8305,7 +8285,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 85.344 25.654 180)
+		(at 85.09 29.21 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -8314,7 +8294,7 @@
 		(fields_autoplaced yes)
 		(uuid "4f11d54a-33c9-4bae-8eca-b4c83ce2a558")
 		(property "Reference" "#PWR09"
-			(at 85.344 19.304 0)
+			(at 85.09 22.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8323,7 +8303,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 85.344 20.574 0)
+			(at 85.09 24.13 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8331,7 +8311,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 85.344 25.654 0)
+			(at 85.09 29.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8340,7 +8320,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 85.344 25.654 0)
+			(at 85.09 29.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8349,7 +8329,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 85.344 25.654 0)
+			(at 85.09 29.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8371,7 +8351,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 233.68 26.924 180)
+		(at 233.68 29.21 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -8380,7 +8360,7 @@
 		(fields_autoplaced yes)
 		(uuid "5959c4b0-51b6-4e44-aedf-88cd580038e8")
 		(property "Reference" "#PWR015"
-			(at 233.68 20.574 0)
+			(at 233.68 22.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8389,7 +8369,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 233.68 21.844 0)
+			(at 233.68 24.13 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8397,7 +8377,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 233.68 26.924 0)
+			(at 233.68 29.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8406,7 +8386,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 233.68 26.924 0)
+			(at 233.68 29.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8415,7 +8395,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 233.68 26.924 0)
+			(at 233.68 29.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8437,7 +8417,7 @@
 	)
 	(symbol
 		(lib_id "SamacSys_Parts:RK73H2ATTE1003F")
-		(at 272.288 26.67 270)
+		(at 273.05 44.45 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -8445,7 +8425,7 @@
 		(dnp no)
 		(uuid "59abb0ee-3a8f-476e-afe0-59d28c59898d")
 		(property "Reference" "R41"
-			(at 264.922 34.29 90)
+			(at 265.684 52.07 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8454,7 +8434,7 @@
 			)
 		)
 		(property "Value" "51kΩ"
-			(at 264.922 36.83 90)
+			(at 265.684 54.61 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8463,7 +8443,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
-			(at 176.098 40.64 0)
+			(at 176.86 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8473,7 +8453,7 @@
 			)
 		)
 		(property "Datasheet" "http://www.koaspeer.com/catimages/Products/RK73H/RK73H.pdf"
-			(at 76.098 40.64 0)
+			(at 76.86 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8483,7 +8463,7 @@
 			)
 		)
 		(property "Description" "Thick Film Resistors - SMD 1/4W 100K OHM 1%"
-			(at 272.288 26.67 0)
+			(at 273.05 44.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8492,7 +8472,7 @@
 			)
 		)
 		(property "Height" "0.6"
-			(at -123.902 40.64 0)
+			(at -123.14 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8502,7 +8482,7 @@
 			)
 		)
 		(property "Mouser Part Number" "660-RK73H2ATTE1003F"
-			(at -223.902 40.64 0)
+			(at -223.14 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8512,7 +8492,7 @@
 			)
 		)
 		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/KOA-Speer/RK73H2ATTE1003F?qs=JXEKNMc11mPgE5iv74bcPQ%3D%3D"
-			(at -323.902 40.64 0)
+			(at -323.14 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8522,7 +8502,7 @@
 			)
 		)
 		(property "Manufacturer_Name" "KOA Speer"
-			(at -423.902 40.64 0)
+			(at -423.14 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8532,7 +8512,7 @@
 			)
 		)
 		(property "Manufacturer_Part_Number" "RK73H2ATTE1003F"
-			(at -523.902 40.64 0)
+			(at -523.14 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8558,7 +8538,7 @@
 	)
 	(symbol
 		(lib_id "nixies-us:Z570M")
-		(at 262.128 72.644 90)
+		(at 262.89 72.39 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -8566,7 +8546,7 @@
 		(dnp no)
 		(uuid "628cbb25-8fee-4a56-90e8-1741b969b355")
 		(property "Reference" "N6"
-			(at 261.112 71.628 90)
+			(at 261.874 71.374 90)
 			(effects
 				(font
 					(size 1.143 1.143)
@@ -8575,7 +8555,7 @@
 			)
 		)
 		(property "Value" "Z570M"
-			(at 262.128 72.644 0)
+			(at 262.89 72.39 0)
 			(effects
 				(font
 					(size 1.143 1.143)
@@ -8585,7 +8565,7 @@
 			)
 		)
 		(property "Footprint" "Z570M"
-			(at 258.318 71.882 0)
+			(at 259.08 71.628 0)
 			(effects
 				(font
 					(size 0.508 0.508)
@@ -8594,7 +8574,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 262.128 72.644 0)
+			(at 262.89 72.39 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8603,7 +8583,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 262.128 72.644 0)
+			(at 262.89 72.39 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8661,7 +8641,7 @@
 	)
 	(symbol
 		(lib_id "nixies-us:Z570M")
-		(at 129.54 72.644 90)
+		(at 129.54 72.39 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -8669,7 +8649,7 @@
 		(dnp no)
 		(uuid "672339e1-0121-4c4f-95c8-fc41f7ab937d")
 		(property "Reference" "N3"
-			(at 128.524 71.628 90)
+			(at 128.524 71.374 90)
 			(effects
 				(font
 					(size 1.143 1.143)
@@ -8678,7 +8658,7 @@
 			)
 		)
 		(property "Value" "Z570M"
-			(at 129.54 72.644 0)
+			(at 129.54 72.39 0)
 			(effects
 				(font
 					(size 1.143 1.143)
@@ -8688,7 +8668,7 @@
 			)
 		)
 		(property "Footprint" "Z570M"
-			(at 125.73 71.882 0)
+			(at 125.73 71.628 0)
 			(effects
 				(font
 					(size 0.508 0.508)
@@ -8697,7 +8677,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 129.54 72.644 0)
+			(at 129.54 72.39 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8706,7 +8686,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 129.54 72.644 0)
+			(at 129.54 72.39 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8764,7 +8744,7 @@
 	)
 	(symbol
 		(lib_id "SamacSys_Parts:ERJ-UP6D5101V")
-		(at 53.594 49.022 90)
+		(at 53.34 34.29 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -8773,7 +8753,7 @@
 		(fields_autoplaced yes)
 		(uuid "6756bd02-30ed-4139-83d3-d04bcbff7f1b")
 		(property "Reference" "R29"
-			(at 56.642 38.8619 90)
+			(at 56.388 24.1299 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8782,7 +8762,7 @@
 			)
 		)
 		(property "Value" "10k"
-			(at 56.642 41.4019 90)
+			(at 56.388 26.6699 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8791,7 +8771,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
-			(at 149.784 35.052 0)
+			(at 149.53 20.32 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8801,7 +8781,7 @@
 			)
 		)
 		(property "Datasheet" "https://industrial.panasonic.com/cdbs/www-data/pdf/RDP0000/AOA0000C337.pdf"
-			(at 249.784 35.052 0)
+			(at 249.53 20.32 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8811,7 +8791,7 @@
 			)
 		)
 		(property "Description" "Anti-Sulfurated Thick Film Chip Resistors/ Anti-Surge Type, Power Rating (W): 0.5, Chip Size (LxW(EIA)) (mm): 2.0 x 1.25 (EIA:0805), Resistance Values (?): 5100, Resistance Tolerance (%): 0.5, T.C.R (?102/K): ?100"
-			(at 53.594 49.022 0)
+			(at 53.34 34.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8820,7 +8800,7 @@
 			)
 		)
 		(property "Height" "0.7"
-			(at 449.784 35.052 0)
+			(at 449.53 20.32 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8830,7 +8810,7 @@
 			)
 		)
 		(property "Mouser Part Number" "667-ERJ-UP6D5101V"
-			(at 549.784 35.052 0)
+			(at 549.53 20.32 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8840,7 +8820,7 @@
 			)
 		)
 		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Panasonic/ERJ-UP6D5101V?qs=ZcfC38r4Pouz7%2FLHthUDHQ%3D%3D"
-			(at 649.784 35.052 0)
+			(at 649.53 20.32 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8850,7 +8830,7 @@
 			)
 		)
 		(property "Manufacturer_Name" "Panasonic"
-			(at 749.784 35.052 0)
+			(at 749.53 20.32 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8860,7 +8840,7 @@
 			)
 		)
 		(property "Manufacturer_Part_Number" "ERJ-UP6D5101V"
-			(at 849.784 35.052 0)
+			(at 849.53 20.32 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9073,16 +9053,15 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 272.288 26.67 180)
+		(at 273.05 29.21 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "7aa706d5-f36f-4ff4-a835-d5637e803b0e")
 		(property "Reference" "#PWR016"
-			(at 272.288 20.32 0)
+			(at 273.05 22.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9091,7 +9070,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 272.288 21.59 0)
+			(at 269.494 27.432 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9099,7 +9078,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 272.288 26.67 0)
+			(at 273.05 29.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9108,7 +9087,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 272.288 26.67 0)
+			(at 273.05 29.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9117,7 +9096,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 272.288 26.67 0)
+			(at 273.05 29.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9301,7 +9280,7 @@
 	)
 	(symbol
 		(lib_id "Device:Lamp_Neon")
-		(at 194.056 70.612 0)
+		(at 194.31 71.12 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -9309,7 +9288,7 @@
 		(dnp no)
 		(uuid "7d9bfe39-c2b1-48ec-bc08-1340ecbadfbd")
 		(property "Reference" "NE2"
-			(at 195.072 74.422 0)
+			(at 195.326 74.93 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9318,7 +9297,7 @@
 			)
 		)
 		(property "Value" "90V 0.3mA"
-			(at 195.072 76.962 0)
+			(at 195.326 76.962 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9327,7 +9306,7 @@
 			)
 		)
 		(property "Footprint" "nixie:neon_lamp"
-			(at 194.056 68.072 90)
+			(at 194.31 68.58 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9336,7 +9315,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 194.056 68.072 90)
+			(at 194.31 68.58 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9345,7 +9324,7 @@
 			)
 		)
 		(property "Description" "Neon lamp"
-			(at 194.056 70.612 0)
+			(at 194.31 71.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9617,7 +9596,7 @@
 	)
 	(symbol
 		(lib_id "SamacSys_Parts:ERJ-UP6D5101V")
-		(at 147.32 49.53 90)
+		(at 147.32 33.02 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -9626,7 +9605,7 @@
 		(fields_autoplaced yes)
 		(uuid "90cce5a2-5004-47a6-a9be-805bfaca3323")
 		(property "Reference" "R26"
-			(at 150.368 39.3699 90)
+			(at 150.368 22.8599 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9635,7 +9614,7 @@
 			)
 		)
 		(property "Value" "10k"
-			(at 150.368 41.9099 90)
+			(at 150.368 25.3999 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9644,7 +9623,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
-			(at 243.51 35.56 0)
+			(at 243.51 19.05 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9654,7 +9633,7 @@
 			)
 		)
 		(property "Datasheet" "https://industrial.panasonic.com/cdbs/www-data/pdf/RDP0000/AOA0000C337.pdf"
-			(at 343.51 35.56 0)
+			(at 343.51 19.05 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9664,7 +9643,7 @@
 			)
 		)
 		(property "Description" "Anti-Sulfurated Thick Film Chip Resistors/ Anti-Surge Type, Power Rating (W): 0.5, Chip Size (LxW(EIA)) (mm): 2.0 x 1.25 (EIA:0805), Resistance Values (?): 5100, Resistance Tolerance (%): 0.5, T.C.R (?102/K): ?100"
-			(at 147.32 49.53 0)
+			(at 147.32 33.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9673,7 +9652,7 @@
 			)
 		)
 		(property "Height" "0.7"
-			(at 543.51 35.56 0)
+			(at 543.51 19.05 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9683,7 +9662,7 @@
 			)
 		)
 		(property "Mouser Part Number" "667-ERJ-UP6D5101V"
-			(at 643.51 35.56 0)
+			(at 643.51 19.05 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9693,7 +9672,7 @@
 			)
 		)
 		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Panasonic/ERJ-UP6D5101V?qs=ZcfC38r4Pouz7%2FLHthUDHQ%3D%3D"
-			(at 743.51 35.56 0)
+			(at 743.51 19.05 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9703,7 +9682,7 @@
 			)
 		)
 		(property "Manufacturer_Name" "Panasonic"
-			(at 843.51 35.56 0)
+			(at 843.51 19.05 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9713,7 +9692,7 @@
 			)
 		)
 		(property "Manufacturer_Part_Number" "ERJ-UP6D5101V"
-			(at 943.51 35.56 0)
+			(at 943.51 19.05 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9739,7 +9718,7 @@
 	)
 	(symbol
 		(lib_id "Device:Lamp_Neon")
-		(at 101.092 71.628 0)
+		(at 100.33 72.39 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -9747,7 +9726,7 @@
 		(dnp no)
 		(uuid "948e63ca-e6ab-46bf-9c35-b2a5d48196d2")
 		(property "Reference" "NE1"
-			(at 102.108 75.438 0)
+			(at 101.346 76.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9756,7 +9735,7 @@
 			)
 		)
 		(property "Value" "90V 0.3mA"
-			(at 102.108 77.978 0)
+			(at 101.346 78.486 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9765,7 +9744,7 @@
 			)
 		)
 		(property "Footprint" "nixie:neon_lamp"
-			(at 101.092 69.088 90)
+			(at 100.33 69.85 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9774,7 +9753,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 101.092 69.088 90)
+			(at 100.33 69.85 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9783,7 +9762,7 @@
 			)
 		)
 		(property "Description" "Neon lamp"
-			(at 101.092 71.628 0)
+			(at 100.33 72.39 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9808,7 +9787,7 @@
 	)
 	(symbol
 		(lib_id "SamacSys_Parts:DMN60H080DS-13")
-		(at 241.3 49.784 180)
+		(at 241.3 34.29 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -9816,7 +9795,7 @@
 		(dnp no)
 		(uuid "96878e05-ae2d-419f-8e6c-6b666113dd44")
 		(property "Reference" "Q6"
-			(at 237.236 57.912 0)
+			(at 237.236 42.418 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9825,7 +9804,7 @@
 			)
 		)
 		(property "Value" "DMN60H080DS-13"
-			(at 252.984 59.69 0)
+			(at 252.984 44.196 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9835,7 +9814,7 @@
 			)
 		)
 		(property "Footprint" "SOT96P240X110-3N"
-			(at 229.87 -48.946 0)
+			(at 229.87 -64.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9845,7 +9824,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.diodes.com//assets/Datasheets/DMN60H080DS.pdf"
-			(at 229.87 -148.946 0)
+			(at 229.87 -164.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9855,7 +9834,7 @@
 			)
 		)
 		(property "Description" "MOSFET MOSFETBVDSS: 501V-650V"
-			(at 241.3 49.784 0)
+			(at 241.3 34.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9864,7 +9843,7 @@
 			)
 		)
 		(property "Height" "1.1"
-			(at 229.87 -348.946 0)
+			(at 229.87 -364.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9874,7 +9853,7 @@
 			)
 		)
 		(property "Mouser Part Number" "621-DMN60H080DS-13"
-			(at 229.87 -448.946 0)
+			(at 229.87 -464.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9884,7 +9863,7 @@
 			)
 		)
 		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Diodes-Incorporated/DMN60H080DS-13?qs=HXFqYaX1Q2wO6tm1AgR7Fw%3D%3D"
-			(at 229.87 -548.946 0)
+			(at 229.87 -564.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9894,7 +9873,7 @@
 			)
 		)
 		(property "Manufacturer_Name" "Diodes Incorporated"
-			(at 229.87 -648.946 0)
+			(at 229.87 -664.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9904,7 +9883,7 @@
 			)
 		)
 		(property "Manufacturer_Part_Number" "DMN60H080DS-13"
-			(at 229.87 -748.946 0)
+			(at 229.87 -764.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9933,7 +9912,7 @@
 	)
 	(symbol
 		(lib_id "nixies-us:Z570M")
-		(at 75.184 71.628 90)
+		(at 74.93 72.39 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -9941,7 +9920,7 @@
 		(dnp no)
 		(uuid "97486d5a-423a-47c7-ae6c-c7776a9f03e0")
 		(property "Reference" "N2"
-			(at 74.168 70.612 90)
+			(at 73.914 71.374 90)
 			(effects
 				(font
 					(size 1.143 1.143)
@@ -9950,7 +9929,7 @@
 			)
 		)
 		(property "Value" "Z570M"
-			(at 75.184 71.628 0)
+			(at 74.93 72.39 0)
 			(effects
 				(font
 					(size 1.143 1.143)
@@ -9960,7 +9939,7 @@
 			)
 		)
 		(property "Footprint" "Z570M"
-			(at 71.374 70.866 0)
+			(at 71.12 71.628 0)
 			(effects
 				(font
 					(size 0.508 0.508)
@@ -9969,7 +9948,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 75.184 71.628 0)
+			(at 74.93 72.39 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9978,7 +9957,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 75.184 71.628 0)
+			(at 74.93 72.39 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10036,7 +10015,7 @@
 	)
 	(symbol
 		(lib_id "SamacSys_Parts:RK73H2ATTE1003F")
-		(at 101.092 44.958 270)
+		(at 100.33 45.72 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -10045,7 +10024,7 @@
 		(fields_autoplaced yes)
 		(uuid "9c00a344-bb90-4048-bcc7-cdca0e91cc7b")
 		(property "Reference" "R21"
-			(at 103.378 52.5779 90)
+			(at 102.616 53.3399 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10054,7 +10033,7 @@
 			)
 		)
 		(property "Value" "390kΩ 1/2W"
-			(at 103.378 55.1179 90)
+			(at 102.616 55.8799 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10063,7 +10042,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
-			(at 4.902 58.928 0)
+			(at 4.14 59.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10073,7 +10052,7 @@
 			)
 		)
 		(property "Datasheet" "http://www.koaspeer.com/catimages/Products/RK73H/RK73H.pdf"
-			(at -95.098 58.928 0)
+			(at -95.86 59.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10083,7 +10062,7 @@
 			)
 		)
 		(property "Description" "Thick Film Resistors - SMD 1/4W 100K OHM 1%"
-			(at 101.092 44.958 0)
+			(at 100.33 45.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10092,7 +10071,7 @@
 			)
 		)
 		(property "Height" "0.6"
-			(at -295.098 58.928 0)
+			(at -295.86 59.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10102,7 +10081,7 @@
 			)
 		)
 		(property "Mouser Part Number" "660-RK73H2ATTE1003F"
-			(at -395.098 58.928 0)
+			(at -395.86 59.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10112,7 +10091,7 @@
 			)
 		)
 		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/KOA-Speer/RK73H2ATTE1003F?qs=JXEKNMc11mPgE5iv74bcPQ%3D%3D"
-			(at -495.098 58.928 0)
+			(at -495.86 59.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10122,7 +10101,7 @@
 			)
 		)
 		(property "Manufacturer_Name" "KOA Speer"
-			(at -595.098 58.928 0)
+			(at -595.86 59.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10132,7 +10111,7 @@
 			)
 		)
 		(property "Manufacturer_Part_Number" "RK73H2ATTE1003F"
-			(at -695.098 58.928 0)
+			(at -695.86 59.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10157,8 +10136,74 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 45.72 29.21 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "9d3ee20e-071b-4831-8875-3af71351813c")
+		(property "Reference" "#PWR028"
+			(at 45.72 22.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 45.72 24.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 45.72 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 45.72 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 45.72 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "b8458c55-5877-4556-9015-d41fed3d4efc")
+		)
+		(instances
+			(project "nixie_alarm_main_board"
+				(path "/a0d555d7-39a0-4a98-b831-70d97d0aa5a1/0838545e-883c-4b51-a306-471b66112505"
+					(reference "#PWR028")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "SamacSys_Parts:RK73H2ATTE1003F")
-		(at 85.344 25.654 270)
+		(at 85.09 44.45 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -10166,7 +10211,7 @@
 		(dnp no)
 		(uuid "9e21fe59-1380-4157-92de-e8a44c70de26")
 		(property "Reference" "R37"
-			(at 77.978 33.274 90)
+			(at 77.724 52.07 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10175,7 +10220,7 @@
 			)
 		)
 		(property "Value" "51kΩ"
-			(at 77.978 35.814 90)
+			(at 77.724 54.61 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10184,7 +10229,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
-			(at -10.846 39.624 0)
+			(at -11.1 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10194,7 +10239,7 @@
 			)
 		)
 		(property "Datasheet" "http://www.koaspeer.com/catimages/Products/RK73H/RK73H.pdf"
-			(at -110.846 39.624 0)
+			(at -111.1 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10204,7 +10249,7 @@
 			)
 		)
 		(property "Description" "Thick Film Resistors - SMD 1/4W 100K OHM 1%"
-			(at 85.344 25.654 0)
+			(at 85.09 44.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10213,7 +10258,7 @@
 			)
 		)
 		(property "Height" "0.6"
-			(at -310.846 39.624 0)
+			(at -311.1 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10223,7 +10268,7 @@
 			)
 		)
 		(property "Mouser Part Number" "660-RK73H2ATTE1003F"
-			(at -410.846 39.624 0)
+			(at -411.1 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10233,7 +10278,7 @@
 			)
 		)
 		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/KOA-Speer/RK73H2ATTE1003F?qs=JXEKNMc11mPgE5iv74bcPQ%3D%3D"
-			(at -510.846 39.624 0)
+			(at -511.1 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10243,7 +10288,7 @@
 			)
 		)
 		(property "Manufacturer_Name" "KOA Speer"
-			(at -610.846 39.624 0)
+			(at -611.1 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10253,7 +10298,7 @@
 			)
 		)
 		(property "Manufacturer_Part_Number" "RK73H2ATTE1003F"
-			(at -710.846 39.624 0)
+			(at -711.1 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10279,7 +10324,7 @@
 	)
 	(symbol
 		(lib_id "SamacSys_Parts:DMN60H080DS-13")
-		(at 53.594 49.022 180)
+		(at 53.34 34.29 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -10287,7 +10332,7 @@
 		(dnp no)
 		(uuid "9f0290d0-e8ff-44df-b5a7-d9c32e8c4781")
 		(property "Reference" "Q2"
-			(at 49.53 57.15 0)
+			(at 49.276 42.418 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10296,7 +10341,7 @@
 			)
 		)
 		(property "Value" "DMN60H080DS-13"
-			(at 65.278 58.928 0)
+			(at 65.024 44.196 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10306,7 +10351,7 @@
 			)
 		)
 		(property "Footprint" "SOT96P240X110-3N"
-			(at 42.164 -49.708 0)
+			(at 41.91 -64.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10316,7 +10361,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.diodes.com//assets/Datasheets/DMN60H080DS.pdf"
-			(at 42.164 -149.708 0)
+			(at 41.91 -164.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10326,7 +10371,7 @@
 			)
 		)
 		(property "Description" "MOSFET MOSFETBVDSS: 501V-650V"
-			(at 53.594 49.022 0)
+			(at 53.34 34.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10335,7 +10380,7 @@
 			)
 		)
 		(property "Height" "1.1"
-			(at 42.164 -349.708 0)
+			(at 41.91 -364.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10345,7 +10390,7 @@
 			)
 		)
 		(property "Mouser Part Number" "621-DMN60H080DS-13"
-			(at 42.164 -449.708 0)
+			(at 41.91 -464.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10355,7 +10400,7 @@
 			)
 		)
 		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Diodes-Incorporated/DMN60H080DS-13?qs=HXFqYaX1Q2wO6tm1AgR7Fw%3D%3D"
-			(at 42.164 -549.708 0)
+			(at 41.91 -564.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10365,7 +10410,7 @@
 			)
 		)
 		(property "Manufacturer_Name" "Diodes Incorporated"
-			(at 42.164 -649.708 0)
+			(at 41.91 -664.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10375,7 +10420,7 @@
 			)
 		)
 		(property "Manufacturer_Part_Number" "DMN60H080DS-13"
-			(at 42.164 -749.708 0)
+			(at 41.91 -764.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10525,7 +10570,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 178.562 26.162 180)
+		(at 179.07 29.21 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -10534,7 +10579,7 @@
 		(fields_autoplaced yes)
 		(uuid "a555f57d-1bac-48fd-86ae-c90ae6c65442")
 		(property "Reference" "#PWR014"
-			(at 178.562 19.812 0)
+			(at 179.07 22.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10543,7 +10588,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 178.562 21.082 0)
+			(at 179.07 24.13 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10551,7 +10596,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 178.562 26.162 0)
+			(at 179.07 29.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10560,7 +10605,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 178.562 26.162 0)
+			(at 179.07 29.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10569,7 +10614,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 178.562 26.162 0)
+			(at 179.07 29.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10658,7 +10703,7 @@
 	)
 	(symbol
 		(lib_id "SamacSys_Parts:RK73H2ATTE1003F")
-		(at 139.7 26.67 270)
+		(at 139.7 43.18 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -10666,7 +10711,7 @@
 		(dnp no)
 		(uuid "ab400d37-29eb-42fa-aa46-7b0b0603a48c")
 		(property "Reference" "R38"
-			(at 132.334 34.29 90)
+			(at 132.334 50.8 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10675,7 +10720,7 @@
 			)
 		)
 		(property "Value" "51kΩ"
-			(at 132.334 36.83 90)
+			(at 132.334 53.34 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10684,7 +10729,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
-			(at 43.51 40.64 0)
+			(at 43.51 57.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10694,7 +10739,7 @@
 			)
 		)
 		(property "Datasheet" "http://www.koaspeer.com/catimages/Products/RK73H/RK73H.pdf"
-			(at -56.49 40.64 0)
+			(at -56.49 57.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10704,7 +10749,7 @@
 			)
 		)
 		(property "Description" "Thick Film Resistors - SMD 1/4W 100K OHM 1%"
-			(at 139.7 26.67 0)
+			(at 139.7 43.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10713,7 +10758,7 @@
 			)
 		)
 		(property "Height" "0.6"
-			(at -256.49 40.64 0)
+			(at -256.49 57.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10723,7 +10768,7 @@
 			)
 		)
 		(property "Mouser Part Number" "660-RK73H2ATTE1003F"
-			(at -356.49 40.64 0)
+			(at -356.49 57.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10733,7 +10778,7 @@
 			)
 		)
 		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/KOA-Speer/RK73H2ATTE1003F?qs=JXEKNMc11mPgE5iv74bcPQ%3D%3D"
-			(at -456.49 40.64 0)
+			(at -456.49 57.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10743,7 +10788,7 @@
 			)
 		)
 		(property "Manufacturer_Name" "KOA Speer"
-			(at -556.49 40.64 0)
+			(at -556.49 57.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10753,7 +10798,7 @@
 			)
 		)
 		(property "Manufacturer_Part_Number" "RK73H2ATTE1003F"
-			(at -656.49 40.64 0)
+			(at -656.49 57.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10966,7 +11011,7 @@
 	)
 	(symbol
 		(lib_id "SamacSys_Parts:RK73H2ATTE1003F")
-		(at 45.974 26.162 270)
+		(at 45.72 44.45 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -10974,7 +11019,7 @@
 		(dnp no)
 		(uuid "bc9372d1-ff72-485f-a43a-114688edfc3b")
 		(property "Reference" "R36"
-			(at 38.608 33.782 90)
+			(at 38.354 52.07 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10983,7 +11028,7 @@
 			)
 		)
 		(property "Value" "51kΩ"
-			(at 38.608 36.322 90)
+			(at 38.354 54.61 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10992,7 +11037,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
-			(at -50.216 40.132 0)
+			(at -50.47 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11002,7 +11047,7 @@
 			)
 		)
 		(property "Datasheet" "http://www.koaspeer.com/catimages/Products/RK73H/RK73H.pdf"
-			(at -150.216 40.132 0)
+			(at -150.47 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11012,7 +11057,7 @@
 			)
 		)
 		(property "Description" "Thick Film Resistors - SMD 1/4W 100K OHM 1%"
-			(at 45.974 26.162 0)
+			(at 45.72 44.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11021,7 +11066,7 @@
 			)
 		)
 		(property "Height" "0.6"
-			(at -350.216 40.132 0)
+			(at -350.47 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11031,7 +11076,7 @@
 			)
 		)
 		(property "Mouser Part Number" "660-RK73H2ATTE1003F"
-			(at -450.216 40.132 0)
+			(at -450.47 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11041,7 +11086,7 @@
 			)
 		)
 		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/KOA-Speer/RK73H2ATTE1003F?qs=JXEKNMc11mPgE5iv74bcPQ%3D%3D"
-			(at -550.216 40.132 0)
+			(at -550.47 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11051,7 +11096,7 @@
 			)
 		)
 		(property "Manufacturer_Name" "KOA Speer"
-			(at -650.216 40.132 0)
+			(at -650.47 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11061,7 +11106,7 @@
 			)
 		)
 		(property "Manufacturer_Part_Number" "RK73H2ATTE1003F"
-			(at -750.216 40.132 0)
+			(at -750.47 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11087,7 +11132,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 139.7 26.67 180)
+		(at 139.7 27.94 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -11096,7 +11141,7 @@
 		(fields_autoplaced yes)
 		(uuid "be5a1404-4d65-4d1a-8bf4-cbd0ee0c09c5")
 		(property "Reference" "#PWR010"
-			(at 139.7 20.32 0)
+			(at 139.7 21.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11105,7 +11150,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 139.7 21.59 0)
+			(at 139.7 22.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11113,7 +11158,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 139.7 26.67 0)
+			(at 139.7 27.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11122,7 +11167,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 139.7 26.67 0)
+			(at 139.7 27.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11131,7 +11176,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 139.7 26.67 0)
+			(at 139.7 27.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11400,7 +11445,7 @@
 	)
 	(symbol
 		(lib_id "SamacSys_Parts:ERJ-UP6D5101V")
-		(at 241.3 49.784 90)
+		(at 241.3 34.29 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -11409,7 +11454,7 @@
 		(fields_autoplaced yes)
 		(uuid "c830c84d-f638-47ec-961d-67e95998badf")
 		(property "Reference" "R32"
-			(at 244.348 39.6239 90)
+			(at 244.348 24.1299 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11418,7 +11463,7 @@
 			)
 		)
 		(property "Value" "10k"
-			(at 244.348 42.1639 90)
+			(at 244.348 26.6699 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11427,7 +11472,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
-			(at 337.49 35.814 0)
+			(at 337.49 20.32 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11437,7 +11482,7 @@
 			)
 		)
 		(property "Datasheet" "https://industrial.panasonic.com/cdbs/www-data/pdf/RDP0000/AOA0000C337.pdf"
-			(at 437.49 35.814 0)
+			(at 437.49 20.32 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11447,7 +11492,7 @@
 			)
 		)
 		(property "Description" "Anti-Sulfurated Thick Film Chip Resistors/ Anti-Surge Type, Power Rating (W): 0.5, Chip Size (LxW(EIA)) (mm): 2.0 x 1.25 (EIA:0805), Resistance Values (?): 5100, Resistance Tolerance (%): 0.5, T.C.R (?102/K): ?100"
-			(at 241.3 49.784 0)
+			(at 241.3 34.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11456,7 +11501,7 @@
 			)
 		)
 		(property "Height" "0.7"
-			(at 637.49 35.814 0)
+			(at 637.49 20.32 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11466,7 +11511,7 @@
 			)
 		)
 		(property "Mouser Part Number" "667-ERJ-UP6D5101V"
-			(at 737.49 35.814 0)
+			(at 737.49 20.32 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11476,7 +11521,7 @@
 			)
 		)
 		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Panasonic/ERJ-UP6D5101V?qs=ZcfC38r4Pouz7%2FLHthUDHQ%3D%3D"
-			(at 837.49 35.814 0)
+			(at 837.49 20.32 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11486,7 +11531,7 @@
 			)
 		)
 		(property "Manufacturer_Name" "Panasonic"
-			(at 937.49 35.814 0)
+			(at 937.49 20.32 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11496,7 +11541,7 @@
 			)
 		)
 		(property "Manufacturer_Part_Number" "ERJ-UP6D5101V"
-			(at 1037.49 35.814 0)
+			(at 1037.49 20.32 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11539,7 +11584,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 30.226 129.286 0)
+			(at 29.972 123.952 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11587,7 +11632,7 @@
 	)
 	(symbol
 		(lib_id "SamacSys_Parts:RK73H2ATTE1003F")
-		(at 178.562 26.162 270)
+		(at 179.07 44.45 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -11595,7 +11640,7 @@
 		(dnp no)
 		(uuid "ce08a5c1-c298-47d6-914b-fcde0c4a66a4")
 		(property "Reference" "R39"
-			(at 171.196 33.782 90)
+			(at 171.704 52.07 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11604,7 +11649,7 @@
 			)
 		)
 		(property "Value" "51kΩ"
-			(at 171.196 36.322 90)
+			(at 171.704 54.61 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11613,7 +11658,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
-			(at 82.372 40.132 0)
+			(at 82.88 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11623,7 +11668,7 @@
 			)
 		)
 		(property "Datasheet" "http://www.koaspeer.com/catimages/Products/RK73H/RK73H.pdf"
-			(at -17.628 40.132 0)
+			(at -17.12 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11633,7 +11678,7 @@
 			)
 		)
 		(property "Description" "Thick Film Resistors - SMD 1/4W 100K OHM 1%"
-			(at 178.562 26.162 0)
+			(at 179.07 44.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11642,7 +11687,7 @@
 			)
 		)
 		(property "Height" "0.6"
-			(at -217.628 40.132 0)
+			(at -217.12 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11652,7 +11697,7 @@
 			)
 		)
 		(property "Mouser Part Number" "660-RK73H2ATTE1003F"
-			(at -317.628 40.132 0)
+			(at -317.12 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11662,7 +11707,7 @@
 			)
 		)
 		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/KOA-Speer/RK73H2ATTE1003F?qs=JXEKNMc11mPgE5iv74bcPQ%3D%3D"
-			(at -417.628 40.132 0)
+			(at -417.12 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11672,7 +11717,7 @@
 			)
 		)
 		(property "Manufacturer_Name" "KOA Speer"
-			(at -517.628 40.132 0)
+			(at -517.12 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11682,7 +11727,7 @@
 			)
 		)
 		(property "Manufacturer_Part_Number" "RK73H2ATTE1003F"
-			(at -617.628 40.132 0)
+			(at -617.12 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11708,7 +11753,7 @@
 	)
 	(symbol
 		(lib_id "SamacSys_Parts:DMN60H080DS-13")
-		(at 279.908 49.53 180)
+		(at 280.67 34.29 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -11716,7 +11761,7 @@
 		(dnp no)
 		(uuid "cfac36c3-05b0-41dd-9d98-5a8562acb52d")
 		(property "Reference" "Q7"
-			(at 276.098 57.404 0)
+			(at 276.86 42.164 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11725,7 +11770,7 @@
 			)
 		)
 		(property "Value" "DMN60H080DS-13"
-			(at 291.592 59.436 0)
+			(at 292.354 44.196 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11735,7 +11780,7 @@
 			)
 		)
 		(property "Footprint" "SOT96P240X110-3N"
-			(at 268.478 -49.2 0)
+			(at 269.24 -64.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11745,7 +11790,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.diodes.com//assets/Datasheets/DMN60H080DS.pdf"
-			(at 268.478 -149.2 0)
+			(at 269.24 -164.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11755,7 +11800,7 @@
 			)
 		)
 		(property "Description" "MOSFET MOSFETBVDSS: 501V-650V"
-			(at 279.908 49.53 0)
+			(at 280.67 34.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11764,7 +11809,7 @@
 			)
 		)
 		(property "Height" "1.1"
-			(at 268.478 -349.2 0)
+			(at 269.24 -364.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11774,7 +11819,7 @@
 			)
 		)
 		(property "Mouser Part Number" "621-DMN60H080DS-13"
-			(at 268.478 -449.2 0)
+			(at 269.24 -464.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11784,7 +11829,7 @@
 			)
 		)
 		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Diodes-Incorporated/DMN60H080DS-13?qs=HXFqYaX1Q2wO6tm1AgR7Fw%3D%3D"
-			(at 268.478 -549.2 0)
+			(at 269.24 -564.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11794,7 +11839,7 @@
 			)
 		)
 		(property "Manufacturer_Name" "Diodes Incorporated"
-			(at 268.478 -649.2 0)
+			(at 269.24 -664.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11804,7 +11849,7 @@
 			)
 		)
 		(property "Manufacturer_Part_Number" "DMN60H080DS-13"
-			(at 268.478 -749.2 0)
+			(at 269.24 -764.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11833,7 +11878,7 @@
 	)
 	(symbol
 		(lib_id "SamacSys_Parts:RK73H2ATTE1003F")
-		(at 168.402 44.45 270)
+		(at 168.91 44.45 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -11841,7 +11886,7 @@
 		(dnp no)
 		(uuid "d1f23689-bb7a-48e2-a6b0-69d267451d69")
 		(property "Reference" "R28"
-			(at 161.036 52.578 90)
+			(at 161.544 52.578 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11850,7 +11895,7 @@
 			)
 		)
 		(property "Value" "27kΩ"
-			(at 161.036 55.118 90)
+			(at 161.544 55.118 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11859,7 +11904,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
-			(at 72.212 58.42 0)
+			(at 72.72 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11869,7 +11914,7 @@
 			)
 		)
 		(property "Datasheet" "http://www.koaspeer.com/catimages/Products/RK73H/RK73H.pdf"
-			(at -27.788 58.42 0)
+			(at -27.28 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11879,7 +11924,7 @@
 			)
 		)
 		(property "Description" "Thick Film Resistors - SMD 1/4W 100K OHM 1%"
-			(at 168.402 44.45 0)
+			(at 168.91 44.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11888,7 +11933,7 @@
 			)
 		)
 		(property "Height" "0.6"
-			(at -227.788 58.42 0)
+			(at -227.28 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11898,7 +11943,7 @@
 			)
 		)
 		(property "Mouser Part Number" "660-RK73H2ATTE1003F"
-			(at -327.788 58.42 0)
+			(at -327.28 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11908,7 +11953,7 @@
 			)
 		)
 		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/KOA-Speer/RK73H2ATTE1003F?qs=JXEKNMc11mPgE5iv74bcPQ%3D%3D"
-			(at -427.788 58.42 0)
+			(at -427.28 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11918,7 +11963,7 @@
 			)
 		)
 		(property "Manufacturer_Name" "KOA Speer"
-			(at -527.788 58.42 0)
+			(at -527.28 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11928,7 +11973,7 @@
 			)
 		)
 		(property "Manufacturer_Part_Number" "RK73H2ATTE1003F"
-			(at -627.788 58.42 0)
+			(at -627.28 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12075,7 +12120,7 @@
 	)
 	(symbol
 		(lib_id "SamacSys_Parts:RK73H2ATTE1003F")
-		(at 194.056 43.942 270)
+		(at 194.31 44.45 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -12084,7 +12129,7 @@
 		(fields_autoplaced yes)
 		(uuid "de11dd57-8773-4076-8135-e8ff1125ea8c")
 		(property "Reference" "R27"
-			(at 196.342 51.5619 90)
+			(at 196.596 52.0699 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12093,7 +12138,7 @@
 			)
 		)
 		(property "Value" "390kΩ 1/2W"
-			(at 196.342 54.1019 90)
+			(at 196.596 54.6099 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12102,7 +12147,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
-			(at 97.866 57.912 0)
+			(at 98.12 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12112,7 +12157,7 @@
 			)
 		)
 		(property "Datasheet" "http://www.koaspeer.com/catimages/Products/RK73H/RK73H.pdf"
-			(at -2.134 57.912 0)
+			(at -1.88 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12122,7 +12167,7 @@
 			)
 		)
 		(property "Description" "Thick Film Resistors - SMD 1/4W 100K OHM 1%"
-			(at 194.056 43.942 0)
+			(at 194.31 44.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12131,7 +12176,7 @@
 			)
 		)
 		(property "Height" "0.6"
-			(at -202.134 57.912 0)
+			(at -201.88 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12141,7 +12186,7 @@
 			)
 		)
 		(property "Mouser Part Number" "660-RK73H2ATTE1003F"
-			(at -302.134 57.912 0)
+			(at -301.88 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12151,7 +12196,7 @@
 			)
 		)
 		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/KOA-Speer/RK73H2ATTE1003F?qs=JXEKNMc11mPgE5iv74bcPQ%3D%3D"
-			(at -402.134 57.912 0)
+			(at -401.88 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12161,7 +12206,7 @@
 			)
 		)
 		(property "Manufacturer_Name" "KOA Speer"
-			(at -502.134 57.912 0)
+			(at -501.88 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12171,7 +12216,7 @@
 			)
 		)
 		(property "Manufacturer_Part_Number" "RK73H2ATTE1003F"
-			(at -602.134 57.912 0)
+			(at -601.88 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12318,7 +12363,7 @@
 	)
 	(symbol
 		(lib_id "SamacSys_Parts:DMN60H080DS-13")
-		(at 92.964 48.514 180)
+		(at 92.71 34.29 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -12326,16 +12371,17 @@
 		(dnp no)
 		(uuid "e0d5d390-657b-4892-ac15-10cdf0e37a52")
 		(property "Reference" "Q3"
-			(at 89.154 56.388 0)
+			(at 88.9 42.164 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
+				(hide yes)
 			)
 		)
 		(property "Value" "DMN60H080DS-13"
-			(at 104.648 58.42 0)
+			(at 104.394 44.196 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12345,7 +12391,7 @@
 			)
 		)
 		(property "Footprint" "SOT96P240X110-3N"
-			(at 81.534 -50.216 0)
+			(at 81.28 -64.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12355,7 +12401,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.diodes.com//assets/Datasheets/DMN60H080DS.pdf"
-			(at 81.534 -150.216 0)
+			(at 81.28 -164.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12365,7 +12411,7 @@
 			)
 		)
 		(property "Description" "MOSFET MOSFETBVDSS: 501V-650V"
-			(at 92.964 48.514 0)
+			(at 92.71 34.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12374,7 +12420,7 @@
 			)
 		)
 		(property "Height" "1.1"
-			(at 81.534 -350.216 0)
+			(at 81.28 -364.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12384,7 +12430,7 @@
 			)
 		)
 		(property "Mouser Part Number" "621-DMN60H080DS-13"
-			(at 81.534 -450.216 0)
+			(at 81.28 -464.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12394,7 +12440,7 @@
 			)
 		)
 		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Diodes-Incorporated/DMN60H080DS-13?qs=HXFqYaX1Q2wO6tm1AgR7Fw%3D%3D"
-			(at 81.534 -550.216 0)
+			(at 81.28 -564.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12404,7 +12450,7 @@
 			)
 		)
 		(property "Manufacturer_Name" "Diodes Incorporated"
-			(at 81.534 -650.216 0)
+			(at 81.28 -664.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12414,7 +12460,7 @@
 			)
 		)
 		(property "Manufacturer_Part_Number" "DMN60H080DS-13"
-			(at 81.534 -750.216 0)
+			(at 81.28 -764.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12443,7 +12489,7 @@
 	)
 	(symbol
 		(lib_id "SamacSys_Parts:ERJ-UP6D5101V")
-		(at 279.908 49.53 90)
+		(at 280.67 34.29 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -12451,7 +12497,7 @@
 		(dnp no)
 		(uuid "e4373fd3-59dc-4482-8ec9-0d3efa9837cb")
 		(property "Reference" "R34"
-			(at 274.066 39.116 90)
+			(at 274.828 23.876 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12460,7 +12506,7 @@
 			)
 		)
 		(property "Value" "10k"
-			(at 274.066 41.656 90)
+			(at 274.828 26.416 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12469,7 +12515,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
-			(at 376.098 35.56 0)
+			(at 376.86 20.32 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12479,7 +12525,7 @@
 			)
 		)
 		(property "Datasheet" "https://industrial.panasonic.com/cdbs/www-data/pdf/RDP0000/AOA0000C337.pdf"
-			(at 476.098 35.56 0)
+			(at 476.86 20.32 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12489,7 +12535,7 @@
 			)
 		)
 		(property "Description" "Anti-Sulfurated Thick Film Chip Resistors/ Anti-Surge Type, Power Rating (W): 0.5, Chip Size (LxW(EIA)) (mm): 2.0 x 1.25 (EIA:0805), Resistance Values (?): 5100, Resistance Tolerance (%): 0.5, T.C.R (?102/K): ?100"
-			(at 279.908 49.53 0)
+			(at 280.67 34.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12498,7 +12544,7 @@
 			)
 		)
 		(property "Height" "0.7"
-			(at 676.098 35.56 0)
+			(at 676.86 20.32 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12508,7 +12554,7 @@
 			)
 		)
 		(property "Mouser Part Number" "667-ERJ-UP6D5101V"
-			(at 776.098 35.56 0)
+			(at 776.86 20.32 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12518,7 +12564,7 @@
 			)
 		)
 		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Panasonic/ERJ-UP6D5101V?qs=ZcfC38r4Pouz7%2FLHthUDHQ%3D%3D"
-			(at 876.098 35.56 0)
+			(at 876.86 20.32 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12528,7 +12574,7 @@
 			)
 		)
 		(property "Manufacturer_Name" "Panasonic"
-			(at 976.098 35.56 0)
+			(at 976.86 20.32 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12538,7 +12584,7 @@
 			)
 		)
 		(property "Manufacturer_Part_Number" "ERJ-UP6D5101V"
-			(at 1076.098 35.56 0)
+			(at 1076.86 20.32 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12564,7 +12610,7 @@
 	)
 	(symbol
 		(lib_id "SamacSys_Parts:RK73H2ATTE1003F")
-		(at 35.814 44.196 270)
+		(at 35.56 41.91 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -12572,7 +12618,7 @@
 		(dnp no)
 		(uuid "ecdc56b7-0316-4773-ae18-bb1f6cd0332a")
 		(property "Reference" "R23"
-			(at 28.448 51.816 90)
+			(at 28.194 49.53 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12581,7 +12627,7 @@
 			)
 		)
 		(property "Value" "27kΩ"
-			(at 28.448 54.356 90)
+			(at 28.194 52.07 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12590,7 +12636,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
-			(at -60.376 58.166 0)
+			(at -60.63 55.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12600,7 +12646,7 @@
 			)
 		)
 		(property "Datasheet" "http://www.koaspeer.com/catimages/Products/RK73H/RK73H.pdf"
-			(at -160.376 58.166 0)
+			(at -160.63 55.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12610,7 +12656,7 @@
 			)
 		)
 		(property "Description" "Thick Film Resistors - SMD 1/4W 100K OHM 1%"
-			(at 35.814 44.196 0)
+			(at 35.56 41.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12619,7 +12665,7 @@
 			)
 		)
 		(property "Height" "0.6"
-			(at -360.376 58.166 0)
+			(at -360.63 55.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12629,7 +12675,7 @@
 			)
 		)
 		(property "Mouser Part Number" "660-RK73H2ATTE1003F"
-			(at -460.376 58.166 0)
+			(at -460.63 55.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12639,7 +12685,7 @@
 			)
 		)
 		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/KOA-Speer/RK73H2ATTE1003F?qs=JXEKNMc11mPgE5iv74bcPQ%3D%3D"
-			(at -560.376 58.166 0)
+			(at -560.63 55.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12649,7 +12695,7 @@
 			)
 		)
 		(property "Manufacturer_Name" "KOA Speer"
-			(at -660.376 58.166 0)
+			(at -660.63 55.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12659,7 +12705,7 @@
 			)
 		)
 		(property "Manufacturer_Part_Number" "RK73H2ATTE1003F"
-			(at -760.376 58.166 0)
+			(at -760.63 55.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12768,7 +12814,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 68.072 129.286 0)
+			(at 68.326 123.698 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12809,72 +12855,6 @@
 			(project "nixie_alarm_main_board"
 				(path "/a0d555d7-39a0-4a98-b831-70d97d0aa5a1/0838545e-883c-4b51-a306-471b66112505"
 					(reference "#PWR039")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 45.974 26.162 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "fd71247c-dd8f-498f-b2aa-620369666a12")
-		(property "Reference" "#PWR028"
-			(at 45.974 19.812 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 45.974 21.082 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 45.974 26.162 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 45.974 26.162 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 45.974 26.162 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "debab5a6-ff53-48ab-b61c-668ea9967c14")
-		)
-		(instances
-			(project "nixie_alarm_main_board"
-				(path "/a0d555d7-39a0-4a98-b831-70d97d0aa5a1/0838545e-883c-4b51-a306-471b66112505"
-					(reference "#PWR028")
 					(unit 1)
 				)
 			)

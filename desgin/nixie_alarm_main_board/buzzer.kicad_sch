@@ -5,6 +5,169 @@
 	(uuid "41ca195a-678e-4d2d-93ef-d209a5d37dbe")
 	(paper "A4")
 	(lib_symbols
+		(symbol "Device:D"
+			(pin_numbers hide)
+			(pin_names
+				(offset 1.016) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "D"
+				(at 0 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "D"
+				(at 0 -2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Diode"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Sim.Device" "D"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Sim.Pins" "1=K 2=A"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "diode"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "TO-???* *_Diode_* *SingleDiode* D_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "D_0_1"
+				(polyline
+					(pts
+						(xy -1.27 1.27) (xy -1.27 -1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 0) (xy -1.27 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 1.27) (xy 1.27 -1.27) (xy -1.27 0) (xy 1.27 1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "D_1_1"
+				(pin passive line
+					(at -3.81 0 0)
+					(length 2.54)
+					(name "K"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 3.81 0 180)
+					(length 2.54)
+					(name "A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
 		(symbol "SamacSys_Parts:CEM-1203_42_"
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -768,9 +931,21 @@
 			)
 		)
 	)
+	(junction
+		(at 146.05 72.39)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "0aa27ce6-49e9-4798-8c88-1c0582ab4616")
+	)
+	(junction
+		(at 146.05 83.82)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "df3619f3-9086-4af2-a64f-8a94b80b7528")
+	)
 	(wire
 		(pts
-			(xy 136.906 96.266) (xy 137.668 96.266)
+			(xy 137.668 96.52) (xy 138.43 96.52)
 		)
 		(stroke
 			(width 0)
@@ -780,7 +955,17 @@
 	)
 	(wire
 		(pts
-			(xy 145.288 105.918) (xy 145.288 101.346)
+			(xy 139.7 72.39) (xy 146.05 72.39)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5468ccd0-6c6c-4900-a3f0-f3e9186f6eae")
+	)
+	(wire
+		(pts
+			(xy 146.05 106.172) (xy 146.05 101.6)
 		)
 		(stroke
 			(width 0)
@@ -790,7 +975,57 @@
 	)
 	(wire
 		(pts
-			(xy 117.094 96.266) (xy 119.126 96.266)
+			(xy 146.05 80.01) (xy 146.05 83.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "af1f88e7-e02a-4d1d-9e8e-2618b9195ed4")
+	)
+	(wire
+		(pts
+			(xy 139.7 81.28) (xy 139.7 83.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ba438d3e-7c4c-4e64-b798-2427a3b2d693")
+	)
+	(wire
+		(pts
+			(xy 139.7 83.82) (xy 146.05 83.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c2b8e9dc-f639-46d6-871a-f4a50335a042")
+	)
+	(wire
+		(pts
+			(xy 146.05 72.39) (xy 146.05 77.47)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c8407c70-b66f-4a56-9039-0bff1f868008")
+	)
+	(wire
+		(pts
+			(xy 139.7 73.66) (xy 139.7 72.39)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cbd91cec-cf4b-48bc-8e40-9bbc17c71529")
+	)
+	(wire
+		(pts
+			(xy 117.856 96.52) (xy 119.888 96.52)
 		)
 		(stroke
 			(width 0)
@@ -800,7 +1035,7 @@
 	)
 	(wire
 		(pts
-			(xy 145.288 73.914) (xy 145.288 83.566)
+			(xy 146.05 67.818) (xy 146.05 72.39)
 		)
 		(stroke
 			(width 0)
@@ -808,9 +1043,19 @@
 		)
 		(uuid "ee763bef-c79a-45fc-af6f-ce26ac8d29fd")
 	)
+	(wire
+		(pts
+			(xy 146.05 83.82) (xy 146.05 86.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fd70c3b9-6923-4eda-b4af-f3d76dec09e2")
+	)
 	(global_label "+3.3V"
 		(shape input)
-		(at 145.288 73.914 90)
+		(at 146.05 67.818 90)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -820,7 +1065,7 @@
 		)
 		(uuid "889b3f27-1c1d-40f6-8b6c-17cc87da3b28")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 145.288 65.244 90)
+			(at 146.05 59.148 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -832,7 +1077,7 @@
 	)
 	(hierarchical_label "buzzer"
 		(shape input)
-		(at 117.094 96.266 180)
+		(at 117.856 96.52 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -844,7 +1089,7 @@
 	)
 	(symbol
 		(lib_id "SamacSys_Parts:CEM-1203_42_")
-		(at 145.288 83.566 0)
+		(at 146.05 77.47 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -853,7 +1098,7 @@
 		(fields_autoplaced yes)
 		(uuid "14a5939d-cd1e-43a7-8ebd-623c983be2d7")
 		(property "Reference" "LS1"
-			(at 156.21 83.5659 0)
+			(at 156.972 77.4699 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -862,7 +1107,7 @@
 			)
 		)
 		(property "Value" "CEM-1203_42_"
-			(at 156.21 86.1059 0)
+			(at 156.972 80.0099 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -871,7 +1116,7 @@
 			)
 		)
 		(property "Footprint" "SamacSys_Parts:CEM-1203_42_"
-			(at 156.718 186.106 0)
+			(at 157.48 180.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -881,7 +1126,7 @@
 			)
 		)
 		(property "Datasheet" "https://componentsearchengine.com/Datasheets/1/CEM-1203(42).pdf"
-			(at 156.718 286.106 0)
+			(at 157.48 280.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -891,7 +1136,7 @@
 			)
 		)
 		(property "Description" "Speakers & Transducers Buzzers"
-			(at 145.288 83.566 0)
+			(at 146.05 77.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -900,7 +1145,7 @@
 			)
 		)
 		(property "Height" ""
-			(at 156.718 486.106 0)
+			(at 157.48 480.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -910,7 +1155,7 @@
 			)
 		)
 		(property "Mouser Part Number" "490-CEM-1203(42)"
-			(at 156.718 586.106 0)
+			(at 157.48 580.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -920,7 +1165,7 @@
 			)
 		)
 		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/CUI-Devices/CEM-120342?qs=WyjlAZoYn50KzVdoYfaqpA%3D%3D"
-			(at 156.718 686.106 0)
+			(at 157.48 680.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -930,7 +1175,7 @@
 			)
 		)
 		(property "Manufacturer_Name" "CUI Devices"
-			(at 156.718 786.106 0)
+			(at 157.48 780.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -940,7 +1185,7 @@
 			)
 		)
 		(property "Manufacturer_Part_Number" "CEM-1203(42)"
-			(at 156.718 886.106 0)
+			(at 157.48 880.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -965,8 +1210,95 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:D")
+		(at 139.7 77.47 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "7c20eb2a-2e5d-414e-b081-b20ceb0e2cb7")
+		(property "Reference" "D5"
+			(at 130.556 76.454 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "CDBUR0520"
+			(at 126.492 78.74 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Diode_SMD:D_0603_1608Metric_Pad1.05x0.95mm_HandSolder"
+			(at 139.7 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 139.7 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Diode"
+			(at 139.7 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 139.7 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 139.7 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "e9494f37-3b42-47be-a943-0c94da1afc56")
+		)
+		(pin "1"
+			(uuid "b1d02c36-d9ee-463b-b9eb-838dc67f306b")
+		)
+		(instances
+			(project ""
+				(path "/a0d555d7-39a0-4a98-b831-70d97d0aa5a1/213b4d52-76a7-4834-ad68-e02bc5e5b10b"
+					(reference "D5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
-		(at 145.288 105.918 0)
+		(at 146.05 106.172 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -974,7 +1306,7 @@
 		(dnp no)
 		(uuid "9cda5576-0fa9-492d-8c2c-0facc4cf6401")
 		(property "Reference" "#PWR031"
-			(at 145.288 112.268 0)
+			(at 146.05 112.522 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -983,7 +1315,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 145.288 109.728 0)
+			(at 146.05 109.982 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -991,7 +1323,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 145.288 105.918 0)
+			(at 146.05 106.172 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1000,7 +1332,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 145.288 105.918 0)
+			(at 146.05 106.172 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1009,7 +1341,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 145.288 105.918 0)
+			(at 146.05 106.172 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1031,7 +1363,7 @@
 	)
 	(symbol
 		(lib_id "SamacSys_Parts:ERJ-UP6D5101V")
-		(at 136.906 96.266 180)
+		(at 137.668 96.52 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1040,7 +1372,7 @@
 		(fields_autoplaced yes)
 		(uuid "9fc47119-8df2-4d9f-81f6-ec27f2af5449")
 		(property "Reference" "R35"
-			(at 128.016 90.424 0)
+			(at 128.778 90.678 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1048,7 +1380,7 @@
 			)
 		)
 		(property "Value" "10k"
-			(at 128.016 92.964 0)
+			(at 128.778 93.218 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1056,7 +1388,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
-			(at 122.936 0.076 0)
+			(at 123.698 0.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1066,7 +1398,7 @@
 			)
 		)
 		(property "Datasheet" "https://industrial.panasonic.com/cdbs/www-data/pdf/RDP0000/AOA0000C337.pdf"
-			(at 122.936 -99.924 0)
+			(at 123.698 -99.67 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1076,7 +1408,7 @@
 			)
 		)
 		(property "Description" "Anti-Sulfurated Thick Film Chip Resistors/ Anti-Surge Type, Power Rating (W): 0.5, Chip Size (LxW(EIA)) (mm): 2.0 x 1.25 (EIA:0805), Resistance Values (?): 5100, Resistance Tolerance (%): 0.5, T.C.R (?102/K): ?100"
-			(at 136.906 96.266 0)
+			(at 137.668 96.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1085,7 +1417,7 @@
 			)
 		)
 		(property "Height" "0.7"
-			(at 122.936 -299.924 0)
+			(at 123.698 -299.67 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1095,7 +1427,7 @@
 			)
 		)
 		(property "Mouser Part Number" "667-ERJ-UP6D5101V"
-			(at 122.936 -399.924 0)
+			(at 123.698 -399.67 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1105,7 +1437,7 @@
 			)
 		)
 		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Panasonic/ERJ-UP6D5101V?qs=ZcfC38r4Pouz7%2FLHthUDHQ%3D%3D"
-			(at 122.936 -499.924 0)
+			(at 123.698 -499.67 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1115,7 +1447,7 @@
 			)
 		)
 		(property "Manufacturer_Name" "Panasonic"
-			(at 122.936 -599.924 0)
+			(at 123.698 -599.67 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1125,7 +1457,7 @@
 			)
 		)
 		(property "Manufacturer_Part_Number" "ERJ-UP6D5101V"
-			(at 122.936 -699.924 0)
+			(at 123.698 -699.67 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1151,16 +1483,15 @@
 	)
 	(symbol
 		(lib_id "SamacSys_Parts:SSM3K35AMFV,L3F")
-		(at 137.668 96.266 0)
+		(at 138.43 96.52 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "f1a671d1-9a83-4391-8391-5494e01569fc")
 		(property "Reference" "Q1"
-			(at 149.098 92.4559 0)
+			(at 150.622 86.6139 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1169,7 +1500,7 @@
 			)
 		)
 		(property "Value" "SSM3K35AMFV,L3F"
-			(at 149.098 94.9959 0)
+			(at 149.86 95.2499 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1178,7 +1509,7 @@
 			)
 		)
 		(property "Footprint" "SSM3K35AMFVL3F"
-			(at 149.098 194.996 0)
+			(at 149.86 195.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1188,7 +1519,7 @@
 			)
 		)
 		(property "Datasheet" "https://toshiba.semicon-storage.com/info/SSM3K35AMFV_datasheet_en_20170217.pdf?did=55390&prodName=SSM3K35AMFV"
-			(at 149.098 294.996 0)
+			(at 149.86 295.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1198,7 +1529,7 @@
 			)
 		)
 		(property "Description" "MOSFET LowON Res MOSFET ID=.25A VDSS=20V"
-			(at 137.668 96.266 0)
+			(at 138.43 96.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1207,7 +1538,7 @@
 			)
 		)
 		(property "Height" "0.55"
-			(at 149.098 494.996 0)
+			(at 149.86 495.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1217,7 +1548,7 @@
 			)
 		)
 		(property "Mouser Part Number" "757-SSM3K35AMFVL3F"
-			(at 149.098 594.996 0)
+			(at 149.86 595.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1227,7 +1558,7 @@
 			)
 		)
 		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Toshiba/SSM3K35AMFVL3F?qs=HXFqYaX1Q2w2dXvJh%252B6EdA%3D%3D"
-			(at 149.098 694.996 0)
+			(at 149.86 695.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1237,7 +1568,7 @@
 			)
 		)
 		(property "Manufacturer_Name" "Toshiba"
-			(at 149.098 794.996 0)
+			(at 149.86 795.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1247,7 +1578,7 @@
 			)
 		)
 		(property "Manufacturer_Part_Number" "SSM3K35AMFV,L3F"
-			(at 149.098 894.996 0)
+			(at 149.86 895.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
