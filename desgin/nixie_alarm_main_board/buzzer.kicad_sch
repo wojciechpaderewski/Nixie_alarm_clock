@@ -1288,7 +1288,7 @@
 			(uuid "b1d02c36-d9ee-463b-b9eb-838dc67f306b")
 		)
 		(instances
-			(project ""
+			(project "nixie_alarm_main_board"
 				(path "/a0d555d7-39a0-4a98-b831-70d97d0aa5a1/213b4d52-76a7-4834-ad68-e02bc5e5b10b"
 					(reference "D5")
 					(unit 1)

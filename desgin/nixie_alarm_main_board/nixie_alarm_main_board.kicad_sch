@@ -1854,6 +1854,16 @@
 		)
 		(uuid "fbf8c23e-4c29-4164-812b-0e1fb94e7ca6")
 	)
+	(text "TEST PADS"
+		(exclude_from_sim no)
+		(at 86.106 122.682 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "a07365ab-35f9-4b00-940a-d9bea27069a7")
+	)
 	(global_label "+3.3V"
 		(shape input)
 		(at 127.508 80.264 90)
@@ -3080,7 +3090,7 @@
 			(uuid "aa4d29b3-d203-4c0e-b53b-0dc24bcb059a")
 		)
 		(instances
-			(project ""
+			(project "nixie_alarm_main_board"
 				(path "/a0d555d7-39a0-4a98-b831-70d97d0aa5a1"
 					(reference "H1")
 					(unit 1)
@@ -3096,10 +3106,9 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "129887e5-9d8d-4e12-9cb8-58dad953a7eb")
-		(property "Reference" "TP4"
-			(at 85.598 147.32 90)
+		(property "Reference" "+HV1"
+			(at 85.09 150.368 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3112,6 +3121,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "Footprint" "TestPoint:TestPoint_Pad_D2.0mm"
@@ -3147,7 +3157,7 @@
 		(instances
 			(project "nixie_alarm_main_board"
 				(path "/a0d555d7-39a0-4a98-b831-70d97d0aa5a1"
-					(reference "TP4")
+					(reference "+HV1")
 					(unit 1)
 				)
 			)
@@ -3349,8 +3359,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "38a1a707-227d-420b-9e29-00b6cecf7ee9")
-		(property "Reference" "TP5"
-			(at 85.598 154.94 90)
+		(property "Reference" "GND1"
+			(at 85.598 157.48 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3363,6 +3373,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "Footprint" "TestPoint:TestPoint_Pad_D2.0mm"
@@ -3398,7 +3409,7 @@
 		(instances
 			(project "nixie_alarm_main_board"
 				(path "/a0d555d7-39a0-4a98-b831-70d97d0aa5a1"
-					(reference "TP5")
+					(reference "GND1")
 					(unit 1)
 				)
 			)
@@ -3412,10 +3423,9 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "404328fd-32b1-4736-be31-4f544bead6b1")
-		(property "Reference" "TP1"
-			(at 85.598 124.46 90)
+		(property "Reference" "+3.3V1"
+			(at 85.09 127 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3428,6 +3438,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "Footprint" "TestPoint:TestPoint_Pad_D2.0mm"
@@ -3461,9 +3472,9 @@
 			(uuid "29e31c37-eaf8-4b0c-8a68-6d1344549b1f")
 		)
 		(instances
-			(project ""
+			(project "nixie_alarm_main_board"
 				(path "/a0d555d7-39a0-4a98-b831-70d97d0aa5a1"
-					(reference "TP1")
+					(reference "+3.3V1")
 					(unit 1)
 				)
 			)
@@ -3744,10 +3755,9 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "8a604383-f5d1-4b38-89d0-6f200ee13f59")
-		(property "Reference" "TP3"
-			(at 85.598 139.7 90)
+		(property "Reference" "+12V1"
+			(at 85.09 142.748 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3760,6 +3770,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "Footprint" "TestPoint:TestPoint_Pad_D2.0mm"
@@ -3795,7 +3806,7 @@
 		(instances
 			(project "nixie_alarm_main_board"
 				(path "/a0d555d7-39a0-4a98-b831-70d97d0aa5a1"
-					(reference "TP3")
+					(reference "+12V1")
 					(unit 1)
 				)
 			)
@@ -4133,10 +4144,9 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "f1437e67-1f01-413a-b549-fc2829e23fcd")
-		(property "Reference" "TP2"
-			(at 85.598 132.08 90)
+		(property "Reference" "+5V1"
+			(at 85.344 134.874 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4149,6 +4159,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "Footprint" "TestPoint:TestPoint_Pad_D2.0mm"
@@ -4184,7 +4195,7 @@
 		(instances
 			(project "nixie_alarm_main_board"
 				(path "/a0d555d7-39a0-4a98-b831-70d97d0aa5a1"
-					(reference "TP2")
+					(reference "+5V1")
 					(unit 1)
 				)
 			)
