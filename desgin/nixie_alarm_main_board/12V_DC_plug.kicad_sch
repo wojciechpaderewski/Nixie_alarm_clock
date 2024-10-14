@@ -2040,7 +2040,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.we-online.com/components/products/datasheet/824045812.pdf"
 			(at 132.08 82.296 0)
 			(effects
 				(font

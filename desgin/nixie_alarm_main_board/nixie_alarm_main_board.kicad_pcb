@@ -311,6 +311,12 @@
 	(net 189 "Net-(N4-Padic)")
 	(net 190 "Net-(N5-Padic)")
 	(net 191 "Net-(N6-Padic)")
+	(net 192 "unconnected-(IC5-VIN-Pad1)")
+	(net 193 "unconnected-(IC5-FB-Pad6)")
+	(net 194 "unconnected-(IC5-EN-Pad5)")
+	(net 195 "unconnected-(IC5-SW-Pad2)")
+	(net 196 "unconnected-(IC5-BST-Pad4)")
+	(net 197 "unconnected-(IC5-GND-Pad3)")
 	(footprint "Capacitor_THT:CP_Radial_D10.0mm_P5.00mm"
 		(layer "F.Cu")
 		(uuid "00634d7f-ac76-456f-a642-f05986cb41bd")
@@ -379,7 +385,10 @@
 				)
 			)
 		)
+		(property ki_fp_filters "CP_*")
 		(path "/01ca46d9-e95c-45f3-8c2d-e16b8652cb7d/5acca06d-d3db-475f-bec2-813fe125c500")
+		(sheetname "12V_to_HV_conv")
+		(sheetfile "12V_to_HV_conv.kicad_sch")
 		(attr through_hole)
 		(fp_line
 			(start -1.825 -0.5)
@@ -2381,6 +2390,357 @@
 			(uuid "28e88471-65a4-4428-8b38-b8525e11002d")
 		)
 		(model "${KICAD8_3DMODEL_DIR}/Resistor_SMD.3dshapes/R_0805_2012Metric.wrl"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 0)
+			)
+		)
+	)
+	(footprint "SamacSys_Parts:SOTFL50P160X60-6N"
+		(layer "F.Cu")
+		(uuid "0fc393ff-b278-452a-a4d5-98cf1ea3954d")
+		(at 1.25 1.025)
+		(descr "SOT563 (Standard)")
+		(tags "Integrated Circuit")
+		(property "Reference" "IC5"
+			(at 0 0 0)
+			(layer "F.SilkS")
+			(uuid "92e420ca-dc81-4cdb-8b29-6cd6cd292b51")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.254)
+				)
+			)
+		)
+		(property "Value" "AP62250Z6-7"
+			(at 0 0 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "ca7021d2-0763-4c5d-bad3-db73a4100d82")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.254)
+				)
+			)
+		)
+		(property "Footprint" "SOTFL50P160X60-6N"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "8c9b1e06-219d-4bc9-965c-ff9b13fabeb0")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://www.diodes.com//assets/Datasheets/AP62250.pdf"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "63756a4f-be0f-478e-a3e0-22680dbb6877")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Switching Voltage Regulators DCDC Conv HV Buck SOT563 T&R 3K"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "513864bf-9777-4d65-8d39-a08c745e707c")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Height" "0.6"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "b0e54ddb-a2b7-4893-924a-3ac698c72aac")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Mouser Part Number" "621-AP62250Z6-7"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "444b3d8b-d1b5-4d99-8e88-ccddbf1ba6a7")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Diodes-Incorporated/AP62250Z6-7?qs=7MVldsJ5UazFBrGnyLje6A%3D%3D"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "de08cc19-50dd-4e50-818d-aa0698fdadab")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manufacturer_Name" "Diodes Incorporated"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "6aea2134-96fa-436a-823e-4cb7eef13720")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manufacturer_Part_Number" "AP62250Z6-7"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "70796c82-1d14-4ceb-b31c-02f35c1ce646")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(path "/0943c442-6dd2-4b0d-a6a3-5c379f0041bb/73cd847c-1a0b-4e45-9605-2e8b336fd653")
+		(sheetname "12V_to_5V_conv")
+		(sheetfile "12V_to_5V_conv.kicad_sch")
+		(attr smd)
+		(fp_line
+			(start -1.075 -0.9)
+			(end -0.6 -0.9)
+			(stroke
+				(width 0.2)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "973eb37f-477f-4a5a-b16d-0c706b6b51df")
+		)
+		(fp_line
+			(start -0.25 -0.8)
+			(end 0.25 -0.8)
+			(stroke
+				(width 0.2)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "baab8b51-77d1-4f3e-a941-20fbba352837")
+		)
+		(fp_line
+			(start -0.25 0.8)
+			(end -0.25 -0.8)
+			(stroke
+				(width 0.2)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "d1eb84c1-74b6-46d3-b1a5-8e38a5419dbd")
+		)
+		(fp_line
+			(start 0.25 -0.8)
+			(end 0.25 0.8)
+			(stroke
+				(width 0.2)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "06be45e2-3f7d-44b3-8084-aff673358e05")
+		)
+		(fp_line
+			(start 0.25 0.8)
+			(end -0.25 0.8)
+			(stroke
+				(width 0.2)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "abcd6f90-108a-4bfb-9c94-18cd9cc6341a")
+		)
+		(fp_line
+			(start -1.225 -1)
+			(end 1.225 -1)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "af3cb68f-c621-4d32-9c3a-6ddd56e280cd")
+		)
+		(fp_line
+			(start -1.225 1)
+			(end -1.225 -1)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "8d0cea8e-2382-4ba0-992d-270471d13e88")
+		)
+		(fp_line
+			(start 1.225 -1)
+			(end 1.225 1)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "cfcc8903-cae0-49a7-a361-1c0caac0efbc")
+		)
+		(fp_line
+			(start 1.225 1)
+			(end -1.225 1)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "3ec5c663-c8a1-4bbe-9c59-b50b91690ef0")
+		)
+		(fp_line
+			(start -0.6 -0.8)
+			(end 0.6 -0.8)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "6fa42589-b485-42c1-ba00-888a5c052c86")
+		)
+		(fp_line
+			(start -0.6 -0.3)
+			(end -0.1 -0.8)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "9a080188-ed72-496b-bae1-3328f6156df0")
+		)
+		(fp_line
+			(start -0.6 0.8)
+			(end -0.6 -0.8)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "6d89ae9c-e61c-4c44-81b8-5aaa375a05b8")
+		)
+		(fp_line
+			(start 0.6 -0.8)
+			(end 0.6 0.8)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "b25ff6cc-a305-4291-9fe3-610c8297c0f1")
+		)
+		(fp_line
+			(start 0.6 0.8)
+			(end -0.6 0.8)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "adf70078-0238-45c3-a994-80f97240085a")
+		)
+		(fp_text user "${REFERENCE}"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(uuid "2f36aae2-9e4d-4075-833c-0e9c3a9feb0c")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.254)
+				)
+			)
+		)
+		(pad "1" smd rect
+			(at -0.838 -0.5 90)
+			(size 0.3 0.475)
+			(layers "F.Cu" "F.Paste" "F.Mask")
+			(net 192 "unconnected-(IC5-VIN-Pad1)")
+			(pinfunction "VIN")
+			(pintype "passive")
+			(uuid "53876a5e-cd0c-4bc4-80f8-a801a76a495d")
+		)
+		(pad "2" smd rect
+			(at -0.838 0 90)
+			(size 0.3 0.475)
+			(layers "F.Cu" "F.Paste" "F.Mask")
+			(net 195 "unconnected-(IC5-SW-Pad2)")
+			(pinfunction "SW")
+			(pintype "passive")
+			(uuid "94bc69fe-dc72-4c32-aed4-bd74aa3819c2")
+		)
+		(pad "3" smd rect
+			(at -0.838 0.5 90)
+			(size 0.3 0.475)
+			(layers "F.Cu" "F.Paste" "F.Mask")
+			(net 197 "unconnected-(IC5-GND-Pad3)")
+			(pinfunction "GND")
+			(pintype "passive")
+			(uuid "c04eb8f5-10ba-44ba-ad6f-4c2de66c0995")
+		)
+		(pad "4" smd rect
+			(at 0.838 0.5 90)
+			(size 0.3 0.475)
+			(layers "F.Cu" "F.Paste" "F.Mask")
+			(net 196 "unconnected-(IC5-BST-Pad4)")
+			(pinfunction "BST")
+			(pintype "passive")
+			(uuid "9a8947c2-a03c-4e0f-98f1-073e69bc6aa9")
+		)
+		(pad "5" smd rect
+			(at 0.838 0 90)
+			(size 0.3 0.475)
+			(layers "F.Cu" "F.Paste" "F.Mask")
+			(net 194 "unconnected-(IC5-EN-Pad5)")
+			(pinfunction "EN")
+			(pintype "passive")
+			(uuid "81772677-2cf8-49ab-b014-a3b61943ca0e")
+		)
+		(pad "6" smd rect
+			(at 0.838 -0.5 90)
+			(size 0.3 0.475)
+			(layers "F.Cu" "F.Paste" "F.Mask")
+			(net 193 "unconnected-(IC5-FB-Pad6)")
+			(pinfunction "FB")
+			(pintype "passive")
+			(uuid "6351f570-7eb5-45bd-b698-331b5b342dab")
+		)
+		(model "C:\\Users\\wojtp\\Documents\\SamacSys_PCB_Library\\KiCad\\SamacSys_Parts.3dshapes\\AP62250Z6-7.stp"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -17109,7 +17469,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.we-online.com/components/products/datasheet/824045812.pdf"
 			(at 0 -0.025 0)
 			(unlocked yes)
 			(layer "F.Fab")
