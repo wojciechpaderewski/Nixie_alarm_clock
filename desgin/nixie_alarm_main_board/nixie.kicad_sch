@@ -7182,7 +7182,7 @@
 		(dnp no)
 		(uuid "197d2250-f580-4a84-b865-8ce123a0fb11")
 		(property "Reference" "R33"
-			(at 255.27 52.07 90)
+			(at 253.492 52.324 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7190,8 +7190,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "27kΩ"
-			(at 255.27 54.61 90)
+		(property "Value" "35.7kΩ"
+			(at 253.492 54.864 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8069,7 +8069,7 @@
 		(dnp no)
 		(uuid "41f93439-2c52-4a9b-b52e-d5f931ec807d")
 		(property "Reference" "R22"
-			(at 67.31 52.07 90)
+			(at 65.278 51.816 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8077,8 +8077,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "27kΩ"
-			(at 67.31 54.61 90)
+		(property "Value" "35.7kΩ"
+			(at 65.278 54.356 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10457,7 +10457,7 @@
 		(dnp no)
 		(uuid "a38afe61-dc8d-431f-a61b-e63a4b9dc63a")
 		(property "Reference" "R25"
-			(at 122.174 52.07 90)
+			(at 120.142 52.07 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10465,8 +10465,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "27kΩ"
-			(at 122.174 54.61 90)
+		(property "Value" "35.7kΩ"
+			(at 120.142 54.61 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11886,7 +11886,7 @@
 		(dnp no)
 		(uuid "d1f23689-bb7a-48e2-a6b0-69d267451d69")
 		(property "Reference" "R28"
-			(at 161.544 52.578 90)
+			(at 160.02 52.578 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11894,8 +11894,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "27kΩ"
-			(at 161.544 55.118 90)
+		(property "Value" "35.7kΩ"
+			(at 160.02 55.118 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12007,7 +12007,7 @@
 		(dnp no)
 		(uuid "d716caaf-dcd8-49b2-9183-fd24e5a4d7fa")
 		(property "Reference" "R31"
-			(at 215.9 52.578 90)
+			(at 214.122 52.832 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12015,8 +12015,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "27kΩ"
-			(at 215.9 55.118 90)
+		(property "Value" "35.7kΩ"
+			(at 214.122 55.372 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12618,7 +12618,7 @@
 		(dnp no)
 		(uuid "ecdc56b7-0316-4773-ae18-bb1f6cd0332a")
 		(property "Reference" "R23"
-			(at 28.194 49.53 90)
+			(at 25.146 49.53 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12626,8 +12626,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "27kΩ"
-			(at 28.194 52.07 90)
+		(property "Value" "35.7kΩ"
+			(at 25.146 52.07 90)
 			(effects
 				(font
 					(size 1.27 1.27)

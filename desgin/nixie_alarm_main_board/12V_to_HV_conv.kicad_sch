@@ -4396,7 +4396,7 @@
 				)
 			)
 		)
-		(property "Value" "MCP4018T-502E_LT"
+		(property "Value" "MCP4018T-103E/LT"
 			(at 45.72 104.14 0)
 			(effects
 				(font
@@ -4424,7 +4424,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "5kΩ 7-bit"
+		(property "Description" "10kΩ 7-bit"
 			(at 45.974 118.872 0)
 			(effects
 				(font
@@ -5166,7 +5166,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "27kΩ"
+		(property "Value" "35.7kΩ"
 			(at 158.75 109.22 90)
 			(effects
 				(font
