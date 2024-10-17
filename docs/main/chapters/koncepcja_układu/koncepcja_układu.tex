@@ -102,6 +102,13 @@ Wybrany układ ma również wystarczająco dużo pinów GPIO, by móc obsłuży�
 Posiada on układ dwu rdzeniowy, co w razie potrzeby pozwoli na obsługę wielowątkowości. Zegar procesora ma częstotliwość \SI{240}{\mega\hertz},
 co w zupełności wystarczy do obsługi wszystkich elementów układu.
 
+\subsection{Dobór paska LED}
+Do budzika wybrano adresowalne paski LED WS2812B, 
+które są bardzo popularne w projektach DIY, ponieważ są łatwe w obsłudze, mają wbudowany kontroler,
+który pozwala na sterowanie każdym diodą z osobna oraz są dostępne w różnych długościach i kolorach.
+Wybrano pasek z diodami RGB, co pozwoli na wyświetlanie wielu kolorów. Moc na metr wynosi \SI{18}{\watt}.
+Pasek posiada też stopień ochrony IP65, czyli powinien być odporny na kurz oraz wilgoć.
+
 \subsection{Koncepcja zasilania}
 Projekt sekcji zasilania został rozpoczęty od oszacowania mocy potrzebnej do zasilania całego układu.
 Poza lampami nixie, najbardziej obciążającym elementem będzie pasek LED oraz mikrokontroler, pozostałe elementy będą pobierały znikome ilości prądu.
@@ -152,6 +159,47 @@ Podczas prób projektowania takiej przetwornicy, problem okazało się znaleźć
 a także byłby dostępny w sklepach elektronicznych.
 
 W związku z tymi problemami, zdecydowano się na zasilanie z zewnętrznego zasilacza 12V, który będzie zasilany z gniazda sieciowego, 
-podłączonego do budzika za pomocą złącza DC-Plug oraz udzielne złącze usb typu C, które będzie służyło do programowania mikrokontrolera.
+podłączonego do budzika za pomocą złącza DC-Plug. Do programowania mikrokontrolera będzie służyć złącze USB-C.
+
+Ostatecznie sekcja zasilania została podzielona na kilka podsekcji:
+\begin{itemize}
+    \item Przetwornica 12V na 5V do zasilania pasków LED.
+    \item Regulowana przetwornica 12V na HV do zasilania lamp nixie.
+    \item LDO 5V na 3.3V do zasilania mikrokontrolera.
+\end{itemize}
+
+\subsection{Koncepcja sterowania lampami nixie}
+Kolejnym krokiem było zaprojektowanie sekcji sterowania lampami nixie, która będzie odpowiedzialna za wyświetlanie odpowiednich cyfr na lampach.
+Jest kilka sposobów na sterowanie lampami:
+
+\begin{itemize}
+    \item Sterowanie bezpośrednie - każda lampa ma swoje wejście i jest sterowana osobno za pomocą tranzystora HV połączonego z mikrokontrolerem.
+    Niestety wymagane jest wiele pinów GPIO również trzeba użyć ponad 60 tranzystorów HV, co jest bardzo kosztowne.
+    \item Multiplexing - wszystkie lampy są podłączone do jednego drivera, który wybiera katode i załączamy odpowiednią anodę. 
+    Wymaga to mniej pinów GPIO bo tylko 10, ale multipleksacja powoduje szybsze zużycie lamp i pojawia się efekt migotania(ghosting).
+    \item Wykorzystanie dedykowanych driverów - istnieją specjalne układy scalone, które są przeznaczone do sterowania lampami nixie, niestety
+    one również wymagają wielu pinów GPIO po 4 na każdą lampę, co daje 24 wymaganych pinów GPIO.
+    \item Rejestr przesuwny HV - najbardziej optymalne rozwiązanie, wymaga tylko 3 pinów GPIO. Rejestry HV są ciężko dostępne i dość drogie,
+    wymagane jest też by były to rejestry z zatrzaskiem, aby uniknąć efektu ghostingu.
+\end{itemize}
+
+W projekcie zdecydowano się na wykorzystanie rejestrów przesuwnych HV. Znaleziono 32 kanałowy rejestr 
+HV5530PG-G firmy Microchip mogące pracować z napięciem do \SI{300}{\volt} oraz posiadające zatrzask i wyjście Open Drain.
+
+Rodzaj wyjścia open drain jest bardzo istotny, ponieważ na wyjściu znajduje się stan wysokiej impedancji, co nie powoduje zwierania wszystkich wyjść do masy.
+W przypadku wyjścia push-pull, stan wysoki jak i niski powodował by zapalenie się wszystkich lamp, ponieważ spadek napięcia na lampach
+nawet w stanie wysokim byłby na tyle duży, że lampy były by w stanie zapłonąć.
+
+Do sterowania 6 lampami potrzebne są 2 rejestry HV5530PG-G, co daje 64 kanały, co pozwoli na sterowanie 6 lampami nixie oraz 2 neonówkami, które
+służą jako separator między godzinami, minutami i sekundami. Do sterowania kropkami dziesiętnymi, wykorzystano tranzystory HV połączone z mikrokontrolerem.
+
+Sterowanie lampami z wykorzystaniem rejestru jest proste, wymaga wgrania do rejestru 64 bitów, które odpowiadają za stan lamp oraz przełączanie
+zatrzasku co sekundę, aby zmienić ich stan.
+
+\subsection{Dobór głośnika}
+Jako głośnik do budzika wybrano głośnik piezoelektryczny (buzzer) bez generatora. Wybór był podyktowany 
+małym rozmiarem, ponieważ wymaganiem jest by budzik był jak najmniejszy, a także niską ceną oraz prostotą w obsłudze.
+Buzzer bez generatora pozwala na generowanie dźwięku za pomocą prostego sygnału prostokątnego,
+co jest bardzo proste do zaimplementowania,, istnieje wiele bibliotek do generowania dźwięku na mikrokontrolerze.
 
 \end{document}
