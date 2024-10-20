@@ -1,9 +1,32 @@
-\documentclass{article}
-\usepackage[a4paper, margin=2.5cm]{geometry}
-\usepackage{polski, graphicx, float, siunitx}
-\setcounter{secnumdepth}{0}
-
+% Created 2024-10-16 śro 21:35
+% Intended LaTeX compiler: pdflatex
+\documentclass[../main.tex]{subfiles}
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage{graphicx}
+\usepackage{longtable}
+\usepackage{wrapfig}
+\usepackage{rotating}
+\usepackage[normalem]{ulem}
+\usepackage{amsmath}
+\usepackage{amssymb}
+\usepackage{capt-of}
+\usepackage{hyperref}
+\usepackage[polish]{babel}
+\usepackage[a4paper, margin=3cm]{geometry}
+\usepackage{float}
+\graphicspath{{../}}
+\author{Wojciech Paderewski}
+\date{\today}
+\title{Koncepcja ukladu}
+\hypersetup{
+ pdfauthor={Wojciech Paderewski},
+ pdftitle={Koncepcja ukladu},
+ pdfkeywords={},
+ pdfsubject={},
+ pdflang={Polish}}
 \begin{document}
+
 \section{Koncepcja układu}
 Koncepcją układu jest zaprojektowanie i wykonanie budzika opartego o lampy Nixie, który będzie synchronizował się dzięki odpytywaniu serwera NTP oraz
 z wykorzystaniem modułu RTC wbudowanego w mikrokontroler.

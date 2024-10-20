@@ -1,6 +1,12 @@
-*.aux
-*/.auctex-auto/
-*.log
-*.synctex.gz
-*.out
 /.auctex-auto/
+*.aux
+*.bbl
+*.bcf
+*.blg
+*.dvi
+*.log
+*.out
+*.xml
+*.toc
+*.lof
+*.lot
