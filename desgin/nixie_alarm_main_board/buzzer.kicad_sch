@@ -1491,7 +1491,7 @@
 		(dnp no)
 		(uuid "f1a671d1-9a83-4391-8391-5494e01569fc")
 		(property "Reference" "Q1"
-			(at 150.622 86.6139 0)
+			(at 149.86 92.964 0)
 			(effects
 				(font
 					(size 1.27 1.27)
