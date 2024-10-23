@@ -1,20 +1,24 @@
 % Created 2024-10-16 śro 21:35
 % Intended LaTeX compiler: pdflatex
 \documentclass[../main.tex]{subfiles}
-\usepackage[utf8]{inputenc}
+
+% \usepackage[a4paper, margin=3cm]{geometry}
+% \usepackage{amssymb} // not working
+
 \usepackage[T1]{fontenc}
+\usepackage[utf8]{inputenc}
 \usepackage{graphicx}
 \usepackage{longtable}
 \usepackage{wrapfig}
 \usepackage{rotating}
 \usepackage[normalem]{ulem}
 \usepackage{amsmath}
-\usepackage{amssymb}
 \usepackage{capt-of}
 \usepackage{hyperref}
-\usepackage[polish]{babel}
-\usepackage[a4paper, margin=3cm]{geometry}
+\usepackage{siunitx}
 \usepackage{float}
+\usepackage[polish]{babel}
+
 \graphicspath{{../}}
 \author{Wojciech Paderewski}
 \date{\today}
@@ -25,6 +29,7 @@
  pdfkeywords={},
  pdfsubject={},
  pdflang={Polish}}
+
 \begin{document}
 
 \section{Koncepcja układu}
@@ -219,10 +224,10 @@ służą jako separator między godzinami, minutami i sekundami. Do sterowania k
 Sterowanie lampami z wykorzystaniem rejestru jest proste, wymaga wgrania do rejestru 64 bitów, które odpowiadają za stan lamp oraz przełączanie
 zatrzasku co sekundę, aby zmienić ich stan.
 
-\subsection{Dobór głośnika}
-Jako głośnik do budzika wybrano głośnik piezoelektryczny (buzzer) bez generatora. Wybór był podyktowany 
-małym rozmiarem, ponieważ wymaganiem jest by budzik był jak najmniejszy, a także niską ceną oraz prostotą w obsłudze.
-Buzzer bez generatora pozwala na generowanie dźwięku za pomocą prostego sygnału prostokątnego,
-co jest bardzo proste do zaimplementowania,, istnieje wiele bibliotek do generowania dźwięku na mikrokontrolerze.
+% \subsection{Dobór głośnika}
+% Jako głośnik do budzika wybrano głośnik piezoelektryczny (buzzer) bez generatora. Wybór był podyktowany 
+% małym rozmiarem, ponieważ wymaganiem jest by budzik był jak najmniejszy, a także niską ceną oraz prostotą w obsłudze.
+% Buzzer bez generatora pozwala na generowanie dźwięku za pomocą prostego sygnału prostokątnego,
+% co jest bardzo proste do zaimplementowania,, istnieje wiele bibliotek do generowania dźwięku na mikrokontrolerze.
 
 \end{document}
