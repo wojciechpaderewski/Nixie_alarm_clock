@@ -33,20 +33,18 @@
 \begin{document}
 \subsection{Przetwornica 12V na 5V}
 \subsubsection{Wybór układu scalonego}
-
 Zdecydowano się na układ TPS563219ADDFR produkcji Texas Instruments, który jest przetwornicą impulsową z wbudowanym tranzystorem mocy oraz zapewniajacym prąd wyjściowy do 3A przy 
-napięciu wyjściowym do 7V. Układ jest też w obudowie na tyle dużej, by móc go polutować ręcznie. Układ posiada soft-start oraz wyjście power good (potwierdzające start przetwornicy), co nie jest potrzebne w tym zastosowaniu, tak samo 
-nie jest to najmniejszy układ, ale zapewnia to łatwość montażu co jest ważne w tym przypadku.
+napięciu wyjściowym do 7V. Układ jest też w obudowie na tyle dużej, by móc go polutować ręcznie. 
 
+Układ posiada soft-start oraz wyjście power good (potwierdzające start przetwornicy), co nie jest potrzebne w tym zastosowaniu, tak samo 
+nie jest to najmniejszy układ, ale zapewnia to łatwość montażu co jest ważne w tym przypadku.
 \subsubsection{Założenia projektowe}
-% obliczenia szacowanego prądu ledów i reszty komponentów
 \begin{itemize}
     \item Napięcie wejściowe: 12V
     \item Napięcie wyjściowe: 5V
     \item Prąd wyjściowy: 2A
     \item 50mV tętnienia napięcia wyjściowego
 \end{itemize}
-
 \subsubsection{Dobór komponentów}
 Dobór komponentów wykonano na podstawie sugerowanych wartości z noty katalogowej układu TPS563219ADDFR.
 
