@@ -1,12 +1,12 @@
 # Fdb version 3
-["biber koncepcja_ukladu/koncepcja_ukladu"] 1729704097 "koncepcja_ukladu/koncepcja_ukladu.bcf" "koncepcja_ukladu/koncepcja_ukladu.bbl" "koncepcja_ukladu/koncepcja_ukladu" 1729704113
-  "koncepcja_ukladu/koncepcja_ukladu.bcf" 1729704113 105727 a5b9a061cbadea76a5c891b49b55ece8 "pdflatex"
+["biber koncepcja_ukladu/koncepcja_ukladu"] 1729800327 "koncepcja_ukladu/koncepcja_ukladu.bcf" "koncepcja_ukladu/koncepcja_ukladu.bbl" "koncepcja_ukladu/koncepcja_ukladu" 1729800371
+  "koncepcja_ukladu/koncepcja_ukladu.bcf" 1729800371 105727 a5b9a061cbadea76a5c891b49b55ece8 "pdflatex"
   (generated)
   "koncepcja_ukladu/koncepcja_ukladu.bbl"
   "koncepcja_ukladu/koncepcja_ukladu.blg"
-["pdflatex"] 1729704112 "/home/wojt/Projekty_local/Nixie_alarm_clock/docs/main/koncepcja_ukladu/koncepcja_ukladu.tex" "koncepcja_ukladu/koncepcja_ukladu.pdf" "koncepcja_ukladu" 1729704113
+["pdflatex"] 1729800371 "/home/wojt/Projekty_local/Nixie_alarm_clock/docs/main/koncepcja_ukladu/koncepcja_ukladu.tex" "koncepcja_ukladu/koncepcja_ukladu.pdf" "koncepcja_ukladu" 1729800371
   "/etc/texmf/web2c/texmf.cnf" 1718568822 475 c0e671620eb5563b2130f56340a5fde8 ""
-  "/home/wojt/Projekty_local/Nixie_alarm_clock/docs/main/koncepcja_ukladu/koncepcja_ukladu.tex" 1729704112 14067 2ff49b768f3d1ad46310ad2909acec43 ""
+  "/home/wojt/Projekty_local/Nixie_alarm_clock/docs/main/koncepcja_ukladu/koncepcja_ukladu.tex" 1729800370 14444 8db0da8e146093aaceee11d199b7213c ""
   "/usr/share/texlive/texmf-dist/fonts/enc/dvips/pl/plmi.enc" 1136849721 2005 f094775651a1386335c158fb632529f1 ""
   "/usr/share/texlive/texmf-dist/fonts/enc/dvips/pl/plms.enc" 1136849721 2468 3f9e2f3088bcf5b581dfc367d71e7d95 ""
   "/usr/share/texlive/texmf-dist/fonts/enc/dvips/pl/plrm.enc" 1136849721 1944 1845592c00bbe510359fd6887a83ff72 ""
@@ -150,14 +150,15 @@
   "/usr/share/texmf/web2c/texmf.cnf" 1644012257 39432 7155514e09a3d69036fac785183a21c2 ""
   "/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map" 1718570291 4379155 98693266ff65f58d9f98aff394de12d2 ""
   "/var/lib/texmf/web2c/pdftex/pdflatex.fmt" 1718570316 2803161 c7f510226278e12188340d8663c598b1 ""
-  "koncepcja_ukladu/../main.tex" 1729703355 1430 490234aba6f18936f28baebf606d9936 ""
-  "koncepcja_ukladu/koncepcja_ukladu.aux" 1729704113 2176 6b708e9b2ddf5fbfb607d6937a76822c "pdflatex"
-  "koncepcja_ukladu/koncepcja_ukladu.bbl" 1729704097 466 ee04f40f768daeed26442158e95aba61 "biber koncepcja_ukladu/koncepcja_ukladu"
-  "koncepcja_ukladu/koncepcja_ukladu.out" 1729704113 1220 f5a3bf556861764907992c25d39ad1a5 "pdflatex"
-  "koncepcja_ukladu/koncepcja_ukladu.run.xml" 1729704113 2416 77f5d0cf3f39d1f13542546dfc391c3e "pdflatex"
-  "koncepcja_ukladu/koncepcja_ukladu.tex" 1729704112 14067 2ff49b768f3d1ad46310ad2909acec43 ""
+  "koncepcja_ukladu/../main.tex" 1729800350 1480 969009e07e69b3da5411f2198993a430 ""
+  "koncepcja_ukladu/koncepcja_ukladu.aux" 1729800371 2524 3b4b16a400f928333b5d7cb503c89c20 "pdflatex"
+  "koncepcja_ukladu/koncepcja_ukladu.bbl" 1729800328 466 ee04f40f768daeed26442158e95aba61 "biber koncepcja_ukladu/koncepcja_ukladu"
+  "koncepcja_ukladu/koncepcja_ukladu.out" 1729800371 1396 a378100ea043178d7e7d69bb12ca94a7 "pdflatex"
+  "koncepcja_ukladu/koncepcja_ukladu.run.xml" 1729800371 2416 77f5d0cf3f39d1f13542546dfc391c3e "pdflatex"
+  "koncepcja_ukladu/koncepcja_ukladu.tex" 1729800370 14444 8db0da8e146093aaceee11d199b7213c ""
   "koncepcja_ukladu/nixie150V.jpeg" 1729111062 190199 223490af12440d91fdc3ef8907e01aec ""
   "koncepcja_ukladu/nixie220V.jpeg" 1729111062 220324 842745dda0d08c6494b9368b48128963 ""
+  "koncepcja_ukladu/schemat_blokowy.jpg" 1729800231 295346 501df837a9a1b89f404bb9317a57b1fb ""
   (generated)
   "koncepcja_ukladu/koncepcja_ukladu.aux"
   "koncepcja_ukladu/koncepcja_ukladu.bcf"

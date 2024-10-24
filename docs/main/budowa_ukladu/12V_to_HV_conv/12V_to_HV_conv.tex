@@ -191,10 +191,60 @@ Moc wydzielana na tranzystorze można obliczyć na podstawie wzoru:
 \end{equation}
 
 Moc jest bardzo niska, co oznacza, że tranzystor nie będzie się nagrzewał, a także nie będzie wymagał radiatora.
+
+\subsubsection{Ustawienie napięcia wyjściowego}
+Napięcie wyjściowe będzie regulowane, dlatego zdecydowano się na zastosowanie potencjometru cyfrowego włączonego w obwód sprzężenia zwrotnego.
+Potencjometr cyfrowy będzie się komunikował z mikrokontrolerem za pomocą magistrali I2C, co pozwoli na zdalne ustawianie napięcia wyjściowego,
+by regulować jasność lamp.
+
+Wybrano potencjometr cyfrowy MCP4018T-103E/LT firmy Microchip,
+który ma 128 poziomów ustawień, co pozwala na dokładne ustawienie napięcia wyjściowego,
+wybrano wartość 10k\si{\ohm}, co pozwala na uzyskanie odpowiedniego zakresu ustawień napięcia wyjściowego.
+
+Zgodnie z notą katalogową napięcie na pinie FB powinno wynosić 1.26\si{\volt}, napięcie to oznacza, że napięcie wyjściowe jest odpowiednie. 
+Po przetestowaniu kilku kombinacji zdecydowano się na zastosowanie następujących rezystorów:
+\begin{itemize}
+    \item $R_{fb1} = 2.49\si{\mega\ohm}$
+    \item $R_{fb2} = 14.39\si{\kilo\ohm}$
+\end{itemize}
+
+Obliczone napięcie na wyjściu dla potencjometru z nastawą 10\si{\kilo\ohm}:
+\begin{equation}
+    V_{out} = 1.26 \cdot (1 + \frac{R_{fb1}}{R_{fb2} + R_{pot}}) = 1.26 \cdot (1 + \frac{2.49\si{\mega\ohm}}{14.39\si{\kilo\ohm} + 10\si{\kilo\ohm}}) \approx 130.4\si{\volt}
+\end{equation}
+Obliczone napięcie na wyjściu dla potencjometru z nastawą 0\si{\ohm}:
+\begin{equation}
+    V_{out} = 1.26 \cdot (1 + \frac{R_{fb1}}{R_{fb2} + R_{pot}}) = 1.26 \cdot (1 + \frac{2.49\si{\mega\ohm}}{14.39\si{\kilo\ohm}}) \approx 220.6\si{\volt}
+\end{equation}
+
+Uzyskano zakres napięcia wyjściowego od 130.4\si{\volt} do 220.6\si{\volt}, co jest zgodne z założeniami projektowymi.
+
+\subsubsection{Dobór rezystora ograniczającego prąd}
+Układ ma możliwość ustawienia limitu prądu jaki będzie płynąć przez tranzystor,
+co jest dodatkowym zabezpieczeniem przed uszkodzeniem tranzystora.
+
+Najpierw obliczono wartość limitu szczytowego prądu przełączania zgodnie z notą katalogową:
+\begin{equation}
+    ISW_{limit} = \left(\frac{I_{out}}{1-D}+\frac{D \cdot V_{in}}{2 \cdot f_{sw} \cdot L}\right) = \left(\frac{0.02}{1-0.945}+\frac{0.945 \cdot 12}{2 \cdot 500000 \cdot 180\si{\micro\henry}}\right) \approx 0.426\si{\ampere}
+\end{equation}
+
+Następnie obliczono wartość rezystora ograniczającego prąd zgodnie z notą katalogową:
+\begin{equation}
+    R_{sense} = \frac{V_{SENSE} - (D \cdot V_{SENSE} \cdot V_{SL-ratio})}{ISW_{limit}} = \frac{156\si{\milli\volt} - (0.945 \cdot 156\si{\milli\volt} \cdot 0.49)}{0.426} \approx 74\si{\milli\ohm}
+\end{equation}
+
+Następnie sprawdzono warunek na maksymalną wartość rezystora ograniczającego prąd:
+\begin{equation}
+    R_{sense} < \frac{2 \cdot V_{SL} \cdot f_{sw} \cdot L}{V_{out} - (2 \cdot V_{IN})} = \frac{2 \cdot 92\si{\milli\volt} \cdot 500000 \cdot 180\si{\micro\henry}}{220 - (2 \cdot 12)} \approx 84\si{\milli\ohm}
+\end{equation}
+
+Zdecydowano się na zastosowanie rezystora o wartości 75\si{\milli\ohm}, który spełnia wszystkie założenia.
+Został również dodany kondensator o wartości 10\si{\pico\farad} w celu zminimalizowania tętnień napięcia na rezystorze,
+oraz rezystor kompensujący 100\si{\ohm}.
 \subsubsection{Schemat}
 \begin{figure}[H]
     \centering
     \includegraphics[width=1.1\textwidth]{schemat.png}
-    \caption{Schemat złącza DC-Plug}
+    \caption{Schemat przetwornicy 12V na HV}
 \end{figure}
 \end{document}
