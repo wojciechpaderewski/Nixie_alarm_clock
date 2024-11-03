@@ -1606,4 +1606,128 @@
 			)
 		)
 	)
+	(symbol
+		(lib_id "SamacSys_Parts:SSM3K35AMFV,L3F")
+		(at 138.43 96.52 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "f1a671d1-9a83-4391-8391-5494e01569fc")
+		(property "Reference" "Q1"
+			(at 149.86 92.964 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "SSM3K35AMFV,L3F"
+			(at 149.86 95.2499 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "SSM3K35AMFVL3F"
+			(at 149.86 195.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://toshiba.semicon-storage.com/info/SSM3K35AMFV_datasheet_en_20170217.pdf?did=55390&prodName=SSM3K35AMFV"
+			(at 149.86 295.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "MOSFET LowON Res MOSFET ID=.25A VDSS=20V"
+			(at 138.43 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Height" "0.55"
+			(at 149.86 495.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "757-SSM3K35AMFVL3F"
+			(at 149.86 595.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Toshiba/SSM3K35AMFVL3F?qs=HXFqYaX1Q2w2dXvJh%252B6EdA%3D%3D"
+			(at 149.86 695.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "Toshiba"
+			(at 149.86 795.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "SSM3K35AMFV,L3F"
+			(at 149.86 895.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "654bf2b7-15f1-49f8-8d8c-aa1b9cc79f3b")
+		)
+		(pin "3"
+			(uuid "03f70672-2222-46ba-b9e3-1de8a187b342")
+		)
+		(pin "2"
+			(uuid "ee2df4f7-23e1-4eec-843f-c03e52aaa55e")
+		)
+		(instances
+			(project "nixie_alarm_main_board"
+				(path "/a0d555d7-39a0-4a98-b831-70d97d0aa5a1/213b4d52-76a7-4834-ad68-e02bc5e5b10b"
+					(reference "Q1")
+					(unit 1)
+				)
+			)
+		)
+	)
 )

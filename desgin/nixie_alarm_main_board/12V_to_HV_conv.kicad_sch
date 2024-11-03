@@ -3528,7 +3528,7 @@
 			(uuid "101ae694-9724-4e86-824d-cfde4717d279")
 		)
 		(instances
-			(project "nixie_alarm_main_board"
+			(project ""
 				(path "/a0d555d7-39a0-4a98-b831-70d97d0aa5a1/01ca46d9-e95c-45f3-8c2d-e16b8652cb7d"
 					(reference "D6")
 					(unit 1)
@@ -4161,7 +4161,7 @@
 			(uuid "547fe6a8-e5c9-438c-a68d-ddc0e6a61494")
 		)
 		(instances
-			(project "nixie_alarm_main_board"
+			(project ""
 				(path "/a0d555d7-39a0-4a98-b831-70d97d0aa5a1/01ca46d9-e95c-45f3-8c2d-e16b8652cb7d"
 					(reference "C2")
 					(unit 1)
