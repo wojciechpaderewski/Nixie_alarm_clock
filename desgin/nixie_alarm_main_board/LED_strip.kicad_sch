@@ -1074,7 +1074,7 @@
 				)
 			)
 		)
-		(property "Value" "470Ω"
+		(property "Value" "100Ω"
 			(at 160.02 100.33 0)
 			(effects
 				(font
