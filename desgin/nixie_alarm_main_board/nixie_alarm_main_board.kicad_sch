@@ -1372,12 +1372,6 @@
 		(color 0 0 0 0)
 		(uuid "d0aa0124-4f1c-4b1a-9211-644fa0272d6a")
 	)
-	(junction
-		(at 109.474 81.28)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "fbefde90-ccbb-4654-9f02-1de589fb0ac1")
-	)
 	(no_connect
 		(at 142.748 107.442)
 		(uuid "4f500f3f-3d25-43bd-a7be-d269465501a8")
@@ -1401,10 +1395,6 @@
 	(no_connect
 		(at 142.748 125.222)
 		(uuid "a746bb37-9d5d-499c-98e8-18527c4eb401")
-	)
-	(no_connect
-		(at 112.268 92.202)
-		(uuid "b865f5f5-4a35-49ed-a39a-ba698343ec8d")
 	)
 	(no_connect
 		(at 142.748 122.682)
@@ -1436,7 +1426,7 @@
 	)
 	(wire
 		(pts
-			(xy 109.474 81.28) (xy 127.508 81.28)
+			(xy 109.22 81.28) (xy 127.508 81.28)
 		)
 		(stroke
 			(width 0)
@@ -1453,16 +1443,6 @@
 			(type default)
 		)
 		(uuid "152968f5-91b6-49a6-a42a-5b7863865672")
-	)
-	(wire
-		(pts
-			(xy 109.474 87.122) (xy 109.474 81.28)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1e356ebb-de34-4d6d-9bdf-3e9e74d5fca9")
 	)
 	(wire
 		(pts
@@ -1523,6 +1503,16 @@
 			(type default)
 		)
 		(uuid "41272845-71ce-4bbc-8f6e-298a3a0fa870")
+	)
+	(wire
+		(pts
+			(xy 112.268 92.202) (xy 83.566 92.202)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "437cafc5-d01e-40a3-8990-ca12439292cb")
 	)
 	(wire
 		(pts
@@ -1606,6 +1596,16 @@
 	)
 	(wire
 		(pts
+			(xy 83.566 87.122) (xy 112.268 87.122)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "77b4203d-ec7c-405b-9490-bd4dfedadff5")
+	)
+	(wire
+		(pts
 			(xy 123.19 153.67) (xy 128.27 153.67)
 		)
 		(stroke
@@ -1686,16 +1686,6 @@
 	)
 	(wire
 		(pts
-			(xy 109.22 81.28) (xy 109.474 81.28)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a7c4bd86-46b9-49c9-9e78-42f6b7ce7ae2")
-	)
-	(wire
-		(pts
 			(xy 190.754 77.47) (xy 191.77 77.47)
 		)
 		(stroke
@@ -1763,16 +1753,6 @@
 			(type default)
 		)
 		(uuid "c748e9a9-0305-4db5-ba7e-6f1d1a661fd8")
-	)
-	(wire
-		(pts
-			(xy 112.268 87.122) (xy 109.474 87.122)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ceffe89a-1e22-4437-be91-763e6f10cdef")
 	)
 	(wire
 		(pts
@@ -4025,7 +4005,7 @@
 		(dnp no)
 		(uuid "e0e5f525-149d-4030-955c-cb574708db11")
 		(property "Reference" "C28"
-			(at 101.092 85.344 0)
+			(at 100.838 75.184 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4034,7 +4014,7 @@
 			)
 		)
 		(property "Value" "100nF 25V"
-			(at 97.282 87.122 0)
+			(at 97.028 76.962 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4481,6 +4461,64 @@
 			(project "nixie_alarm_main_board"
 				(path "/a0d555d7-39a0-4a98-b831-70d97d0aa5a1"
 					(page "3")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 60.706 83.82)
+		(size 22.86 11.176)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "124c62ef-471b-42b4-897c-314c3b9a5058")
+		(property "Sheetname" "buttons"
+			(at 60.706 83.1084 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "buttons.kicad_sch"
+			(at 60.706 95.5806 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "SW_EN" input
+			(at 83.566 87.122 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "cc5118f2-5768-42ca-8cab-ae8dc46e6652")
+		)
+		(pin "SW_GPIO0" input
+			(at 83.566 92.202 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "249615e9-27f0-41b3-b362-d54b3c28e8c7")
+		)
+		(instances
+			(project "nixie_alarm_main_board"
+				(path "/a0d555d7-39a0-4a98-b831-70d97d0aa5a1"
+					(page "12")
 				)
 			)
 		)

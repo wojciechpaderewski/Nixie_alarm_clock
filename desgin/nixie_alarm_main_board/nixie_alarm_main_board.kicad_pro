@@ -642,6 +642,10 @@
     [
       "1fdd9e0c-5909-450c-9e00-c17b847bc6ac",
       "Debug_UART"
+    ],
+    [
+      "124c62ef-471b-42b4-897c-314c3b9a5058",
+      "buttons"
     ]
   ],
   "text_variables": {}
