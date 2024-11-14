@@ -2154,7 +2154,7 @@
 			(uuid "962fcc22-de2b-4add-bf9f-4eb7687bcd27")
 		)
 		(instances
-			(project ""
+			(project "nixie_alarm_main_board"
 				(path "/a0d555d7-39a0-4a98-b831-70d97d0aa5a1/0943c442-6dd2-4b0d-a6a3-5c379f0041bb"
 					(reference "C1")
 					(unit 1)
@@ -2568,7 +2568,7 @@
 		(fields_autoplaced yes)
 		(uuid "cb3b83c3-8b35-4d14-b04a-ade150c8c6d5")
 		(property "Reference" "C27"
-			(at 144.018 92.9639 90)
+			(at 143.51 92.9639 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2576,8 +2576,8 @@
 				(justify right)
 			)
 		)
-		(property "Value" "10pF 25V"
-			(at 144.018 95.5039 90)
+		(property "Value" "10nF 25V"
+			(at 143.51 95.5039 90)
 			(effects
 				(font
 					(size 1.27 1.27)
