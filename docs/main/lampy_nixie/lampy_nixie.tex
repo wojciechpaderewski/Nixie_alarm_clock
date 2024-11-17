@@ -32,7 +32,6 @@
 
 \begin{document}
 
-\subsection{Lampy nixie}
 Lampy nixie są to szklane lampy wyświetlające cyfry, litery lub inne symbole.
 Lampa znajduje się wewnątrz szklanej bańki. Składa się z katod w kształcie cyfr, liter lub innych symboli np. plus czy minus, oraz anoda w kształcie siatki.
 Wyświetlenia danej cyfry odbywa się poprzez podanie napięcia na katodę odpowiadającą danej cyfrze, oraz napięcie na anodę.
@@ -41,7 +40,7 @@ Nixie były używane w latach 50-70 XX wieku w różnych urządzeniach pomiarowy
 Obecnie są one nie praktyczne ze względu na konieczność zasilania wysokim napięciem, skomplikowanym układem sterującym oraz drogą produkcją.
 Mają one natomiast bardzo duże walory estetyczne, co było powodem ich wyboru.
 
-\subsubsection{Zasada działania}
+\subsection{Zasada działania}
 Zjawisko zachodzące w lampach zwane jest jako wyładowanie gazowe.
 Naładowane elektrycznie cząstki (elektrony), poprzez wysokie napięcie osiągają dużą energię kinetyczną.
 W momencie zderzenia z atomami gazu, elektrony w atomie gazu są wzbudzane do wyższych stanów energetycznych, a następnie wracają do stanu podstawowego emitując foton światła.
@@ -57,7 +56,6 @@ Barwa światła zależy od gazu:
 Najczęściej stosowana jest mieszanka neonu i argonu pod małym ciśnieniem. Dodawana jest również rtęć, która ma za zadanie zwiększyć trwałość lampy, 
 minimalizując tak zwane zatrucie katodowe. Efekt ten powoduje nie pełne pokrycie katody warstwą gazową, co powoduje zanikanie wyświetlania cyfr.
 
-\subsubsection{Schemat elektryczny}
 \begin{figure}[H]
   \centering
   \includegraphics[width=0.5\textwidth]{Nixie_schematic.png}
@@ -66,7 +64,7 @@ minimalizując tak zwane zatrucie katodowe. Efekt ten powoduje nie pełne pokryc
 
 Najczęściej spotykaną konfiguracją jest wspólna anoda, gdzie katody są podłączone do napięcia sterującego, a anoda do napięcia zasilania.
 
-\subsubsection{Problemy lamp}
+\subsection{Problemy związane z wykorzystaniem lamp nixie}
 
 Lampy są podatne na wiele problemów, które mogą wystąpić podczas użytkowania, takie jak:
 \begin{itemize}
@@ -86,7 +84,7 @@ Na przykład, lampa po skrajnej lewej stronie używa cyfr 0, 1, 2 do wyświetlan
 Trzecia lampa (pozycja dziesiątek minut) używa cyfr 0, 1, 2, 3, 4, 5. Gdy konkretna cyfra nie jest używana przez długi czas (np. cyfra 8 na najbardziej po lewej stronie lampy),
 cyfra ta jest pokryta osadem metalu uwolnionym z innych aktywowanych cyfr. Te konkretne cyfry ostatecznie będą miały defekty w świeceniu, jeżeli nie zostaną użyte przez długi czas.
 
-\subsubsection{Rozwiązania problemów}
+\subsection{Rozwiązania problemów związanych z lampami nixie}
 Rozwiązaniem problemu zatrucia katodowego jest sterowanie lampami w taki sposób, aby wszystkie cyfry były używane.
 Można to osiągnąć na przykład poprzez animacje na wszystkich cyfrach przy zmianie minuty w zegarze.
 Można również w godzinach nocnych przez jakiś czas wyświetlać cyklicznie wszystkie cyfry, aby zapobiec zatruciu katodowemu.
@@ -96,7 +94,7 @@ Mniejszy prąd katodowy ogranicza zjawisko spalania katod, natomiast prąd musi 
 
 \newpage
 
-\subsubsection{Sterowanie lampami}
+\subsection{Sterowanie lampami}
 Sterowanie lampami nixie jest trudne ze względu na konieczność zastosowania wysokiego napięcia, które wynosi od \SI{150}{\volt} do \SI{200}{\volt}.
 Istnieje kilka sposobów sterowania lampami nixie:
 
@@ -136,7 +134,7 @@ Istnieje kilka sposobów sterowania lampami nixie:
   \caption{Tabela opłacalności sposobów sterowania lampami nixie}
 \end{table}
 
-\subsubsection{Sytuacja na rynku}
+\subsection{Sytuacja na rynku}
 Obecnie dostępność części do lamp nixie jest ograniczona, gdyż nie są one już produkowane masowo. Istnieją małe firmy, które zajmują się produkcją, ale są to bardzo
 duże lampy w małych ilościach, co powoduje ich wysoką cenę. Dostępne są również lampy używane, ale w tym przypadku również duże lampy są drogie, a małe lampy są trudne do znalezienia.
 Problem jest również nie wiadomy czas ich działania, ponieważ są to używane lampy, które mogą być w różnym stanie.

@@ -32,8 +32,6 @@
 
 \begin{document}
 
-\subsection{Serwery czasu}
-
 Serwerem czasu nazywamy serwer komputerowy, pobierający czas z zewnętrznych źródeł i dystrybuuje go do innych urządzeń w sieci.
 Udostępniają bardzo precyzyjne dane czasowe, dokładność zależy od źródła czasu, z którego serwer korzysta. Serwer czasu może być używany jako lokalny lub internetowy.
 
@@ -48,7 +46,7 @@ Serwery wykorzystują rożne źródła zewnętrzne do synchronizacji czasu, taki
 
 Są to zegary o bardzo dużej precyzji, rzędu nanosekund, co pozwala na synchronizację czasu w sieciach komputerowych, telekomunikacyjnych, itp.
 
-\subsubsection{Protokoły}
+\subsection{Protokoły synchronizacji czasu}
 Serwery te Wykorzystują różne protokoły sieciowe do synchronizacji czasu, takie jak:
 \begin{itemize}
   \item NTP (Network Time Protocol) - 
@@ -87,7 +85,7 @@ Z wyżej wymienionych protokołów, NTP jest najczęściej stosowany w sieciach 
 Alternatywnym rozwiązaniem mozę być wykorzystanie własnego serwera który by zwracał czas wykorzystując REST API, ale wymaga to posiadania własnego serwera i jest zależne od 
 jego działania.
 
-\subsubsection{Struktura serwerów czasu w protokole NTP}
+\subsection{Struktura serwerów w protokole NTP}
 Synchronizacji NTP wykorzystuje uporządkowaną strukture gałęziowa STRATUM. 
 Zasada hierarchii wygląda nastepujaco: urządzenia warstwy STRATUM N mogą być serwerami czasu dla warstwy STRATUM N+1, ale nie na odwrót. 
 Komputery STRATUM N mogą być również klientami urządzeń warstwy STRATUM N-1 itd.

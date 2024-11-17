@@ -1,16 +1,15 @@
 # Fdb version 3
-["biber serwery_czasu/serwery_czasu"] 1731846983 "serwery_czasu/serwery_czasu.bcf" "serwery_czasu/serwery_czasu.bbl" "serwery_czasu/serwery_czasu" 1731847068
-  "serwery_czasu/serwery_czasu.bcf" 1731847068 105727 a5b9a061cbadea76a5c891b49b55ece8 "pdflatex"
+["biber serwery_czasu/serwery_czasu"] 1731846983 "serwery_czasu/serwery_czasu.bcf" "serwery_czasu/serwery_czasu.bbl" "serwery_czasu/serwery_czasu" 1731872782
+  "serwery_czasu/serwery_czasu.bcf" 1731872782 105727 a5b9a061cbadea76a5c891b49b55ece8 "pdflatex"
   (generated)
   "serwery_czasu/serwery_czasu.bbl"
   "serwery_czasu/serwery_czasu.blg"
-["pdflatex"] 1731847067 "/home/w/Nixie_alarm_clock/docs/main/serwery_czasu/serwery_czasu.tex" "serwery_czasu/serwery_czasu.pdf" "serwery_czasu" 1731847068
+["pdflatex"] 1731872781 "/home/w/Nixie_alarm_clock/docs/main/serwery_czasu/serwery_czasu.tex" "serwery_czasu/serwery_czasu.pdf" "serwery_czasu" 1731872782
   "/etc/texmf/web2c/texmf.cnf" 1697565182 475 c0e671620eb5563b2130f56340a5fde8 ""
-  "/home/w/Nixie_alarm_clock/docs/main/serwery_czasu/serwery_czasu.tex" 1731847064 10364 2216d0e1930a3f719f4e3163f33dfe3e ""
+  "/home/w/Nixie_alarm_clock/docs/main/serwery_czasu/serwery_czasu.tex" 1731872780 10344 939ec6db5b62ab3299a5b8e2f07a81bc ""
   "/usr/share/texlive/texmf-dist/fonts/enc/dvips/pl/plmi.enc" 1136849721 2005 f094775651a1386335c158fb632529f1 ""
   "/usr/share/texlive/texmf-dist/fonts/enc/dvips/pl/plrm.enc" 1136849721 1944 1845592c00bbe510359fd6887a83ff72 ""
   "/usr/share/texlive/texmf-dist/fonts/map/fontname/texfonts.map" 1577235249 3524 cb3e574dea2d1052e39280babc910dc8 ""
-  "/usr/share/texlive/texmf-dist/fonts/tfm/jknappen/ec/ecbx1000.tfm" 1136768653 3584 2d666ecf6d466d8b007246bc2f94d9da ""
   "/usr/share/texlive/texmf-dist/fonts/tfm/jknappen/ec/ecbx1200.tfm" 1136768653 3584 402da0b29eafbad07963b1224b222f18 ""
   "/usr/share/texlive/texmf-dist/fonts/tfm/jknappen/ec/ecrm1000.tfm" 1136768653 3584 adb004a0c8e7c46ee66cad73671f37b4 ""
   "/usr/share/texlive/texmf-dist/fonts/tfm/jknappen/ec/ecrm1200.tfm" 1136768653 3584 f80ddd985bd00e29e9a6047ebd9d4781 ""
@@ -137,19 +136,18 @@
   "/usr/share/texlive/texmf-dist/web2c/texmf.cnf" 1644012257 39432 7155514e09a3d69036fac785183a21c2 ""
   "/usr/share/texmf/fonts/enc/dvips/cm-super/cm-super-t1.enc" 1636152094 2971 def0b6c1f0b107b3b936def894055589 ""
   "/usr/share/texmf/fonts/enc/dvips/cm-super/cm-super-ts1.enc" 1636152094 2900 1537cc8184ad1792082cd229ecc269f4 ""
-  "/usr/share/texmf/fonts/type1/public/cm-super/sfbx1000.pfb" 1636152094 145408 43d44302ca7d82d487f511f83e309505 ""
   "/usr/share/texmf/fonts/type1/public/cm-super/sfbx1200.pfb" 1697565188 140176 d4962f948b4cc0adf4d3dde77a128c95 ""
   "/usr/share/texmf/fonts/type1/public/cm-super/sfrm1000.pfb" 1636152094 138258 6525c253f16cededa14c7fd0da7f67b2 ""
   "/usr/share/texmf/web2c/texmf.cnf" 1644012257 39432 7155514e09a3d69036fac785183a21c2 ""
   "/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map" 1697565195 4379155 98693266ff65f58d9f98aff394de12d2 ""
   "/var/lib/texmf/web2c/pdftex/pdflatex.fmt" 1711271801 2800559 769836ceebf7d98a3fd600386a19f641 ""
-  "serwery_czasu/../main.tex" 1731612607 1480 969009e07e69b3da5411f2198993a430 ""
+  "serwery_czasu/../main.tex" 1731872679 1716 8cee0ce41ae7a0bebe37e7b2cce609c0 ""
   "serwery_czasu/serwers.png" 1731833597 23637 9fec58f2d3422bba3928980c56a78ff3 ""
-  "serwery_czasu/serwery_czasu.aux" 1731847068 1730 ed3f92d2bf0a2371228e47a4ff1b4edf "pdflatex"
+  "serwery_czasu/serwery_czasu.aux" 1731872782 1605 c1e1f8648a288f49ffc5e5d47f6ddce9 "pdflatex"
   "serwery_czasu/serwery_czasu.bbl" 1731846983 466 ee04f40f768daeed26442158e95aba61 "biber serwery_czasu/serwery_czasu"
-  "serwery_czasu/serwery_czasu.out" 1731847068 729 e37a4f3b4f4a3234dbfad9fdadacd390 "pdflatex"
-  "serwery_czasu/serwery_czasu.run.xml" 1731847068 2395 3802374a9d83818555b66c3982c33a69 "pdflatex"
-  "serwery_czasu/serwery_czasu.tex" 1731847064 10364 2216d0e1930a3f719f4e3163f33dfe3e ""
+  "serwery_czasu/serwery_czasu.out" 1731872782 653 6ef4dc62b5181970c01b856eb7a76e56 "pdflatex"
+  "serwery_czasu/serwery_czasu.run.xml" 1731872782 2395 3802374a9d83818555b66c3982c33a69 "pdflatex"
+  "serwery_czasu/serwery_czasu.tex" 1731872780 10344 939ec6db5b62ab3299a5b8e2f07a81bc ""
   (generated)
   "serwery_czasu/serwery_czasu.aux"
   "serwery_czasu/serwery_czasu.bcf"
