@@ -1,0 +1,75 @@
+% Created 2024-10-16 śro 21:35
+% Intended LaTeX compiler: pdflatex
+\documentclass[../main.tex]{subfiles}
+
+% \usepackage[a4paper, margin=3cm]{geometry}
+% \usepackage{amssymb} // not working
+
+\usepackage[T1]{fontenc}
+\usepackage[utf8]{inputenc}
+\usepackage{graphicx}
+\usepackage{longtable}
+\usepackage{wrapfig}
+\usepackage{rotating}
+\usepackage[normalem]{ulem}
+\usepackage{amsmath}
+\usepackage{capt-of}
+\usepackage{hyperref}
+\usepackage{siunitx}
+\usepackage{float}
+\usepackage[polish]{babel}
+
+\graphicspath{{../}}
+\author{Wojciech Paderewski}
+\date{\today}
+\title{Obliczenia mocy}
+\hypersetup{
+ pdfauthor={Wojciech Paderewski},
+ pdftitle={Obliczenia mocy},
+ pdfkeywords={},
+ pdfsubject={},
+ pdflang={Polish}}
+
+\begin{document}
+
+By moć zaprojektować odpowiednie zasilanie dla całego układu, należy obliczyć szacunkową moc potrzebną do zasilania wszystkich komponentów.
+Poza lampami nixie, najbardziej obciążającym elementem będzie pasek LED oraz mikrokontroler, pozostałe elementy będą pobierały znikome ilości prądu.
+
+Założono maksymalną długość paska LED na \SI{30}{\centi\meter}. Z deklaracji producenta paska LED wynika, że moc na metr wynosi \SI{18}{\watt}, co daje:
+\begin{equation}
+    P_{\text{LED}} = \SI{18}{\watt\per\meter} \cdot \SI{0.3}{\meter} = \SI{5.4}{\watt}
+\end{equation}
+Następnie obliczono prąd potrzebny do zasilenia paska LED przy napięciu \SI{5}{\volt}:
+\begin{equation}
+    I_{\text{LED}} = \frac{P_{\text{LED}}}{U_{\text{LED}}} = \frac{\SI{5.4}{\watt}}{\SI{5}{\volt}} = \SI{1.08}{\ampere}
+\end{equation}
+
+Następnie obliczono moc potrzebną do zasilania mikrokontrolera ESP32-S3, według producenta maksymalny pobór prądu wynosi \SI{340}{\milli\ampere},
+co przy napięciu zasilania \SI{3.3}{\volt} daje:
+
+\begin{equation}
+    P_{\text{ESP32}} = \SI{340}{\milli\ampere} \cdot \SI{3.3}{\volt} = \SI{1.122}{\watt}
+\end{equation}
+
+Następnie policzono prąd pobierany przez wszystkie lampy, których jest 6 sztuk, przy prądzie katodowym \SI{2}{\milli\ampere} każda, co daje:
+\begin{equation}
+    I_{\text{Nixie}} = 6 \cdot \SI{2}{\milli\ampere} = \SI{12}{\milli\ampere}
+\end{equation}
+
+Następnie obliczono moc potrzebną do zasilania lampy nixie, przy napięciu \SI{220}{\volt} oraz prądzie wszystkich lamp \SI{12}{\milli\ampere}, zakładając 
+sprawność przetwornicy na poziomie \SI{70}{\percent}:
+
+\begin{equation}
+    P_{\text{Nixie}} = \frac{U_{\text{Nixie}} \cdot I_{\text{Nixie}}}{\text{Sprawność}} = \frac{\SI{220}{\volt} \cdot \SI{12}{\milli\ampere}}{\SI{0.7}{}} = \SI{3.43}{\watt}
+\end{equation}
+
+Pozostałe komponenty będą pobierały znikome ilości prądu, więc nie będą brane pod uwagę w obliczeniach.
+Szacunkowa moc potrzebna do zasilania całego układu wynosi:
+
+\begin{equation}
+    P_{\text{całkowita}} = P_{\text{LED}} + P_{\text{ESP32}} + P_{\text{Nixie}} = \SI{5.4}{\watt} + \SI{1.122}{\watt} + \SI{3.43}{\watt} = \SI{9.952}{\watt}
+\end{equation}
+
+Szacunkowa moc potrzebna do zasilania całego układu wynosi około \SI{10}{\watt}, 
+
+\end{document}
