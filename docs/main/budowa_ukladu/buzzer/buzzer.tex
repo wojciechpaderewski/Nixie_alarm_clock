@@ -1,0 +1,66 @@
+% Created 2024-10-16 śro 21:35
+% Intended LaTeX compiler: pdflatex
+\documentclass[../../main.tex]{subfiles}
+
+% \usepackage[a4paper, margin=3cm]{geometry}
+% \usepackage{amssymb} // not working
+
+\usepackage[T1]{fontenc}
+\usepackage[utf8]{inputenc}
+\usepackage{graphicx}
+\usepackage{longtable}
+\usepackage{wrapfig}
+\usepackage{rotating}
+\usepackage[normalem]{ulem}
+\usepackage{amsmath}
+\usepackage{capt-of}
+\usepackage{hyperref}
+\usepackage{siunitx}
+\usepackage{float}
+\usepackage[polish]{babel}
+
+\graphicspath{{../}}
+\author{Wojciech Paderewski}
+\date{\today}
+\title{Koncepcja ukladu}
+\hypersetup{
+ pdfauthor={Wojciech Paderewski},
+ pdftitle={Koncepcja ukladu},
+ pdfkeywords={},
+ pdfsubject={},
+ pdflang={Polish}}
+
+\begin{document}
+
+Kryterium wyboru buzzera było jego napięcie zasilania, głośność oraz jak najmniejszy rozmiar.
+Wybrano buzzer CEM120342, który jest buzzerem piezoelektrycznym o nastepujacych parametrach:
+
+\begin{itemize}
+    \item Napięcie zasilania: 3-5V
+    \item Max prąd zasilania: 35mA
+    \item Częstotliwość: 2,048kHz
+    \item Głośność: 85dB - 95dB
+    \item Średnica: 12mm, wysokość: 8mm
+    \item Rezystancja: 42 \si{\ohm}
+    \item Typ montażu: THT
+\end{itemize}
+
+Buzzer został podłączony według schematu zalecanego przez producenta. Do sterowania wykorzystano inny tranzystor,
+użyto tranzystora który służy do sterowania katodami kropek w lampach nixie, by nie dodawać kolejnego elementu do projektu.
+Tranzystor ten ma prąd kolektora 80mA, co jest wystarczające do sterowania buzzerem.
+
+Buzzer jest dostatecznie mały, jedyną wadą jest montaż THT, który ogranicza miniaturyzację płytki drukowanej.
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.65\textwidth]{buzzer_karta.png}
+    \caption{Schemat zalecany przez producenta}
+\end{figure}
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.8\textwidth]{buzzer.png}
+    \caption{Gotowy układ z buzzerem}
+\end{figure}
+
+\end{document}
