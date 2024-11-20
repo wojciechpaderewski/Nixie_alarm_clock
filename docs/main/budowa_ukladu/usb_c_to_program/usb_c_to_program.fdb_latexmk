@@ -1,18 +1,16 @@
 # Fdb version 3
-["biber budowa_ukladu/usb_c_to_program/usb_c_to_program"] 1732133497 "budowa_ukladu/usb_c_to_program/usb_c_to_program.bcf" "budowa_ukladu/usb_c_to_program/usb_c_to_program.bbl" "budowa_ukladu/usb_c_to_program/usb_c_to_program" 1732133499
-  "budowa_ukladu/usb_c_to_program/usb_c_to_program.bcf" 1732133499 105727 a5b9a061cbadea76a5c891b49b55ece8 "pdflatex"
+["biber budowa_ukladu/usb_c_to_program/usb_c_to_program"] 1732133497 "budowa_ukladu/usb_c_to_program/usb_c_to_program.bcf" "budowa_ukladu/usb_c_to_program/usb_c_to_program.bbl" "budowa_ukladu/usb_c_to_program/usb_c_to_program" 1732137990
+  "budowa_ukladu/usb_c_to_program/usb_c_to_program.bcf" 1732137990 105727 a5b9a061cbadea76a5c891b49b55ece8 "pdflatex"
   (generated)
   "budowa_ukladu/usb_c_to_program/usb_c_to_program.bbl"
   "budowa_ukladu/usb_c_to_program/usb_c_to_program.blg"
-["pdflatex"] 1732133498 "/home/w/Nixie_alarm_clock/docs/main/budowa_ukladu/usb_c_to_program/usb_c_to_program.tex" "budowa_ukladu/usb_c_to_program/usb_c_to_program.pdf" "usb_c_to_program" 1732133499
+["pdflatex"] 1732137989 "/home/w/Nixie_alarm_clock/docs/main/budowa_ukladu/usb_c_to_program/usb_c_to_program.tex" "budowa_ukladu/usb_c_to_program/usb_c_to_program.pdf" "usb_c_to_program" 1732137990
   "/etc/texmf/web2c/texmf.cnf" 1697565182 475 c0e671620eb5563b2130f56340a5fde8 ""
-  "/home/w/Nixie_alarm_clock/docs/main/budowa_ukladu/usb_c_to_program/usb_c_to_program.tex" 1732133496 2372 d65d9291d9eaf09d6aa9de5a7651c3ee ""
+  "/home/w/Nixie_alarm_clock/docs/main/budowa_ukladu/usb_c_to_program/usb_c_to_program.tex" 1732137988 2356 42bb833ac5acef43d36c681c337afc5b ""
   "/usr/share/texlive/texmf-dist/fonts/enc/dvips/pl/plrm.enc" 1136849721 1944 1845592c00bbe510359fd6887a83ff72 ""
   "/usr/share/texlive/texmf-dist/fonts/map/fontname/texfonts.map" 1577235249 3524 cb3e574dea2d1052e39280babc910dc8 ""
   "/usr/share/texlive/texmf-dist/fonts/tfm/jknappen/ec/ecbx1000.tfm" 1136768653 3584 2d666ecf6d466d8b007246bc2f94d9da ""
-  "/usr/share/texlive/texmf-dist/fonts/tfm/jknappen/ec/ecbx1200.tfm" 1136768653 3584 402da0b29eafbad07963b1224b222f18 ""
   "/usr/share/texlive/texmf-dist/fonts/tfm/jknappen/ec/ecrm1000.tfm" 1136768653 3584 adb004a0c8e7c46ee66cad73671f37b4 ""
-  "/usr/share/texlive/texmf-dist/fonts/tfm/jknappen/ec/ecrm1200.tfm" 1136768653 3584 f80ddd985bd00e29e9a6047ebd9d4781 ""
   "/usr/share/texlive/texmf-dist/fonts/tfm/jknappen/ec/tcrm1000.tfm" 1136768653 1536 e07581a4bb3136ece9eeb4c3ffab8233 ""
   "/usr/share/texlive/texmf-dist/fonts/tfm/public/latex-fonts/lasy6.tfm" 1136768653 520 4889cce2180234b97cad636b6039c722 ""
   "/usr/share/texlive/texmf-dist/fonts/tfm/public/pl/plex10.tfm" 1136768653 992 93098cecc00cfdb7e881cb8983ca7545 ""
@@ -135,18 +133,17 @@
   "/usr/share/texmf/fonts/enc/dvips/cm-super/cm-super-t1.enc" 1636152094 2971 def0b6c1f0b107b3b936def894055589 ""
   "/usr/share/texmf/fonts/enc/dvips/cm-super/cm-super-ts1.enc" 1636152094 2900 1537cc8184ad1792082cd229ecc269f4 ""
   "/usr/share/texmf/fonts/type1/public/cm-super/sfbx1000.pfb" 1636152094 145408 43d44302ca7d82d487f511f83e309505 ""
-  "/usr/share/texmf/fonts/type1/public/cm-super/sfbx1200.pfb" 1697565188 140176 d4962f948b4cc0adf4d3dde77a128c95 ""
   "/usr/share/texmf/fonts/type1/public/cm-super/sfrm1000.pfb" 1636152094 138258 6525c253f16cededa14c7fd0da7f67b2 ""
   "/usr/share/texmf/web2c/texmf.cnf" 1644012257 39432 7155514e09a3d69036fac785183a21c2 ""
   "/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map" 1697565195 4379155 98693266ff65f58d9f98aff394de12d2 ""
   "/var/lib/texmf/web2c/pdftex/pdflatex.fmt" 1711271801 2800559 769836ceebf7d98a3fd600386a19f641 ""
-  "budowa_ukladu/usb_c_to_program/../../main.tex" 1732133343 3393 c959e5d8bb976a90e87da99d7006dd0e ""
+  "budowa_ukladu/usb_c_to_program/../../main.tex" 1732137935 3738 8e92a83fe3ea61e5225b4f8f51ca657c ""
   "budowa_ukladu/usb_c_to_program/usb-c_schemat.png" 1731612607 67356 21ec5c406588cb2f310968f6e8585389 ""
-  "budowa_ukladu/usb_c_to_program/usb_c_to_program.aux" 1732133499 1714 8f8e868c9a56ba3f41513d3c322bde58 "pdflatex"
+  "budowa_ukladu/usb_c_to_program/usb_c_to_program.aux" 1732137990 1630 f4208380d02968f17c4ca22cefee5e69 "pdflatex"
   "budowa_ukladu/usb_c_to_program/usb_c_to_program.bbl" 1732133498 466 ee04f40f768daeed26442158e95aba61 "biber budowa_ukladu/usb_c_to_program/usb_c_to_program"
-  "budowa_ukladu/usb_c_to_program/usb_c_to_program.out" 1732133499 765 5491f6dcad7703fc9c7633ad0f269fa5 "pdflatex"
-  "budowa_ukladu/usb_c_to_program/usb_c_to_program.run.xml" 1732133499 2416 0706a1edb26460bb62f2641a1293a5ad "pdflatex"
-  "budowa_ukladu/usb_c_to_program/usb_c_to_program.tex" 1732133496 2372 d65d9291d9eaf09d6aa9de5a7651c3ee ""
+  "budowa_ukladu/usb_c_to_program/usb_c_to_program.out" 1732137990 501 1972ce16c39ad3c64056bce2b939aa0b "pdflatex"
+  "budowa_ukladu/usb_c_to_program/usb_c_to_program.run.xml" 1732137990 2416 0706a1edb26460bb62f2641a1293a5ad "pdflatex"
+  "budowa_ukladu/usb_c_to_program/usb_c_to_program.tex" 1732137988 2356 42bb833ac5acef43d36c681c337afc5b ""
   (generated)
   "budowa_ukladu/usb_c_to_program/usb_c_to_program.aux"
   "budowa_ukladu/usb_c_to_program/usb_c_to_program.bcf"
