@@ -30,14 +30,18 @@
  pdfsubject={},
  pdflang={Polish}}
 
-\begin{document}\subsection{Założenia projektowe}
+ 
+ \begin{document}
+ Etap koncepcyjny został podzielony na dwa etapy: koncepcję układu oraz realizacje. W tym rozdziale znajduje się ogólna koncepcja 
+ działania układu, która nie jest związana z konkretnymi elementami sprzętowymi, a jedynie z funkcjonalnościami, które mają być zrealizowane.
+ \subsection{Założenia projektowe}
 Zgodnie z celem pracy, określono następujące założenia projektowe:
 \begin{itemize}
     \item Funkcjonalność ustawiania godziny budzika bedzie realizowana przez zewnętrzny serwer dla wygody użytkownika, który nie musi dostosowywać czasu ręcznie.
     \item Na wyświetlaczu Nixie będą wyświetlane godziny, minuty, sekundy.
-    \item Od spodu obudowy będą umieszczone paski LED, które będą podświetlały obudowę i będzie można ustawić na nich animacje podczas alarmu.
+    \item Od spodu obudowy będą umieszczone paski LED, które będą podświetlały obudowę i będą wyświetlane animacje podczas alarmu.
     \item Alarm będzie sygnalizowany dźwiękiem oraz miganiem pasków LED.
-    \item Dźwięk może być grany z głośnika wbudowanego w obudowę lub z zewnętrznego głośnika komunikującego się z serwerem przez Wi-Fi.
+    \item Dźwięk może być odtwarzany z głośnika wbudowanego w obudowę lub z zewnętrznego głośnika komunikującego się z serwerem przez Wi-Fi.
     \item Wyłączanie alarmu będzie możliwe poprzez przycisk na obudowie, aplikację mobilną lub zewnętrzny przycisk połączony z serwerem.
     \item W przypadku braku połączenia z serwerem, czas będzie mierzony przez RTC wbudowany w mikrokontroler.
     \item Programowa oraz manualna regulacja jasności wyświetlacza Nixie oraz pasków LED.
@@ -46,7 +50,7 @@ Powyższe założenia powodują podzielnie projektu na poszczególne moduły rea
 Ogólna koncepcja układu jest przedstawiona na rysunku \ref{fig:concept}.
 \begin{figure}[H]
     \centering
-    \includegraphics[width=0.7\textwidth]{Nixie-concept.png}
+    \includegraphics[width=0.55\textwidth]{Nixie-concept.png}
     \caption{Ogólna koncepcja układu}
     \label{fig:concept}
 \end{figure}

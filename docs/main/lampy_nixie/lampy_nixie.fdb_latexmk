@@ -1,12 +1,13 @@
 # Fdb version 3
-["biber lampy_nixie/lampy_nixie"] 1731623975 "lampy_nixie/lampy_nixie.bcf" "lampy_nixie/lampy_nixie.bbl" "lampy_nixie/lampy_nixie" 1731938374
-  "lampy_nixie/lampy_nixie.bcf" 1731938374 105727 a5b9a061cbadea76a5c891b49b55ece8 "pdflatex"
+["biber lampy_nixie/lampy_nixie"] 1732123952 "lampy_nixie/lampy_nixie.bcf" "lampy_nixie/lampy_nixie.bbl" "lampy_nixie/lampy_nixie" 1732123955
+  "lampy_nixie/lampy_nixie.bcf" 1732123955 106037 749eb00c104c62f69d0007e4f29e3f71 "pdflatex"
+  "sources.bib" 1732123930 2697 5fc3ea54af639d0355c82bf8cd6d1fc3 ""
   (generated)
   "lampy_nixie/lampy_nixie.bbl"
   "lampy_nixie/lampy_nixie.blg"
-["pdflatex"] 1731938373 "/home/w/Nixie_alarm_clock/docs/main/lampy_nixie/lampy_nixie.tex" "lampy_nixie/lampy_nixie.pdf" "lampy_nixie" 1731938374
+["pdflatex"] 1732123954 "/home/w/Nixie_alarm_clock/docs/main/lampy_nixie/lampy_nixie.tex" "lampy_nixie/lampy_nixie.pdf" "lampy_nixie" 1732123955
   "/etc/texmf/web2c/texmf.cnf" 1697565182 475 c0e671620eb5563b2130f56340a5fde8 ""
-  "/home/w/Nixie_alarm_clock/docs/main/lampy_nixie/lampy_nixie.tex" 1731938372 8511 3d21e0133bbc44a24f290affdfd68da1 ""
+  "/home/w/Nixie_alarm_clock/docs/main/lampy_nixie/lampy_nixie.tex" 1732123951 8561 c1c333a50f61e98bbe36e2b0aa6cf23c ""
   "/usr/share/texlive/texmf-dist/fonts/enc/dvips/pl/plrm.enc" 1136849721 1944 1845592c00bbe510359fd6887a83ff72 ""
   "/usr/share/texlive/texmf-dist/fonts/map/fontname/texfonts.map" 1577235249 3524 cb3e574dea2d1052e39280babc910dc8 ""
   "/usr/share/texlive/texmf-dist/fonts/tfm/jknappen/ec/ecbx1000.tfm" 1136768653 3584 2d666ecf6d466d8b007246bc2f94d9da ""
@@ -140,13 +141,13 @@
   "/usr/share/texmf/web2c/texmf.cnf" 1644012257 39432 7155514e09a3d69036fac785183a21c2 ""
   "/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map" 1697565195 4379155 98693266ff65f58d9f98aff394de12d2 ""
   "/var/lib/texmf/web2c/pdftex/pdflatex.fmt" 1711271801 2800559 769836ceebf7d98a3fd600386a19f641 ""
-  "lampy_nixie/../main.tex" 1731937990 1785 b2142340bb804b1bf490e3a59f6815a8 ""
+  "lampy_nixie/../main.tex" 1732123645 2871 3b1673c59dfb4562937830584e37acc3 ""
   "lampy_nixie/Nixie_schematic.png" 1731614296 95745 460b638a9fef26d142a9cca26616d2c6 ""
-  "lampy_nixie/lampy_nixie.aux" 1731938374 1990 89440557a03ddfd011787d6625bc5a56 "pdflatex"
-  "lampy_nixie/lampy_nixie.bbl" 1731623976 466 ee04f40f768daeed26442158e95aba61 "biber lampy_nixie/lampy_nixie"
-  "lampy_nixie/lampy_nixie.out" 1731938374 1017 d5c2a772ba4014f6860f4d8a0584ed92 "pdflatex"
-  "lampy_nixie/lampy_nixie.run.xml" 1731938374 2381 6bbf113f53aba958392af203d165262b "pdflatex"
-  "lampy_nixie/lampy_nixie.tex" 1731938372 8511 3d21e0133bbc44a24f290affdfd68da1 ""
+  "lampy_nixie/lampy_nixie.aux" 1732123955 2214 9a2fad95558f37f570a8cf0f88936e77 "pdflatex"
+  "lampy_nixie/lampy_nixie.bbl" 1732123953 2277 0f24b5c1979b851fba3dc5415ce3a8f4 "biber lampy_nixie/lampy_nixie"
+  "lampy_nixie/lampy_nixie.out" 1732123955 1017 d5c2a772ba4014f6860f4d8a0584ed92 "pdflatex"
+  "lampy_nixie/lampy_nixie.run.xml" 1732123955 2381 6bbf113f53aba958392af203d165262b "pdflatex"
+  "lampy_nixie/lampy_nixie.tex" 1732123951 8561 c1c333a50f61e98bbe36e2b0aa6cf23c ""
   (generated)
   "lampy_nixie/lampy_nixie.aux"
   "lampy_nixie/lampy_nixie.bcf"

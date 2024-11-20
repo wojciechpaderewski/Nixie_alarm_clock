@@ -13,7 +13,7 @@
 \counterwithin{figure}{section}
 \renewcommand{\thefigure}{\thesection.\arabic{figure}}
 \linespread{1.3}
-
+% \cite{st:ism330dhcx}
 \usepackage{subfiles}
 
 \title{Budzik synchronizowany przez Wi-Fi}
@@ -59,6 +59,12 @@
 \newpage
 
 \section{Realizacja}
+\label{sec:realizacja}
+W tym rozdziale, opisano szczegółową koncepcję układu, która została opracowana na podstawie analizy przeprowadzonej w rozdziałach \ref{sec:nixie} i \ref{sec:esp32} 
+oraz po zapoznaniu się z ofertą sklepów elektronicznych.
+Zostały określone konkretne rozwiązania projektowe, które będą wykorzystane oraz wykonano niezbędne obliczenia,
+które pozwoliły na wybór odpowiednich komponentów na dalszym etapie projektowania.
+
 \subsection{Szczegółowa koncepcja układu}
 \subfile{realizacja/szczegolowa_koncepcja_ukladu/szczegolowa_koncepcja_ukladu}
 \newpage
@@ -72,7 +78,8 @@
 \newpage
 
 \section{Realizacja modułów}
-
+Po określeniu szczegółowej koncepcji układu, przystąpiono do realizacji poszczególnych modułów, które zostały opisane w rozdziale \ref{sec:realizacja}.
+Każdy z modułów ma opisany dobór komponentów do realizacji funkcjonalności modułu oraz sposób podłączenia.
 
 \subfile{budowa_ukladu/12V_to_HV_conv/12V_to_HV_conv}
 \newpage
@@ -81,6 +88,25 @@
 \subfile{budowa_ukladu/DC_Plug/DC_Plug}
 \newpage
 \subfile{budowa_ukladu/usb_c_to_program/usb_c_to_program}
+\newpage
+
+\subfile{budowa_ukladu/buzzer/buzzer}
+\newpage
+
+\subfile{budowa_ukladu/encoder/encoder}
+\newpage
+
+\subfile{budowa_ukladu/LDO/ldo.tex}
+\newpage
+
+\section{Oprogramowanie}
+Rozdział zawiera opis oprogramowania, które zostało napisane do mikrokontrolera ESP32-S3 oraz krótki opis integracji z serwerem czasu oraz serwerem Home Assistant.
+
+\section{Testowanie}
+W tym rozdziale opisano testowanie poszczególnych modułów oraz całego układu, które pozwoliło na sprawdzenie poprawności działania oraz zidentyfikowanie błędów.
+
+\section{Podsumowanie}
+ 
 \newpage
 
 \printbibliography[]

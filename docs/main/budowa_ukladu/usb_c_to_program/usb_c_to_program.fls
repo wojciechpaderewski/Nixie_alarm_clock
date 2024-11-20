@@ -1,9 +1,9 @@
-PWD /home/wojt/Projekty_local/Nixie_alarm_clock/docs/main
+PWD /home/w/Nixie_alarm_clock/docs/main
 INPUT /etc/texmf/web2c/texmf.cnf
 INPUT /usr/share/texmf/web2c/texmf.cnf
 INPUT /usr/share/texlive/texmf-dist/web2c/texmf.cnf
 INPUT /var/lib/texmf/web2c/pdftex/pdflatex.fmt
-INPUT /home/wojt/Projekty_local/Nixie_alarm_clock/docs/main/budowa_ukladu/usb_c_to_program/usb_c_to_program.tex
+INPUT /home/w/Nixie_alarm_clock/docs/main/budowa_ukladu/usb_c_to_program/usb_c_to_program.tex
 OUTPUT budowa_ukladu/usb_c_to_program/usb_c_to_program.log
 INPUT /usr/share/texlive/texmf-dist/tex/latex/subfiles/subfiles.cls
 INPUT /usr/share/texlive/texmf-dist/tex/latex/subfiles/subfiles.cls

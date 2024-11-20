@@ -32,7 +32,7 @@
 
 \begin{document}
 
-Serwerem czasu nazywamy serwer komputerowy, pobierający czas z zewnętrznych źródeł i dystrybuuje go do innych urządzeń w sieci.
+Serwerem czasu nazywamy serwer komputerowy, pobierający czas z zewnętrznych źródeł i dystrybuuje go do innych urządzeń w sieci\cite{st:serwerczasu-book}.
 Udostępniają bardzo precyzyjne dane czasowe, dokładność zależy od źródła czasu, z którego serwer korzysta. Serwer czasu może być używany jako lokalny lub internetowy.
 
 Serwery wykorzystują rożne źródła zewnętrzne do synchronizacji czasu, takie jak:
@@ -86,7 +86,7 @@ Alternatywnym rozwiązaniem mozę być wykorzystanie własnego serwera który by
 jego działania.
 
 \subsection{Struktura serwerów w protokole NTP}
-Synchronizacji NTP wykorzystuje uporządkowaną strukture gałęziowa STRATUM. 
+Synchronizacji NTP wykorzystuje uporządkowaną strukture gałęziowa STRATUM\cite{st:serwerczasu}. 
 Zasada hierarchii wygląda nastepujaco: urządzenia warstwy STRATUM N mogą być serwerami czasu dla warstwy STRATUM N+1, ale nie na odwrót. 
 Komputery STRATUM N mogą być również klientami urządzeń warstwy STRATUM N-1 itd.
 
@@ -106,7 +106,7 @@ W rozbudowanych sieciach poziom STRATUM nie ma znaczącego wpływu na jakość s
 \begin{figure}[H]
   \centering
   \includegraphics[width=0.5\textwidth]{serwers.png}
-  \caption{Struktura serwerów czasu w protokole NTP}
+  \caption{Struktura serwerów czasu w protokole NTP\cite{st:serwerczasu-jpg}}
 \end{figure}
 
 W przypadku zegara nixie poziom STRATUM nie ma większego znaczenia, ponieważ zegar nie wymaga bardzo precyzyjnego czasu, chociaż oczywiście zależy,
