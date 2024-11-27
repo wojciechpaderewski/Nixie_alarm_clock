@@ -1,0 +1,103 @@
+% Created 2024-10-16 śro 21:35
+% Intended LaTeX compiler: pdflatex
+\documentclass[../../main.tex]{subfiles}
+
+% \usepackage[a4paper, margin=3cm]{geometry}
+% \usepackage{amssymb} // not working
+
+\usepackage[T1]{fontenc}
+\usepackage[utf8]{inputenc}
+\usepackage{graphicx}
+\usepackage{longtable}
+\usepackage{wrapfig}
+\usepackage{rotating}
+\usepackage[normalem]{ulem}
+\usepackage{amsmath}
+\usepackage{capt-of}
+\usepackage{hyperref}
+\usepackage{siunitx}
+\usepackage{float}
+\usepackage[polish]{babel}
+
+\graphicspath{{../}}
+\author{Wojciech Paderewski}
+\date{\today}
+\title{LDO}
+\hypersetup{
+ pdfauthor={Wojciech Paderewski},
+ pdftitle={LDO},
+ pdfkeywords={},
+ pdfsubject={},
+ pdflang={Polish}}
+
+\begin{document}
+
+Moduł jest odpowiedzialny za sterowanie wyświetlaniem cyfr na lampach Nixie oraz załączanie lamp neonowych.
+Sterowanie lampami i neonówkami odbywa się za pomocą rejestrów przesuwnych, które są sterowane przez mikrokontroler.
+Natomiast kropki na lampach Nixie są sterowane za pośrednictwem tranzystorów.
+
+\subsubsection{Dobór rejestrów}
+Wybrano rejestry przesuwne HV firmy microchip o numerze HV5530, o nastepujacych parametrach\cite{st:rejestry}:
+\begin{itemize}
+    \item Rejestr 32 bitowy
+    \item Maksymalne napięcie na wyjściu - 315V
+    \item Maksymalna częstotliwość pracy - 8MHz
+    \item napięcie zasilania - od 10.8\si{\volt} do 13.6\si{\volt}
+    \item stan wysoki - Napięcie zasilania - 2V
+\end{itemize}
+
+\subsubsection{Sterowanie rejestrów}
+Sterowanie rejestrem realizowane jest za pomocą nastepujacych pinów:
+\begin{itemize}
+    \item CLK - sterowanie zegarem rejestru
+    \item LE - załadowanie danych do rejestru(Latch Enable)
+    \item POL - ustawienie polaryzacji wyjścia
+    \item DATA\_IN - wejście danych
+    \item BL - wyjście blanking(ustawianie wszystkich wyjść na zadany stan logiczny)
+    \item DATA\_OUT - wyjście danych dla następnego rejestru
+\end{itemize}
+
+Do sterowania wystarczą jedynie 3 linie CLK, LE, DATA\_IN, ponieważ BL i POL można ustawić na stałe.
+Rejestry można połączyć ze sobą dzięki czemu wymagana jest tylko jedna linia danych.
+Sterowanie wymaga użycia konwertera poziomów logicznych, ponieważ mikrokontroler pracuje na napięciu 3.3V, a rejestr operuje 
+na napięciu około 12V.
+
+Zastosowano konwerter poziomów logicznych CD40109B-Q1 firmy Texas Instruments\cite{st:konwerter}.
+Konwerter jest 4 kanałowy, co pozwala na podłączenie 4 sygnałów, więc wybrano połaczenia
+CLK, LE, DATA\_IN, BL. Konwerter pracuje w zakresie napięć od 3V do 20V, więc spełnia wymagania.
+
+\subsubsection{Sterowanie kropkami dziesiętnymi}
+Sterowanie kropkami dziesiętnymi odbywa się za pomocą tranzystorów HV firmy Diodes Industries o numerze DMN60H080DS, 
+o nastepujacych parametrach \cite{st:rejestry}:
+\begin{itemize}
+    \item maksymalne napięcie dren-źródło - 600V
+    \item maksymalny prąd drenu - 80mA
+    \item napięcie progowe - ok. 2V
+\end{itemize}
+
+\subsubsection{Dobór rezystorów}
+Wartość rezystorów anodowych dla zastosowanych lamp zostały obliczone w rozdziale \ref{sec:nixie}.
+Kropki wymagają mniejszego prądu, producent jednak nie podaje dokładnej wartości, więc przyjęto wartość 51k$\Omega$.
+Dobór rezystora zostanie ocenie empirycznie na etapie testowania.
+
+Lampy neonowe mają zdecydowanie mniejszy prąd pracy oraz napięcie. W sklepie internetowym sprzedający deklarował nastepujace parametry:
+\begin{itemize}
+    \item napięcie - 90V
+    \item prąd - 0.3mA
+\end{itemize}
+
+Rezystor potrzebny do zabezpieczenia lampy neonowej przy napięciu zasilania 220V powinien mieć wartość około 433k$\Omega$.:
+
+\begin{equation}
+    R = \frac{U}{I} = \frac{220V - 90V}{0.3mA} \approx 433k\Omega
+\end{equation}
+
+Zdecydowano się na użycie rezystora o wartości 390k$\Omega$, ze względu na dostępność w sklepie internetowym.
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.8\textwidth]{nixie.png}
+    \caption{Schemat układu sterowania lampami}
+\end{figure}
+
+\end{document}
