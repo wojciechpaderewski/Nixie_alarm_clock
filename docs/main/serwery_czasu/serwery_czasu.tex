@@ -32,8 +32,8 @@
 
 \begin{document}
 
-Serwerem czasu nazywamy serwer komputerowy, pobierający czas z zewnętrznych źródeł i dystrybuuje go do innych urządzeń w sieci\cite{st:serwerczasu-book}.
-Udostępniają bardzo precyzyjne dane czasowe, dokładność zależy od źródła czasu, z którego serwer korzysta. Serwer czasu może być używany jako lokalny lub internetowy.
+Serwerem czasu nazywamy serwer komputerowy, pobierający czas z zewnętrznych źródeł i udostępniający go dla innych urządzeń w sieci\cite{st:serwerczasu-book}.
+Udostępniane są bardzo precyzyjne dane czasowe, dokładność zależy od źródła czasu z którego serwer korzysta. Serwer czasu może być używany jako lokalny lub internetowy.
 
 Serwery wykorzystują rożne źródła zewnętrzne do synchronizacji czasu, takie jak:
 \begin{itemize}
@@ -50,15 +50,15 @@ Są to zegary o bardzo dużej precyzji, rzędu nanosekund, co pozwala na synchro
 Serwery te Wykorzystują różne protokoły sieciowe do synchronizacji czasu, takie jak:
 \begin{itemize}
   \item NTP (Network Time Protocol) - 
-  Wysyła okresowo pakiety synchronizacji czasu do serwerów w sieci i odpowiednim dostosowywaniu zegarów lokalnych.
+  wysyła okresowo pakiet zawierający aktualne opóźnienie w odniesieniu do czasu UTC, na podstawie których klient kalibruje swoje zegary.
   Jest to najpopularniejszy protokół synchronizacji czasu w sieciach komputerowych, jest on wspierany przez większość systemów operacyjnych.
   \item PTP (Precision Time Protocol) - 
   jest bardziej precyzyjną alternatywą NTP i jest używany w systemach o wysokiej precyzji. Najczęściej stosowany w sieciach przemysłowych oraz przy badaniach naukowych. 
-  Jest w stanie osiągnąć dokładność synchronizacji zegarów do poniżej mikrosekundy.
+  Jest w stanie osiągnąć dokładność synchronizacji zegarów poniżej mikrosekundy.
   \item Algorytm Berkeley - to algorytm synchronizacji czasu opracowany na Uniwersytecie Kalifornijskim w Berkeley. 
   Jego działanie polega na pomiarze szybkości dryfowania zegara między serwerami, często jest łączony z protokołem NTP.
   \item GPS -  wykorzystuje odbiorniki GPS do synchronizacji zegarów na różnych serwerach.
-   Zapewnia bardzo dokładne sygnały czasu. Czas ten można wykorzystać do synchronizacji
+   Zapewnia bardzo dokładne dane czasu. Czas ten można wykorzystać do synchronizacji
   zegarów serwerów podłączonych do tego samego odbiornika GPS. 
 \end{itemize}
 
@@ -71,10 +71,10 @@ Każdy z tych protokołów ma swoje nastepujace wady i zalety:
   Jednak NTP nie jest tak dokładny jak PTP i może synchronizować zegary z dokładnością do kilku milisekund.
   W związku z tym, że jest to leciwy protokół, nie jest najbardziej bezpiecznym rozwiązaniem, 
   może być podatny na niektóre rodzaje ataków, takie jak ataki typu man-in-the-middle.
-  Protokół istnieje już bardzo długo, więc dobrze znany i jest bardzo łatwy do obsługi.
-  \item PTP - porównując do NTP, PTP jest bardziej precyzyjny i może synchronizować zegary z dokładnością do kilku mikrosekund.
+  Protokół istnieje już bardzo długo, więc dobrze znany i istnieje wiele rozwiązań ułatwiających implementacje.
+  \item PTP - porównując do NTP, jest bardziej precyzyjny i może synchronizować zegary z dokładnością do kilku mikrosekund.
   Jednak ma zdecydowanie większe wymagania sprzętowe(specjalistyczny sprzęt) i konfiguracyjne, co sprawia, że jest bardziej skomplikowany w użyciu.
-  \item Algorytm Berkeley - możne być używać w połączeniu z NTP. 
+  \item Algorytm Berkeley - może być używany w połączeniu z NTP. 
   Jedną z głównych zalet tego algorytmu jest to, że może synchronizować zegary z dokładnością do kilku mikrosekund, dzięki czemu nadaje się do wielu zastosowań.
   Podobnie jak w PTP wymaga on specjalistycznego sprzętu, co sprawia, że jest bardziej skomplikowany w użyciu i droższy.
   \item GPS - najbardziej precyzyjny z wymienionych protokołów, może synchronizować zegary z dokładnością do kilku nanosekund.
@@ -91,7 +91,7 @@ Zasada hierarchii wygląda nastepujaco: urządzenia warstwy STRATUM N mogą być
 Komputery STRATUM N mogą być również klientami urządzeń warstwy STRATUM N-1 itd.
 
 Struktura ta ma na celu uporządkowanie i wprowadzenie hierarchii priorytetów urządzeń, zgodnie z ich rzeczywistym przeznaczeniem i funkcją. 
-Aby nie nadmiernego skomplikowania systemu i związanych z tym opóźnień, ilość warstw została ograniczona do 16(STRATUM 0 - STRATUM 15).
+Aby nie powodować nadmiernego skomplikowania systemu i związanych z tym opóźnień, ilość warstw została ograniczona do 16(STRATUM 0 - STRATUM 15).
 
 Niektóre warstwy mają specjalne właściwości. Warstwa STRATUM 0 służy wyłącznie dla wzorców czasu, czyli zegarów atomowych, satelitarnych, itp. będących faktycznym źródłem czasu.
 Połączenie ze źródłem nie jest sieciowe, a zazwyczaj odbywa się za pomocą specjalnych interfejsów sprzętowych.

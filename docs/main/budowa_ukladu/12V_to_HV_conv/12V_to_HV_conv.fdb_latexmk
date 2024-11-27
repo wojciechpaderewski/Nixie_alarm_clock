@@ -1,12 +1,13 @@
 # Fdb version 3
-["biber budowa_ukladu/12V_to_HV_conv/12V_to_HV_conv"] 1732137956 "budowa_ukladu/12V_to_HV_conv/12V_to_HV_conv.bcf" "budowa_ukladu/12V_to_HV_conv/12V_to_HV_conv.bbl" "budowa_ukladu/12V_to_HV_conv/12V_to_HV_conv" 1732137959
-  "budowa_ukladu/12V_to_HV_conv/12V_to_HV_conv.bcf" 1732137958 105727 a5b9a061cbadea76a5c891b49b55ece8 "pdflatex"
+["biber budowa_ukladu/12V_to_HV_conv/12V_to_HV_conv"] 1732742294 "budowa_ukladu/12V_to_HV_conv/12V_to_HV_conv.bcf" "budowa_ukladu/12V_to_HV_conv/12V_to_HV_conv.bbl" "budowa_ukladu/12V_to_HV_conv/12V_to_HV_conv" 1732742563
+  "budowa_ukladu/12V_to_HV_conv/12V_to_HV_conv.bcf" 1732742563 105880 ac4ab88876e3178b7d1a1a17a4de001f "pdflatex"
+  "sources.bib" 1732740638 4811 7555f13a0d8731a9068cca3de98d165a ""
   (generated)
   "budowa_ukladu/12V_to_HV_conv/12V_to_HV_conv.bbl"
   "budowa_ukladu/12V_to_HV_conv/12V_to_HV_conv.blg"
-["pdflatex"] 1732137957 "/home/w/Nixie_alarm_clock/docs/main/budowa_ukladu/12V_to_HV_conv/12V_to_HV_conv.tex" "budowa_ukladu/12V_to_HV_conv/12V_to_HV_conv.pdf" "12V_to_HV_conv" 1732137959
-  "/etc/texmf/web2c/texmf.cnf" 1697565182 475 c0e671620eb5563b2130f56340a5fde8 ""
-  "/home/w/Nixie_alarm_clock/docs/main/budowa_ukladu/12V_to_HV_conv/12V_to_HV_conv.tex" 1732137954 12586 5fedd1f7395400489950985e0e8c9bae ""
+["pdflatex"] 1732742559 "/home/w/Nixie_alarm_clock/docs/main/budowa_ukladu/12V_to_HV_conv/12V_to_HV_conv.tex" "budowa_ukladu/12V_to_HV_conv/12V_to_HV_conv.pdf" "12V_to_HV_conv" 1732742563
+  "/etc/texmf/web2c/texmf.cnf" 1732462464 475 c0e671620eb5563b2130f56340a5fde8 ""
+  "/home/w/Nixie_alarm_clock/docs/main/budowa_ukladu/12V_to_HV_conv/12V_to_HV_conv.tex" 1732742558 12945 4a315dd9e6662ec844bedb8e208d506d ""
   "/usr/share/texlive/texmf-dist/fonts/enc/dvips/pl/plme.enc" 1136849721 3126 59f33ff3e396436ebc36f4e7b444d5c4 ""
   "/usr/share/texlive/texmf-dist/fonts/enc/dvips/pl/plmi.enc" 1136849721 2005 f094775651a1386335c158fb632529f1 ""
   "/usr/share/texlive/texmf-dist/fonts/enc/dvips/pl/plms.enc" 1136849721 2468 3f9e2f3088bcf5b581dfc367d71e7d95 ""
@@ -149,16 +150,17 @@
   "/usr/share/texmf/fonts/type1/public/cm-super/sfbx1000.pfb" 1636152094 145408 43d44302ca7d82d487f511f83e309505 ""
   "/usr/share/texmf/fonts/type1/public/cm-super/sfrm1000.pfb" 1636152094 138258 6525c253f16cededa14c7fd0da7f67b2 ""
   "/usr/share/texmf/web2c/texmf.cnf" 1644012257 39432 7155514e09a3d69036fac785183a21c2 ""
-  "/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map" 1697565195 4379155 98693266ff65f58d9f98aff394de12d2 ""
-  "/var/lib/texmf/web2c/pdftex/pdflatex.fmt" 1711271801 2800559 769836ceebf7d98a3fd600386a19f641 ""
-  "budowa_ukladu/12V_to_HV_conv/../../main.tex" 1732137935 3738 8e92a83fe3ea61e5225b4f8f51ca657c ""
-  "budowa_ukladu/12V_to_HV_conv/12V_to_HV_conv.aux" 1732137958 2468 8f91fda5b7baae421fa9db48907ec914 "pdflatex"
-  "budowa_ukladu/12V_to_HV_conv/12V_to_HV_conv.bbl" 1732137956 466 ee04f40f768daeed26442158e95aba61 "biber budowa_ukladu/12V_to_HV_conv/12V_to_HV_conv"
-  "budowa_ukladu/12V_to_HV_conv/12V_to_HV_conv.out" 1732137958 1425 65287d30cea8b7a41c098a3f49e3c6db "pdflatex"
-  "budowa_ukladu/12V_to_HV_conv/12V_to_HV_conv.run.xml" 1732137958 2402 96cfee3eb50069e686cd69048180f300 "pdflatex"
-  "budowa_ukladu/12V_to_HV_conv/12V_to_HV_conv.tex" 1732137954 12586 5fedd1f7395400489950985e0e8c9bae ""
-  "budowa_ukladu/12V_to_HV_conv/napiecia_c.png" 1731612607 681966 3c93b5fd7812ea898ba309b8628e90c2 ""
-  "budowa_ukladu/12V_to_HV_conv/schemat.png" 1731612607 98402 172bce1f185897565f122f0a2947ea4f ""
+  "/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map" 1732462585 4379155 98693266ff65f58d9f98aff394de12d2 ""
+  "/var/lib/texmf/web2c/pdftex/pdflatex.fmt" 1732462609 2800207 067e4be921e9a0bf3a2487bd4c399310 ""
+  "budowa_ukladu/12V_to_HV_conv/../../main.tex" 1732741070 3767 ca38da057e8d5439cdb05283871af33a ""
+  "budowa_ukladu/12V_to_HV_conv/12V_to_HV_conv.aux" 1732742563 2775 9cf2173dcd756ebdd128c3cf1890727c "pdflatex"
+  "budowa_ukladu/12V_to_HV_conv/12V_to_HV_conv.bbl" 1732742296 1417 7b89ea6e1906bbe369f1530cdaa679a4 "biber budowa_ukladu/12V_to_HV_conv/12V_to_HV_conv"
+  "budowa_ukladu/12V_to_HV_conv/12V_to_HV_conv.out" 1732742563 1425 5822996f6096a4c932ea10152dcc49ed "pdflatex"
+  "budowa_ukladu/12V_to_HV_conv/12V_to_HV_conv.run.xml" 1732742563 2402 96cfee3eb50069e686cd69048180f300 "pdflatex"
+  "budowa_ukladu/12V_to_HV_conv/12V_to_HV_conv.tex" 1732742558 12945 4a315dd9e6662ec844bedb8e208d506d ""
+  "budowa_ukladu/12V_to_HV_conv/boost.png" 1732741712 42333 d5c1162047c5467b3c8a1602e91029ba ""
+  "budowa_ukladu/12V_to_HV_conv/napiecia_c.png" 1732447922 681966 3c93b5fd7812ea898ba309b8628e90c2 ""
+  "budowa_ukladu/12V_to_HV_conv/schemat.png" 1732447922 98402 172bce1f185897565f122f0a2947ea4f ""
   (generated)
   "budowa_ukladu/12V_to_HV_conv/12V_to_HV_conv.aux"
   "budowa_ukladu/12V_to_HV_conv/12V_to_HV_conv.bcf"

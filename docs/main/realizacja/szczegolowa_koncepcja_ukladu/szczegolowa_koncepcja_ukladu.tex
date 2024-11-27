@@ -33,7 +33,7 @@
 \begin{document}
 Szczegółowa koncepcja układu wymaga rozbicia na poszczególne sekcje układu, ponieważ wybory jednego elementu wpływają na wybór kolejnych elementów.
 
-\subsubsection{Sterowanie lampi nixie}
+\subsubsection{Sterowanie lampami nixie}
 Kluczowym jest wybór sterownia lampami nixie, ponieważ na podstawie tego wyboru zostanie zaprojektowany reszta układu.
 Zgodnie z analizą przeprowadzoną w podrozdziale \ref{sec:sterownie_lampi}, zdecydowano się na sterowanie lampami za pomocą rejestrów przesuwnych HV.
 Zastosowanie tego rozwiązania pozwala na zredukowanie ilości potrzebnych pinów mikrokontrolera do sterowania lampami oraz jest to rozwiązanie proste w implementacji.
@@ -63,7 +63,7 @@ Rozwiązanie to jest proste w implementacji, wystarczy podłączyć go do pinu G
 
 \subsubsection{Interfejs użytkownika}
 Interfejs użytkownika będzie składał się z enkodera z przyciskiem, który będzie służył do regulacji jasności, a przycisk do wyłączania alarmu.
-Enkoder jest też na tyle uniwersalny, że można na nim dowolne funkcje ustawień manualnych, ale wygodniejsze jest korzystanie z aplikacji mobilnej.
+Enkoder jest też na tyle uniwersalnym rozwiązaniem, które pozwala na mnogość kombinacji sterowania, ale wygodniejsze jest korzystanie z aplikacji mobilnej.
 
 \subsubsection{Zasilanie}
 Kluczowe jest zaprojektowanie przetwornicy wysokiego napięcia do zasilania lamp nixie, ponieważ jest to najbardziej wymagający element układu.
@@ -96,7 +96,7 @@ Można, więc podzielić zasilanie na 3 pod moduły:
 
 \subsubsection{Złącza}
 W związku z tym, że będzie potrzebne zasilanie z zasilacza 12V, zdecydowano się na zastosowanie złącza DC jack, które jest powszechnie stosowane w zasilaczach.
-Do zasilania mikrokontrolera oraz programowania, zdecydowano się na złącze USB-C, które jest ocenie najbardziej uniwersalnym rozwiązaniem.
+Do zasilania mikrokontrolera oraz programowania, zdecydowano się na złącze USB-C, które jest obecnie najbardziej uniwersalnym rozwiązaniem.
 Zostanie również dodane złącze Goldpin, które będzie służyło jako złącze debugowe, co pozwoli na łatwe debugowanie układu, na etapie tworzenia oprogramowania.
 
 Urządzenie będzie posiadać 3 złącza:

@@ -1,13 +1,13 @@
 # Fdb version 3
-["biber esp32/esp32"] 1732123067 "esp32/esp32.bcf" "esp32/esp32.bbl" "esp32/esp32" 1732123069
-  "esp32/esp32.bcf" 1732123069 106045 bb32753d75794ee47b359c701ee4b971 "pdflatex"
-  "sources.bib" 1732123053 1996 af2955fe8d6651a89a457f2d45eafc37 ""
+["biber esp32/esp32"] 1732735228 "esp32/esp32.bcf" "esp32/esp32.bbl" "esp32/esp32" 1732735246
+  "esp32/esp32.bcf" 1732735246 106045 bb32753d75794ee47b359c701ee4b971 "pdflatex"
+  "sources.bib" 1732709260 4502 e7a9b16b7e2366140229ef2c2c2b9ecb ""
   (generated)
   "esp32/esp32.bbl"
   "esp32/esp32.blg"
-["pdflatex"] 1732123068 "/home/w/Nixie_alarm_clock/docs/main/esp32/esp32.tex" "esp32/esp32.pdf" "esp32" 1732123069
-  "/etc/texmf/web2c/texmf.cnf" 1697565182 475 c0e671620eb5563b2130f56340a5fde8 ""
-  "/home/w/Nixie_alarm_clock/docs/main/esp32/esp32.tex" 1732123066 3399 860294997b2f37b56acddb77d6891397 ""
+["pdflatex"] 1732735244 "/home/w/Nixie_alarm_clock/docs/main/esp32/esp32.tex" "esp32/esp32.pdf" "esp32" 1732735246
+  "/etc/texmf/web2c/texmf.cnf" 1732462464 475 c0e671620eb5563b2130f56340a5fde8 ""
+  "/home/w/Nixie_alarm_clock/docs/main/esp32/esp32.tex" 1732735244 3476 6f2b943e54d91f26de375c29b6a630b0 ""
   "/usr/share/texlive/texmf-dist/fonts/map/fontname/texfonts.map" 1577235249 3524 cb3e574dea2d1052e39280babc910dc8 ""
   "/usr/share/texlive/texmf-dist/fonts/tfm/jknappen/ec/ecbx1200.tfm" 1136768653 3584 402da0b29eafbad07963b1224b222f18 ""
   "/usr/share/texlive/texmf-dist/fonts/tfm/jknappen/ec/ecrm1000.tfm" 1136768653 3584 adb004a0c8e7c46ee66cad73671f37b4 ""
@@ -120,18 +120,18 @@
   "/usr/share/texlive/texmf-dist/web2c/texmf.cnf" 1644012257 39432 7155514e09a3d69036fac785183a21c2 ""
   "/usr/share/texmf/fonts/enc/dvips/cm-super/cm-super-t1.enc" 1636152094 2971 def0b6c1f0b107b3b936def894055589 ""
   "/usr/share/texmf/fonts/enc/dvips/cm-super/cm-super-ts1.enc" 1636152094 2900 1537cc8184ad1792082cd229ecc269f4 ""
-  "/usr/share/texmf/fonts/type1/public/cm-super/sfbx1200.pfb" 1697565188 140176 d4962f948b4cc0adf4d3dde77a128c95 ""
+  "/usr/share/texmf/fonts/type1/public/cm-super/sfbx1200.pfb" 1732462478 140176 d4962f948b4cc0adf4d3dde77a128c95 ""
   "/usr/share/texmf/fonts/type1/public/cm-super/sfrm1000.pfb" 1636152094 138258 6525c253f16cededa14c7fd0da7f67b2 ""
   "/usr/share/texmf/web2c/texmf.cnf" 1644012257 39432 7155514e09a3d69036fac785183a21c2 ""
-  "/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map" 1697565195 4379155 98693266ff65f58d9f98aff394de12d2 ""
-  "/var/lib/texmf/web2c/pdftex/pdflatex.fmt" 1711271801 2800559 769836ceebf7d98a3fd600386a19f641 ""
-  "esp32/../main.tex" 1732122612 2871 3b1673c59dfb4562937830584e37acc3 ""
-  "esp32/Esp32.png" 1731869127 559643 0edffc3ee3a446f25e5915a9a5862eb8 ""
-  "esp32/esp32.aux" 1732123069 1752 ee04cd7fd7a45a863af1a7d0c2cdaef1 "pdflatex"
-  "esp32/esp32.bbl" 1732123067 2094 0d84c383ca3032c1f555032fb1478112 "biber esp32/esp32"
-  "esp32/esp32.out" 1732123069 401 a2e392a8153baf1b37ddc49ea5af3f7f "pdflatex"
-  "esp32/esp32.run.xml" 1732123069 2339 7494ae9cc8b171237afa7e9fb2d3e24d "pdflatex"
-  "esp32/esp32.tex" 1732123066 3399 860294997b2f37b56acddb77d6891397 ""
+  "/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map" 1732462585 4379155 98693266ff65f58d9f98aff394de12d2 ""
+  "/var/lib/texmf/web2c/pdftex/pdflatex.fmt" 1732462609 2800207 067e4be921e9a0bf3a2487bd4c399310 ""
+  "esp32/../main.tex" 1732733412 3767 ca38da057e8d5439cdb05283871af33a ""
+  "esp32/Esp32.png" 1732447922 559643 0edffc3ee3a446f25e5915a9a5862eb8 ""
+  "esp32/esp32.aux" 1732735246 1752 ee04cd7fd7a45a863af1a7d0c2cdaef1 "pdflatex"
+  "esp32/esp32.bbl" 1732735230 2094 0d84c383ca3032c1f555032fb1478112 "biber esp32/esp32"
+  "esp32/esp32.out" 1732735246 401 a2e392a8153baf1b37ddc49ea5af3f7f "pdflatex"
+  "esp32/esp32.run.xml" 1732735246 2339 7494ae9cc8b171237afa7e9fb2d3e24d "pdflatex"
+  "esp32/esp32.tex" 1732735244 3476 6f2b943e54d91f26de375c29b6a630b0 ""
   (generated)
   "esp32/esp32.aux"
   "esp32/esp32.bcf"

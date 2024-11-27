@@ -55,11 +55,11 @@ Zakupiona przetwornica HV ma następujące parametry:
 \end{itemize}
 
 W celu sprawdzenia działania lampy musimy najpierw dobrać rezystor ograniczający prąd katodowy.
-Zakładając, że napięcie zasilania wynosi maksymalnie $U_{\text{max}} = \SI{220}{\volt}$, a napięcie zapłonu lampy $U_{\text{zap}} = \SI{170}{\volt}$,
+Zakładając, że napięcie zasilania wynosi maksymalnie $U_{\text{max}} = \SI{220}{\volt}$, a napięciu pracy lampy $U_{\text{pr}} = \SI{150}{\volt}$,
 przy prądzie katodowym $I_{\text{kat}} = \SI{2}{\milli\ampere}$, rezystor ograniczający prąd katodowy można obliczyć ze wzoru:
 
 \begin{equation}
-    R = \frac{U_{\text{max}} - U_{\text{zap}}}{I_{\text{kat}}} = \frac{\SI{220}{\volt} - \SI{150}{\volt}}{\SI{2}{\milli\ampere}} = \SI{35}{\kilo\ohm}
+    R = \frac{U_{\text{max}} - U_{\text{pr}}}{I_{\text{kat}}} = \frac{\SI{220}{\volt} - \SI{150}{\volt}}{\SI{2}{\milli\ampere}} = \SI{35}{\kilo\ohm}
 \end{equation}
 
 W nocie katalogowej lampy nixie Z570M producent podaje, że zalecany rezystor ograniczający prąd katodowy 

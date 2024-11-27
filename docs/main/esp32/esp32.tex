@@ -53,16 +53,17 @@ Układ ten posiada następujące cechy, odczytane z karty katalogowej\cite{st:es
 RTC (Real Time Clock) to moduł czasu rzeczywistego, który pozwala na śledzenie aktualnego czasu, daty oraz dnia tygodnia. 
 ESP32-S3 posiada wbudowany taki moduł, charakteryzuje się on 16kB pamięci SRAM, wynika z tego nie może on przechowywać daty i czasu w przypadku braku zasilania.
 
-Sam moduł RTC nie jest bardzo dokładny, dlatego zaleca się synchronizację czasu z zewnętrznym serwerem czasu, takim jak NTP.
+Sam moduł RTC nie jest bardzo dokładny, dlatego zaleca się synchronizację czasu z zewnętrznym serwerem.
 Istnieje dużo bibliotek do realizacji tego zadania z wykorzystaniem Arduino Framework.
 
 \subsection{Kontroler USB/JTAG}
-ESP32-S3 posiada wbudowany kontroler USB/JTAG, który pozwala na programowanie układu oraz debugowanie go, co jest bardzo przydatne podczas tworzenia projektów,
-gdyż nie wymusza użycia dodatkowego programatora. PIN do programowania układu to GPIO19(D-) oraz GPIO20(D+).
+ESP32-S3 posiada wbudowany kontroler USB/JTAG, pozwalający programować układ bez użycia zewnętrznego programatora.
+Piny do programowania układu za pośrednictwem interfejsu USB to GPIO19(D-) oraz GPIO20(D+).
+Istnieje również możliwość programowania układu za pomocą protokołu UART korzystając z pinów GPIO1(TX) oraz GPIO3(RX).
 
 \subsection{GPIO}
 Układ posiada wiele GPIO ogólnego przeznaczenia, nie posiada on dedykowanych pinów do obsługi interfejsów takich jak I2C, można 
-je skonfigurować na dowolnych pinach GPIO. Generacja sygnałów PWM jest również możliwa na dowolnych pinach GPIO. Posiada on również 20 pinów które mogą
+je skonfigurować na dowolnych pinach GPIO. Generacja sygnałów PWM jest również możliwa na większości pinów GPIO. Posiada on również 20 pinów które mogą
 obsługiwać wejście analogowe.
 
 \begin{figure}[H]
@@ -73,11 +74,11 @@ obsługiwać wejście analogowe.
 
 \subsection{Zasilanie}
 Według dokumentacji producenta, ESP32-S3 może być zasilany napięciem od 3V do 3.6V, zalecane napięcie zasilania to 3.3V.
-Jego maksymalny pobór prądu wynosi 340mA, jednak w praktyce jest on znacznie mniejszy, zależy to od wykorzystywanych funkcji.
+Jego maksymalny pobór prądu wynosi 340mA, jednak w praktyce jest on znacznie mniejszy, zależy to od wykorzystywanych funkcji i peryferiów.
 
 Układ można wprowadzić w dwa tryby uśpienia:
 \begin{itemize}
-\item Light Sleep - pobór prądu wynosi około 240uA, w tym odłączany jest moduł WiFi a wszystkie piny GPIO są w stanie High-Z.
+\item Light Sleep - pobór prądu wynosi około 240uA, w tym odłączany jest moduł WiFi a wszystkie piny GPIO są w stanie wysokiej impedancji.
 \item Deep Sleep - pobór prądu wynosi około 8uA, jedynie zasilany jest moduł RTC, wszystkie inne funkcje są wyłączone.
 \end{itemize}
 
