@@ -1,12 +1,12 @@
 # Fdb version 3
-["biber budowa_ukladu/usb_c_to_program/usb_c_to_program"] 1732133497 "budowa_ukladu/usb_c_to_program/usb_c_to_program.bcf" "budowa_ukladu/usb_c_to_program/usb_c_to_program.bbl" "budowa_ukladu/usb_c_to_program/usb_c_to_program" 1732137990
-  "budowa_ukladu/usb_c_to_program/usb_c_to_program.bcf" 1732137990 105727 a5b9a061cbadea76a5c891b49b55ece8 "pdflatex"
+["biber budowa_ukladu/usb_c_to_program/usb_c_to_program"] 1733143121 "budowa_ukladu/usb_c_to_program/usb_c_to_program.bcf" "budowa_ukladu/usb_c_to_program/usb_c_to_program.bbl" "budowa_ukladu/usb_c_to_program/usb_c_to_program" 1733143394
+  "budowa_ukladu/usb_c_to_program/usb_c_to_program.bcf" 1733143394 105727 a5b9a061cbadea76a5c891b49b55ece8 "pdflatex"
   (generated)
   "budowa_ukladu/usb_c_to_program/usb_c_to_program.bbl"
   "budowa_ukladu/usb_c_to_program/usb_c_to_program.blg"
-["pdflatex"] 1732137989 "/home/w/Nixie_alarm_clock/docs/main/budowa_ukladu/usb_c_to_program/usb_c_to_program.tex" "budowa_ukladu/usb_c_to_program/usb_c_to_program.pdf" "usb_c_to_program" 1732137990
+["pdflatex"] 1733143394 "/home/w/Nixie_alarm_clock/docs/main/budowa_ukladu/usb_c_to_program/usb_c_to_program.tex" "budowa_ukladu/usb_c_to_program/usb_c_to_program.pdf" "usb_c_to_program" 1733143394
   "/etc/texmf/web2c/texmf.cnf" 1697565182 475 c0e671620eb5563b2130f56340a5fde8 ""
-  "/home/w/Nixie_alarm_clock/docs/main/budowa_ukladu/usb_c_to_program/usb_c_to_program.tex" 1732137988 2356 42bb833ac5acef43d36c681c337afc5b ""
+  "/home/w/Nixie_alarm_clock/docs/main/budowa_ukladu/usb_c_to_program/usb_c_to_program.tex" 1733143394 2345 9d4bdf20e5c968b22836e7638fbcb6d9 ""
   "/usr/share/texlive/texmf-dist/fonts/enc/dvips/pl/plrm.enc" 1136849721 1944 1845592c00bbe510359fd6887a83ff72 ""
   "/usr/share/texlive/texmf-dist/fonts/map/fontname/texfonts.map" 1577235249 3524 cb3e574dea2d1052e39280babc910dc8 ""
   "/usr/share/texlive/texmf-dist/fonts/tfm/jknappen/ec/ecbx1000.tfm" 1136768653 3584 2d666ecf6d466d8b007246bc2f94d9da ""
@@ -137,13 +137,13 @@
   "/usr/share/texmf/web2c/texmf.cnf" 1644012257 39432 7155514e09a3d69036fac785183a21c2 ""
   "/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map" 1697565195 4379155 98693266ff65f58d9f98aff394de12d2 ""
   "/var/lib/texmf/web2c/pdftex/pdflatex.fmt" 1711271801 2800559 769836ceebf7d98a3fd600386a19f641 ""
-  "budowa_ukladu/usb_c_to_program/../../main.tex" 1732137935 3738 8e92a83fe3ea61e5225b4f8f51ca657c ""
-  "budowa_ukladu/usb_c_to_program/usb-c_schemat.png" 1731612607 67356 21ec5c406588cb2f310968f6e8585389 ""
-  "budowa_ukladu/usb_c_to_program/usb_c_to_program.aux" 1732137990 1630 f4208380d02968f17c4ca22cefee5e69 "pdflatex"
-  "budowa_ukladu/usb_c_to_program/usb_c_to_program.bbl" 1732133498 466 ee04f40f768daeed26442158e95aba61 "biber budowa_ukladu/usb_c_to_program/usb_c_to_program"
-  "budowa_ukladu/usb_c_to_program/usb_c_to_program.out" 1732137990 501 1972ce16c39ad3c64056bce2b939aa0b "pdflatex"
-  "budowa_ukladu/usb_c_to_program/usb_c_to_program.run.xml" 1732137990 2416 0706a1edb26460bb62f2641a1293a5ad "pdflatex"
-  "budowa_ukladu/usb_c_to_program/usb_c_to_program.tex" 1732137988 2356 42bb833ac5acef43d36c681c337afc5b ""
+  "budowa_ukladu/usb_c_to_program/../../main.tex" 1733143249 3766 337bd9afd1759c1082aa404d7df11cc0 ""
+  "budowa_ukladu/usb_c_to_program/usb-c_schemat.png" 1732720665 67356 21ec5c406588cb2f310968f6e8585389 ""
+  "budowa_ukladu/usb_c_to_program/usb_c_to_program.aux" 1733143394 1576 5142c0c574adea375f0eead54354f92b "pdflatex"
+  "budowa_ukladu/usb_c_to_program/usb_c_to_program.bbl" 1733143122 466 ee04f40f768daeed26442158e95aba61 "biber budowa_ukladu/usb_c_to_program/usb_c_to_program"
+  "budowa_ukladu/usb_c_to_program/usb_c_to_program.out" 1733143394 501 1972ce16c39ad3c64056bce2b939aa0b "pdflatex"
+  "budowa_ukladu/usb_c_to_program/usb_c_to_program.run.xml" 1733143394 2416 0706a1edb26460bb62f2641a1293a5ad "pdflatex"
+  "budowa_ukladu/usb_c_to_program/usb_c_to_program.tex" 1733143394 2345 9d4bdf20e5c968b22836e7638fbcb6d9 ""
   (generated)
   "budowa_ukladu/usb_c_to_program/usb_c_to_program.aux"
   "budowa_ukladu/usb_c_to_program/usb_c_to_program.bcf"

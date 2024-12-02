@@ -1,12 +1,12 @@
 # Fdb version 3
-["biber budowa_ukladu/UART/uart"] 1732138022 "budowa_ukladu/UART/uart.bcf" "budowa_ukladu/UART/uart.bbl" "budowa_ukladu/UART/uart" 1732138024
-  "budowa_ukladu/UART/uart.bcf" 1732138024 105727 a5b9a061cbadea76a5c891b49b55ece8 "pdflatex"
+["biber budowa_ukladu/UART/uart"] 1733160972 "budowa_ukladu/UART/uart.bcf" "budowa_ukladu/UART/uart.bbl" "budowa_ukladu/UART/uart" 1733160992
+  "budowa_ukladu/UART/uart.bcf" 1733160992 105727 a5b9a061cbadea76a5c891b49b55ece8 "pdflatex"
   (generated)
   "budowa_ukladu/UART/uart.bbl"
   "budowa_ukladu/UART/uart.blg"
-["pdflatex"] 1732138023 "/home/w/Nixie_alarm_clock/docs/main/budowa_ukladu/UART/uart.tex" "budowa_ukladu/UART/uart.pdf" "uart" 1732138024
+["pdflatex"] 1733160991 "/home/w/Nixie_alarm_clock/docs/main/budowa_ukladu/UART/uart.tex" "budowa_ukladu/UART/uart.pdf" "uart" 1733160992
   "/etc/texmf/web2c/texmf.cnf" 1697565182 475 c0e671620eb5563b2130f56340a5fde8 ""
-  "/home/w/Nixie_alarm_clock/docs/main/budowa_ukladu/UART/uart.tex" 1732138021 1559 aba84ce2a0e359bc0921fab89be34083 ""
+  "/home/w/Nixie_alarm_clock/docs/main/budowa_ukladu/UART/uart.tex" 1733160991 1587 129b8d7660ca158b184d22a294a5a5ad ""
   "/usr/share/texlive/texmf-dist/fonts/map/fontname/texfonts.map" 1577235249 3524 cb3e574dea2d1052e39280babc910dc8 ""
   "/usr/share/texlive/texmf-dist/fonts/tfm/jknappen/ec/ecbx1000.tfm" 1136768653 3584 2d666ecf6d466d8b007246bc2f94d9da ""
   "/usr/share/texlive/texmf-dist/fonts/tfm/jknappen/ec/ecrm1000.tfm" 1136768653 3584 adb004a0c8e7c46ee66cad73671f37b4 ""
@@ -123,13 +123,13 @@
   "/usr/share/texmf/web2c/texmf.cnf" 1644012257 39432 7155514e09a3d69036fac785183a21c2 ""
   "/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map" 1697565195 4379155 98693266ff65f58d9f98aff394de12d2 ""
   "/var/lib/texmf/web2c/pdftex/pdflatex.fmt" 1711271801 2800559 769836ceebf7d98a3fd600386a19f641 ""
-  "budowa_ukladu/UART/../../main.tex" 1732138003 3767 ca38da057e8d5439cdb05283871af33a ""
-  "budowa_ukladu/UART/uart.aux" 1732138024 1050 f171cb8eaf749e066dc3cd4a5181fe84 "pdflatex"
-  "budowa_ukladu/UART/uart.bbl" 1732138022 466 ee04f40f768daeed26442158e95aba61 "biber budowa_ukladu/UART/uart"
-  "budowa_ukladu/UART/uart.out" 1732138023 0 d41d8cd98f00b204e9800998ecf8427e "pdflatex"
-  "budowa_ukladu/UART/uart.png" 1732137092 19748 33efcced2ba23ce68b222deeb862f5e0 ""
-  "budowa_ukladu/UART/uart.run.xml" 1732138024 2332 1e244154fe501b50071f8710ff41123e "pdflatex"
-  "budowa_ukladu/UART/uart.tex" 1732138021 1559 aba84ce2a0e359bc0921fab89be34083 ""
+  "budowa_ukladu/UART/../../main.tex" 1733143249 3766 337bd9afd1759c1082aa404d7df11cc0 ""
+  "budowa_ukladu/UART/uart.aux" 1733160992 1050 f171cb8eaf749e066dc3cd4a5181fe84 "pdflatex"
+  "budowa_ukladu/UART/uart.bbl" 1733160973 466 ee04f40f768daeed26442158e95aba61 "biber budowa_ukladu/UART/uart"
+  "budowa_ukladu/UART/uart.out" 1733160992 0 d41d8cd98f00b204e9800998ecf8427e "pdflatex"
+  "budowa_ukladu/UART/uart.png" 1732720665 19748 33efcced2ba23ce68b222deeb862f5e0 ""
+  "budowa_ukladu/UART/uart.run.xml" 1733160992 2332 1e244154fe501b50071f8710ff41123e "pdflatex"
+  "budowa_ukladu/UART/uart.tex" 1733160991 1587 129b8d7660ca158b184d22a294a5a5ad ""
   (generated)
   "budowa_ukladu/UART/uart.aux"
   "budowa_ukladu/UART/uart.bcf"
