@@ -1,14 +1,14 @@
 # Fdb version 3
-["biber test_lamp"] 1732738702 "test_lamp.bcf" "test_lamp.bbl" "test_lamp" 1732738707
+["biber test_lamp"] 1732738702 "test_lamp.bcf" "test_lamp.bbl" "test_lamp" 1733123271
   "sources.bib" 0 -1 0 ""
-  "test_lamp.bcf" 1732738706 105829 347bbfea4bcd5bdc6fa395a7ab36c1d4 "pdflatex"
+  "test_lamp.bcf" 1733123271 105829 347bbfea4bcd5bdc6fa395a7ab36c1d4 "pdflatex"
   (generated)
   "test_lamp.bbl"
   "test_lamp.blg"
-["pdflatex"] 1732738705 "/home/w/Nixie_alarm_clock/docs/main/realizacja/test_lamp/test_lamp.tex" "test_lamp.pdf" "test_lamp" 1732738707
-  "..//../main.tex" 1732737371 3767 ca38da057e8d5439cdb05283871af33a ""
+["pdflatex"] 1733123270 "/home/w/Nixie_alarm_clock/docs/main/realizacja/test_lamp/test_lamp.tex" "test_lamp.pdf" "test_lamp" 1733123271
+  "..//../main.tex" 1732744155 4073 3e5c0d34766c7aac85fafb2a919f1a3a ""
   "/etc/texmf/web2c/texmf.cnf" 1732462464 475 c0e671620eb5563b2130f56340a5fde8 ""
-  "/home/w/Nixie_alarm_clock/docs/main/realizacja/test_lamp/test_lamp.tex" 1732738699 4728 a5eff3a4154e3a45498a68d5ff8bf79b ""
+  "/home/w/Nixie_alarm_clock/docs/main/realizacja/test_lamp/test_lamp.tex" 1733123269 4751 dff4f801ac5c4b7033e65bb25020a0dd ""
   "/usr/share/texlive/texmf-dist/fonts/enc/dvips/pl/plmi.enc" 1136849721 2005 f094775651a1386335c158fb632529f1 ""
   "/usr/share/texlive/texmf-dist/fonts/enc/dvips/pl/plms.enc" 1136849721 2468 3f9e2f3088bcf5b581dfc367d71e7d95 ""
   "/usr/share/texlive/texmf-dist/fonts/enc/dvips/pl/plrm.enc" 1136849721 1944 1845592c00bbe510359fd6887a83ff72 ""
@@ -148,11 +148,11 @@
   "/var/lib/texmf/web2c/pdftex/pdflatex.fmt" 1732462609 2800207 067e4be921e9a0bf3a2487bd4c399310 ""
   "nixie150V.jpeg" 1732447922 190199 223490af12440d91fdc3ef8907e01aec ""
   "nixie220V.jpeg" 1732447922 220324 842745dda0d08c6494b9368b48128963 ""
-  "test_lamp.aux" 1732738706 1356 edfe8ce32f958ceb9a2f2bc0f70bbaec "pdflatex"
+  "test_lamp.aux" 1733123271 1356 edfe8ce32f958ceb9a2f2bc0f70bbaec "pdflatex"
   "test_lamp.bbl" 1732738703 0 d41d8cd98f00b204e9800998ecf8427e "biber test_lamp"
-  "test_lamp.out" 1732738706 0 d41d8cd98f00b204e9800998ecf8427e "pdflatex"
-  "test_lamp.run.xml" 1732738706 2367 17c6a327637b22d8c47416cb036c9846 "pdflatex"
-  "test_lamp.tex" 1732738699 4728 a5eff3a4154e3a45498a68d5ff8bf79b ""
+  "test_lamp.out" 1733123271 0 d41d8cd98f00b204e9800998ecf8427e "pdflatex"
+  "test_lamp.run.xml" 1733123271 2367 17c6a327637b22d8c47416cb036c9846 "pdflatex"
+  "test_lamp.tex" 1733123269 4751 dff4f801ac5c4b7033e65bb25020a0dd ""
   (generated)
   "test_lamp.aux"
   "test_lamp.bcf"

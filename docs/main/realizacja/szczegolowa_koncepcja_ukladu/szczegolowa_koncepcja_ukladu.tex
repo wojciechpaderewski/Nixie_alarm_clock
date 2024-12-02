@@ -38,18 +38,18 @@ Kluczowym jest wybór sterownia lampami nixie, ponieważ na podstawie tego wybor
 Zgodnie z analizą przeprowadzoną w podrozdziale \ref{sec:sterownie_lampi}, zdecydowano się na sterowanie lampami za pomocą rejestrów przesuwnych HV.
 Zastosowanie tego rozwiązania pozwala na zredukowanie ilości potrzebnych pinów mikrokontrolera do sterowania lampami oraz jest to rozwiązanie proste w implementacji.
 
-Niezależnie od wyboru lamp każda ma 10 katod z cyframi i jedną katode od kropki dziesiętnej, więc potrzebujemy 11 wyjść na każdą lampę.
+Niezależnie od wyboru lamp każda ma 10 katod z cyframi i jedną katode od kropki dziesiętnej, więc wymagane jest 11 wyjść na każdą lampę.
 Dostępne w sprzedaży są rejestry 32 bitowe, co pozwala na sterowanie 3 lampami nixie bez kropek i jedną neonówką która bedzie
-służyć jako separator między godzinami a minutami oraz między minutami a sekundami. Do sterownia kropkami dziesiętnymi zostaną użyte tranzystory HV podpięte do wyjść mikrokontrolera,
+służyć jako separator między godzinami a minutami oraz między minutami a sekundami. Do sterownia kropkami dziesiętnymi zostaną użyte tranzystory HV podłączone do wyjść mikrokontrolera,
 ponieważ nie opłacalnym jest dodawanie kolejnego rejestru przesuwnego HV tylko do sterowania kropkami dziesiętnymi.
 
-Wynika z tego, że potrzebne są 2 rejestry przesuwne HV do sterownia lampi i neonówkami oraz 6 transystorów HV do sterowania kropkami dziesiętnymi.
+Wynika z tego, że potrzebne są 2 rejestry przesuwne HV do sterownia lampi i neonówkami oraz 6 tranzystorów HV do sterowania kropkami dziesiętnymi.
 Do sterowania rejestrami prawdopodobnie będzie potrzebny konwerter poziomów logicznych, ponieważ mikrokontroler ESP32-S3 pracuje na 3.3V, a rejestry prawdopodobnie będą operować na wyższym napięciu.
 \subsubsection{Mikrokontroler}
 Wybór sposobu sterowania lampami nixie wpłynął na wybór mikrokontrolera, ponieważ musi on posiadać odpowiednią ilość pinów GPIO oraz musi być w stanie generować sygnał zegarowy.
-Potrzebne jest 9 pinów GPIO do pełengo sterownia lampami oraz kropkami dziesiętnym, do tego trezba pamiętać o zapasie pinów na pozostałe funkcje. W zwiazku z tym
+Potrzebne jest 9 pinów GPIO do pełnego sterownia lampami oraz kropkami dziesiętnym, do tego trzeba pamiętać o zapasie pinów na pozostałe funkcje. W zwiazku z tym
 wybrano mikrokontroler ESP32-S3, który posiada 45 programowalnych GPIO, co pozwala na swobodne zaprojektowanie reszty układu. Ma też on dużą zaletę w postaci kontrolera USB/JTAG,
-dzięki czemu nie potrzebujemy dodatkowego programatora do programowania układu. Jest to też popularny mikrokontroler dla którego istnieje dużo bibliotek i przykładów.
+dzięki czemu nie jest potrzebny dodatkowy programator do programowania układu. Jest to też popularny mikrokontroler dla którego istnieje dużo bibliotek i przykładów.
 
 \subsubsection{Źródło dźwięku}
 Jako źródło dźwięku wybrano głośnik piezoelektryczny, który jest prosty w implementacji i nie wymaga dodatkowego wzmacniacza, do tego jest mały i tani.
@@ -83,8 +83,8 @@ to zastosowania zasilania 12V, co uniemożliwia użycie tylko złącza USB do za
 
 Wybrano więc przetwornicę typu boost, która będzie zasilana z zasilacza 12V, a wyjście będzie podłączone do anod lamp nixie.
 
-Do tego będzie potrzebne zasilanie 5V dla paska LED oraz 3.3V dla mikrokontrolera. Zasilanie 5V w związku z tym, że będzie zasilał pasek LED, który potrafi pobrać większy prąd,
-to ze względu na zachowanie wysokiej efektywności, zdecydowano się na przetwornicę typu buck. Zasilanie 3.3V będzie zasilaniem mikrokontrolera, więc wystarczy zastosować
+Do tego będzie potrzebne zasilanie 5V dla paska LED oraz 3.3V dla mikrokontrolera. Moduł zasilania 5V będzie zasilał pasek LED, który potrafi pobrać większy prąd,
+to ze względu na zachowanie wysokiej efektywności, zdecydowano się na przetwornicę typu buck. Moduł zasilania 3.3V będzie zasilaniem mikrokontrolera, więc wystarczy zastosować
 stabilizator liniowy.
 
 Można, więc podzielić zasilanie na 3 pod moduły:

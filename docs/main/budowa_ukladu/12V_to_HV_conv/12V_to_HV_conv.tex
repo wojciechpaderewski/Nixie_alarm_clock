@@ -46,12 +46,12 @@ Jest to układ high efficiency, co jest powodem dla którego został wybrany\cit
 
 Jako początkowe założenie przyjęto częstotliwość przełączania 400kHz zgodnie z domyślną wartością w nocie katalogowej układu, 
 ale możliwe jest zwiększanie częstotliwości do 1MHz, co pozwala na zmniejszenie rozmiarów cewki oraz kondensatorów, natomiast może to
-pogorszyć sprawność układu, ponieważ według noty katalogowej wraz ze wzrostem częstotliwości spada wzmocnienie układu, co przekłada się na mniejszą sprawność.
+pogorszyć sprawność układu, ponieważ według karty katalogowej wraz ze wzrostem częstotliwości spada wzmocnienie układu, co przekłada się na mniejszą sprawność.
 
 \begin{figure}[H]
     \centering
     \includegraphics[width=0.8\textwidth]{boost.png}
-    \caption{Schemat układu z noty katalogowej\cite{st:lm3488}}
+    \caption{Schemat układu z karty katalogowej\cite{st:lm3488}}
 \end{figure}
 
 \subsubsection{Dobór cewki}
@@ -112,11 +112,11 @@ Obliczono wartość cewki dla napięcia wyjściowego 130\si{\volt} oraz napięci
 Z obliczeń wynika, że zwiększanie częstotliwości pozwala na zmniejszenie wartości cewki, co pozwala na zastosowanie cewki o wartości 180\si{\micro\henry}.
 
 \subsubsection{Dobór kondensatorów}
-Według zaleceń z noty katalogowej w przetwornicy powinny być zastosowane kondensatory o jak najniższym ESR,
+Według zaleceń z karty katalogowej w przetwornicy powinny być zastosowane kondensatory o jak najniższym ESR,
 dlatego odrzucono kondensatory elektrolityczne na rzecz kondensatorów ceramicznych, które mają bardzo niski ESR, tak
 mały że producent nie podaje tej wartości w notach katalogowych, gdyż jest ona zbyt mała by miała znaczenie.
 
-Jednak problem jest znalezienie kondensatorów ceramicznych dla wysokich napięć, mimo tego został znaleziony kondensator 
+Jednak problemem jest znalezienie kondensatorów ceramicznych pracujących przy wysokim napięciu, mimo tego został znaleziony kondensator 
 ceramiczny o wartości 2.2\si{\micro\farad} i napięciu pracy do 250\si{\volt}.
 
 W obliczeniach należy uwzględnić spadek pojemności kondensatora wraz ze wzrostem napięcia.
@@ -146,7 +146,7 @@ Obliczono tętnienia dla dobranych wartości kondensatorów:
 Wartości tętnień jest mniejsza niż założone 0.1\si{\volt}, co oznacza, że dobrano odpowiednie wartości kondensatorów.
 
 \subsubsection{Dobór diody}
-Oszacowano prąd diody na podstawie wzoru z noty katalogowej:
+Oszacowano prąd diody na podstawie wzoru z karty katalogowej:
 \begin{equation}
     I_{d} = \frac{I_{out}}{1-D} + \Delta I_{out} = \frac{0.02}{1-0.945} + 0.006 \approx 0.37\si{\ampere}
 \end{equation}
@@ -159,7 +159,7 @@ Dioda ta ma maksymalne napięcie wsteczne 400\si{\volt}, co pozwala na bezpieczn
 
 \subsubsection{Dobór tranzystora}
 Można założyć że prąd tranzystora to prąd cewki, czyli 0.468\si{\ampere}.
-Zgodnie z noty katalogowej tranzystor powinien mieć następujące parametry:
+Zgodnie z kartą katalogową tranzystor powinien mieć następujące parametry:
 \begin{itemize}
     \item Napięcie minimalnie drain-source: 250\si{\volt}
     \item Jak najmniejszy $R_{DS(on)}$
@@ -168,7 +168,7 @@ Zgodnie z noty katalogowej tranzystor powinien mieć następujące parametry:
     \item Jak najmniejszy ładunek bramki
     \item Wymaganego prąd bramki mniejszego niż 1\si{\ampere}
 \end{itemize}
-\newpage
+
 Zdecydowano się na zastosowanie tranzystora N-Channel
 MOSFET TPH5200FNH firmy Toshiba, który ma następujące parametry:
 \begin{itemize}
@@ -198,7 +198,7 @@ Moc jest bardzo niska, co oznacza, że tranzystor nie będzie się nagrzewał, a
 
 \subsubsection{Ustawienie napięcia wyjściowego}
 Napięcie wyjściowe będzie regulowane, dlatego zdecydowano się na zastosowanie potencjometru cyfrowego włączonego w obwód sprzężenia zwrotnego.
-Potencjometr cyfrowy będzie się komunikował z mikrokontrolerem za pomocą magistrali I2C, co pozwoli na zdalne ustawianie napięcia wyjściowego,
+Potencjometr cyfrowy będzie się komunikował z mikrokontrolerem za pomocą magistrali I2C, co pozwoli na programowe ustawianie napięcia wyjściowego,
 by regulować jasność lamp.
 
 Wybrano potencjometr cyfrowy MCP4018T-103E/LT firmy Microchip,
