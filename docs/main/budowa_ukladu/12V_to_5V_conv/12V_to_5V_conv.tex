@@ -30,27 +30,28 @@
  pdfsubject={},
  pdflang={Polish}}
  
-\begin{document}
+ \begin{document}
+ \subsubsection{Założenia projektowe}
+ \begin{itemize}
+     \item Napięcie wejściowe: 12V
+     \item Napięcie wyjściowe: 5V
+     \item Prąd wyjściowy: 2A
+     \item 50mV tętnienia napięcia wyjściowego
+ \end{itemize}
+
 \subsubsection{Wybór układu scalonego}
 Zdecydowano się na układ TPS563219ADDFR produkcji Texas Instruments, który jest przetwornicą impulsową z wbudowanym tranzystorem mocy oraz zapewniajacym prąd wyjściowy do 3A przy 
 napięciu wyjściowym do 7V. Układ jest też w obudowie na tyle dużej, by móc go polutować ręcznie. 
 
 Układ posiada soft-start oraz wyjście power good (potwierdzające start przetwornicy), co nie jest potrzebne w tym zastosowaniu, tak samo 
 nie jest to najmniejszy układ, ale zapewnia to łatwość montażu co jest ważne w tym przypadku.
-\subsubsection{Założenia projektowe}
-\begin{itemize}
-    \item Napięcie wejściowe: 12V
-    \item Napięcie wyjściowe: 5V
-    \item Prąd wyjściowy: 2A
-    \item 50mV tętnienia napięcia wyjściowego
-\end{itemize}
 \subsubsection{Dobór komponentów}
-Dobór komponentów wykonano na podstawie sugerowanych wartości z noty katalogowej układu TPS563219ADDFR.
+Dobór komponentów wykonano na podstawie sugerowanych wartości z noty katalogowej układu TPS563219ADDFR\cite{st:buck}.
 
 \begin{figure}[H]
     \centering
     \includegraphics[width=0.8\textwidth]{conv-table.png}
-    \caption{Tabela doboru komponentów z noty katalogowej}
+    \caption{Tabela doboru komponentów z noty katalogowej\cite{st:buck}}
 \end{figure}
 
 Na podstawie tabeli dobrano następujące wartości komponentów:
@@ -62,7 +63,14 @@ Na podstawie tabeli dobrano następujące wartości komponentów:
     \item R2: 10k$\Omega$
 \end{itemize}
 
-Kondensator podpięty pod pin SS(soft start) oraz kondensator podpięty pod pin VBST, został skopiowany z układu z noty katalogowej, gdyż nie jest to krytyczny element i nie ma potrzeby doboru wartości pod 
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=1\textwidth]{buck.png}
+    \caption{Typowe połączenie układu TPS563219ADDFR\cite{st:buck}}
+\end{figure}
+
+Kondensator dołączony do wyprowadzenia SS(soft start) oraz kondensator dołączony do pinu VBST, został skopiowany z układu z noty katalogowej, gdyż nie jest to krytyczny element i nie ma potrzeby doboru wartości pod 
 kątem zastosowania w zegarze.
 
 Zdecydowano się na użycie kondensatorów ceramicznych, gdyż są one mniejsze i mają lepszy ESR niż elektrolityczne, co ma znaczenie przy przetwornicach impulsowych,

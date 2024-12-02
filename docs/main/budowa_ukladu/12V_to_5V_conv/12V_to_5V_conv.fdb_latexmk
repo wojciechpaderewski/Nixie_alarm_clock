@@ -1,12 +1,13 @@
 # Fdb version 3
-["biber budowa_ukladu/12V_to_5V_conv/12V_to_5V_conv"] 1732137779 "budowa_ukladu/12V_to_5V_conv/12V_to_5V_conv.bcf" "budowa_ukladu/12V_to_5V_conv/12V_to_5V_conv.bbl" "budowa_ukladu/12V_to_5V_conv/12V_to_5V_conv" 1732137782
-  "budowa_ukladu/12V_to_5V_conv/12V_to_5V_conv.bcf" 1732137782 105727 a5b9a061cbadea76a5c891b49b55ece8 "pdflatex"
+["biber budowa_ukladu/12V_to_5V_conv/12V_to_5V_conv"] 1732741008 "budowa_ukladu/12V_to_5V_conv/12V_to_5V_conv.bcf" "budowa_ukladu/12V_to_5V_conv/12V_to_5V_conv.bbl" "budowa_ukladu/12V_to_5V_conv/12V_to_5V_conv" 1732741016
+  "budowa_ukladu/12V_to_5V_conv/12V_to_5V_conv.bcf" 1732741016 105923 ee92cc22fa27a94138bb76b4bb7a4537 "pdflatex"
+  "sources.bib" 1732740638 4811 7555f13a0d8731a9068cca3de98d165a ""
   (generated)
   "budowa_ukladu/12V_to_5V_conv/12V_to_5V_conv.bbl"
   "budowa_ukladu/12V_to_5V_conv/12V_to_5V_conv.blg"
-["pdflatex"] 1732137781 "/home/w/Nixie_alarm_clock/docs/main/budowa_ukladu/12V_to_5V_conv/12V_to_5V_conv.tex" "budowa_ukladu/12V_to_5V_conv/12V_to_5V_conv.pdf" "12V_to_5V_conv" 1732137782
-  "/etc/texmf/web2c/texmf.cnf" 1697565182 475 c0e671620eb5563b2130f56340a5fde8 ""
-  "/home/w/Nixie_alarm_clock/docs/main/budowa_ukladu/12V_to_5V_conv/12V_to_5V_conv.tex" 1732137778 3389 8cc6bf912f7ad61f9e6bb675a7a232f6 ""
+["pdflatex"] 1732741013 "/home/w/Nixie_alarm_clock/docs/main/budowa_ukladu/12V_to_5V_conv/12V_to_5V_conv.tex" "budowa_ukladu/12V_to_5V_conv/12V_to_5V_conv.pdf" "12V_to_5V_conv" 1732741016
+  "/etc/texmf/web2c/texmf.cnf" 1732462464 475 c0e671620eb5563b2130f56340a5fde8 ""
+  "/home/w/Nixie_alarm_clock/docs/main/budowa_ukladu/12V_to_5V_conv/12V_to_5V_conv.tex" 1732741005 3608 a7ef51281a78eaa22422f5dc623b206c ""
   "/usr/share/texlive/texmf-dist/fonts/enc/dvips/pl/plrm.enc" 1136849721 1944 1845592c00bbe510359fd6887a83ff72 ""
   "/usr/share/texlive/texmf-dist/fonts/map/fontname/texfonts.map" 1577235249 3524 cb3e574dea2d1052e39280babc910dc8 ""
   "/usr/share/texlive/texmf-dist/fonts/tfm/jknappen/ec/ecbx1000.tfm" 1136768653 3584 2d666ecf6d466d8b007246bc2f94d9da ""
@@ -135,16 +136,17 @@
   "/usr/share/texmf/fonts/type1/public/cm-super/sfbx1000.pfb" 1636152094 145408 43d44302ca7d82d487f511f83e309505 ""
   "/usr/share/texmf/fonts/type1/public/cm-super/sfrm1000.pfb" 1636152094 138258 6525c253f16cededa14c7fd0da7f67b2 ""
   "/usr/share/texmf/web2c/texmf.cnf" 1644012257 39432 7155514e09a3d69036fac785183a21c2 ""
-  "/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map" 1697565195 4379155 98693266ff65f58d9f98aff394de12d2 ""
-  "/var/lib/texmf/web2c/pdftex/pdflatex.fmt" 1711271801 2800559 769836ceebf7d98a3fd600386a19f641 ""
-  "budowa_ukladu/12V_to_5V_conv/../../main.tex" 1732137778 3483 025b936da152a2e50de3bc42d2be4c2b ""
-  "budowa_ukladu/12V_to_5V_conv/12V_to_5V_conv.aux" 1732137782 1735 d3913c22322a739804b89b217748c38e "pdflatex"
-  "budowa_ukladu/12V_to_5V_conv/12V_to_5V_conv.bbl" 1732137780 466 ee04f40f768daeed26442158e95aba61 "biber budowa_ukladu/12V_to_5V_conv/12V_to_5V_conv"
-  "budowa_ukladu/12V_to_5V_conv/12V_to_5V_conv.out" 1732137782 572 e7e8e6c73d17bcd565a42e03a6c841fd "pdflatex"
-  "budowa_ukladu/12V_to_5V_conv/12V_to_5V_conv.run.xml" 1732137782 2402 43871a206fcb68d6d84c60545a919dab "pdflatex"
-  "budowa_ukladu/12V_to_5V_conv/12V_to_5V_conv.tex" 1732137778 3389 8cc6bf912f7ad61f9e6bb675a7a232f6 ""
-  "budowa_ukladu/12V_to_5V_conv/5vTo12V_ schemat.png" 1731612607 29135 cb75e2d889fcbd5cc9da07fd48b9b91e ""
-  "budowa_ukladu/12V_to_5V_conv/conv-table.png" 1731612607 73131 a5f209cee4a8d859c366a447fbc748bc ""
+  "/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map" 1732462585 4379155 98693266ff65f58d9f98aff394de12d2 ""
+  "/var/lib/texmf/web2c/pdftex/pdflatex.fmt" 1732462609 2800207 067e4be921e9a0bf3a2487bd4c399310 ""
+  "budowa_ukladu/12V_to_5V_conv/../../main.tex" 1732738707 3767 ca38da057e8d5439cdb05283871af33a ""
+  "budowa_ukladu/12V_to_5V_conv/12V_to_5V_conv.aux" 1732741016 2133 596cccbd2e13698e8a3e7fbd136ada73 "pdflatex"
+  "budowa_ukladu/12V_to_5V_conv/12V_to_5V_conv.bbl" 1732741010 1216 d752f6c8b1f99991538058806aa54615 "biber budowa_ukladu/12V_to_5V_conv/12V_to_5V_conv"
+  "budowa_ukladu/12V_to_5V_conv/12V_to_5V_conv.out" 1732741016 572 7c431822588df04451cd078cfc0bf21f "pdflatex"
+  "budowa_ukladu/12V_to_5V_conv/12V_to_5V_conv.run.xml" 1732741016 2402 43871a206fcb68d6d84c60545a919dab "pdflatex"
+  "budowa_ukladu/12V_to_5V_conv/12V_to_5V_conv.tex" 1732741005 3608 a7ef51281a78eaa22422f5dc623b206c ""
+  "budowa_ukladu/12V_to_5V_conv/5vTo12V_ schemat.png" 1732447922 29135 cb75e2d889fcbd5cc9da07fd48b9b91e ""
+  "budowa_ukladu/12V_to_5V_conv/buck.png" 1732740976 50456 e25e1b0bb6409291139ef9859ae7aa19 ""
+  "budowa_ukladu/12V_to_5V_conv/conv-table.png" 1732447922 73131 a5f209cee4a8d859c366a447fbc748bc ""
   (generated)
   "budowa_ukladu/12V_to_5V_conv/12V_to_5V_conv.aux"
   "budowa_ukladu/12V_to_5V_conv/12V_to_5V_conv.bcf"

@@ -79,7 +79,11 @@ które pozwoliły na wybór odpowiednich komponentów na dalszym etapie projekto
 
 \section{Realizacja modułów}
 Po określeniu szczegółowej koncepcji układu, przystąpiono do realizacji poszczególnych modułów, które zostały opisane w rozdziale \ref{sec:realizacja}.
-Każdy z modułów ma opisany dobór komponentów do realizacji funkcjonalności modułu oraz sposób podłączenia.
+Każdy z modułów ma opisany dobór komponentów do realizacji, funkcjonalności modułu oraz sposób podłączenia.
+
+\subsection{Sterowanie lampami Nixie}
+\subfile{budowa_ukladu/nixie/nixie}
+\newpage
 
 \subsection{Przetwornica 12V na HV}
 \subfile{budowa_ukladu/12V_to_HV_conv/12V_to_HV_conv}
@@ -98,7 +102,6 @@ Każdy z modułów ma opisany dobór komponentów do realizacji funkcjonalności
 \subfile{budowa_ukladu/usb_c_to_program/usb_c_to_program}
 \newpage
 
-
 \subsection{Buzzer}
 \subfile{budowa_ukladu/buzzer/buzzer}
 \newpage
@@ -111,9 +114,20 @@ Każdy z modułów ma opisany dobór komponentów do realizacji funkcjonalności
 \subfile{budowa_ukladu/LDO/ldo.tex}
 \newpage
 
-
 \subsection{Złącze do debugowania}
 \subfile{budowa_ukladu/UART/uart}
+\newpage
+
+\subsection{Złącze do paska LED}
+\subfile{budowa_ukladu/LED/led}
+\newpage
+
+\subsection{Mikrokontroler ESP32-S3}
+\subfile{budowa_ukladu/ESP32/esp32}
+\newpage
+
+\section{Projekt płytki drukowanej}
+\subfile{PCB/PCB}
 \newpage
 
 \section{Oprogramowanie}

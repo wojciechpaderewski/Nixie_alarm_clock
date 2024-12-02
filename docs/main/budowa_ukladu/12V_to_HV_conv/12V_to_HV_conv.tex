@@ -2,9 +2,6 @@
 % Intended LaTeX compiler: pdflatex
 \documentclass[../../main.tex]{subfiles}
 
-% \usepackage[a4paper, margin=3cm]{geometry}
-% \usepackage{amssymb} // not working
-
 \usepackage[T1]{fontenc}
 \usepackage[utf8]{inputenc}
 \usepackage{graphicx}
@@ -31,10 +28,9 @@
  pdflang={Polish}}
  
 \begin{document}
-
-\subsubsection{Wybór układu scalonego}
-Wybrano układ LM3488 produkcji Texas Instruments, który jest układem przeznaczonym do budowy przetwornic typu Boost oraz Flyback. 
-Jest to układ high efficiency, co jest powodem dla którego został wybrany.
+Przetwornica impulsowa HV jest najtrudniejszym do zaprojektowania elementem układu, 
+do tego ma ona posiadać regulowane programowo napięcie wyjściowe, co dodatkowo komplikuje projekt.
+Nie może być również użyta zbyt duża cewka, ponieważ celem jest stworzenie niskiego urządzenia.
 
 \subsubsection{Założenia projektowe}
 \begin{itemize}
@@ -42,15 +38,24 @@ Jest to układ high efficiency, co jest powodem dla którego został wybrany.
     \item Napięcie wyjściowe: 130-220\si{\volt}
     \item Prąd wyjściowy: 20\si{\milli\ampere}
     \item 0.1\si{\volt} tętnienia napięcia wyjściowego
-    \item Częstotliwość przełączania: 400\si{\kilo\hertz}
 \end{itemize}
+
+\subsubsection{Wybór układu scalonego}
+Wybrano układ LM3488 produkcji Texas Instruments, który jest układem przeznaczonym do budowy przetwornic typu Boost oraz Flyback. 
+Jest to układ high efficiency, co jest powodem dla którego został wybrany\cite{st:lm3488}.
 
 Jako początkowe założenie przyjęto częstotliwość przełączania 400kHz zgodnie z domyślną wartością w nocie katalogowej układu, 
 ale możliwe jest zwiększanie częstotliwości do 1MHz, co pozwala na zmniejszenie rozmiarów cewki oraz kondensatorów, natomiast może to
-pogorszyć sprawność układu, ponieważ według noty katalogowej wraz ze wzrostem częstotliwości spada wzmocnienie układu, co przekłada się na mniejszą sprawność.
+pogorszyć sprawność układu, ponieważ według karty katalogowej wraz ze wzrostem częstotliwości spada wzmocnienie układu, co przekłada się na mniejszą sprawność.
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.8\textwidth]{boost.png}
+    \caption{Schemat układu z karty katalogowej\cite{st:lm3488}}
+\end{figure}
 
 \subsubsection{Dobór cewki}
-Oszacowano wartość prądu cewki na podstawie założonego prądu wyjściowego:
+Wartość prądu cewki oszacowano na podstawie założonego prądu wyjściowego:
 
 \begin{equation}
     I_{l} = \frac{V_{out} \cdot I_{out}}{V_{in}} = \frac{220 \cdot 0.02}{12} \approx 0.36\si{\ampere}
@@ -72,7 +77,7 @@ Obliczono wypełnienie PWM, na podstawie wzoru:
     D_{130} = \frac{V_{out}-V_{in}}{V_{out}} = \frac{130-12}{130} \approx 0.908
 \end{equation}
 
-Zgodnie z notą katalogową układu LM3488, cewka powinna mieć wartość określaną wzorem:
+Zgodnie z kartą katalogową układu LM3488, cewka powinna mieć wartość określaną wzorem:
 \begin{equation}
     L > \frac{D(1-D)V_{in}}{2f_{sw}I_{out}}
 \end{equation}
@@ -107,11 +112,11 @@ Obliczono wartość cewki dla napięcia wyjściowego 130\si{\volt} oraz napięci
 Z obliczeń wynika, że zwiększanie częstotliwości pozwala na zmniejszenie wartości cewki, co pozwala na zastosowanie cewki o wartości 180\si{\micro\henry}.
 
 \subsubsection{Dobór kondensatorów}
-Według zaleceń z noty katalogowej w przetwornicy powinny być zastosowane kondensatory o jak najniższym ESR,
+Według zaleceń z karty katalogowej w przetwornicy powinny być zastosowane kondensatory o jak najniższym ESR,
 dlatego odrzucono kondensatory elektrolityczne na rzecz kondensatorów ceramicznych, które mają bardzo niski ESR, tak
 mały że producent nie podaje tej wartości w notach katalogowych, gdyż jest ona zbyt mała by miała znaczenie.
 
-Jednak problem jest znalezienie kondensatorów ceramicznych dla wysokich napięć, mimo tego został znaleziony kondensator 
+Jednak problemem jest znalezienie kondensatorów ceramicznych pracujących przy wysokim napięciu, mimo tego został znaleziony kondensator 
 ceramiczny o wartości 2.2\si{\micro\farad} i napięciu pracy do 250\si{\volt}.
 
 W obliczeniach należy uwzględnić spadek pojemności kondensatora wraz ze wzrostem napięcia.
@@ -141,7 +146,7 @@ Obliczono tętnienia dla dobranych wartości kondensatorów:
 Wartości tętnień jest mniejsza niż założone 0.1\si{\volt}, co oznacza, że dobrano odpowiednie wartości kondensatorów.
 
 \subsubsection{Dobór diody}
-Oszacowano prąd diody na podstawie wzoru z noty katalogowej:
+Oszacowano prąd diody na podstawie wzoru z karty katalogowej:
 \begin{equation}
     I_{d} = \frac{I_{out}}{1-D} + \Delta I_{out} = \frac{0.02}{1-0.945} + 0.006 \approx 0.37\si{\ampere}
 \end{equation}
@@ -150,11 +155,11 @@ Dioda powina mieć prąd przewodzenia większy niż 0.4\si{\ampere} oraz być sz
 
 Zdecydowano się na zastosowanie diody ES1G firmy Onsemi, 
 która jest diodą super szybką, o prądzie przewodzenia 1\si{\ampere}, co jest wystarczające dla tego zastosowania.
-Dioda ta ma maksymalne napięcie wsteczne 400\si{\volt}, co jest wystarczające.
+Dioda ta ma maksymalne napięcie wsteczne 400\si{\volt}, co pozwala na bezpieczne zastosowanie w tym układzie.
 
 \subsubsection{Dobór tranzystora}
 Można założyć że prąd tranzystora to prąd cewki, czyli 0.468\si{\ampere}.
-Zgodnie z noty katalogowej tranzystor powinien mieć następujące parametry:
+Zgodnie z kartą katalogową tranzystor powinien mieć następujące parametry:
 \begin{itemize}
     \item Napięcie minimalnie drain-source: 250\si{\volt}
     \item Jak najmniejszy $R_{DS(on)}$
@@ -163,7 +168,7 @@ Zgodnie z noty katalogowej tranzystor powinien mieć następujące parametry:
     \item Jak najmniejszy ładunek bramki
     \item Wymaganego prąd bramki mniejszego niż 1\si{\ampere}
 \end{itemize}
-\newpage
+
 Zdecydowano się na zastosowanie tranzystora N-Channel
 MOSFET TPH5200FNH firmy Toshiba, który ma następujące parametry:
 \begin{itemize}
@@ -193,14 +198,14 @@ Moc jest bardzo niska, co oznacza, że tranzystor nie będzie się nagrzewał, a
 
 \subsubsection{Ustawienie napięcia wyjściowego}
 Napięcie wyjściowe będzie regulowane, dlatego zdecydowano się na zastosowanie potencjometru cyfrowego włączonego w obwód sprzężenia zwrotnego.
-Potencjometr cyfrowy będzie się komunikował z mikrokontrolerem za pomocą magistrali I2C, co pozwoli na zdalne ustawianie napięcia wyjściowego,
+Potencjometr cyfrowy będzie się komunikował z mikrokontrolerem za pomocą magistrali I2C, co pozwoli na programowe ustawianie napięcia wyjściowego,
 by regulować jasność lamp.
 
 Wybrano potencjometr cyfrowy MCP4018T-103E/LT firmy Microchip,
 który ma 128 poziomów ustawień, co pozwala na dokładne ustawienie napięcia wyjściowego,
 wybrano wartość 10k\si{\ohm}, co pozwala na uzyskanie odpowiedniego zakresu ustawień napięcia wyjściowego.
 
-Zgodnie z notą katalogową napięcie na pinie FB powinno wynosić 1.26\si{\volt}, napięcie to oznacza, że napięcie wyjściowe jest odpowiednie. 
+Zgodnie z kartą katalogową napięcie na pinie FB powinno wynosić 1.26\si{\volt}, napięcie to oznacza, że napięcie wyjściowe jest odpowiednie. 
 Po przetestowaniu kilku kombinacji zdecydowano się na zastosowanie następujących rezystorów:
 \begin{itemize}
     \item $R_{fb1} = 2.49\si{\mega\ohm}$
@@ -222,12 +227,12 @@ Uzyskano zakres napięcia wyjściowego od 130.4\si{\volt} do 220.6\si{\volt}, co
 Układ ma możliwość ustawienia limitu prądu jaki będzie płynąć przez tranzystor,
 co jest dodatkowym zabezpieczeniem przed uszkodzeniem tranzystora.
 
-Najpierw obliczono wartość limitu szczytowego prądu przełączania zgodnie z notą katalogową:
+Najpierw obliczono wartość limitu szczytowego prądu przełączania zgodnie z kartą katalogową:
 \begin{equation}
     ISW_{limit} = \left(\frac{I_{out}}{1-D}+\frac{D \cdot V_{in}}{2 \cdot f_{sw} \cdot L}\right) = \left(\frac{0.02}{1-0.945}+\frac{0.945 \cdot 12}{2 \cdot 500000 \cdot 180\si{\micro\henry}}\right) \approx 0.426\si{\ampere}
 \end{equation}
 
-Następnie obliczono wartość rezystora ograniczającego prąd zgodnie z notą katalogową:
+Następnie obliczono wartość rezystora ograniczającego prąd zgodnie z kartą katalogową:
 \begin{equation}
     R_{sense} = \frac{V_{SENSE} - (D \cdot V_{SENSE} \cdot V_{SL-ratio})}{ISW_{limit}} = \frac{156\si{\milli\volt} - (0.945 \cdot 156\si{\milli\volt} \cdot 0.49)}{0.426} \approx 74\si{\milli\ohm}
 \end{equation}

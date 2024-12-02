@@ -54,12 +54,12 @@ Zakupiona przetwornica HV ma następujące parametry:
     \item Prąd wyjściowy: \SI{20}{\milli\ampere}
 \end{itemize}
 
-W celu sprawdzenia działania lampy musimy najpierw dobrać rezystor ograniczający prąd katodowy.
-Zakładając, że napięcie zasilania wynosi maksymalnie $U_{\text{max}} = \SI{220}{\volt}$, a napięcie zapłonu lampy $U_{\text{zap}} = \SI{170}{\volt}$,
+W celu sprawdzenia działania lampy należy najpierw dobrać rezystor ograniczający prąd katodowy.
+Zakładając, że napięcie zasilania wynosi maksymalnie $U_{\text{max}} = \SI{220}{\volt}$, a napięciu pracy lampy $U_{\text{pr}} = \SI{150}{\volt}$,
 przy prądzie katodowym $I_{\text{kat}} = \SI{2}{\milli\ampere}$, rezystor ograniczający prąd katodowy można obliczyć ze wzoru:
 
 \begin{equation}
-    R = \frac{U_{\text{max}} - U_{\text{zap}}}{I_{\text{kat}}} = \frac{\SI{220}{\volt} - \SI{150}{\volt}}{\SI{2}{\milli\ampere}} = \SI{35}{\kilo\ohm}
+    R = \frac{U_{\text{max}} - U_{\text{pr}}}{I_{\text{kat}}} = \frac{\SI{220}{\volt} - \SI{150}{\volt}}{\SI{2}{\milli\ampere}} = \SI{35}{\kilo\ohm}
 \end{equation}
 
 W nocie katalogowej lampy nixie Z570M producent podaje, że zalecany rezystor ograniczający prąd katodowy 
@@ -89,7 +89,7 @@ natomiast przy napięciu \SI{220}{\volt} lampa świeci jasno i pojawiają się l
     \caption{Prototyp układu z lampą nixie przy napięciu zasilania \SI{220}{\volt}}
 \end{figure}
 
-Nie sprawdzono napięcia wygaszania, ponieważ zasilacz nie pozwalał na takie napięcie, 
+Nie sprawdzono napięcia wygaszania, ponieważ zakres pracy zasilacza okazał się za mały na takie napięcie, 
 ale ustalono, że lampa nawet przy napięciu \SI{150}{\volt} była w stanie zapłonąć i świecić poprawnie.
 
 Z testów można wyciągnąć następujące wnioski:
