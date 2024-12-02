@@ -1,13 +1,13 @@
 # Fdb version 3
-["biber main"] 1732744167 "main.bcf" "main.bbl" "main" 1733161770
-  "main.bcf" 1733161770 108431 af3754443fd145ee3e60317e399dc1ee "pdflatex"
+["biber main"] 1732744167 "main.bcf" "main.bbl" "main" 1733162063
+  "main.bcf" 1733162063 108431 af3754443fd145ee3e60317e399dc1ee "pdflatex"
   "sources.bib" 1733161625 4811 7555f13a0d8731a9068cca3de98d165a ""
   (generated)
   "main.bbl"
   "main.blg"
-["pdflatex"] 1733161766 "/home/w/Nixie_alarm_clock/docs/main/main.tex" "main.pdf" "main" 1733161770
+["pdflatex"] 1733162060 "/home/w/Nixie_alarm_clock/docs/main/main.tex" "main.pdf" "main" 1733162063
   "/etc/texmf/web2c/texmf.cnf" 1697565182 475 c0e671620eb5563b2130f56340a5fde8 ""
-  "/home/w/Nixie_alarm_clock/docs/main/main.tex" 1733161625 4074 50883f21b2469a81c18ab5cfcf8a9e0f ""
+  "/home/w/Nixie_alarm_clock/docs/main/main.tex" 1733162060 4074 50883f21b2469a81c18ab5cfcf8a9e0f ""
   "/usr/share/texlive/texmf-dist/fonts/enc/dvips/pl/plit.enc" 1136849721 1946 62ba825cda1ff16dbaa60d53ac60525a ""
   "/usr/share/texlive/texmf-dist/fonts/enc/dvips/pl/plme.enc" 1136849721 3126 59f33ff3e396436ebc36f4e7b444d5c4 ""
   "/usr/share/texlive/texmf-dist/fonts/enc/dvips/pl/plmi.enc" 1136849721 2005 f094775651a1386335c158fb632529f1 ""
@@ -194,15 +194,15 @@
   "koncepcja_ukladu//polaczenia.png" 1732720665 10345 7b06d15805cd7f897ec2710bdc17ad82 ""
   "koncepcja_ukladu/koncepcja_ukladu.tex" 1733161625 4356 59707c60f3fcbee2c7588d2d3d3220ac ""
   "lampy_nixie//Nixie_schematic.png" 1732720665 95745 460b638a9fef26d142a9cca26616d2c6 ""
-  "lampy_nixie/lampy_nixie.tex" 1733161625 8582 8ed6fff84bb3fd4ee0f849fd461044fd ""
-  "main.aux" 1733161770 19747 6047b491c98ebb54acabbf100b6e2f65 "pdflatex"
+  "lampy_nixie/lampy_nixie.tex" 1733162056 8599 0f16ad12bde5dcd20462fb896ff74dc6 ""
+  "main.aux" 1733162063 19747 6047b491c98ebb54acabbf100b6e2f65 "pdflatex"
   "main.bbl" 1733161635 11052 d045c1af7915b4f43bde6d6e1a192643 "biber main"
-  "main.lof" 1733161770 3778 9787d00dd4a0bf2f32bc007d241e117b "pdflatex"
-  "main.lot" 1733161770 454 9e3bc778e7b37932f7ec250e6c66658a "pdflatex"
-  "main.out" 1733161770 12269 732eb815c7c784bd3a3e8321a9769298 "pdflatex"
-  "main.run.xml" 1733161770 2332 8dbd6be977789ea42c7a08a36dd67c15 "pdflatex"
-  "main.tex" 1733161625 4074 50883f21b2469a81c18ab5cfcf8a9e0f ""
-  "main.toc" 1733161770 7147 396f9ee3a63f478bba98b7f9007f10be "pdflatex"
+  "main.lof" 1733162063 3778 9787d00dd4a0bf2f32bc007d241e117b "pdflatex"
+  "main.lot" 1733162063 454 9e3bc778e7b37932f7ec250e6c66658a "pdflatex"
+  "main.out" 1733162063 12269 732eb815c7c784bd3a3e8321a9769298 "pdflatex"
+  "main.run.xml" 1733162063 2332 8dbd6be977789ea42c7a08a36dd67c15 "pdflatex"
+  "main.tex" 1733162060 4074 50883f21b2469a81c18ab5cfcf8a9e0f ""
+  "main.toc" 1733162063 7147 396f9ee3a63f478bba98b7f9007f10be "pdflatex"
   "realizacja/obliczenia_mocy/obliczenia_mocy.tex" 1732720665 3034 59095ed53ea1915c13830d43dcb77f09 ""
   "realizacja/szczegolowa_koncepcja_ukladu//schemat_blokowy.jpg" 1732720665 295346 501df837a9a1b89f404bb9317a57b1fb ""
   "realizacja/szczegolowa_koncepcja_ukladu/szczegolowa_koncepcja_ukladu.tex" 1733161625 7317 9b1dcb34d3f738d2324ac87234c35d9e ""
