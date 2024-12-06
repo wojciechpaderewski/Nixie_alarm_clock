@@ -1,0 +1,80 @@
+% Created 2024-10-16 śro 21:35
+% Intended LaTeX compiler: pdflatex
+\documentclass[../main.tex]{subfiles}
+
+% \usepackage[a4paper, margin=3cm]{geometry}
+% \usepackage{amssymb} // not working
+
+\usepackage[T1]{fontenc}
+\usepackage[utf8]{inputenc}
+\usepackage{graphicx}
+\usepackage{longtable}
+\usepackage{wrapfig}
+\usepackage{rotating}
+\usepackage[normalem]{ulem}
+\usepackage{amsmath}
+\usepackage{capt-of}
+\usepackage{hyperref}
+\usepackage{siunitx}
+\usepackage{float}
+\usepackage[polish]{babel}
+
+\graphicspath{{../}}
+\author{Wojciech Paderewski}
+\date{\today}
+\title{testy}
+\hypersetup{
+ pdfauthor={Wojciech Paderewski},
+ pdftitle={testy},
+ pdfkeywords={},
+ pdfsubject={},
+ pdflang={Polish}}
+
+\begin{document}
+W tym rozdziale opisano testowanie poszczególnych 
+modułów oraz całego układu, które pozwoliło na sprawdzenie poprawności działania oraz zidentyfikowanie błędów.
+
+\subsection{Testy Przetwornicy HV}
+Przetwornica HV jako najtrudniejszy moduł układu, została odizolowana na etap pierwszego uruchomiania rezystorem 0\si{\ohm}
+w celu zminimalizowania ryzyka uszkodzenia lamp Nixie. Po podłączeniu zasilania przetwornica działa z napięciem wyjściowym 
+ok 160V, co jest wartością oczekiwaną. Napięcie to jest stabilne, nie obserwuje się żadnych skoków napięcia.
+
+% \begin{figure}[H]
+%     \centering
+%     \includegraphics[scale=0.3]{testy_przetwornicy_HV.png}
+%     \caption{Testy przetwornicy HV}
+% \end{figure}
+
+Po napisaniu testowego programu do komunikacji z potencjometrem, przetestowano działanie regulacji. Regulacja działa poprawnie, faktyczny regulacja 
+zakres regulacji wynosi ??? i ???;
+
+% \begin{figure}[H]
+%     \centering
+%     \includegraphics[scale=0.3]{testy_przetwornicy_HV.png}
+%     \caption{Testy przetwornicy HV}
+% \end{figure}
+
+% \begin{figure}[H]
+%     \centering
+%     \includegraphics[scale=0.3]{testy_przetwornicy_HV.png}
+%     \caption{Testy przetwornicy HV}
+% \end{figure}
+
+\subsection{Testy układu sterowania}
+Po pełnym złożeniu układu napisano prosty program który zapala i gasi wszystkie cyfry po kolei by przetestować działanie sterowanie
+lampami nixie.
+
+% \begin{figure}[H]
+%     \centering
+%     \includegraphics[scale=0.3]{testy_przetwornicy_HV.png}
+%     \caption{Testy przetwornicy HV}
+% \end{figure}
+
+\subsection{Testy enkodera i buzzera}
+Najpierw napisano prosty program do obsługi enkodera i przetestowano jego działanie. Działa wykrywanie obrotu oraz przycisk. Analogicznie
+wgrano przykładowy program do odtwarzania dźwięków i przetestowano działania buzzera. Udało się zagrać melodie, ale buzzer okazał się cichszy
+niż zakładano, ale nie powinno to stanowić problemu.
+
+\end{document}
+
+
