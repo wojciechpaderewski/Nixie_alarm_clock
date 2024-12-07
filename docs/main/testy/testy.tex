@@ -91,23 +91,28 @@ W celu weryfikacji pomierzono zależność napięcia wyjściowego od podanej war
 Na wykresie widać, że zależność jest liniowa, co oznacza, że regulacja napięcia działa poprawnie.
 Jednak według założeń, napięcie wyjściowe powinno wynosić od 130V do 220V.
 Rozbieżność może wynikać z ograniczenia przetwornicy do generowania dużego wypełnienia sygnału sterującego.
-By sprawdzić tą hipotezę, zmierzono wypełnienie sygnału sterującego dla napięć wyjściowych 130V, 170V, 210V.
+By sprawdzić tą hipotezę, zmierzono wypełnienie sygnału sterującego dla napięć wyjściowych 130V, 210V.
+Pomiary zamieszczono na \ref{fig:duty_130} i \ref{fig:duty_210}.
 
 \begin{figure}[H]
     \centering
-    \includegraphics[width=1\textwidth]{duty_140.png}
-    \caption{Wypełnienie sygnału sterującego przy napieciu wyjściowym 140V}
+    \includegraphics[width=1\textwidth]{duty_130.png}
+    \caption{Wypełnienie sygnału sterującego przy napieciu wyjściowym 130V}
+    \label{fig:duty_130}
 \end{figure}
 
 \begin{figure}[H]
     \centering
-    \includegraphics[width=1\textwidth]{duty_200.png}
-    \caption{Wypełnienie sygnału sterującego przy napieciu wyjściowym 200V}
+    \includegraphics[width=1\textwidth]{duty_210.png}
+    \caption{Wypełnienie sygnału sterującego przy napieciu wyjściowym 210V}
+    \label{fig:duty_210}
 \end{figure}
 
-Obserwując przebiegu zauważono, że przy wysokim wypełnieniu sygnału sterującego,
-tranzystor nie do końca się wyłącza, co powoduje, że napięcie wyjściowe jest mniejsze niż zakładane.
-Może to wynikać ze żle dobranych elementów kompensujących w układzie przetwornicy.
+Jak widać na \ref{fig:duty_210}, przy wysokim wypełnieniu sygnału sterującego,
+tranzystor nie do końca się zamyka, co powoduje, że napięcie wyjściowe jest mniejsze niż zakładane, 
+a do tego tranzystor się nagrzewa i zwiększa się pobór mocy.
+
+Może to wynikać ze źle dobranych elementów kompensujących w układzie przetwornicy.
 Zmniejszony zakres w jakim można regulować napięcie wyjściowe nie wpłynie na działanie całego układu,
 ponieważ górny limit napięcia wyjściowego przetwornicy nie jest krytyczny dla działania budzika.
 
@@ -124,23 +129,52 @@ ale jest on stały i niezależny od napięcia wyjściowego przetwornicy, więc s
         \hline
         Napięcie wyjściowe [V] & Pobór mocy [W] \\
         \hline
-        130 & 1.884 \\
-        140 & 2.012 \\
-        150 & 2.358 \\
-        160 & 2.5 \\
-        170 & 2.7 \\
-        180 & 2.9 \\
-        190 & 1.1 \\
-        200 & 1.2 \\
-        210 & 5.948 \\
+        130 & 1.654 \\
+        140 & 1.836 \\
+        150 & 2.258 \\
+        160 & 2.705 \\
+        170 & 3.282 \\
+        180 & 4.021 \\
+        190 & 5.25 \\
+        200 & 7.65 \\
+        210 & 8.22 \\
         \hline
     \end{tabular}
     \caption{Zależność poboru mocy od napięcia wyjściowego}
 \end{table}
 
-Pobór mocy okazał się nie liniowy przy wyższych napięciach wyjściowych. Wynika to ze spadku wydajności przetwornicy przy wyższych napięciach,
-co jest zgodne z wynikami testów przetwornicy wysokiego napięcia. Jednak układ domyślnie ma procować na niższych napięcia, więc 
-zdecydowano się na programowe ograniczenie napięcia wyjściowego przetwornicy do 195V. Dolny limit napięcia wyjściowego również
+\begin{figure}[H]
+  \centering
+  \begin{tikzpicture}
+    \begin{axis}[
+      xlabel={Napięcie wyjściowe [V]},
+      ylabel={Pobór mocy [W]},
+      legend pos=north west,
+      grid=major,
+      width=0.8\textwidth,
+      height=0.4\textwidth,
+      ]
+      \addplot[color=blue] coordinates {
+        (130, 1.654)
+        (140, 1.836)
+        (150, 2.258)
+        (160, 2.705)
+        (170, 3.282)
+        (180, 4.021)
+        (190, 5.25)
+        (200, 7.65)
+        (210, 8.22)
+      };
+    \end{axis}
+  \end{tikzpicture}
+  \caption{Wykres zależności poboru mocy od napięcia wyjściowego}
+  \label{fig:power}
+\end{figure}
+
+
+Na wykresie \ref{fig:power} pobór mocy okazał się nie liniowy przy wyższych napięciach wyjściowych. Wynika to ze spadku wydajności przetwornicy przy wyższych napięciach,
+z powodu nie zamykania się tranzystora przełączającego. Jednak układ domyślnie ma procować na niższych napięcia, więc 
+zdecydowano się na programowe ograniczenie napięcia wyjściowego przetwornicy do 190V, gdzie charakterystyka poboru mocy jest jeszcze liniowa. Dolny limit napięcia wyjściowego również
 został ograniczony do 140V, ponieważ przy 130V lampy nie zapalają się w pełni, co może prowadzić do ich uszkodzenia. 
 Jako domyślne napięcie wyjściowe wybrano 150V, przy którym pobór mocy wynosi 2.358W, co jest akceptowalnym wynikiem.
 Porównując ten pobór mocy z innymi zegarkami dostępnymi na rynku, jest on porównywalny z nimi.
