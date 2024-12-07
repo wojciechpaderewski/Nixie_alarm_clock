@@ -17,6 +17,7 @@
 \usepackage{hyperref}
 \usepackage{siunitx}
 \usepackage{float}
+\usepackage{pgfplots}
 \usepackage[polish]{babel}
 
 \graphicspath{{../}}
@@ -40,8 +41,6 @@ Sprawdzono działanie regulacji napięcia za pomocą potencjometru cyfrowego. Za
 
 W celu weryfikacji pomierzono zależność napięcia wyjściowego od podanej wartości na potencjometrze cyfrowym.
 
-//tabela z wynikami pomiarów
-
 \begin{table}[H]
     \centering
     \begin{tabular}{|c|c|}
@@ -60,7 +59,39 @@ W celu weryfikacji pomierzono zależność napięcia wyjściowego od podanej war
         \hline
     \end{tabular}
     \caption{Zależność napięcia wyjściowego od wartości potencjometru cyfrowego}
+\end{table}
 
+\begin{figure}[H]
+  \centering
+  \begin{tikzpicture}
+    \begin{axis}[
+      xlabel={Wartość potencjometru cyfrowego},
+      ylabel={Napięcie wyjściowe [V]},
+      legend pos=north west,
+      grid=major,
+      width=0.8\textwidth,
+      height=0.4\textwidth,
+      ]
+      \addplot[color=blue] coordinates {
+        (0, 130)
+        (17, 140)
+        (36, 150)
+        (51, 160)
+        (64, 170)
+        (78, 180)
+        (96, 190)
+        (112, 200)
+        (127, 210)
+      };
+    \end{axis}
+  \end{tikzpicture}
+  \caption{Wykres zależności napięcia wyjściowego od wartości potencjometru cyfrowego}
+\end{figure}
+
+Na wykresie widać, że zależność jest liniowa, co oznacza, że regulacja napięcia działa poprawnie.
+Jednak według założeń, napięcie wyjściowe powinno wynosić od 130V do 220V.
+Rozbieżność może wynikać z ograniczenia przetwornicy do generowania dużego wypełnienia sygnału sterującego.
+By sprawdzić tą hipotezę, zmierzono wypełnienie sygnału sterującego dla napięć wyjściowych 130V, 170V, 210V.
 
 \begin{figure}[H]
     \centering
@@ -74,11 +105,48 @@ W celu weryfikacji pomierzono zależność napięcia wyjściowego od podanej war
     \caption{Wypełnienie sygnału sterującego przy napieciu wyjściowym 200V}
 \end{figure}
 
+Obserwując przebiegu zauważono, że przy wysokim wypełnieniu sygnału sterującego,
+tranzystor nie do końca się wyłącza, co powoduje, że napięcie wyjściowe jest mniejsze niż zakładane.
+Może to wynikać ze żle dobranych elementów kompensujących w układzie przetwornicy.
+Zmniejszony zakres w jakim można regulować napięcie wyjściowe nie wpłynie na działanie całego układu,
+ponieważ górny limit napięcia wyjściowego przetwornicy nie jest krytyczny dla działania budzika.
 
-\subsection{Pobór mocy}
+\subsection{Testy poboru mocy}
 
+Po przetestowaniu przetwornicy wysokiego napięcia, przystąpiono do testów całego układu.
+Zaczęto od pomiarów mocy pobieranej przez cały układ. Pobór mocy układu zmierzono za pomocą zasilacza laboratoryjnego.
+Zmierzono pobór mocy układu dla różnych napięć wyjściowych przetwornicy. Pobór mocy zawiera też w sobie pobór mocy pozostałych modułów,
+ale jest on stały i niezależny od napięcia wyjściowego przetwornicy, więc sam kształt charakterystyki poboru mocy jest zależny od przetwornicy.
 
-\subsection{Testy całego układu}
+\begin{table}[H]
+    \centering
+    \begin{tabular}{|c|c|}
+        \hline
+        Napięcie wyjściowe [V] & Pobór mocy [W] \\
+        \hline
+        130 & 1.884 \\
+        140 & 2.012 \\
+        150 & 2.358 \\
+        160 & 2.5 \\
+        170 & 2.7 \\
+        180 & 2.9 \\
+        190 & 1.1 \\
+        200 & 1.2 \\
+        210 & 5.948 \\
+        \hline
+    \end{tabular}
+    \caption{Zależność poboru mocy od napięcia wyjściowego}
+\end{table}
+
+Pobór mocy okazał się nie liniowy przy wyższych napięciach wyjściowych. Wynika to ze spadku wydajności przetwornicy przy wyższych napięciach,
+co jest zgodne z wynikami testów przetwornicy wysokiego napięcia. Jednak układ domyślnie ma procować na niższych napięcia, więc 
+zdecydowano się na programowe ograniczenie napięcia wyjściowego przetwornicy do 195V. Dolny limit napięcia wyjściowego również
+został ograniczony do 140V, ponieważ przy 130V lampy nie zapalają się w pełni, co może prowadzić do ich uszkodzenia. 
+Jako domyślne napięcie wyjściowe wybrano 150V, przy którym pobór mocy wynosi 2.358W, co jest akceptowalnym wynikiem.
+Porównując ten pobór mocy z innymi zegarkami dostępnymi na rynku, jest on porównywalny z nimi.
+
+Poza zmniejszonym zakresem pracy przetwornicy, wszystkie pozostałe założenia projektowe zostały spełnione. Układ 
+pobiera czas z serwera czasu, wyświetla go na lampach nixie i działa jako budzik. Wszystkie funkcje działają poprawnie.
 
 \end{document}
 
