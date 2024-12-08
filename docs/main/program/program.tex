@@ -31,12 +31,11 @@
  pdflang={Polish}}
 
 \begin{document}
-Bazując na informacjach z podrozdziału \ref{sec:srodowisko_programistyczne} wybrano środowisko programistyczne.
-Rozwiązaniem, który wydaje się lepsze dla tego projektu jest PlatformIO, które jest wtyczką do Visual Studio Code. Zaletą tego rozwiązania nad arduino IDE jest bardziej rozbudowanym środowiskiem programistycznym, 
-które posiada podpowiedzi składniowe co znacząco przyspiesza pisanie kodu.
+Bazując na informacjach z podrozdziału \ref{sec:srodowisko_programistyczne} wybrano środowisko programistyczne PlatformIO, które jest wtyczką do Visual Studio Code. 
+Zaletą tego rozwiązania nad arduino IDE są podpowiedzi składniowe co znacząco przyspiesza pisanie kodu.
 PlatformIO pozwala również na łatwe zarządzanie bibliotekami, komunikację z użyciem portu szeregowego oraz możliwość debugowania kodu.
 
-Program musi spełniać następujące wymagania:
+Określono wymagania które musi spełniać oprogramowanie:
 \begin{itemize}
   \item Obsługa rejestrów przesuwnych w celu wyświetlenia cyfr na lampach nixie.
   \item Połączenie z siecią Wi-Fi.
@@ -49,7 +48,7 @@ Program musi spełniać następujące wymagania:
 \end{itemize}
 
 W celu zrealizowania powyższych wymagań, program został podzielony na moduły, które są odpowiedzialne za poszczególne funkcjonalności.
-Taki podział pozwolił też na testowanie poszczególnych funkcjonalności niezależnie od siebie i połączenie ich w następnym etapie projektowania oprogramowania.
+Taki podział pozwolił też na testowanie poszczególnych funkcjonalności niezależnie od siebie i połączenie ich w pliku \texttt{main.cpp}.
 
 \subsection{Sterowanie lampami nixie}
 W celu wyświetlenia cyfr na lampach nixie, moduł podzielono na 4 warstwy abstrakcji:
@@ -84,7 +83,7 @@ Wysyłanie danych do rejestru odbywa się za pomocą funkcji \texttt{send} w kla
 \end{verbatim}
 
 
-Animacja cyfr polega na zapaleniu każdej z cyfr pomiędzy 0 a obecnie wyświetlaną cyfrą, w momencie zmiany gdy dana cyfra ma wyświetlić 0.
+Animacja cyfr polega na zapaleniu każdej z cyfr pomiędzy 0 a obecnie wyświetlaną cyfrą, w momencie zmiany danej cyfry na 0.
 Funkcjonalność ta jest zrealizowana w klasie \texttt{AnimationDriver} w metodzie \texttt{update}.
 
 \begin{verbatim}

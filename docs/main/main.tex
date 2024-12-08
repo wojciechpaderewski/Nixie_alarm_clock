@@ -1,5 +1,5 @@
 \documentclass[twoside]{article}
-\usepackage{graphicx, siunitx, float, polski, csquotes, pdfpages, chngcntr, pgfplots}
+\usepackage{graphicx, siunitx, float, polski, csquotes, pdfpages, chngcntr, pgfplots, amsmath}
 \usepackage[a4paper, top=2.5cm, bottom=2.5cm, inner=3.5cm, outer=2.5cm]{geometry}
 \usepackage[hyphens]{url}
 \usepackage[pdfusetitle]{hyperref}
@@ -11,6 +11,7 @@
 % \appto{\bibsetup}{\sloppy}
 \hypersetup{hidelinks}
 \counterwithin{figure}{section}
+\numberwithin{equation}{section}
 \renewcommand{\thefigure}{\thesection.\arabic{figure}}
 \linespread{1.3}
 % \cite{st:ism330dhcx}
@@ -74,6 +75,7 @@ które pozwoliły na wybór odpowiednich komponentów na dalszym etapie projekto
 \newpage
 
 \subsection{Obliczenia mocy}
+\label{sec:obliczenia_mocy}
 \subfile{realizacja/obliczenia_mocy/obliczenia_mocy}
 \newpage
 
@@ -85,7 +87,7 @@ Każdy z modułów ma opisany dobór komponentów do realizacji, funkcjonalnośc
 \subfile{budowa_ukladu/nixie/nixie}
 \newpage
 
-\subsection{Przetwornica 12V na HV}
+\subsection{Przetwornica 12V na wysokie napięcie}
 \subfile{budowa_ukladu/12V_to_HV_conv/12V_to_HV_conv}
 \newpage
 

@@ -37,13 +37,13 @@ Sterowanie lampami i neonówkami odbywa się za pomocą rejestrów przesuwnych, 
 Natomiast kropki na lampach Nixie są sterowane za pośrednictwem tranzystorów.
 
 \subsubsection{Dobór rejestrów}
-Wybrano rejestry przesuwne HV firmy microchip o numerze HV5530, o nastepujacych parametrach\cite{st:rejestry}:
+Wybrano rejestry przesuwne HV firmy microchip o numerze HV5530, o nastepujacych parametrach \cite{st:rejestry}:
 \begin{itemize}
     \item Rejestr 32 bitowy
-    \item Maksymalne napięcie na wyjściu - 315V
-    \item Maksymalna częstotliwość pracy - 8MHz
-    \item napięcie zasilania - od 10.8\si{\volt} do 13.6\si{\volt}
-    \item stan wysoki - Napięcie zasilania - 2V
+    \item Maksymalne napięcie na wyjściu - \SI{315}{\volt}
+    \item Maksymalna częstotliwość pracy - \SI{8}{\mega\hertz}
+    \item napięcie zasilania - od \SI{10.8}{\volt} do \SI{13.6}{\volt}
+    \item stan wysoki - $V_{cc} - \SI{2}{\volt}$ gdzie $V_{cc}$ to napięcie zasilania
 \end{itemize}
 
 \subsubsection{Sterowanie rejestrów}
@@ -59,45 +59,46 @@ Sterowanie rejestrem realizowane jest za pomocą nastepujacych pinów:
 
 Do sterowania wystarczą jedynie 3 linie CLK, LE, DATA\_IN, ponieważ BL i POL można ustawić na stałe.
 Rejestry można połączyć ze sobą dzięki czemu wymagana jest tylko jedna linia danych.
-Sterowanie wymaga użycia konwertera poziomów logicznych, ponieważ mikrokontroler pracuje na napięciu 3.3V, a rejestr operuje 
-na napięciu około 12V.
+Sterowanie wymaga użycia konwertera poziomów logicznych, ponieważ mikrokontroler pracuje na napięciu \SI{3.3}{\volt}, a rejestr operuje 
+na napięciu około \SI{12}{\volt}.
 
-Zastosowano konwerter poziomów logicznych CD40109B-Q1 firmy Texas Instruments\cite{st:konwerter}.
+Zastosowano konwerter poziomów logicznych CD40109B-Q1 firmy Texas Instruments \cite{st:konwerter}.
 Konwerter jest 4 kanałowy, co pozwala na podłączenie 4 sygnałów, więc wybrano połaczenia
-CLK, LE, DATA\_IN, BL. Konwerter pracuje w zakresie napięć od 3V do 20V, więc spełnia wymagania.
+CLK, LE, DATA\_IN, BL. Konwerter pracuje w zakresie napięć od \SI{3}{\volt} do \SI{20}{\volt}, więc spełnia wymagania.
 
 \subsubsection{Sterowanie kropkami dziesiętnymi}
 Sterowanie kropkami dziesiętnymi odbywa się za pomocą tranzystorów HV firmy Diodes Industries o numerze DMN60H080DS, 
 o nastepujacych parametrach \cite{st:rejestry}:
 \begin{itemize}
-    \item maksymalne napięcie dren-źródło - 600V
-    \item maksymalny prąd drenu - 80mA
-    \item napięcie progowe - ok. 2V
+    \item maksymalne napięcie dren-źródło - \SI{600}{\volt}
+    \item maksymalny prąd drenu - \SI{80}{\milli\ampere}
+    \item napięcie progowe - ok. \SI{2}{\volt}
 \end{itemize}
 
 \subsubsection{Dobór rezystorów}
 Wartość rezystorów anodowych dla zastosowanych lamp zostały obliczone w rozdziale \ref{sec:nixie}.
-Kropki wymagają mniejszego prądu, producent jednak nie podaje dokładnej wartości, więc przyjęto wartość 51k$\Omega$.
+Kropki wymagają mniejszego prądu, producent jednak nie podaje dokładnej wartości, więc przyjęto wartość \SI{51}{\kilo\ohm}.
 Dobór rezystora zostanie oceniony empirycznie, podczas testowania gotowego układu.
 
 Lampy neonowe mają zdecydowanie mniejszy prąd pracy oraz mniejsze napięcie pracy. W sklepie internetowym sprzedający deklarował nastepujace parametry:
 \begin{itemize}
-    \item wymagane napięcie - 90V
-    \item prąd pracy - 0.3mA
+    \item wymagane napięcie - \SI{90}{\volt}
+    \item prąd pracy - \SI{0.3}{\milli\ampere}
 \end{itemize}
 
-Rezystor potrzebny do zabezpieczenia lampy neonowej przy napięciu zasilania 220V powinien mieć wartość około 433k$\Omega$.:
-
 \begin{equation}
-    R = \frac{U}{I} = \frac{220V - 90V}{0.3mA} \approx 433k\Omega
+    R = \frac{U}{I} = \frac{\SI{220}{\volt} - \SI{90}{\volt}}{ \SI{0.3}{\milli\ampere}} \approx \SI{433}{\kilo\ohm}
 \end{equation}
 
-Zdecydowano się na użycie rezystora o wartości 390k$\Omega$, ze względu na dostępność w sklepie internetowym.
+Rezystor potrzebny do zabezpieczenia lampy neonowej przy napięciu zasilania \SI{220}{\volt} powinien mieć wartość około \SI{433}{\kilo\ohm}.
+Zdecydowano się na użycie rezystora o wartości \SI{390}{\kilo\ohm}, ze względu na dostępność w sklepie internetowym. 
+Schemat elektryczny zaprojektowanego modułu przedstawiono na rysunku \ref{fig:nixie}.
 
 \begin{figure}[H]
     \centering
     \includegraphics[width=0.95\textwidth]{nixie.png}
-    \caption{Schemat układu sterowania lampami}
+    \caption{Schemat elektryczny modułu sterowania lampami}
+    \label{fig:nixie}
 \end{figure}
 
 \end{document}

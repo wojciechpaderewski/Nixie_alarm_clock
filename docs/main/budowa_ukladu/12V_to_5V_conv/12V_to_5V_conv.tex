@@ -33,60 +33,64 @@
  \begin{document}
  \subsubsection{Założenia projektowe}
  \begin{itemize}
-     \item Napięcie wejściowe: 12V
-     \item Napięcie wyjściowe: 5V
-     \item Prąd wyjściowy: 2A
-     \item 50mV tętnienia napięcia wyjściowego
+     \item Napięcie wejściowe: \SI{12}{\volt}
+     \item Napięcie wyjściowe: \SI{5}{\volt}
+     \item Prąd wyjściowy: \SI{2}{\ampere}
+     \item \SI{50}{\milli\volt} tętnienia napięcia wyjściowego
  \end{itemize}
 
 \subsubsection{Wybór układu scalonego}
-Zdecydowano się na układ TPS563219ADDFR produkcji Texas Instruments, który jest przetwornicą impulsową z wbudowanym tranzystorem mocy oraz zapewniajacym prąd wyjściowy do 3A przy 
-napięciu wyjściowym do 7V. Układ jest też w obudowie na tyle dużej, by móc go polutować ręcznie. 
+Zdecydowano się na układ TPS563219ADDFR produkcji Texas Instruments, który jest przetwornicą impulsową z wbudowanym tranzystorem mocy oraz zapewniajacym prąd wyjściowy do \SI{3}{\ampere} przy 
+napięciu wyjściowym do \SI{7}{\volt}. Układ jest też w obudowie na tyle dużej, by móc go polutować ręcznie. 
 
 Układ posiada soft-start oraz wyjście power good (potwierdzające start przetwornicy), co nie jest potrzebne w tym zastosowaniu, tak samo 
 nie jest to najmniejszy układ, ale zapewnia to łatwość montażu co jest ważne w tym przypadku.
 \subsubsection{Dobór komponentów}
-Dobór komponentów wykonano na podstawie sugerowanych wartości z noty katalogowej układu TPS563219ADDFR\cite{st:buck}.
+Dobór komponentów wykonano na podstawie sugerowanych wartości z noty katalogowej układu TPS563219ADDFR \cite{st:buck}. Tabelę z wartościami komponentów z noty katalogowej 
+przedstawiono na rysunku \ref{fig:conv-table}.
 
 \begin{figure}[H]
     \centering
     \includegraphics[width=0.8\textwidth]{conv-table.png}
-    \caption{Tabela doboru komponentów z noty katalogowej\cite{st:buck}}
+    \caption{Tabela doboru komponentów z noty katalogowej \cite{st:buck}}
+    \label{fig:conv-table}
 \end{figure}
 
+Projekt wzorowano na schemacie z noty katalogowej, który przedstawiono na rysunku \ref{fig:buck}.
 Na podstawie tabeli dobrano następujące wartości komponentów:
 \begin{itemize}
-    \item C1: 22uF 10V
-    \item C29: 22uF 10V
-    \item L1: 2.2uH 9.2A 14.5m$\Omega$
-    \item R1: 56k$\Omega$
-    \item R2: 10k$\Omega$
+    \item C1: \SI{22}{\micro\farad} \SI{10}{\volt}
+    \item C29: \SI{22}{\micro\farad} \SI{10}{\volt}
+    \item L1: \SI{2.2}{\micro\henry} \SI{9.2}{\ampere} \SI{14.5}{\milli\ohm}
+    \item R1: \SI{56}{\kilo\ohm}
+    \item R2: \SI{10}{\kilo\ohm}
 \end{itemize}
-
 
 \begin{figure}[H]
     \centering
     \includegraphics[width=1\textwidth]{buck.png}
-    \caption{Typowe połączenie układu TPS563219ADDFR\cite{st:buck}}
+    \caption{Typowe połączenie układu TPS563219ADDFR \cite{st:buck}}
+    \label{fig:buck}
 \end{figure}
 
-Kondensator dołączony do wyprowadzenia SS(soft start) oraz kondensator dołączony do pinu VBST, został skopiowany z układu z noty katalogowej, gdyż nie jest to krytyczny element i nie ma potrzeby doboru wartości pod 
+Kondensator dołączony do wyprowadzenia SS (soft start) oraz kondensator dołączony do pinu VBST, został skopiowany z układu z noty katalogowej, gdyż nie jest to krytyczny element i nie ma potrzeby doboru wartości pod 
 kątem zastosowania w zegarze.
 
 Zdecydowano się na użycie kondensatorów ceramicznych, gdyż są one mniejsze i mają lepszy ESR niż elektrolityczne, co ma znaczenie przy przetwornicach impulsowych,
 gdzie mamy wyższe częstotliwości przełączania, więc ESR kondensatora ma większe znaczenie, przy zbyt dużym ESR kondensatora, może on się nagrzewać, co prowadzi do jego uszkodzenia.
 Kondensatory ceramiczne natomiast cechują się tak małym ESR, że producent nie podaje tej wartości w notach katalogowych, gdyż jest ona zbyt mała by miała znaczenie.
 
-Cewka dobrano biorąc pod uwagę jest stosunek oporu do ceny, zdecydowano się na cewkę o oporze 14.5m$\Omega$, 
+Cewka dobrano biorąc pod uwagę jest stosunek oporu do ceny, zdecydowano się na cewkę o oporze \SI{14.5}{\milli\ohm}, 
 gdyż jest to najniższa wartość jako udało się znaleźć w sklepach elektronicznych w sensownej cenie i dość małej obudowie.
 
-Dodano również kondensator filtrujący 100nF na pinie VCC, by zredukować szumy z linii zasilania.
+Dodano również kondensator filtrujący \SI{100}{\nano\farad} na pinie VCC, by zredukować szumy z linii zasilania.
+Schemat elektryczny zaprojektowanego modułu przedstawiono na rysunku \ref{fig:buck-schemat}.
 
-\subsubsection{Schemat}
 \begin{figure}[H]
     \centering
     \includegraphics[width=1\textwidth]{5vTo12V_ schemat.png}
-    \caption{Schemat złącza DC-Plug}
+    \caption{Schemat elektryczny modułu przetwornicy z \SI{12}{\volt} na \SI{5}{\volt}}
+    \label{fig:buck-schemat}
 \end{figure}
 
 \end{document}

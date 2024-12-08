@@ -55,21 +55,24 @@ Następnie policzono prąd pobierany przez wszystkie lampy, których jest 6 sztu
 \begin{equation}
     I_{\text{Nixie}} = 6 \cdot \SI{2}{\milli\ampere} = \SI{12}{\milli\ampere}
 \end{equation}
-
-Następnie obliczono moc potrzebną do zasilania lampy nixie, przy napięciu \SI{220}{\volt} oraz prądzie wszystkich lamp \SI{12}{\milli\ampere}, zakładając 
+Jednak należy dodać jeszcze prąd potrzebny do zasilania kropek oraz separatorów, oszacowano prąd kropki na \SI{1}{\milli\ampere} oraz separatora na \SI{1}{\milli\ampere}, co daje:
+\begin{equation}
+    I_{\text{Nixie}} = 6 \cdot \SI{2}{\milli\ampere} + 6 \cdot \SI{1}{\milli\ampere} + 2 \cdot \SI{1}{\milli\ampere} = \SI{20}{\milli\ampere}
+\end{equation}
+Następnie obliczono moc potrzebną do zasilania lampy nixie, przy napięciu \SI{220}{\volt} oraz prądzie \SI{20}{\milli\ampere}, zakładając 
 sprawność przetwornicy na poziomie \SI{70}{\percent}:
 
 \begin{equation}
-    P_{\text{Nixie}} = \frac{U_{\text{Nixie}} \cdot I_{\text{Nixie}}}{\text{Sprawność}} = \frac{\SI{220}{\volt} \cdot \SI{12}{\milli\ampere}}{\SI{0.7}{}} = \SI{3.43}{\watt}
+    P_{\text{Nixie}} = \frac{U_{\text{Nixie}} \cdot I_{\text{Nixie}}}{\text{Sprawność}} = \frac{\SI{220}{\volt} \cdot \SI{20}{\milli\ampere}}{\SI{0.7}{}} = \SI{6.29}{\watt}
 \end{equation}
 
 Pozostałe komponenty będą pobierały znikome ilości prądu, więc nie będą brane pod uwagę w obliczeniach.
 Szacunkowa moc potrzebna do zasilania całego układu wynosi:
 
 \begin{equation}
-    P_{\text{całkowita}} = P_{\text{LED}} + P_{\text{ESP32}} + P_{\text{Nixie}} = \SI{5.4}{\watt} + \SI{1.122}{\watt} + \SI{3.43}{\watt} = \SI{9.952}{\watt}
+    P_{\text{całkowita}} = P_{\text{LED}} + P_{\text{ESP32}} + P_{\text{Nixie}} = \SI{5.4}{\watt} + \SI{1.122}{\watt} + \SI{6.29}{\watt} = \SI{12.812}{\watt}
 \end{equation}
 
-Szacunkowa moc potrzebna do zasilania całego układu wynosi około \SI{10}{\watt}, 
+Szacunkowa moc potrzebna do zasilania całego układu wynosi około \SI{13}{\watt}, 
 
 \end{document}

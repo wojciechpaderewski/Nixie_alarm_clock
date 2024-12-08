@@ -37,14 +37,14 @@
 Złącze usb musi posiadać przynajmniej 12 wyprowadzeń, ponieważ dopiero w takim układzie na złączu są linie D+ i D-, czyli linie danych.
 Wybrano złącze z 16 wyprowadzeniami, ponieważ takie było dostępne w sklepie.
 \subsubsection{Opis podłączenia}
-By ustawić napięcie komunikacji USB-C na 3.3V, zastosowano rezystory podciągające R1 i R2 o wartości 5.1k$\Omega$.
+By ustawić napięcie komunikacji USB-C na \SI{3.3}{\volt}, zastosowano rezystory podciągające R1 i R2 o wartości \SI{5.1}{\kilo\ohm}.
 Do podłączenia wykorzystano parę różnicową by połączyć linie D+ i D- z ESP32-S3, w celu zminimalizowania zakłóceń CMN (Common Mode Noise).
 \subsubsection{Zabezpieczenia ESD}
-W celu zabezpieczenia linii przed przepięciami, zastosowano diody TVS PUSB3AB4Z firmy Nexperia. Diody te mają wystarczająco duże opakowanie by dało się je przylutować ręcznie. Napięciem roboczym jest 3.3V,
-a napięcie stabilizacji wynosi 5V.
+W celu zabezpieczenia linii przed przepięciami, zastosowano tranil PUSB3AB4Z firmy Nexperia. Diody te mają wystarczająco duże opakowanie by dało się je przylutować ręcznie. Napięciem roboczym jest \SI{3.3}{\volt},
+a napięcie stabilizacji wynosi \SI{5}{\volt}.
 
 Mimo że jest to napięcie wyższe niż napięcie zasilania ESP32-S3, to nie powinno to stanowić problemu, 
-ponieważ napięcie to pojawi się na krótki czas, a sam esp32-s3 ma również wbudowane zabezpieczenia przed przepięciami.
+ponieważ napięcie to pojawi się na krótki czas, a sam mikrokontroler ma również wbudowane zabezpieczenia przed przepięciami.
 
 Wewnętrzne zabezpieczenia według karty katalogowej ESP32-S3:
 \begin{itemize}
@@ -52,10 +52,11 @@ Wewnętrzne zabezpieczenia według karty katalogowej ESP32-S3:
     \item Test Standard JS-002; CDM (Charged Device Model) ± 1000 V
 \end{itemize}
 Wynika z tego, że złącze USB-C w dość dobry sposób jest zabezpieczone przed przepięciami.
-\subsubsection{Schemat}
+Schemat elektryczny złącza USB-C przedstawiono na rysunku \ref{fig:usb-c_schemat}.
 \begin{figure}[H]
     \centering
     \includegraphics[width=0.7\textwidth]{usb-c_schemat.png}
-    \caption{Schemat złącza USB-C do programowania}
+    \caption{Schemat elektryczny złącza USB-C}
+    \label{fig:usb-c_schemat}
 \end{figure}
 \end{document}
