@@ -32,14 +32,14 @@
 
 \begin{document}
 
-Serwerem czasu nazywamy serwer komputerowy, pobierający czas z zewnętrznych źródeł i udostępniający go dla innych urządzeń w sieci\cite{st:serwerczasu-book}.
+Serwerem czasu nazywamy serwer komputerowy, pobierający czas z zewnętrznych źródeł i udostępniający go dla innych urządzeń w sieci \cite{st:serwerczasu-book}.
 Udostępniane są bardzo precyzyjne dane czasowe, dokładność zależy od źródła czasu z którego serwer korzysta. Serwer czasu może być używany jako lokalny lub internetowy.
 
 Serwery wykorzystują rożne źródła zewnętrzne do synchronizacji czasu, takie jak:
 \begin{itemize}
   \item zegary atomowe,
   \item odbioniki czasu GNSS (Global Navigation Satellite System),
-  \item oscylatory rubinowe,
+  \item oscylatory rubidowe,
   \item oscylatory cezowe.
   \item zegary wodorowe
 \end{itemize}
@@ -47,54 +47,54 @@ Serwery wykorzystują rożne źródła zewnętrzne do synchronizacji czasu, taki
 Są to zegary o bardzo dużej precyzji, rzędu nanosekund, co pozwala na synchronizację czasu w sieciach komputerowych, telekomunikacyjnych, itp.
 
 \subsection{Protokoły synchronizacji czasu}
-Serwery te Wykorzystują różne protokoły sieciowe do synchronizacji czasu, takie jak:
+Serwery te wykorzystują różne protokoły sieciowe do synchronizacji czasu, takie jak:
 \begin{itemize}
   \item NTP (Network Time Protocol) - 
-  wysyła okresowo pakiet zawierający aktualne opóźnienie w odniesieniu do czasu UTC, na podstawie których klient kalibruje swoje zegary.
+  wysyła okresowo pakiet zawierający aktualne opóźnienie w odniesieniu do czasu UTC (Universal Time Coordinated), na podstawie których klient kalibruje swoje zegary.
   Jest to najpopularniejszy protokół synchronizacji czasu w sieciach komputerowych, jest on wspierany przez większość systemów operacyjnych.
   \item PTP (Precision Time Protocol) - 
   jest bardziej precyzyjną alternatywą NTP i jest używany w systemach o wysokiej precyzji. Najczęściej stosowany w sieciach przemysłowych oraz przy badaniach naukowych. 
   Jest w stanie osiągnąć dokładność synchronizacji zegarów poniżej mikrosekundy.
   \item Algorytm Berkeley - to algorytm synchronizacji czasu opracowany na Uniwersytecie Kalifornijskim w Berkeley. 
   Jego działanie polega na pomiarze szybkości dryfowania zegara między serwerami, często jest łączony z protokołem NTP.
-  \item GPS -  wykorzystuje odbiorniki GPS do synchronizacji zegarów na różnych serwerach.
-   Zapewnia bardzo dokładne dane czasu. Czas ten można wykorzystać do synchronizacji
+  \item GPS (Global Positioning System) -  wykorzystuje odbiorniki GPS do synchronizacji zegarów na różnych serwerach.
+   Zapewnia bardzo dokładne dane o aktualnym czasie. Czas ten można wykorzystać do synchronizacji
   zegarów serwerów podłączonych do tego samego odbiornika GPS. 
 \end{itemize}
 
-\newpage
 
 Każdy z tych protokołów ma swoje nastepujace wady i zalety:
 
+\newpage
 \begin{itemize}
   \item NTP - Główną zaletą jest niezawodność i dokładność, co sprawia, że nadaje się do szerokiego zakresu zastosowań. 
   Jednak NTP nie jest tak dokładny jak PTP i może synchronizować zegary z dokładnością do kilku milisekund.
   W związku z tym, że jest to leciwy protokół, nie jest najbardziej bezpiecznym rozwiązaniem, 
   może być podatny na niektóre rodzaje ataków, takie jak ataki typu man-in-the-middle.
-  Protokół istnieje już bardzo długo, więc dobrze znany i istnieje wiele rozwiązań ułatwiających implementacje.
+  Protokół istnieje już bardzo długo, więc dobrze znany i istnieje wiele rozwiązań ułatwiających implementację.
   \item PTP - porównując do NTP, jest bardziej precyzyjny i może synchronizować zegary z dokładnością do kilku mikrosekund.
-  Jednak ma zdecydowanie większe wymagania sprzętowe(specjalistyczny sprzęt) i konfiguracyjne, co sprawia, że jest bardziej skomplikowany w użyciu.
+  Jednak ma zdecydowanie większe wymagania sprzętowe (specjalistyczny sprzęt) i konfiguracyjne, co sprawia, że jest bardziej skomplikowany w użyciu.
   \item Algorytm Berkeley - może być używany w połączeniu z NTP. 
   Jedną z głównych zalet tego algorytmu jest to, że może synchronizować zegary z dokładnością do kilku mikrosekund, dzięki czemu nadaje się do wielu zastosowań.
   Podobnie jak w PTP wymaga on specjalistycznego sprzętu, co sprawia, że jest bardziej skomplikowany w użyciu i droższy.
   \item GPS - najbardziej precyzyjny z wymienionych protokołów, może synchronizować zegary z dokładnością do kilku nanosekund.
-  Jest jednak nie zalecany do zastosowań wewnątrz pomieszczeń, ze względu na konieczność widoczności satelitów GPS i wymaga odbiornika GPS.
+  Jest jednak niezalecany do zastosowań wewnątrz pomieszczeń, ze względu na konieczność widoczności satelitów GPS i wymaga odbiornika GPS.
 \end{itemize} 
 
 Z wyżej wymienionych protokołów, NTP jest najczęściej stosowany w sieciach komputerowych, dlatego też wydaje się być najlepszym wyborem do synchronizacji zegara nixie.
-Alternatywnym rozwiązaniem mozę być wykorzystanie własnego serwera który by zwracał czas wykorzystując REST API, ale wymaga to posiadania własnego serwera i jest zależne od 
+Alternatywnym rozwiązaniem może być wykorzystanie własnego serwera który by zwracał czas wykorzystując REST API, ale wymaga to posiadania własnego serwera i jest zależne od 
 jego działania.
 
 \subsection{Struktura serwerów w protokole NTP}
-Synchronizacji NTP wykorzystuje uporządkowaną strukture gałęziowa STRATUM\cite{st:serwerczasu}. 
-Zasada hierarchii wygląda nastepujaco: urządzenia warstwy STRATUM N mogą być serwerami czasu dla warstwy STRATUM N+1, ale nie na odwrót. 
+Synchronizacji NTP wykorzystuje uporządkowaną strukturę gałęziowa STRATUM \cite{st:serwerczasu}. 
+Zasada hierarchii wygląda następująco: urządzenia warstwy STRATUM N mogą być serwerami czasu dla warstwy STRATUM N+1, ale nie na odwrót. 
 Komputery STRATUM N mogą być również klientami urządzeń warstwy STRATUM N-1 itd.
 
 Struktura ta ma na celu uporządkowanie i wprowadzenie hierarchii priorytetów urządzeń, zgodnie z ich rzeczywistym przeznaczeniem i funkcją. 
-Aby nie powodować nadmiernego skomplikowania systemu i związanych z tym opóźnień, ilość warstw została ograniczona do 16(STRATUM 0 - STRATUM 15).
+Aby nie powodować nadmiernego skomplikowania systemu i związanych z tym opóźnień, liczba warstw została ograniczona do 16(STRATUM 0 - STRATUM 15).
 
 Niektóre warstwy mają specjalne właściwości. Warstwa STRATUM 0 służy wyłącznie dla wzorców czasu, czyli zegarów atomowych, satelitarnych, itp. będących faktycznym źródłem czasu.
-Połączenie ze źródłem nie jest sieciowe, a zazwyczaj odbywa się za pomocą specjalnych interfejsów sprzętowych.
+Połączenie ze źródłem nie jest sieciowe, a zazwyczaj odbywa się używając specjalnych interfejsów sprzętowych.
 
 STRATUM 1 oraz STRATUM 2 stanowią najwyższe warstwy NTP i powinny być wykorzystane w przypadku dużych serwerów
 wysokiej jakości, superkomputerów lub sprzętowych serwerów czasu.
@@ -102,31 +102,30 @@ Pozostałe warstwy są przeznaczone dla urządzeń lokalnych, takich jak kompute
 
 Numer STRATUM mówi jak daleko od wzorca czasu znajduje się dany serwer. Im niższy numer, tym bliżej źródła czasu. 
 W rozbudowanych sieciach poziom STRATUM nie ma znaczącego wpływu na jakość synchronizacji i precyzję uzyskiwanego czasu.
+Strukturę serwerów czasu w protokole NTP przedstawiono na rysunku \ref{fig:serwers}.
 
 \begin{figure}[H]
   \centering
-  \includegraphics[width=0.5\textwidth]{serwers.png}
-  \caption{Struktura serwerów czasu w protokole NTP\cite{st:serwerczasu-jpg}}
+  \includegraphics[width=0.45\textwidth]{serwers.png}
+  \caption{Struktura serwerów czasu w protokole 
+  NTP \cite{st:serwerczasu-jpg}}
+  \label{fig:serwers}
 \end{figure}
 
-W przypadku zegara nixie poziom STRATUM nie ma większego znaczenia, ponieważ zegar nie wymaga bardzo precyzyjnego czasu, chociaż oczywiście zależy,
-jak precyzyjny czas będzie wyświetlany, ale w przypadku zegara na 6 cyfrach, różnica w czasie rzędu kilku milisekund nie będzie zauważalna.
+W przypadku zegara nixie poziom STRATUM nie ma większego znaczenia, ponieważ zegar nie wymaga bardzo precyzyjnego synchronizowania czasu, oczywiście zależy to 
+od dokładności z jaką czas będzie wyświetlany, ale w przypadku zegara na 6 lampach, różnica w czasie rzędu kilku milisekund nie będzie zauważalna.
 
 \subsection{Zasada działania protokołu NTP}
-
 NTP różni się od typowego protokołu komunikacyjnego. 
-Nie transmituje on bowiem absolutnej wartości czasu, lecz przekazuje informacje o opoznieniach i korelacjach czasowych w regularnych odstępach czasu, jakie zachodzą w sieci TCP/IP. 
-Protokół wyróżnia się dopiero przy stosowaniu wielu źródeł czasu jednocześnie, wykorzystuje od wtedy algorytm analizy statystycznej czasu oparty na metodzie DTS (Dynamic Time Scales).
+Nie transmituje on bowiem absolutnej wartości czasu, lecz przekazuje informacje o opóźnieniach i korelacjach czasowych w regularnych odstępach czasu, jakie zachodzą w sieci TCP/IP. 
+Protokół zyskuje większą dokładność dopiero przy stosowaniu wielu źródeł czasu jednocześnie, wykorzystuje od wtedy algorytm analizy statystycznej czasu oparty na metodzie DTS (Dynamic Time Scales).
 
 NTP wykorzystuje pakiety UDP o długości 72 bajtów na porcie 123, które są okresowo wymieniane co ${2^\tau}$ sekund, gdzie ${\tau}$ wynosi od 4 (16s) do 17 (36h). 
 Pozwala to klientom serwera, wyliczać opóźnienie względem idealnego czasu UTC.
 Znając aktualne opóźnienie w odniesieniu do czasu UTC, klient NTP sam kalibruje swój zegar lokalny, która polega na płynnym przyspieszaniu lub spowalnianiu pracy lokalnego zegara programowego.
 Przy różnicach czasu przekraczających 128ms, stosowana jest metoda step, która polega na skokowym przesunięciu zegara o określoną wartość.
 Dzieki temu każdy z klientów, asymptotycznie zmierza do czasu pochodzącego z wzorcowego zegara czasu UTC.
-
-\newpage
-
-Sam pakiet NTP opisany jest w następujący sposób:
+Pakiet NTP ma strukturę przedstawioną w \ref{tab:ntp}.
 
 \begin{table}[H]
   \centering
@@ -151,14 +150,15 @@ Sam pakiet NTP opisany jest w następujący sposób:
     \multicolumn{6}{|c|}{Authenticator} \\
     \hline
   \end{tabular}
-  \caption{NTP – format komunikatu}
+  \label{tab:ntp}
+  \caption{NTP – format komunikatu \cite{st:serwerczasu-jpg}}
 
 \end{table}
 
 \begin{itemize}
   \item LI – wskaźnik sekund przestępnych
   \item VN – (Version Number) numer wersji protokołu
-  \item   Mode – tryb pracy
+  \item Mode – tryb pracy
   \item Stratum – warstwa, w której funkcjonuje komputer będący nadawcą komunikatu
   \item Poll interval – okres pomiędzy kolejnymi aktualizacjami czasu
   \item Precision – określenie dokładności zegara komputera wysyłającego dany komunikat

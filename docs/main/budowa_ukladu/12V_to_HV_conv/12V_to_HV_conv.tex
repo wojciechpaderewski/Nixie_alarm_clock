@@ -120,11 +120,12 @@ Jednak problemem jest znalezienie kondensatorów ceramicznych pracujących przy 
 ceramiczny o wartości 2.2\si{\micro\farad} i napięciu pracy do 250\si{\volt}.
 
 W obliczeniach należy uwzględnić spadek pojemności kondensatora wraz ze wzrostem napięcia.
-Wartości spadku pojemności dla kondensatora ceramicznego odczytano z następującego wykresu:
+Wartości spadku pojemności dla kondensatora ceramicznego odczytano z \cite{st:ceramic-capacitor}.
 \begin{figure}[H]
     \centering
     \includegraphics[width=0.8\textwidth]{napiecia_c.png}
-    \caption{Spadek pojemności kondensatora ceramicznego wraz ze wzrostem napięcia}
+    \caption{Spadek pojemności kondensatora ceramicznego wraz ze wzrostem napięcia \cite{st:capacitors}}
+    \label{fig:napiecia_c}
 \end{figure}
 
 Wybrany kondensator jest klasy 2, wykonany z materiału X7R, co oznacza, że jego pojemność spadnie w przybliżeniu o 30\% dla napięcia 220\si{\volt}.
@@ -151,7 +152,7 @@ Oszacowano prąd diody na podstawie wzoru z karty katalogowej:
     I_{d} = \frac{I_{out}}{1-D} + \Delta I_{out} = \frac{0.02}{1-0.945} + 0.006 \approx 0.37\si{\ampere}
 \end{equation}
 
-Dioda powina mieć prąd przewodzenia większy niż 0.4\si{\ampere} oraz być szybką diodą shottky'ego, by zminimalizować straty w układzie.
+Dioda powina mieć prąd przewodzenia większy niż 0.4\si{\ampere} oraz być diodą szybko przełączającą, by zminimalizować straty w układzie.
 
 Zdecydowano się na zastosowanie diody ES1G firmy Onsemi, 
 która jest diodą super szybką, o prądzie przewodzenia 1\si{\ampere}, co jest wystarczające dla tego zastosowania.
@@ -180,7 +181,7 @@ MOSFET TPH5200FNH firmy Toshiba, który ma następujące parametry:
     \item Rozpraszana moc: 2.5\si{\watt}
 \end{itemize}
 
-Prąd potrzebny na załączenie tranzystora można obliczyć na podstawie wzoru:
+Średni prąd bramki potrzebny do załączenia tranzystora można obliczyć na podstawie wzoru:
 \begin{equation}
     I_{g} = Q_{g} \cdot f_{sw} = 22\si{\nano\coulomb} \cdot 500000 = 11\si{\milli\ampere}
 \end{equation}

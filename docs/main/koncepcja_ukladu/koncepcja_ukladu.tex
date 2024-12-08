@@ -32,21 +32,20 @@
 
  
  \begin{document}
- Etap koncepcyjny został podzielony na dwa etapy: koncepcję układu oraz realizacje. W tym rozdziale znajduje się ogólna koncepcja 
+ Proces koncepcyjny został podzielony na dwa etapy: koncepcję układu oraz realizacje. W tym rozdziale znajduje się ogólna koncepcja 
  działania układu, która nie jest związana z konkretnymi elementami sprzętowymi, a jedynie z funkcjonalnościami, które mają być zrealizowane.
  \subsection{Założenia projektowe}
 Zgodnie z celem pracy, określono następujące założenia projektowe:
 \begin{itemize}
-    \item Funkcjonalność ustawiania godziny budzika bedzie realizowana przez zewnętrzny serwer.
+    \item Funkcjonalność ustawiania godziny budzika bedzie realizowana przez aplikację hostowaną na zewnętrznym serwerze.
     \item Na wyświetlaczu Nixie będą wyświetlane godziny, minuty, sekundy.
-    \item Od spodu obudowy będą umieszczone paski LED, które będą podświetlały obudowę i będą wyświetlane animacje podczas alarmu.
-    \item Alarm będzie sygnalizowany dźwiękiem oraz miganiem pasków LED.
-    \item Wyłączanie alarmu będzie możliwe poprzez przycisk na obudowie, aplikację mobilną lub zewnętrzny przycisk połączony z serwerem.
-    \item W przypadku braku połączenia z serwerem, czas będzie mierzony przez RTC wbudowany w mikrokontroler.
-    \item Programowa oraz manualna regulacja jasności wyświetlacza Nixie oraz pasków LED.
+    \item Alarm będzie sygnalizowany dźwiękiem oraz animacją.
+    \item Wyłączanie alarmu będzie możliwe poprzez przycisk na obudowie.
+    \item Możliwość regulacji jasności wyświetlacza Nixie.
+    \item Dodatkową funkcjonalnością jest możliwość podpięcia paska LED, od dołu budzika dla dodatkowego efektu wizualnego.
 \end{itemize}
 Powyższe założenia powodują podzielnie projektu na poszczególne moduły realizujące poszczególne funkcje, które będą opisane w dalszej części pracy.
-Ogólna koncepcja układu jest przedstawiona na rysunku \ref{fig:concept}.
+Ogólna koncepcja układu przedstawiono na rysunku \ref{fig:concept}.
 \begin{figure}[H]
     \centering
     \includegraphics[width=0.7\textwidth]{Nixie-concept.png}
@@ -54,18 +53,18 @@ Ogólna koncepcja układu jest przedstawiona na rysunku \ref{fig:concept}.
     \label{fig:concept}
 \end{figure}
 Sekcja opisana jako \textit{zasilanie} będzie odpowiedzialna za zasilanie wszystkich elementów układu, w tym lamp Nixie, paska LED, mikrokontrolera oraz głośnika,
-więc będzie wymagane rozbicie jej na kilka podsekcji, ponieważ będą potrzebne różne napięcia zasilania. Lampy Nixie potrzebują zasilania wysokim napięciem,
-natomiast pozostałe elementy potrzebują zdecydowanie niższych napięć. Blok \textit{sterowanie lampami Nixie} będzie odpowiedzialny za wyświetlanie odpowiednich cyfr na lampach.
+więc będzie wymagane podzielenie jej na kilka podsekcji, ponieważ będą potrzebne różne napięcia zasilania. Lampy Nixie potrzebują zasilania wysokim napięciem,
+natomiast pozostałe komponenty układu potrzebują zasilania niższym napięciem. Blok \textit{sterowanie lampami Nixie} będzie odpowiedzialny za wyświetlanie odpowiednich cyfr na lampach.
 Sekcja \textit{Interfejs użytkownika} będzie odpowiedzialna za interakcję z użytkownikiem, w tym regulacja jasności oraz wyłączania alarmu, ważne by interfejs był 
 intuicyjny i jak najbardziej rozwojowy na potencjalne przyszłe funkcje.
 \subsection{Ogólny schemat komunikacji z serwerem}
-Urządzenie będzie musiało komunikować się z serwerem czasu, a także z serwerem Home Assistant, który będzie interfejsem użytkownika.
+Urządzenie będzie musiało komunikować się z serwerem czasu, a także z serwerem Home Assistant, który będzie realizował interfejs użytkownika.
 Komunikacja z serwerem czasu będzie odbywała się poprzez protokół NTP, ponieważ inne protokoły opisane w rozdziale \ref{sec:serwery_czasu}
 służą do zapewnienia większej dokładności czasu, co nie jest wymagane w tym projekcie. Inne protokoły wymagają też większej ilości zasobów lub specjalistycznego sprzętu.
-Kolejną zaletą wyboru NTP jest to, że jest to najbardziej popularny protokół do synchronizacji czasu w sieciach komputerowych, co sprawia, że jest on najbardziej przetestowany i stabilny.
+Kolejną zaletą wyboru NTP jest to, że jest to najbardziej popularny protokół do synchronizacji czasu w sieciach komputerowych, co sprawia, że jest on przetestowany i stabilny.
 Posiada on wiele implementacji, które są dostępne na wielu platformach, w tym na platformę ESP32.
-Komunikacja z serwerem Home Assistant będzie odbywała się poprzez protokół MQTT, który jest bardzo popularnym protokołem w IoT, co pozwoli na łatwe rozbudowanie funkcjonalności.
-Połączenia te przedstawione są na rysunku \ref{fig:communication}.
+Komunikacja z serwerem Home Assistant będzie odbywała się poprzez protokół MQTT, który jest popularnym protokołem w IoT, co pozwoli na łatwe rozbudowanie funkcjonalności.
+Strukturę połączeń przedstawiono na rysunku \ref{fig:communication}.
 \begin{figure}[H]
     \centering
     \includegraphics[width=0.8\textwidth]{polaczenia.png}

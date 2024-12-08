@@ -34,15 +34,14 @@
 
 \section{Wstęp i cel pracy}
 \subsection{Wstęp}
-Głównym celem jaki został postawiony jest zrealizowanie budzika który synchronizuje się z wykorzystaniem zewnętrznego serwera czasu. ctd.
+???
 \subsection{Cel pracy}
 Celem pracy jest zaprojektowanie i wykonanie budzika opartego o lampy Nixie, który będzie synchronizowany z serwerem czasu. 
-Mechanizm ten będzie wspierany modułem RTC wbudowanym w mikrokontroler.
+Mechanizm ten będzie wspierany modułem zegara czasu rzeczywistego wbudowanym w mikrokontroler. Czas pobrany z serwera będzie wyświetlany na lampach Nixie.
+Odtwarzanie alarmu będzie realizowane za pomocą źródła dźwięku umieszczonego na urządzeniu. Powinna być też możliwość wyłączenia alarmu za pomocą przycisku.
 
-Projekt zakłada stałe połączenie z siecią Wi-Fi, ale istnieć będzie możliwość
-działania w trybie offline, z wykorzystaniem modułu RTC wbudowanego w mikrokontroler, 
-chociaż w przypadku tego trybu dokładność będzie mniejsza i nie będzie możliwe ustawienie alarmu. 
+Urządzenie będzie wykorzystywać aplikację realizującą interfejs użytkownika, przy zachowaniu części ustawień bezpośrednio
+na urządzeniu. Aplikacja interfejsu użytkownika będzie umożliwiała ustawienie godziny alarmu i będzie on hostowana na zewnętrznym serwerze.
+Projekt zakłada stałe połączenie z siecią Wi-Fi. 
 
-Urządzenie będzie wykorzystywać aplikację jako interfejs użytkownika, przy zachowaniu części ustawień bezpośrednio
-na urządzeniu.
 \end{document}
