@@ -40,6 +40,7 @@ Po napisaniu i wgraniu oprogramowania do mikrokontrolera, przystąpiono do test�
 Sprawdzono działanie regulacji napięcia za pomocą potencjometru cyfrowego. Zakładany zakres napięcia wyjściowego to 130-220 V.
 
 W celu weryfikacji pomierzono zależność napięcia wyjściowego od podanej wartości na potencjometrze cyfrowym.
+Do pomiarów użyto multimetru cyfrowego UNI-T UT139C. Pomiary zamieszczono w tabeli \ref{tab:voltage}.
 
 \begin{table}[H]
     \centering
@@ -59,6 +60,7 @@ W celu weryfikacji pomierzono zależność napięcia wyjściowego od podanej war
         \hline
     \end{tabular}
     \caption{Zależność napięcia wyjściowego od wartości potencjometru cyfrowego}
+    \label{tab:voltage}
 \end{table}
 
 \begin{figure}[H]
@@ -92,7 +94,8 @@ Na wykresie widać, że zależność jest liniowa, co oznacza, że regulacja nap
 Jednak według założeń, napięcie wyjściowe powinno wynosić od 130 V do 220 V.
 Rozbieżność może wynikać z ograniczenia przetwornicy do generowania dużego wypełnienia sygnału sterującego.
 By sprawdzić tą hipotezę, zmierzono wypełnienie sygnału sterującego dla napięć wyjściowych 130 V, 210 V.
-Pomiary zamieszczono na rysunku \ref{fig:duty_130} i rysunku \ref{fig:duty_210}.
+Do pomiarów użyto oscyloskopu Rigol DS1054Z, o paśmie przenoszenia 50Mhz i częstotliwości próbkowania 1 GSa/s,
+punktem pomiarowym była bramka tranzystora sterującego przetwornicą. Pomiary zamieszczono na rysunku \ref{fig:duty_130} i rysunku \ref{fig:duty_210}.
 
 \begin{figure}[H]
     \centering
@@ -117,10 +120,11 @@ Zmniejszony zakres w jakim można regulować napięcie wyjściowe nie wpłynie n
 ponieważ górny limit napięcia wyjściowego przetwornicy nie jest krytyczny dla działania budzika.
 
 \subsection{Testy poboru mocy}
-Zaczęto od pomiarów mocy pobieranej przez cały układ. Pobór mocy układu zmierzono za pomocą zasilacza laboratoryjnego.
+Zaczęto od pomiarów mocy pobieranej przez cały układ. Pobór mocy układu zmierzono za pomocą zasilacza laboratoryjnego PS-305DF.
 Zmierzono pobór mocy układu dla różnych napięć wyjściowych przetwornicy. Pobór mocy zawiera też w sobie pobór mocy pozostałych modułów,
 ale jest on stały i niezależny od napięcia wyjściowego przetwornicy, więc sam kształt charakterystyki poboru mocy jest zależny od przetwornicy.
 W podrozdziale \ref{sec:obliczenia_mocy} założono, że pobór mocy układu nie przekroczy 13 W, a sama przetwornica będzie pobierać około 6.5W.
+Pomiary poboru mocy zamieszczono w tabeli \ref{tab:power}.
 
 \begin{table}[H]
     \centering
@@ -140,6 +144,7 @@ W podrozdziale \ref{sec:obliczenia_mocy} założono, że pobór mocy układu nie
         \hline
     \end{tabular}
     \caption{Zależność poboru mocy od napięcia wyjściowego}
+    \label{tab:power}
 \end{table}
 
 Wykreślono zależność poboru mocy od napięcia wyjściowego na wykresie \ref{fig:power}.
