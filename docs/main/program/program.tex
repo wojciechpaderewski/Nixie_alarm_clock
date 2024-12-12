@@ -22,40 +22,40 @@
 \graphicspath{{../}}
 \author{Wojciech Paderewski}
 \date{\today}
-\title{Koncepcja ukladu}
+\title{Koncepcja układu}
 \hypersetup{
  pdfauthor={Wojciech Paderewski},
- pdftitle={Koncepcja ukladu},
+ pdftitle={Koncepcja układu},
  pdfkeywords={},
  pdfsubject={},
  pdflang={Polish}}
 
 \begin{document}
-Bazując na informacjach z podrozdziału \ref{sec:srodowisko_programistyczne} wybrano środowisko programistyczne PlatformIO, które jest wtyczką do Visual Studio Code. 
-Zaletą tego rozwiązania nad arduino IDE są podpowiedzi składniowe co znacząco przyspiesza pisanie kodu.
+Bazując na informacjach z podrozdziału \ref{sec:srodowisko_programistyczne}, wybrano środowisko programistyczne PlatformIO, które jest wtyczką do Visual Studio Code. 
+Zaletą tego rozwiązania nad Arduino IDE są podpowiedzi składniowe, co znacząco przyspiesza pisanie kodu.
 PlatformIO pozwala również na łatwe zarządzanie bibliotekami, komunikację z użyciem portu szeregowego oraz możliwość debugowania kodu.
 
-Określono wymagania które musi spełniać oprogramowanie:
+Określono wymagania, które musi spełniać oprogramowanie:
 \begin{itemize}
-  \item Obsługa rejestrów przesuwnych w celu wyświetlenia cyfr na lampach nixie.
+  \item Obsługa rejestrów przesuwnych w celu wyświetlenia cyfr na lampach Nixie.
   \item Połączenie z siecią Wi-Fi.
   \item Pobranie czasu z serwera czasu.
-  \item Obsługa enkodera rotacyjnego.
+  \item Obsługa enkodera obrotowego.
   \item Komunikacja z potencjometrem cyfrowym w celu zmiany jasności wyświetlacza.
   \item Odczyt obecnego napięcia na przetwornicy wysokiego napięcia.
   \item Odtwarzanie dźwięku za pomocą głośnika piezoelektrycznego.
   \item Komunikacja z serwerem Home Assistant przez protokół MQTT.
 \end{itemize}
 
-W celu zrealizowania powyższych wymagań, program został podzielony na moduły, które są odpowiedzialne za poszczególne funkcjonalności.
+W celu zrealizowania powyższych wymagań program został podzielony na moduły, które są odpowiedzialne za poszczególne funkcjonalności.
 Taki podział pozwolił też na testowanie poszczególnych funkcjonalności niezależnie od siebie i połączenie ich w pliku \texttt{main.cpp}.
 
-\subsection{Sterowanie lampami nixie}
-W celu wyświetlenia cyfr na lampach nixie, moduł podzielono na 4 warstwy abstrakcji:
+\subsection{Sterowanie lampami Nixie}
+W celu wyświetlenia cyfr na lampach Nixie moduł podzielono na 4 warstwy abstrakcji:
 \begin{itemize}
   \item Klasę samego rejestru przesuwnego, który pozwala na wysłanie 64 bitów danych do rejestru przesuwnego.
-  \item Klasę wyświetlacza, który pozwala na wyświetlenie cyfry na konkretnym wyświetlaczu nixie.
-  \item Zdefiniowane struktury łączącym cyfrę z konkretnym bitem w rejestrze przesuwnym.
+  \item Klasę wyświetlacza, który pozwala na wyświetlenie cyfry na konkretnym wyświetlaczu Nixie.
+  \item Zdefiniowane struktury łączące cyfrę z konkretnym bitem w rejestrze przesuwnym.
   \item Klasę do animacji wyświetlacza.
 \end{itemize}
 
@@ -329,4 +329,4 @@ paska LED.
     \label{fig:widget}
 \end{figure}
 
-\end{document}
+\end{document} 

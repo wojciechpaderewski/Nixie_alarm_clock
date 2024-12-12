@@ -22,10 +22,10 @@
 \graphicspath{{../}}
 \author{Wojciech Paderewski}
 \date{\today}
-\title{Koncepcja ukladu}
+\title{Koncepcja układu}
 \hypersetup{
  pdfauthor={Wojciech Paderewski},
- pdftitle={Koncepcja ukladu},
+ pdftitle={Koncepcja układu},
  pdfkeywords={},
  pdfsubject={},
  pdflang={Polish}}
@@ -34,13 +34,13 @@
 
 
 \subsubsection{Dobór złącza}
-Złącze usb musi posiadać przynajmniej 12 wyprowadzeń, ponieważ dopiero w takim układzie na złączu są linie D+ i D-, czyli linie danych.
+Złącze USB musi posiadać przynajmniej 12 wyprowadzeń, ponieważ dopiero w takim układzie na złączu są linie D+ i D-, czyli linie danych.
 Wybrano złącze z 16 wyprowadzeniami, ponieważ takie było dostępne w sklepie.
 \subsubsection{Opis podłączenia}
 By ustawić napięcie komunikacji USB-C na \SI{3.3}{\volt}, zastosowano rezystory podciągające R1 i R2 o wartości \SI{5.1}{\kilo\ohm}.
-Do podłączenia wykorzystano parę różnicową by połączyć linie D+ i D- z ESP32-S3, w celu zminimalizowania zakłóceń CMN (Common Mode Noise).
+Do podłączenia wykorzystano parę różnicową, by połączyć linie D+ i D- z ESP32-S3, w celu zminimalizowania zakłóceń CMN (Common Mode Noise).
 \subsubsection{Zabezpieczenia ESD}
-W celu zabezpieczenia linii przed przepięciami, zastosowano tranil PUSB3AB4Z firmy Nexperia. Diody te mają wystarczająco duże opakowanie by dało się je przylutować ręcznie. Napięciem roboczym jest \SI{3.3}{\volt},
+W celu zabezpieczenia linii przed przepięciami, zastosowano transil PUSB3AB4Z firmy Nexperia. Diody te mają wystarczająco duże opakowanie, by dało się je przylutować ręcznie. Napięciem roboczym jest \SI{3.3}{\volt},
 a napięcie stabilizacji wynosi \SI{5}{\volt}.
 
 Mimo że jest to napięcie wyższe niż napięcie zasilania ESP32-S3, to nie powinno to stanowić problemu, 
@@ -51,7 +51,7 @@ Wewnętrzne zabezpieczenia według karty katalogowej ESP32-S3:
     \item Test Standard JS-001; HBM (Human Body Mode) ± 2000 V
     \item Test Standard JS-002; CDM (Charged Device Model) ± 1000 V
 \end{itemize}
-Wynika z tego, że złącze USB-C w dość dobry sposób jest zabezpieczone przed przepięciami.
+Wynika z tego, że złącze USB-C jest dość dobrze zabezpieczone przed przepięciami.
 Schemat elektryczny złącza USB-C przedstawiono na rysunku \ref{fig:usb-c_schemat}.
 \begin{figure}[H]
     \centering

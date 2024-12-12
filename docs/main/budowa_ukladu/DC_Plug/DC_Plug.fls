@@ -1281,11 +1281,11 @@ INPUT /usr/share/texlive/texmf-dist/fonts/tfm/jknappen/ec/ecrm0700.tfm
 INPUT /usr/share/texlive/texmf-dist/fonts/tfm/jknappen/ec/tcrm0700.tfm
 INPUT /usr/share/texlive/texmf-dist/fonts/tfm/jknappen/ec/ecrm0500.tfm
 INPUT /usr/share/texlive/texmf-dist/fonts/tfm/jknappen/ec/tcrm0500.tfm
-INPUT budowa_ukladu/DC_Plug/DcPlug_schemat.png
-INPUT budowa_ukladu/DC_Plug/DcPlug_schemat.png
-INPUT budowa_ukladu/DC_Plug/DcPlug_schemat.png
-INPUT budowa_ukladu/DC_Plug/DcPlug_schemat.png
-INPUT budowa_ukladu/DC_Plug/DcPlug_schemat.png
+INPUT budowa_ukladu/DC_Plug/dc_plug_schemat.png
+INPUT budowa_ukladu/DC_Plug/dc_plug_schemat.png
+INPUT budowa_ukladu/DC_Plug/dc_plug_schemat.png
+INPUT budowa_ukladu/DC_Plug/dc_plug_schemat.png
+INPUT budowa_ukladu/DC_Plug/dc_plug_schemat.png
 INPUT /var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map
 INPUT budowa_ukladu/DC_Plug/DC_Plug.aux
 INPUT budowa_ukladu/DC_Plug/DC_Plug.out

@@ -22,19 +22,19 @@
 \graphicspath{{../}}
 \author{Wojciech Paderewski}
 \date{\today}
-\title{Koncepcja ukladu}
+\title{Koncepcja układu}
 \hypersetup{
  pdfauthor={Wojciech Paderewski},
- pdftitle={Koncepcja ukladu},
+ pdftitle={Koncepcja układu},
  pdfkeywords={},
  pdfsubject={},
  pdflang={Polish}}
 
 \begin{document}
 
-Jedynymi kryteriami wyboru enkodera były napięcie zasilania oraz by posiadał on przycisk.
-Wybrano encoder PEC12R\-41BBF\-S0012 firmy Bourns \cite{st:encoder}, jest to 2 kanałowy encoder o rozdzielczości 12 impulsów na obrót. 
-Jego napięcie robocze wynosi 5 V. Producent w karcie katalogowej informuje również, jakie filtry zastosować, by zapobiec zakłóceniom.
+Jedynymi kryteriami wyboru enkodera obrotowego były napięcie zasilania oraz to, by posiadał on przycisk.
+Wybrano encoder PEC12R\-41BBF\-S0012 firmy Bourns \cite{st:encoder}. Jest to 2-kanałowy encoder o rozdzielczości 12 impulsów na obrót. 
+Jego napięcie robocze wynosi 5 V. Producent w karcie katalogowej informuje również, jakie filtry zastosować, aby zapobiec zakłóceniom.
 Schemat zalecany przez producenta przedstawiono na rysunku \ref{fig:encoder_karta}.
 
 \begin{figure}[H]
@@ -44,12 +44,12 @@ Schemat zalecany przez producenta przedstawiono na rysunku \ref{fig:encoder_kart
     \label{fig:encoder_karta}
 \end{figure}
 
-Dodatkowo dodano filtr dolnoprzepustowy, przy przycisku enkodera, by zapobiec drganiom styków i nie musieć implementować debouncingu w oprogramowaniu.
-Schemat elektryczny podłączenia enkodera przedstawiono na rysunku \ref{fig:encoder}.
+Dodatkowo dodano filtr dolnoprzepustowy przy przycisku enkodera, aby zapobiec drganiom styków i nie musieć implementować debouncingu w oprogramowaniu.
+Schemat elektryczny podłączenia enkodera obrotowego przedstawiono na rysunku \ref{fig:encoder}.
 \begin{figure}[H]
     \centering
     \includegraphics[width=0.8\textwidth]{encoder.png}
-    \caption{Schemat elektryczny enkodera}
+    \caption{Schemat elektryczny enkodera obrotowego}
 \end{figure}
 
 \end{document}

@@ -33,8 +33,8 @@
 \begin{document}
 
 ESP32-S3 to mikrokontroler firmy Espressif Systems, który jest następcą popularnego ESP32.
-Jednego z najpopularniejszych mikrokontrolerów z modułem WiFi, wykorzystanego w wielu projektach IoT \cite{st:esp32-book}.
-Układ ten posiada następujące cechy, odczytane z karty katalogowej \cite{st:esp32}:
+Jednego z najpopularniejszych mikrokontrolerów z modułem WiFi wykorzystanego w wielu projektach IoT.
+Układ ten posiada następujące cechy odczytane z karty katalogowej \cite{st:esp32}:
 
 \begin{itemize}
 \item 2 rdzenie Xtensa LX7 o taktowaniu 240 MHz
@@ -42,7 +42,7 @@ Układ ten posiada następujące cechy, odczytane z karty katalogowej \cite{st:e
 \item Bluetooth 5.0 LE
 \item dwa 12-bitowe przetworniki ADC do 20 kanałów
 \item 14 pinów do obsługi dotykowego ekranu
-\item 45 programowalnych GPIO - cześć z nich ma specjalne funkcje
+\item 45 programowalnych GPIO - część z nich ma specjalne funkcje
 \item kontroler USB/JTAG
 \item ROM: 384 KB
 \item SRAM: 512 KB
@@ -51,13 +51,12 @@ Układ ten posiada następujące cechy, odczytane z karty katalogowej \cite{st:e
 \subsection{Moduł RTC}
 
 RTC (Real Time Clock) to moduł zegara czasu rzeczywistego, który pozwala na śledzenie aktualnego czasu, daty oraz dnia tygodnia.
-Moduł RTC w ESP32-S3 wykorzystuje 16kB pamięci SRAM, wynika z tego nie może on przechowywać daty i czasu w przypadku braku zasilania.
+Moduł RTC w ESP32-S3 wykorzystuje 16 kB pamięci SRAM, co oznacza, że nie może on przechowywać daty i czasu w przypadku braku zasilania.
 
-Sam moduł zegara czasu rzeczywistego nie jest bardzo dokładny, 
-dlatego zaleca się synchronizację czasu z zewnętrznym serwerem.
-Istnieje dużo bibliotek do realizacji tego zadania z wykorzystaniem Arduino Framework.
+Sam moduł zegara czasu rzeczywistego nie jest bardzo dokładny; dlatego zaleca się synchronizację czasu z zewnętrznym serwerem.
+Istnieje wiele bibliotek do realizacji tego zadania z wykorzystaniem Arduino Framework.
 \subsection{GPIO}
-Układ posiada wiele wyprowadzeń wejścia wyjścia ogólnego przeznaczenia(GPIO). Nie posiada on dedykowanych pinów do obsługi interfejsów takich jak I2C, można 
+Układ posiada wiele wyprowadzeń wejścia/wyjścia ogólnego przeznaczenia (GPIO). Nie posiada on dedykowanych pinów do obsługi interfejsów takich jak I2C, można 
 je skonfigurować na dowolnych pinach GPIO. Generacja sygnałów PWM jest również możliwa na większości wyprowadzeń. Posiada on również 20 pinów które mogą
 obsługiwać wejście analogowe. Rozkład pinów mikrokontrolera ESP32-S3 przedstawiono na \ref{fig:esp32}.
 

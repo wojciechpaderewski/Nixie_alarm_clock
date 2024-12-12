@@ -31,11 +31,11 @@
  pdflang={Polish}}
 
 \begin{document}
-Wymagania jakie musi spełnić LDO to zapewnie zasilania mikrokontrolera ESP32 oraz potencjometru cyfrowego.
-Zgodnie z dokumentacją ESP32 \cite{st:esp32} pobiera on maksymalnie 340mA prądu, a potencjometr cyfrowy \cite{st:potencjometr} \SI{100}{\milli\ampere},
+Wymagania, jakie musi spełnić LDO, to zapewnienie zasilania mikrokontrolera ESP32 oraz potencjometru cyfrowego.
+Zgodnie z dokumentacją ESP32 \cite{st:esp32} pobiera on maksymalnie 340 mA prądu, a potencjometr cyfrowy \cite{st:potencjometr} \SI{100}{\milli\ampere},
 co daje łącznie \SI{440}{\milli\ampere}. Układ LDO ma być zasilany \SI{5}{\volt}, a na wyjściu ma być \SI{3.3}{\volt}.
 
-Wybrano układ LDO AP7363 firmy Diodes Incorporated \cite{st:ldo}, jest to układ LDO o napięciu wyjściowym \SI{3.3}{\volt} i prądzie wyjściowym \SI{1.5}{\ampere},
+Wybrano układ LDO AP7363 firmy Diodes Incorporated \cite{st:ldo}. Jest to układ LDO o napięciu wyjściowym \SI{3.3}{\volt} i prądzie wyjściowym \SI{1.5}{\ampere},
 co daje duży zapas wydajności prądowej. Układ ten jest dostępny w obudowie TO252, co pozwala na łatwy montaż na płytce drukowanej. Producent zaleca podłączenie układu
 zgodnie z rysunkiem \ref{fig:ldo_datasheet}.
 
@@ -46,7 +46,7 @@ zgodnie z rysunkiem \ref{fig:ldo_datasheet}.
     \label{fig:ldo_datasheet}
 \end{figure}
 
-Względem schematu zaproponowanego przez producenta, zdecydowano się na zastosowanie dodatkowo kondensator ceramiczny o pojemności \SI{100}{\nano\farad}, by zminimalizować zakłócenia.
+Względem schematu zaproponowanego przez producenta zdecydowano się na zastosowanie dodatkowego kondensatora ceramicznego o pojemności \SI{100}{\nano\farad}, by zminimalizować zakłócenia.
 Dodano po kondensatorze na wejście i wyjście układu równolegle do kondensatorów \SI{10}{\micro\farad} zaproponowanych przez producenta. 
 Schemat elektryczny układu LDO przedstawiono na rysunku \ref{fig:ldo}.
 

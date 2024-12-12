@@ -31,24 +31,24 @@
  pdflang={Polish}}
 \begin{document}
 
-Wybrano horyzontalne złącze gold pin, ponieważ łatwo jest podłączyć do niego uniwersalne przewody żeńskie często wykorzystywane w prototypowaniu.
-Horyzontalna wersja złącza została wybrana by nie zwiększać wysokości płytki. Dodatkową zaletą tego rozwiązania jest ewentualna możliwość programowania
-mikrokontrolera za pomocą tego złącza, w przypadku gdyby nie udało się tego zrobić przez USB. 
+Wybrano horyzontalne złącze gold pin, ponieważ łatwo jest podłączyć do niego uniwersalne przewody żeńskie, często wykorzystywane w prototypowaniu.
+Horyzontalna wersja złącza została wybrana, by nie zwiększać wysokości płytki. Dodatkową zaletą tego rozwiązania jest ewentualna możliwość programowania
+mikrokontrolera za pomocą tego złącza w przypadku, gdyby nie udało się tego zrobić przez USB. 
 
-Złącze będzie wystawia następujące sygnały:
+Złącze będzie wystawiać następujące sygnały:
 \begin{itemize}
     \item RX - odbiór danych
     \item TX - wysyłanie danych
     \item GND - masa
 \end{itemize}
 
-W celu zabezpieczenia złącza przed ESD, zastosowano transil, analogiczny co w podrozdziale \ref{sec:usb_c_to_program}.
+W celu zabezpieczenia złącza przed ESD zastosowano transil, analogiczny jak w podrozdziale \ref{sec:usb_c_to_program}.
 Schemat złącza przedstawiono na rysunku \ref{fig:uart}.
 
 \begin{figure}[H]
     \centering
     \includegraphics[width=0.8\textwidth]{uart.png}
-    \caption{Schema elektryczna złącza UART}
+    \caption{Schemat elektryczny złącza UART}
     \label{fig:uart}
 \end{figure}
 

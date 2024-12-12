@@ -1,12 +1,12 @@
 # Fdb version 3
-["biber budowa_ukladu/LED/LED"] 1733681561 "budowa_ukladu/LED/LED.bcf" "budowa_ukladu/LED/LED.bbl" "budowa_ukladu/LED/LED" 1733681564
-  "budowa_ukladu/LED/LED.bcf" 1733681563 105727 a5b9a061cbadea76a5c891b49b55ece8 "pdflatex"
+["biber budowa_ukladu/LED/LED"] 1733681561 "budowa_ukladu/LED/LED.bcf" "budowa_ukladu/LED/LED.bbl" "budowa_ukladu/LED/LED" 1734040081
+  "budowa_ukladu/LED/LED.bcf" 1734040081 105727 a5b9a061cbadea76a5c891b49b55ece8 "pdflatex"
   (generated)
   "budowa_ukladu/LED/LED.bbl"
   "budowa_ukladu/LED/LED.blg"
-["pdflatex"] 1733681563 "/home/w/Nixie_alarm_clock/docs/main/budowa_ukladu/LED/LED.tex" "budowa_ukladu/LED/LED.pdf" "LED" 1733681564
+["pdflatex"] 1734040080 "/home/w/Nixie_alarm_clock/docs/main/budowa_ukladu/LED/LED.tex" "budowa_ukladu/LED/LED.pdf" "LED" 1734040081
   "/etc/texmf/web2c/texmf.cnf" 1697565182 475 c0e671620eb5563b2130f56340a5fde8 ""
-  "/home/w/Nixie_alarm_clock/docs/main/budowa_ukladu/LED/LED.tex" 1733681560 1796 7ca30e6f5fbdefeafd13e45b76568f52 ""
+  "/home/w/Nixie_alarm_clock/docs/main/budowa_ukladu/LED/LED.tex" 1734040080 1778 a16a9b7710b31e98944e1b835e72397b ""
   "/usr/share/texlive/texmf-dist/fonts/enc/dvips/pl/plrm.enc" 1136849721 1944 1845592c00bbe510359fd6887a83ff72 ""
   "/usr/share/texlive/texmf-dist/fonts/map/fontname/texfonts.map" 1577235249 3524 cb3e574dea2d1052e39280babc910dc8 ""
   "/usr/share/texlive/texmf-dist/fonts/tfm/jknappen/ec/ecrm1000.tfm" 1136768653 3584 adb004a0c8e7c46ee66cad73671f37b4 ""
@@ -240,13 +240,13 @@
   "/usr/share/texmf/web2c/texmf.cnf" 1644012257 39432 7155514e09a3d69036fac785183a21c2 ""
   "/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map" 1697565195 4379155 98693266ff65f58d9f98aff394de12d2 ""
   "/var/lib/texmf/web2c/pdftex/pdflatex.fmt" 1711271801 2800559 769836ceebf7d98a3fd600386a19f641 ""
-  "budowa_ukladu/LED/../../main.tex" 1733681451 3952 b1c94cc93af38f6b768a7a7adca755c9 ""
-  "budowa_ukladu/LED/LED.aux" 1733681563 1108 fea076871bf179278ff7f86874901e36 "pdflatex"
+  "budowa_ukladu/LED/../../main.tex" 1734038913 4052 5f41952e201d1eaac1a9bdc119affcee ""
+  "budowa_ukladu/LED/LED.aux" 1734040081 1108 fea076871bf179278ff7f86874901e36 "pdflatex"
   "budowa_ukladu/LED/LED.bbl" 1733681562 466 ee04f40f768daeed26442158e95aba61 "biber budowa_ukladu/LED/LED"
-  "budowa_ukladu/LED/LED.out" 1733681563 0 d41d8cd98f00b204e9800998ecf8427e "pdflatex"
+  "budowa_ukladu/LED/LED.out" 1734040081 0 d41d8cd98f00b204e9800998ecf8427e "pdflatex"
   "budowa_ukladu/LED/LED.png" 1732720665 8710 cb2b12678206432dd054933d623b9c31 ""
-  "budowa_ukladu/LED/LED.run.xml" 1733681563 2325 fa6f0811a5293a3568f5f9ab278f56ab "pdflatex"
-  "budowa_ukladu/LED/LED.tex" 1733681560 1796 7ca30e6f5fbdefeafd13e45b76568f52 ""
+  "budowa_ukladu/LED/LED.run.xml" 1734040081 2325 fa6f0811a5293a3568f5f9ab278f56ab "pdflatex"
+  "budowa_ukladu/LED/LED.tex" 1734040080 1778 a16a9b7710b31e98944e1b835e72397b ""
   (generated)
   "budowa_ukladu/LED/LED.aux"
   "budowa_ukladu/LED/LED.bcf"

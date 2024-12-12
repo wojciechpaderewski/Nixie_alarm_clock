@@ -23,10 +23,10 @@
 \graphicspath{{../}}
 \author{Wojciech Paderewski}
 \date{\today}
-\title{testy}
+\title{Testy}
 \hypersetup{
  pdfauthor={Wojciech Paderewski},
- pdftitle={testy},
+ pdftitle={Testy},
  pdfkeywords={},
  pdfsubject={},
  pdflang={Polish}}
@@ -36,7 +36,7 @@ W tym rozdziale opisano testowanie poszczególnych
 modułów oraz całego układu, które pozwoliło na sprawdzenie poprawności działania oraz zidentyfikowanie błędów.
 
 \subsection{Testy przetwornicy wysokiego napięcia}
-Po napisaniu i wgraniu oprogramowania do mikrokontrolera, przystąpiono do testów przetwornicy wysokiego napięcia.
+Po napisaniu i wgraniu oprogramowania do mikrokontrolera przystąpiono do testów przetwornicy wysokiego napięcia.
 Sprawdzono działanie regulacji napięcia za pomocą potencjometru cyfrowego. Zakładany zakres napięcia wyjściowego to 130-220 V.
 
 W celu weryfikacji pomierzono zależność napięcia wyjściowego od podanej wartości na potencjometrze cyfrowym.
@@ -177,16 +177,16 @@ Wykreślono zależność poboru mocy od napięcia wyjściowego na wykresie \ref{
   \label{fig:power}
 \end{figure}
 
-Po dokonaniu pomiary poboru mocy, zaobserwowano, że pobór mocy jest większy niż zakładano i wynosi ponad 8 W przy napięciu wyjściowym 210 V.
-Na charakterystyce pobór mocy okazał się nie liniowy przy wyższych napięciach wyjściowych. Wynika to ze spadku wydajności przetwornicy przy wyższych napięciach,
-z powodu nie zamykania się tranzystora przełączającego. Jednak układ domyślnie ma procować na niższych napięcia, więc 
+Po dokonaniu pomiaru poboru mocy, zaobserwowano, że pobór mocy jest większy niż zakładano i wynosi ponad 8 W przy napięciu wyjściowym 210 V.
+Na charakterystyce pobór mocy okazał się nieliniowy przy wyższych napięciach wyjściowych. Wynika to ze spadku wydajności przetwornicy przy wyższych napięciach,
+z powodu niezamykania się tranzystora przełączającego. Jednak układ domyślnie ma pracować na niższych napięciach, więc 
 zdecydowano się na programowe ograniczenie napięcia wyjściowego przetwornicy do 190 V, gdzie układ pracuje z mocą zakładaną na etapie projektowania. Dolny limit napięcia wyjściowego również
 został ograniczony do 140 V, ponieważ przy 130 V lampy nie zapalają się w pełni, co może prowadzić do ich uszkodzenia. 
 Jako domyślne napięcie wyjściowe wybrano 150 V, przy którym pobór mocy wynosi 2.358 W, co jest akceptowalnym wynikiem.
 Porównując ten pobór mocy z innymi zegarkami dostępnymi na rynku, jest on porównywalny.
 
-Poza zmniejszonym zakresem pracy przetwornicy, wszystkie pozostałe założenia projektowe zostały spełnione. Układ 
-pobiera czas z serwera czasu, wyświetla go na lampach nixie i działa jako budzik. Wszystkie funkcje działają poprawnie.
+Poza zmniejszonym zakresem pracy przetwornicy wszystkie pozostałe założenia projektowe zostały spełnione. Układ 
+pobiera czas z serwera czasu, wyświetla go na lampach Nixie i działa jako budzik. Wszystkie funkcje działają poprawnie.
 
 \end{document}
 

@@ -1,13 +1,13 @@
 # Fdb version 3
-["biber esp32/esp32"] 1733669862 "esp32/esp32.bcf" "esp32/esp32.bbl" "esp32/esp32" 1733674618
-  "esp32/esp32.bcf" 1733674618 106045 bb32753d75794ee47b359c701ee4b971 "pdflatex"
-  "sources.bib" 1733669538 4999 3543e3aea7045da95aad113564d83eac ""
+["biber esp32/esp32"] 1734038086 "esp32/esp32.bcf" "esp32/esp32.bbl" "esp32/esp32" 1734038088
+  "esp32/esp32.bcf" 1734038088 105935 eb2ae0c6e6f9b5b083d9af28291dc327 "pdflatex"
+  "sources.bib" 1734036887 5325 69af5cda5ab574f6b3237efa7638f5d5 ""
   (generated)
   "esp32/esp32.bbl"
   "esp32/esp32.blg"
-["pdflatex"] 1733674617 "/home/w/Nixie_alarm_clock/docs/main/esp32/esp32.tex" "esp32/esp32.pdf" "esp32" 1733674618
+["pdflatex"] 1734038087 "/home/w/Nixie_alarm_clock/docs/main/esp32/esp32.tex" "esp32/esp32.pdf" "esp32" 1734038088
   "/etc/texmf/web2c/texmf.cnf" 1697565182 475 c0e671620eb5563b2130f56340a5fde8 ""
-  "/home/w/Nixie_alarm_clock/docs/main/esp32/esp32.tex" 1733674617 4721 ce0655d435ebc353819d697d5c3343d0 ""
+  "/home/w/Nixie_alarm_clock/docs/main/esp32/esp32.tex" 1734038086 4702 3b0b9a8a42bf3e29b342654d00900e0c ""
   "/usr/share/texlive/texmf-dist/fonts/enc/dvips/pl/plmi.enc" 1136849721 2005 f094775651a1386335c158fb632529f1 ""
   "/usr/share/texlive/texmf-dist/fonts/enc/dvips/pl/plrm.enc" 1136849721 1944 1845592c00bbe510359fd6887a83ff72 ""
   "/usr/share/texlive/texmf-dist/fonts/map/fontname/texfonts.map" 1577235249 3524 cb3e574dea2d1052e39280babc910dc8 ""
@@ -252,13 +252,13 @@
   "/usr/share/texmf/web2c/texmf.cnf" 1644012257 39432 7155514e09a3d69036fac785183a21c2 ""
   "/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map" 1697565195 4379155 98693266ff65f58d9f98aff394de12d2 ""
   "/var/lib/texmf/web2c/pdftex/pdflatex.fmt" 1711271801 2800559 769836ceebf7d98a3fd600386a19f641 ""
-  "esp32/../main.tex" 1733674496 3895 fedd4ad95fce22d3bda552a4088c7d2e ""
+  "esp32/../main.tex" 1734037487 4042 20754a1db0d30f114660536f4b3d9369 ""
   "esp32/Esp32.png" 1732720665 559643 0edffc3ee3a446f25e5915a9a5862eb8 ""
-  "esp32/esp32.aux" 1733674618 2111 b5c0909d3ceed17867c50c4ca61b9719 "pdflatex"
-  "esp32/esp32.bbl" 1733669863 2094 0d84c383ca3032c1f555032fb1478112 "biber esp32/esp32"
-  "esp32/esp32.out" 1733674618 604 fe03de2667a17b3d64ace6e50bef7d34 "pdflatex"
-  "esp32/esp32.run.xml" 1733674618 2339 7494ae9cc8b171237afa7e9fb2d3e24d "pdflatex"
-  "esp32/esp32.tex" 1733674617 4721 ce0655d435ebc353819d697d5c3343d0 ""
+  "esp32/esp32.aux" 1734038088 2044 4b5c22db4eafc9610900dc6cf27c8e07 "pdflatex"
+  "esp32/esp32.bbl" 1734038087 1669 e83553873daf1e72057d777f872d2c78 "biber esp32/esp32"
+  "esp32/esp32.out" 1734038088 604 fe03de2667a17b3d64ace6e50bef7d34 "pdflatex"
+  "esp32/esp32.run.xml" 1734038088 2339 7494ae9cc8b171237afa7e9fb2d3e24d "pdflatex"
+  "esp32/esp32.tex" 1734038086 4702 3b0b9a8a42bf3e29b342654d00900e0c ""
   (generated)
   "esp32/esp32.aux"
   "esp32/esp32.bcf"

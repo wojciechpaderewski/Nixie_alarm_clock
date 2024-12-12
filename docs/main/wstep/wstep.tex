@@ -30,18 +30,49 @@
  pdfsubject={},
  pdflang={Polish}}
 
-\begin{document}
+ \begin{document}
 
-\section{Wstęp i cel pracy}
-\subsection{Wstęp}
-???
-\subsection{Cel pracy}
-Celem pracy jest zaprojektowanie i wykonanie budzika opartego o lampy Nixie, który będzie synchronizowany z serwerem czasu. 
-Mechanizm ten będzie wspierany modułem zegara czasu rzeczywistego wbudowanym w mikrokontroler. Czas pobrany z serwera będzie wyświetlany na lampach Nixie.
-Odtwarzanie alarmu będzie realizowane za pomocą źródła dźwięku umieszczonego na urządzeniu. Powinna być też możliwość wyłączenia alarmu za pomocą przycisku.
-
-Urządzenie będzie wykorzystywać aplikację realizującą interfejs użytkownika, przy zachowaniu części ustawień bezpośrednio
-na urządzeniu. Aplikacja interfejsu użytkownika będzie umożliwiała ustawienie godziny alarmu i będzie on hostowana na zewnętrznym serwerze.
-Projekt zakłada stałe połączenie z siecią Wi-Fi. 
-
-\end{document}
+ \section{Wstęp i cel pracy}
+ 
+ \subsection{Wstęp}
+ Potrzeba pomiaru czasu istnieje od początku istnienia ludzkiej cywilizacji. 
+ Ludzie od zawsze starali się mierzyć czas, aby zorganizować swoje życie w sposób bardziej efektywny.
+ 
+ Najprostsze i najstarsze metody pomiaru czasu to obserwacja zjawisk astronomicznych.
+ Metody te, czyli np. obserwacja ruchu słońca, księżyca czy gwiazd, były stosowane przez tysiące lat,
+  jednak była to metoda mało precyzyjna, która pchała wynalazców do poszukiwania nowych metod pomiaru czasu.
+ 
+ Pierwszym zegarem stworzonym przez człowieka był zegar słoneczny, który wskazywał czas, 
+ bazując na cieniu rzucanym przez słońce na tarczę zegara. Jednak metoda była zależna od długości dnia, 
+ pory roku i nie pozwalała na pomiar czasu nocą.
+ Jako rozwiązanie zaczęto stosować urządzenia, w których upływający czas wyznaczał stały i ciągły przepływ 
+ substancji ciekłej lub sypkiej.
+ 
+ Wraz z postępem technologicznym zaczęto stosować zegary mechaniczne, oparte na mechanicznych oscylatorach,
+  takich jak wahadło czy sprężyna. Jednak ich precyzja była ograniczona do skali sekundowej, 
+  a do tego pojawił się problem stabilności oscylatorów, które były podatne na zmiany temperatury i wilgotności.
+   Pod koniec XIX wieku stabilność zegarów wahadłowych (ok. 0,01–0,001 sekundy na dobę) zaczynała graniczyć z tą, 
+   dla której wpływ zmian g związanych z kształtem Ziemi miał już znaczenie \cite{st:czas}.
+    Było to impulsem do poszukiwania metod opartych o rozwiązania elektroniczne.
+ 
+ Powstały zegary kwarcowe, które miały własności niezależne od temperatury, były stabilne mechanicznie i chemicznie, 
+ jednak ich stabilność nie była wystarczająca. Zegar po miesiącu mógł się spóźniać o kilka sekund. 
+ Z powodu szybkiego rozwoju potrzebny był bardziej precyzyjny zegar o większej stabilności.
+ 
+ Rozwiązaniem okazał się zegar atomowy, który bazuje na zjawisku przejścia pomiędzy dwoma poziomami energetycznymi
+  w atomie. Wraz z pojawieniem się komputerów pojawiła się potrzeba ich synchronizacji, co doprowadziło do powstania
+   serwerów czasu, które pozwalają na dokładną synchronizację czasu na całym świecie. 
+   Powstała również możliwość bezprzewodowej synchronizacji czasu. Mimo zaawansowania technologicznego cały czas 
+   występuje potrzeba opracowywania nowych rozwiązań.
+ 
+ \subsection{Cel pracy}
+ Celem pracy jest zaprojektowanie i wykonanie budzika opartego o lampy Nixie, który będzie synchronizowany z serwerem
+  czasu. Mechanizm ten będzie wspierany modułem zegara czasu rzeczywistego wbudowanym w mikrokontroler. 
+  Czas pobrany z serwera będzie wyświetlany na lampach Nixie. Odtwarzanie alarmu będzie realizowane za pomocą 
+  źródła dźwięku umieszczonego na urządzeniu. Powinna być też możliwość wyłączenia alarmu za pomocą przycisku.
+ 
+ Urządzenie będzie wykorzystywać aplikację realizującą interfejs użytkownika, przy zachowaniu części ustawień 
+ bezpośrednio na urządzeniu. Aplikacja interfejsu użytkownika będzie umożliwiała ustawienie godziny alarmu i będzie hostowana na zewnętrznym serwerze. 
+ Projekt zakłada stałe połączenie z siecią Wi-Fi.
+ 
+ \end{document}

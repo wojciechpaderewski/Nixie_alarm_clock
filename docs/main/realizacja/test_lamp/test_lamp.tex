@@ -71,34 +71,30 @@ Zatem rezystor ograniczający prąd katodowy powinien mieć wartość około \SI
 Do testu użyto rezystora o wartości \SI{22}{\kilo\ohm} oraz rezystora o wartości \SI{10}{\kilo\ohm}, połączonych
 szeregowo, co daje wartość \SI{32}{\kilo\ohm}, co jest wartością zbliżoną do obliczonej.
 
-
-Z testów wynika, że lampy nixie działają poprawnie, a dobrany rezystor ograniczający prąd katodowy jest odpowiedni. 
-Przy napięciu zasilania \SI{150}{\volt} lampa świeci słabiej, ale jest to zgodne z oczekiwaniami,
-natomiast przy napięciu \SI{220}{\volt} lampa świeci jasno i pojawiają się lekko niebieskie refleksy wewnątrz lampy, co jest zgodne z oczekiwaniami.
+Z testów wynika, że lampy Nixie działają poprawnie, a dobrany rezystor ograniczający prąd katodowy jest odpowiedni. 
+Przy napięciu zasilania \SI{150}{\volt} lampa świeci słabiej, ale jest to zgodne z oczekiwaniami. Natomiast przy napięciu \SI{220}{\volt} lampa świeci jasno i pojawiają się lekko niebieskie refleksy wewnątrz lampy, co jest zgodne z oczekiwaniami.
 
 \begin{figure}[H]
     \centering
     \includegraphics[width=0.4\textwidth]{nixie150V.jpeg}
-    \caption{Prototyp układu z lampą nixie przy napięciu zasilania \SI{150}{\volt}}
+    \caption{Prototyp układu z lampą Nixie przy napięciu zasilania \SI{150}{\volt}}
 \end{figure}
-
 
 \begin{figure}[H]
     \centering
     \includegraphics[width=0.5\textwidth]{nixie220V.jpeg}
-    \caption{Prototyp układu z lampą nixie przy napięciu zasilania \SI{220}{\volt}}
+    \caption{Prototyp układu z lampą Nixie przy napięciu zasilania \SI{220}{\volt}}
 \end{figure}
 
-Nie sprawdzono napięcia wygaszania, ponieważ zakres pracy zasilacza okazał się za mały na takie napięcie, 
-ale ustalono, że lampa nawet przy napięciu \SI{150}{\volt} była w stanie zapłonąć i świecić poprawnie.
+Nie sprawdzono napięcia wygaszania, ponieważ zakres pracy zasilacza okazał się za mały na takie napięcie. Ustalono jednak, że lampa nawet przy napięciu \SI{150}{\volt} była w stanie zapłonąć i świecić poprawnie.
 
 Z testów można wyciągnąć następujące wnioski:
 
 \begin{itemize}
-    \item Lampy nixie działają poprawnie przy napięciu zasilania \SI{150}{\volt} oraz \SI{220}{\volt}.
+    \item Lampy Nixie działają poprawnie przy napięciu zasilania \SI{150}{\volt} oraz \SI{220}{\volt}.
     \item Dobrany rezystor ograniczający prąd katodowy jest odpowiedni.
-    \item Lampa nixie Z570M jest w stanie zapłonąć i świecić przy napięciu wygaszania \SI{150}{\volt}.
-    \item Zakres regulacji napięcia na zasilaczu wysokiego napięcia powinien być większy np. \SI{130}-\SI{250}{\volt}, by lampa mogła być jeszcze słabiej podświetlona, może się to okazać przydatne w nocy.
+    \item Lampa Nixie Z570M jest w stanie zapłonąć i świecić przy napięciu wygaszania \SI{150}{\volt}.
+    \item Zakres regulacji napięcia na zasilaczu wysokiego napięcia powinien być większy, np. \SI{130}-\SI{250}{\volt}, by lampa mogła być jeszcze słabiej podświetlona. Może się to okazać przydatne w nocy.
 \end{itemize}
 
 \end{document}

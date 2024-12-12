@@ -1,13 +1,13 @@
 # Fdb version 3
-["biber budowa_ukladu/LDO/ldo"] 1733681407 "budowa_ukladu/LDO/ldo.bcf" "budowa_ukladu/LDO/ldo.bbl" "budowa_ukladu/LDO/ldo" 1733681417
-  "budowa_ukladu/LDO/ldo.bcf" 1733681417 106085 cda45e5855a686caaca32eba536f2365 "pdflatex"
-  "sources.bib" 1733669538 4999 3543e3aea7045da95aad113564d83eac ""
+["biber budowa_ukladu/LDO/ldo"] 1734039666 "budowa_ukladu/LDO/ldo.bcf" "budowa_ukladu/LDO/ldo.bbl" "budowa_ukladu/LDO/ldo" 1734039669
+  "budowa_ukladu/LDO/ldo.bcf" 1734039669 106085 cda45e5855a686caaca32eba536f2365 "pdflatex"
+  "sources.bib" 1734036887 5325 69af5cda5ab574f6b3237efa7638f5d5 ""
   (generated)
   "budowa_ukladu/LDO/ldo.bbl"
   "budowa_ukladu/LDO/ldo.blg"
-["pdflatex"] 1733681416 "/home/w/Nixie_alarm_clock/docs/main/budowa_ukladu/LDO/ldo.tex" "budowa_ukladu/LDO/ldo.pdf" "ldo" 1733681417
+["pdflatex"] 1734039668 "/home/w/Nixie_alarm_clock/docs/main/budowa_ukladu/LDO/ldo.tex" "budowa_ukladu/LDO/ldo.pdf" "ldo" 1734039669
   "/etc/texmf/web2c/texmf.cnf" 1697565182 475 c0e671620eb5563b2130f56340a5fde8 ""
-  "/home/w/Nixie_alarm_clock/docs/main/budowa_ukladu/LDO/ldo.tex" 1733681415 2287 0baa0b92dcda0a7332cb812229c026d6 ""
+  "/home/w/Nixie_alarm_clock/docs/main/budowa_ukladu/LDO/ldo.tex" 1734039666 2297 c1d27aa89f04df13d7f49c71bc608f16 ""
   "/usr/share/texlive/texmf-dist/fonts/enc/dvips/pl/plmi.enc" 1136849721 2005 f094775651a1386335c158fb632529f1 ""
   "/usr/share/texlive/texmf-dist/fonts/enc/dvips/pl/plrm.enc" 1136849721 1944 1845592c00bbe510359fd6887a83ff72 ""
   "/usr/share/texlive/texmf-dist/fonts/map/fontname/texfonts.map" 1577235249 3524 cb3e574dea2d1052e39280babc910dc8 ""
@@ -247,13 +247,13 @@
   "/usr/share/texmf/web2c/texmf.cnf" 1644012257 39432 7155514e09a3d69036fac785183a21c2 ""
   "/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map" 1697565195 4379155 98693266ff65f58d9f98aff394de12d2 ""
   "/var/lib/texmf/web2c/pdftex/pdflatex.fmt" 1711271801 2800559 769836ceebf7d98a3fd600386a19f641 ""
-  "budowa_ukladu/LDO/../../main.tex" 1733680979 3952 b1c94cc93af38f6b768a7a7adca755c9 ""
+  "budowa_ukladu/LDO/../../main.tex" 1734038913 4052 5f41952e201d1eaac1a9bdc119affcee ""
   "budowa_ukladu/LDO/LDO.png" 1732720665 26548 42ced07ca374bdaaf4f48a646e4162a2 ""
-  "budowa_ukladu/LDO/ldo.aux" 1733681417 1677 2c22bdf09cb41e72afc0ecb1510c576f "pdflatex"
-  "budowa_ukladu/LDO/ldo.bbl" 1733681407 2416 2860f288aee48666af0f4caee0f1bcc8 "biber budowa_ukladu/LDO/ldo"
-  "budowa_ukladu/LDO/ldo.out" 1733681417 0 d41d8cd98f00b204e9800998ecf8427e "pdflatex"
-  "budowa_ukladu/LDO/ldo.run.xml" 1733681417 2325 97d98274c07b727e7c84ae2cd3720741 "pdflatex"
-  "budowa_ukladu/LDO/ldo.tex" 1733681415 2287 0baa0b92dcda0a7332cb812229c026d6 ""
+  "budowa_ukladu/LDO/ldo.aux" 1734039669 1677 054029775d293dd58d6089c9ffb39962 "pdflatex"
+  "budowa_ukladu/LDO/ldo.bbl" 1734039667 2437 5340f23c3849ac8a868679c57bf66d18 "biber budowa_ukladu/LDO/ldo"
+  "budowa_ukladu/LDO/ldo.out" 1734039669 0 d41d8cd98f00b204e9800998ecf8427e "pdflatex"
+  "budowa_ukladu/LDO/ldo.run.xml" 1734039669 2325 97d98274c07b727e7c84ae2cd3720741 "pdflatex"
+  "budowa_ukladu/LDO/ldo.tex" 1734039666 2297 c1d27aa89f04df13d7f49c71bc608f16 ""
   "budowa_ukladu/LDO/ldo_datasheet.png" 1732720665 6361 cf4331281b4b21b15e12f3555ad2ab9b ""
   (generated)
   "budowa_ukladu/LDO/ldo.aux"

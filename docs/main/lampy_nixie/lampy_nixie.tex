@@ -114,7 +114,7 @@ kropkę dziesiętną, co daje 11 sygnałów sterujących na lampę.
 Istnieje kilka sposobów sterowania lampami nixie \cite{st:nixie1}:
 
 \begin{itemize}
-    \item Sterowanie bezpośrednie - każda lampa jest sterowana osobno wykorzystując tranzystor wysokiego napięcia wysterowanego mikrokontrolerem.
+    \item Sterowanie bezpośrednie - każda lampa jest sterowana osobno, wykorzystując tranzystor wysokiego napięcia wysterowanego przez mikrokontroler.
     Wadą jest konieczność posiadania wielu pinów GPIO, co jest nieoptymalne. Sumarycznie wymaga to 66 pinów GPIO oraz 66 tranzystorów wysokiego napięcia.
     Można by w tym porzadku zastosować multipleksery co zmniejszyłoby ilość wymaganych pinów GPIO do 16, ale zwiększyło skomplikowanie układu.
     \item Wykorzystanie dedykowanych driverów - istnieją specjalne układy scalone, które są przeznaczone do sterowania lampami nixie, niestety

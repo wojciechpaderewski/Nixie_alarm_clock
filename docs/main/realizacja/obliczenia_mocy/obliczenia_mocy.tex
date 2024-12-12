@@ -32,8 +32,8 @@
 
 \begin{document}
 
-By moć zaprojektować odpowiednie zasilanie dla całego układu, należy obliczyć szacunkową moc potrzebną do zasilania wszystkich komponentów.
-Poza lampami nixie, najbardziej obciążającym elementem będzie pasek LED oraz mikrokontroler, pozostałe elementy będą pobierały znikome ilości prądu.
+By móc zaprojektować odpowiednie zasilanie dla całego układu, należy obliczyć szacunkową moc potrzebną do zasilania wszystkich komponentów.
+Poza lampami Nixie, najbardziej obciążającym elementem będzie pasek LED oraz mikrokontroler; pozostałe elementy będą pobierały znikome ilości prądu.
 
 Założono maksymalną długość paska LED na \SI{30}{\centi\meter}. Z deklaracji producenta paska LED wynika, że moc na metr wynosi \SI{18}{\watt}, co daje:
 \begin{equation}
@@ -44,7 +44,7 @@ Następnie obliczono prąd potrzebny do zasilenia paska LED przy napięciu \SI{5
     I_{\text{LED}} = \frac{P_{\text{LED}}}{U_{\text{LED}}} = \frac{\SI{5.4}{\watt}}{\SI{5}{\volt}} = \SI{1.08}{\ampere}
 \end{equation}
 
-Następnie obliczono moc potrzebną do zasilania mikrokontrolera ESP32-S3, według producenta maksymalny pobór prądu wynosi \SI{340}{\milli\ampere},
+Następnie obliczono moc potrzebną do zasilania mikrokontrolera ESP32-S3. Według producenta maksymalny pobór prądu wynosi \SI{340}{\milli\ampere},
 co przy napięciu zasilania \SI{3.3}{\volt} daje:
 
 \begin{equation}

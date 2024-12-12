@@ -73,17 +73,17 @@ Na podstawie tabeli dobrano następujące wartości komponentów:
     \label{fig:buck}
 \end{figure}
 
-Kondensator dołączony do wyprowadzenia SS (soft start) oraz kondensator dołączony do pinu VBST, został skopiowany z układu z noty katalogowej, gdyż nie jest to krytyczny element i nie ma potrzeby doboru wartości pod 
+Kondensator dołączony do wyprowadzenia SS (soft start) oraz kondensator dołączony do pinu VBST został skopiowany z układu z noty katalogowej, gdyż nie jest to krytyczny element i nie ma potrzeby doboru wartości pod 
 kątem zastosowania w zegarze.
 
 Zdecydowano się na użycie kondensatorów ceramicznych, gdyż są one mniejsze i mają lepszy ESR niż elektrolityczne, co ma znaczenie przy przetwornicach impulsowych,
-gdzie mamy wyższe częstotliwości przełączania, więc ESR kondensatora ma większe znaczenie, przy zbyt dużym ESR kondensatora, może on się nagrzewać, co prowadzi do jego uszkodzenia.
-Kondensatory ceramiczne natomiast cechują się tak małym ESR, że producent nie podaje tej wartości w notach katalogowych, gdyż jest ona zbyt mała by miała znaczenie.
+gdzie mamy wyższe częstotliwości przełączania. Przy zbyt dużym ESR kondensatora może on się nagrzewać, co prowadzi do jego uszkodzenia.
+Kondensatory ceramiczne natomiast cechują się tak małym ESR, że producent nie podaje tej wartości w notach katalogowych, gdyż jest ona zbyt mała, by miała znaczenie.
 
-Cewka dobrano biorąc pod uwagę jest stosunek oporu do ceny, zdecydowano się na cewkę o oporze \SI{14.5}{\milli\ohm}, 
-gdyż jest to najniższa wartość jako udało się znaleźć w sklepach elektronicznych w sensownej cenie i dość małej obudowie.
+Cewkę dobrano, biorąc pod uwagę jej stosunek oporu do ceny. Zdecydowano się na cewkę o oporze \SI{14.5}{\milli\ohm}, 
+gdyż jest to najniższa wartość, jaką udało się znaleźć w sklepach elektronicznych w sensownej cenie i dość małej obudowie.
 
-Dodano również kondensator filtrujący \SI{100}{\nano\farad} na pinie VCC, by zredukować szumy z linii zasilania.
+Dodano również kondensator filtrujący \SI{100}{\nano\farad} na pinie VCC, aby zredukować szumy z linii zasilania.
 Schemat elektryczny zaprojektowanego modułu przedstawiono na rysunku \ref{fig:buck-schemat}.
 
 \begin{figure}[H]

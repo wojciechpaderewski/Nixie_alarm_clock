@@ -1,12 +1,12 @@
 # Fdb version 3
-["biber montaz/montaz"] 1733484449 "montaz/montaz.bcf" "montaz/montaz.bbl" "montaz/montaz" 1733682348
-  "montaz/montaz.bcf" 1733682348 105727 a5b9a061cbadea76a5c891b49b55ece8 "pdflatex"
+["biber montaz/montaz"] 1733484449 "montaz/montaz.bcf" "montaz/montaz.bbl" "montaz/montaz" 1734040544
+  "montaz/montaz.bcf" 1734040544 105727 a5b9a061cbadea76a5c891b49b55ece8 "pdflatex"
   (generated)
   "montaz/montaz.bbl"
   "montaz/montaz.blg"
-["pdflatex"] 1733682347 "/home/w/Nixie_alarm_clock/docs/main/montaz/montaz.tex" "montaz/montaz.pdf" "montaz" 1733682348
+["pdflatex"] 1734040542 "/home/w/Nixie_alarm_clock/docs/main/montaz/montaz.tex" "montaz/montaz.pdf" "montaz" 1734040544
   "/etc/texmf/web2c/texmf.cnf" 1697565182 475 c0e671620eb5563b2130f56340a5fde8 ""
-  "/home/w/Nixie_alarm_clock/docs/main/montaz/montaz.tex" 1733682346 5520 c05cfe22446f527579e4a31677315c91 ""
+  "/home/w/Nixie_alarm_clock/docs/main/montaz/montaz.tex" 1734040542 5554 516ff8d646f174f50256536bb0894541 ""
   "/usr/share/texlive/texmf-dist/fonts/enc/dvips/pl/plrm.enc" 1136849721 1944 1845592c00bbe510359fd6887a83ff72 ""
   "/usr/share/texlive/texmf-dist/fonts/map/fontname/texfonts.map" 1577235249 3524 cb3e574dea2d1052e39280babc910dc8 ""
   "/usr/share/texlive/texmf-dist/fonts/tfm/jknappen/ec/ecbx1000.tfm" 1136768653 3584 2d666ecf6d466d8b007246bc2f94d9da ""
@@ -245,17 +245,17 @@
   "/usr/share/texmf/web2c/texmf.cnf" 1644012257 39432 7155514e09a3d69036fac785183a21c2 ""
   "/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map" 1697565195 4379155 98693266ff65f58d9f98aff394de12d2 ""
   "/var/lib/texmf/web2c/pdftex/pdflatex.fmt" 1711271801 2800559 769836ceebf7d98a3fd600386a19f641 ""
-  "montaz/../main.tex" 1733682317 3952 b1c94cc93af38f6b768a7a7adca755c9 ""
+  "montaz/../main.tex" 1734038913 4052 5f41952e201d1eaac1a9bdc119affcee ""
   "montaz/BOTTOM.png" 1732723993 855705 d01d0a28d02673f774d06b2f382a22b1 ""
   "montaz/TOP.png" 1732723993 790800 859930837e6a2558f4209ecd79521bd6 ""
   "montaz/dol.jpeg" 1733484053 199992 2114d109eba250b494e2054623dbcb0e ""
   "montaz/gora.jpeg" 1733484053 197388 a0655af09ebb3bbee16944854892582d ""
   "montaz/gotowy.jpeg" 1733484053 202196 b138196f51573df84656f67b92f66479 ""
-  "montaz/montaz.aux" 1733682348 2782 568e1062cc44cbd279fa3e5ddb0c7d06 "pdflatex"
+  "montaz/montaz.aux" 1734040544 2782 568e1062cc44cbd279fa3e5ddb0c7d06 "pdflatex"
   "montaz/montaz.bbl" 1733484450 466 ee04f40f768daeed26442158e95aba61 "biber montaz/montaz"
-  "montaz/montaz.out" 1733682348 534 bd682b1eac5bb94da25db9e73df4f2bb "pdflatex"
-  "montaz/montaz.run.xml" 1733682348 2346 a58196f070f07304ac8de7cbe8c4608a "pdflatex"
-  "montaz/montaz.tex" 1733682346 5520 c05cfe22446f527579e4a31677315c91 ""
+  "montaz/montaz.out" 1734040544 534 bd682b1eac5bb94da25db9e73df4f2bb "pdflatex"
+  "montaz/montaz.run.xml" 1734040544 2346 a58196f070f07304ac8de7cbe8c4608a "pdflatex"
+  "montaz/montaz.tex" 1734040542 5554 516ff8d646f174f50256536bb0894541 ""
   "montaz/przod.jpeg" 1733484053 214815 798b6614a7aeaae4fb1508c0ce09e9b7 ""
   "montaz/tyl.jpeg" 1733484053 154441 8822c58d121714f8251f721b2506eca7 ""
   (generated)

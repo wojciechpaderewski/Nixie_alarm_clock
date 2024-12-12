@@ -1395,11 +1395,11 @@ INPUT budowa_ukladu/DC_Plug/DC_Plug.tex
 INPUT ./budowa_ukladu/DC_Plug/DC_Plug.tex
 INPUT ./budowa_ukladu/DC_Plug/DC_Plug.tex
 INPUT budowa_ukladu/DC_Plug/DC_Plug.tex
-INPUT ./budowa_ukladu/DC_Plug//DcPlug_schemat.png
-INPUT ./budowa_ukladu/DC_Plug//DcPlug_schemat.png
-INPUT budowa_ukladu/DC_Plug//DcPlug_schemat.png
-INPUT ./budowa_ukladu/DC_Plug//DcPlug_schemat.png
-INPUT ./budowa_ukladu/DC_Plug//DcPlug_schemat.png
+INPUT ./budowa_ukladu/DC_Plug//dc_plug_schemat.png
+INPUT ./budowa_ukladu/DC_Plug//dc_plug_schemat.png
+INPUT budowa_ukladu/DC_Plug//dc_plug_schemat.png
+INPUT ./budowa_ukladu/DC_Plug//dc_plug_schemat.png
+INPUT ./budowa_ukladu/DC_Plug//dc_plug_schemat.png
 INPUT ./budowa_ukladu/usb_c_to_program/usb_c_to_program.tex
 INPUT ./budowa_ukladu/usb_c_to_program/usb_c_to_program.tex
 INPUT ./budowa_ukladu/usb_c_to_program/usb_c_to_program.tex

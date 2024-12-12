@@ -25,7 +25,7 @@
 \title{Koncepcja ukladu}
 \hypersetup{
  pdfauthor={Wojciech Paderewski},
- pdftitle={Koncepcja ukladu},
+ pdftitle={Montaż},
  pdfkeywords={},
  pdfsubject={},
  pdflang={Polish}}
@@ -35,19 +35,19 @@
 Celem niniejszej pracy inżynierskiej było opracowanie i wykonanie budzika synchronizowanego przez Wi-Fi z wykorzystaniem lamp Nixie.
 
 W pracy omówiono zasadę działania lamp Nixie, mikrokontrolera ESP32-S3 oraz różnych serwerów czasu.
-Wyjaśniono jakie są wady i zalety lamp Nixie, jakie są ich zastosowania. Przeanalizowano różne metody sterowania wyświetlaczami Nixie, w celu wybrania najlepszej dla projektu.
-Wyjaśnione możliwości mikrokontrolera ESP32-S3 w zastosowaniach IoT oraz jego środowisko programistyczne.
+Wyjaśniono, jakie są wady i zalety lamp Nixie, jakie są ich zastosowania. Przeanalizowano różne metody sterowania wyświetlaczami Nixie w celu wybrania najlepszej dla projektu.
+Wyjaśniono możliwości mikrokontrolera ESP32-S3 w zastosowaniach IoT oraz jego środowisko programistyczne.
 Przedstawiono różne serwery czasu, ich zasady działania, wady i zalety. Szczegółowo opisano protokół NTP, który jest wykorzystywany w projekcie.
 
-Na podstawie karty projektu i analizy wymagań oraz wykonania poszukiwań, przedstawiono założenia projektowe. W oparciu o nie powstała ogólna koncepcja układu,
-a z niej powstał szczegółowy schemat wykonania projektu oraz jego podział na moduły. Następnie na podstawie testu zakupionych lamp Nixie, określone konkretne parametry które muszą spełniać wybrane elementy.
-Bazując na tym podziale, przystąpiono wyboru elementów, które będą wykorzystane w projekcie. Następnie stworzono schematy elektryczne poszczególnych modułów i opisano sposób ich połączenia, z uwzględnieniem niezbędnych obliczeń.
+Na podstawie karty projektu i analizy wymagań oraz wykonania poszukiwań przedstawiono założenia projektowe. W oparciu o nie powstała ogólna koncepcja układu,
+a z niej powstał szczegółowy schemat wykonania projektu oraz jego podział na moduły. Następnie na podstawie testu zakupionych lamp Nixie określono konkretne parametry, które muszą spełniać wybrane elementy.
+Bazując na tym podziale, przystąpiono do wyboru elementów, które będą wykorzystane w projekcie. Następnie stworzono schematy elektryczne poszczególnych modułów i opisano sposób ich połączenia z uwzględnieniem niezbędnych obliczeń.
 
 W kolejnym etapie przystąpiono do implementacji projektu. Zaprojektowano i wykonano płytkę PCB z uwzględnieniem aspektów wizualnych oraz funkcjonalnych. Następnie zmontowano układ i przystąpiono do testów.
-W trakcie testów napotkano problem z przetwornicą wysokiego napięcia, która nie osiagneła zakładanego przedziału regulacji i miała mniejszą sprawność niż założono, co powodowało nagrzewanie się przy górnej granicy zakresu. Problem został rozwiązany poprzez zwężenie przedziału regulacji napięcia wyjściowego.
+W trakcie testów napotkano problem z przetwornicą wysokiego napięcia, która nie osiągnęła zakładanego przedziału regulacji i miała mniejszą sprawność niż założono, co powodowało nagrzewanie się przy górnej granicy zakresu. Problem został rozwiązany poprzez zwężenie przedziału regulacji napięcia wyjściowego.
 Pozostałe testy przebiegły pomyślnie, a układ działał zgodnie z założeniami.
 
-Dalsze prace nad opracowanym urządzeniem powinny obejmować przede wszystkim przeprojektowanie układu przetwornicy wysokiego napięcia, w celu uniknięcia problemów z nagrzewaniem się i poszerzenia zakresu regulacji. Można również dodać dodatkowe funkcje interface'u użytkownika, 
+Dalsze prace nad opracowanym urządzeniem powinny obejmować przede wszystkim przeprojektowanie układu przetwornicy wysokiego napięcia w celu uniknięcia problemów z nagrzewaniem się i poszerzenia zakresu regulacji. Można również dodać dodatkowe funkcje interfejsu użytkownika, 
 takie jak obsługa paska LED, regulacja napięcia wyjściowego z poziomu aplikacji, dodanie możliwości ustawienia alarmu w trybie offline. Można również wykonać obudowę dla układu,
 aby zabezpieczyć go przed uszkodzeniami mechanicznymi oraz kurzem.
 

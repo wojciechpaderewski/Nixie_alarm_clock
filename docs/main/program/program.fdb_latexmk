@@ -1,13 +1,13 @@
 # Fdb version 3
-["biber program/program"] 1733674427 "program/program.bcf" "program/program.bbl" "program/program" 1733683031
-  "program/program.bcf" 1733683031 105841 6941962f7d4be38b1948d18719ec06f8 "pdflatex"
-  "sources.bib" 1733669538 4999 3543e3aea7045da95aad113564d83eac ""
+["biber program/program"] 1734040922 "program/program.bcf" "program/program.bbl" "program/program" 1734040926
+  "program/program.bcf" 1734040926 105841 6941962f7d4be38b1948d18719ec06f8 "pdflatex"
+  "sources.bib" 1734036887 5325 69af5cda5ab574f6b3237efa7638f5d5 ""
   (generated)
   "program/program.bbl"
   "program/program.blg"
-["pdflatex"] 1733683030 "/home/w/Nixie_alarm_clock/docs/main/program/program.tex" "program/program.pdf" "program" 1733683031
+["pdflatex"] 1734040924 "/home/w/Nixie_alarm_clock/docs/main/program/program.tex" "program/program.pdf" "program" 1734040926
   "/etc/texmf/web2c/texmf.cnf" 1697565182 475 c0e671620eb5563b2130f56340a5fde8 ""
-  "/home/w/Nixie_alarm_clock/docs/main/program/program.tex" 1733683029 13974 9dd5c5fdd3a7b04fe2c460fe4d52c6b7 ""
+  "/home/w/Nixie_alarm_clock/docs/main/program/program.tex" 1734040922 13976 ae4adb01b1e1eaf08e742ff23e53fa00 ""
   "/usr/share/texlive/texmf-dist/fonts/map/fontname/texfonts.map" 1577235249 3524 cb3e574dea2d1052e39280babc910dc8 ""
   "/usr/share/texlive/texmf-dist/fonts/tfm/jknappen/ec/ecbx1000.tfm" 1136768653 3584 2d666ecf6d466d8b007246bc2f94d9da ""
   "/usr/share/texlive/texmf-dist/fonts/tfm/jknappen/ec/ecbx1200.tfm" 1136768653 3584 402da0b29eafbad07963b1224b222f18 ""
@@ -235,15 +235,15 @@
   "/usr/share/texmf/web2c/texmf.cnf" 1644012257 39432 7155514e09a3d69036fac785183a21c2 ""
   "/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map" 1697565195 4379155 98693266ff65f58d9f98aff394de12d2 ""
   "/var/lib/texmf/web2c/pdftex/pdflatex.fmt" 1711271801 2800559 769836ceebf7d98a3fd600386a19f641 ""
-  "program/../main.tex" 1733682933 3952 b1c94cc93af38f6b768a7a7adca755c9 ""
+  "program/../main.tex" 1734038913 4052 5f41952e201d1eaac1a9bdc119affcee ""
   "program/Struktura.png" 1733500325 32387 8f290f48fdf706c9337039b7a82fe77a ""
   "program/UI.jpeg" 1733501344 35673 ce0f916e82fa449a29c0af6f68fb6b1d ""
-  "program/program.aux" 1733683031 2840 8dce5ef24437039765484fed83c55219 "pdflatex"
-  "program/program.bbl" 1733674428 1198 11cba610928ebfed6ba65a36266e6049 "biber program/program"
-  "program/program.out" 1733683031 1688 f8f77bdd7399343b0501ef418df44376 "pdflatex"
-  "program/program.png" 1733500325 172518 686bdf83b75e88682ae073916d2fdab1 ""
-  "program/program.run.xml" 1733683031 2353 c97d3def9739bb3fe392ee704132ea4a "pdflatex"
-  "program/program.tex" 1733683029 13974 9dd5c5fdd3a7b04fe2c460fe4d52c6b7 ""
+  "program/program.aux" 1734040926 2840 4bc7457cc049c593f0be28d581cf96b5 "pdflatex"
+  "program/program.bbl" 1734040923 1212 28ba15e907c5efcae478a4b47205dd49 "biber program/program"
+  "program/program.out" 1734040926 1688 0aa883d0c563ed1e73fd5cfedc14b51e "pdflatex"
+  "program/program.png" 1733952689 511540 88659156ec0025afedb86644f2c414fd ""
+  "program/program.run.xml" 1734040926 2353 c97d3def9739bb3fe392ee704132ea4a "pdflatex"
+  "program/program.tex" 1734040922 13976 ae4adb01b1e1eaf08e742ff23e53fa00 ""
   (generated)
   "program/program.aux"
   "program/program.bcf"

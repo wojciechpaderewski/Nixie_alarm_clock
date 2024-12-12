@@ -22,10 +22,10 @@
 \graphicspath{{../}}
 \author{Wojciech Paderewski}
 \date{\today}
-\title{Koncepcja ukladu}
+\title{Koncepcja układu}
 \hypersetup{
  pdfauthor={Wojciech Paderewski},
- pdftitle={Koncepcja ukladu},
+ pdftitle={Koncepcja układu},
  pdfkeywords={},
  pdfsubject={},
  pdflang={Polish}}
@@ -33,14 +33,14 @@
 \begin{document}
 
 Kryterium wyboru buzzera było jego napięcie zasilania, głośność oraz jak najmniejszy rozmiar.
-Wybrano buzzer CEM120342, jest to buzzer piezoelektryczny. Z noty katalogowej \cite{st:buzzer} wypisano użyteczne parametry na etapie projektowania:
+Wybrano buzzer CEM120342, który jest buzzerem piezoelektrycznym. Z noty katalogowej \cite{st:buzzer} wypisano użyteczne parametry na etapie projektowania:
 
 \begin{itemize}
     \item Napięcie zasilania: 3-5 V
     \item Max prąd zasilania: 35 mA
     \item Częstotliwość: 2,048 kHz
-    \item Głośność: 85dB - 95 dB
-    \item Średnica: 12mm, wysokość: 8 mm
+    \item Głośność: 85 dB - 95 dB
+    \item Średnica: 12 mm, wysokość: 8 mm
     \item Rezystancja: \SI{42}{\ohm}
     \item Typ montażu: THT
 \end{itemize}
@@ -53,8 +53,7 @@ Buzzer został podłączony według schematu zalecanego przez producenta przedst
     \label{fig:buzzer_karta}
 \end{figure}
 
-Do sterowania wykorzystano inny tranzystor,
-użyto tranzystora który służy do sterowania katodami kropek w lampach nixie, by nie dodawać kolejnego elementu do projektu.
+Do sterowania wykorzystano inny tranzystor. Użyto tranzystora, który służy do sterowania katodami kropek w lampach Nixie, by nie dodawać kolejnego elementu do projektu.
 Tranzystor ten ma prąd kolektora 80 mA, co jest wystarczające do sterowania buzzerem.
 Buzzer jest dostatecznie mały, jedyną wadą jest montaż THT, który ogranicza miniaturyzację płytki drukowanej.
 Schemat elektryczny złącza z buzzerem przedstawiono na rysunku \ref{fig:buzzer}.

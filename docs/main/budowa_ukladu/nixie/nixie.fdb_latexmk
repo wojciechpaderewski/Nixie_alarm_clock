@@ -1,13 +1,13 @@
 # Fdb version 3
-["biber budowa_ukladu/nixie/nixie"] 1733676016 "budowa_ukladu/nixie/nixie.bcf" "budowa_ukladu/nixie/nixie.bbl" "budowa_ukladu/nixie/nixie" 1733676502
-  "budowa_ukladu/nixie/nixie.bcf" 1733676502 105994 3f158ffa67945eab50e7598edc2dc6e3 "pdflatex"
-  "sources.bib" 1733669538 4999 3543e3aea7045da95aad113564d83eac ""
+["biber budowa_ukladu/nixie/nixie"] 1734040267 "budowa_ukladu/nixie/nixie.bcf" "budowa_ukladu/nixie/nixie.bbl" "budowa_ukladu/nixie/nixie" 1734040270
+  "budowa_ukladu/nixie/nixie.bcf" 1734040270 105994 3f158ffa67945eab50e7598edc2dc6e3 "pdflatex"
+  "sources.bib" 1734036887 5325 69af5cda5ab574f6b3237efa7638f5d5 ""
   (generated)
   "budowa_ukladu/nixie/nixie.bbl"
   "budowa_ukladu/nixie/nixie.blg"
-["pdflatex"] 1733676501 "/home/w/Nixie_alarm_clock/docs/main/budowa_ukladu/nixie/nixie.tex" "budowa_ukladu/nixie/nixie.pdf" "nixie" 1733676502
+["pdflatex"] 1734040269 "/home/w/Nixie_alarm_clock/docs/main/budowa_ukladu/nixie/nixie.tex" "budowa_ukladu/nixie/nixie.pdf" "nixie" 1734040270
   "/etc/texmf/web2c/texmf.cnf" 1697565182 475 c0e671620eb5563b2130f56340a5fde8 ""
-  "/home/w/Nixie_alarm_clock/docs/main/budowa_ukladu/nixie/nixie.tex" 1733676501 4455 be699be6c09f6da7b0bdbb43a4d48cc7 ""
+  "/home/w/Nixie_alarm_clock/docs/main/budowa_ukladu/nixie/nixie.tex" 1734040267 4455 0675d77d6a64a191f8747ec8e81fecaf ""
   "/usr/share/texlive/texmf-dist/fonts/enc/dvips/pl/plmi.enc" 1136849721 2005 f094775651a1386335c158fb632529f1 ""
   "/usr/share/texlive/texmf-dist/fonts/enc/dvips/pl/plms.enc" 1136849721 2468 3f9e2f3088bcf5b581dfc367d71e7d95 ""
   "/usr/share/texlive/texmf-dist/fonts/enc/dvips/pl/plrm.enc" 1136849721 1944 1845592c00bbe510359fd6887a83ff72 ""
@@ -248,13 +248,13 @@
   "/usr/share/texmf/web2c/texmf.cnf" 1644012257 39432 7155514e09a3d69036fac785183a21c2 ""
   "/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map" 1697565195 4379155 98693266ff65f58d9f98aff394de12d2 ""
   "/var/lib/texmf/web2c/pdftex/pdflatex.fmt" 1711271801 2800559 769836ceebf7d98a3fd600386a19f641 ""
-  "budowa_ukladu/nixie/../../main.tex" 1733676459 3895 fedd4ad95fce22d3bda552a4088c7d2e ""
-  "budowa_ukladu/nixie/nixie.aux" 1733676502 1898 2cb0dc994548f6d1099c4874510c56d1 "pdflatex"
-  "budowa_ukladu/nixie/nixie.bbl" 1733676016 1782 02ac796c29802c25b142e91b457699a7 "biber budowa_ukladu/nixie/nixie"
-  "budowa_ukladu/nixie/nixie.out" 1733676502 660 ba286c45d7c963376283b988a569333d "pdflatex"
+  "budowa_ukladu/nixie/../../main.tex" 1734038913 4052 5f41952e201d1eaac1a9bdc119affcee ""
+  "budowa_ukladu/nixie/nixie.aux" 1734040270 1898 f6337ebcd00e94af490e99d371b0c7d9 "pdflatex"
+  "budowa_ukladu/nixie/nixie.bbl" 1734040268 1798 c8c2a68fc774a530195f5b89ddff7253 "biber budowa_ukladu/nixie/nixie"
+  "budowa_ukladu/nixie/nixie.out" 1734040270 660 ba286c45d7c963376283b988a569333d "pdflatex"
   "budowa_ukladu/nixie/nixie.png" 1732720665 114006 0d7f9d59786c0e30b657bb41926bf183 ""
-  "budowa_ukladu/nixie/nixie.run.xml" 1733676502 2339 cf965d43d97827625f9e05f907faefe6 "pdflatex"
-  "budowa_ukladu/nixie/nixie.tex" 1733676501 4455 be699be6c09f6da7b0bdbb43a4d48cc7 ""
+  "budowa_ukladu/nixie/nixie.run.xml" 1734040270 2339 cf965d43d97827625f9e05f907faefe6 "pdflatex"
+  "budowa_ukladu/nixie/nixie.tex" 1734040267 4455 0675d77d6a64a191f8747ec8e81fecaf ""
   (generated)
   "budowa_ukladu/nixie/nixie.aux"
   "budowa_ukladu/nixie/nixie.bcf"
