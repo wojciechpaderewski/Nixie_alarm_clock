@@ -53,11 +53,11 @@ Układ ten posiada następujące cechy odczytane z karty katalogowej \cite{st:es
 RTC (Real Time Clock) to moduł zegara czasu rzeczywistego, który pozwala na śledzenie aktualnego czasu, daty oraz dnia tygodnia.
 Moduł RTC w ESP32-S3 wykorzystuje 16 kB pamięci SRAM, co oznacza, że nie może on przechowywać daty i czasu w przypadku braku zasilania.
 
-Sam moduł zegara czasu rzeczywistego nie jest bardzo dokładny; dlatego zaleca się synchronizację czasu z zewnętrznym serwerem.
+Sam moduł zegara czasu rzeczywistego nie jest bardzo dokładny, dlatego zaleca się synchronizację czasu z zewnętrznym serwerem.
 Istnieje wiele bibliotek do realizacji tego zadania z wykorzystaniem Arduino Framework.
 \subsection{GPIO}
 Układ posiada wiele wyprowadzeń wejścia/wyjścia ogólnego przeznaczenia (GPIO). Nie posiada on dedykowanych pinów do obsługi interfejsów takich jak I2C, można 
-je skonfigurować na dowolnych pinach GPIO. Generacja sygnałów PWM jest również możliwa na większości wyprowadzeń. Posiada on również 20 pinów które mogą
+je skonfigurować na dowolnych pinach GPIO. Generacja sygnałów PWM jest również możliwa na większości wyprowadzeń. Do wykorzystanie znajduje się 20 GPIO które mogą
 obsługiwać wejście analogowe. Rozkład pinów mikrokontrolera ESP32-S3 przedstawiono na \ref{fig:esp32}.
 
 
@@ -86,12 +86,12 @@ Układ można wprowadzić w dwa tryby uśpienia:
 
 \subsubsection{Środowisko programistyczne}
 \label{sec:srodowisko_programistyczne}
-ESP32-S3 jest na tyle rozbudowanym mikrokontrolerem, że wymaga pozwala on na programowanie w wielu językach programowania, takich jak C, C++, MicroPython, Lua oraz Rust.
-najpopularniejszym językiem programowania dla ESP32-S3 jest C++, jest on bardzo wydajny, a przy tym pozwala na wysokopoziomowe programowanie, 
+ESP32-S3 jest na tyle rozbudowanym mikrokontrolerem, że pozwala on na programowanie w wielu językach programowania, takich jak C, C++, MicroPython, Lua oraz Rust.
+Najpopularniejszym językiem programowania dla ESP32-S3 jest C++, jest on bardzo wydajny, a przy tym pozwala na wysokopoziomowe programowanie, 
 co znacząco przyspiesza pisanie kodu oraz jego czytelność, również dla tego języka występuje najwięcej bibliotek i przykładów.
 
-W przypadku ESP32-S3 najczęściej wykorzystuje się Arduino Framework, które jest najbardziej popularnym rozwiązaniem dla mikrokontrolerów ESP32. Można również korzystać z ESP-IDF,
-które jest oficjalnym środowiskiem programistycznym dla mikrokontrolerów rodziny ESP32, ale jest ono bardziej skomplikowane i wymaga więcej czasu na naukę. Dwoma
-najpopularniejszymi środowiskami programistycznymi dla ESP32-S3 są PlatformIO oraz Arduino IDE.
+W przypadku ESP32-S3 najczęściej stosowanym narzędziem programistycznym jest Arduino Framework. Można również korzystać z ESP-IDF,
+które jest oficjalnym środowiskiem programistycznym dla mikrokontrolerów rodziny ESP32, ale ze względu na duży próg wejścia, nie jest powszechnie stosowane.
+ Dwoma najpopularniejszymi środowiskami programistycznymi dla ESP32-S3 są PlatformIO oraz Arduino IDE.
 
 \end{document}

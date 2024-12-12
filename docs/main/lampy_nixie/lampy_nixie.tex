@@ -61,12 +61,12 @@ a czasami skutkuje zanikiem wyświetlania całkowicie.
 Najczęściej spotykaną konfiguracją lampy jest wspólna anoda przedstawiona na rysunku \ref{fig:nixie_schematic}.
 Taki sposób podłączenia polega na wysterowaniu wybranej katody, podczas gdy anoda jest podłączona
 do zasilania przez rezystor ograniczający prąd. 
-Napięcie zasilania wynosi od \SI{150}{\volt} do \SI{200}{\volt}.
+Standardowy przedział napięć zasilania wynosi od \SI{150}{\volt} do \SI{200}{\volt}.
 
 \begin{figure}[H]
   \centering
   \includegraphics[width=0.5\textwidth]{Nixie_schematic.png}
-  \caption{Schemat elektryczny lampy nixie ze wspólną anodą \cite{st:nixie-jpg}}
+  \caption{Schemat elektryczny lampy Nixie ze wspólną anodą \cite{st:nixie-jpg}}
   \label{fig:nixie_schematic}
 \end{figure}
 
@@ -76,7 +76,7 @@ Gdzie:
   \item $k_{n}$ - katoda
   \item n - numer katody
 \end{itemize}
-\subsection{Problemy związane z wykorzystaniem lamp nixie}
+\subsection{Problemy związane z wykorzystaniem lamp Nixie}
 
 Lampy są podatne na wiele problemów, które mogą wystąpić podczas użytkowania, takie jak:
 \begin{itemize}
@@ -86,7 +86,7 @@ Lampy są podatne na wiele problemów, które mogą wystąpić podczas użytkowa
   \item \textbf{Zjawisko zaniku} - zjawisko polegające na zanikaniu wyświetlania cyfr, spowodowane zbyt małym napięciem na anodzie.
 \end{itemize}
 
-Największym problemem jest zatrucie katodowe, które często pojawia się w zegarach wykorzystujących lampy nixie.
+Największym problemem jest zatrucie katodowe, które często pojawia się w zegarach wykorzystujących lampy Nixie.
 Tylko parzyste wyświetlacze działają w odpowiednich warunkach, ponieważ używają wszystkich cyfr, 
 a więc wszystkie cyfry zużywają się równomiernie.
 Problem pojawia się w przypadku nieparzystych katod, gdzie niektóre cyfry są używane znacznie rzadziej niż inne.
@@ -97,10 +97,10 @@ Trzecia lampa (pozycja dziesiątek minut) używa cyfr 0, 1, 2, 3, 4, 5. Gdy konk
 cyfra ta jest pokryta osadem metalu uwolnionym z innych aktywowanych cyfr.
  Te konkretne cyfry ostatecznie będą miały defekty w świeceniu, jeżeli nie zostaną użyte przez długi czas \cite{st:nixie1}.
 
-\subsection{Rozwiązania problemów związanych z lampami nixie}
+\subsection{Rozwiązania problemów związanych z lampami Nixie}
 Rozwiązaniem problemu zatrucia katodowego jest sterowanie lampami w taki sposób, aby wszystkie cyfry były używane.
 Można to osiągnąć przykładowo poprzez animacje, gdy zmienia się cyfra minut.
-Można również w godzinach nocnych przez jakiś czas wyświetlać cyklicznie wszystkie cyfry, aby zapobiec zatruciu katodowemu.
+Można również w godzinach nocnych przez jakiś czas wyświetlać cyklicznie wszystkie cyfry, aby zminimalizować efekt zatruciu katodowemu.
 
 W celu zwiększenia trwałości lamp można zmniejszyć prąd pracy lampy. Ogranicza to
  zjawisko spalania katod, natomiast prąd musi być wystarczająco duży aby lampa świeciła jasno.
@@ -108,17 +108,18 @@ W celu zwiększenia trwałości lamp można zmniejszyć prąd pracy lampy. Ogran
 \subsection{Sterowanie lampami}
 \label{sec:sterownie_lampi}
 
-Sterowanie lampami nixie jest trudne ze względu na konieczność zastosowania wysokiego napięcia.
-Przy szacowaniu potrzebnych wyprowadzeń mikrokontrolera i elementów założono użycie 6 lamp nixie, każda lampa ma 10 katod z cyframi od 0 do 9 oraz 
+Sterowanie lampami Nixie jest wymagającym zadaniem ze względu na konieczność zastosowania wysokiego napięcia, co nie
+pozwala na sterowanie lampami bezpośrednio z mikrokontrolera bez dodatkowych elementów.
+Przy szacowaniu potrzebnych wyprowadzeń mikrokontrolera i elementów założono użycie 6 lamp Nixie, każda lampa ma 10 katod z cyframi od 0 do 9 oraz 
 kropkę dziesiętną, co daje 11 sygnałów sterujących na lampę.
-Istnieje kilka sposobów sterowania lampami nixie \cite{st:nixie1}:
+Istnieje kilka sposobów sterowania lampami Nixie \cite{st:nixie1}:
 
 \begin{itemize}
-    \item Sterowanie bezpośrednie - każda lampa jest sterowana osobno, wykorzystując tranzystor wysokiego napięcia wysterowanego przez mikrokontroler.
-    Wadą jest konieczność posiadania wielu pinów GPIO, co jest nieoptymalne. Sumarycznie wymaga to 66 pinów GPIO oraz 66 tranzystorów wysokiego napięcia.
+    \item Sterowanie bezpośrednie - każda lampa jest sterowana osobno, wykorzystując tranzystor wysokiego napięcia wysterowany przez mikrokontroler.
+    Wadą jest konieczność posiadania wielu pinów GPIO, co implikuje zastosowanie mikrokontrolera o dużych gabarytach lub dodatkowe moduły rozszerzeń GPIO. Sumarycznie wymaga to 66 pinów GPIO oraz 66 tranzystorów wysokiego napięcia.
     Można by w tym porzadku zastosować multipleksery co zmniejszyłoby ilość wymaganych pinów GPIO do 16, ale zwiększyło skomplikowanie układu.
-    \item Wykorzystanie dedykowanych driverów - istnieją specjalne układy scalone, które są przeznaczone do sterowania lampami nixie, niestety
-    one również wymagają wielu pinów GPIO po 4 na każdą lampę, co daje 24 wymagane piny GPIO.
+    \item Wykorzystanie dedykowanych driverów - istnieją specjalne układy scalone, które są przeznaczone do sterowania lampami nixie,
+    wymagają po 4 GPIO na każdą lampę, co daje łącznie 24 potrzebne wyprowadzenia.
     \item Multiplexing - katody każdej lampy są podłączone do jednego drivera, który wybiera katodę i załącza odpowiednią anodę. 
     Wymaga to mniej pinów GPIO bo tylko 10, ale multipleksacja powoduje szybsze zużycie lamp i pojawienie się artefaktów.
     \item Rejestr przesuwny wysokiego napięcia - rozwiązanie wymaga tylko 3 pinów GPIO. Rejestry wysokiego napięcia są ciężko dostępne i drogie.
@@ -127,7 +128,7 @@ Istnieje kilka sposobów sterowania lampami nixie \cite{st:nixie1}:
     rejestru przesuwnego na niskie napięcie. Ta kombinacja również wymaga 3 pinów GPIO, przy rejestrze 32 bitowym i 6 driverach. Powoduje jednak to
     większe skomplikowanie układu oraz wzrost objętości zajmowanego miejsca.
 \end{itemize}
-Podsumowanie sposobów sterowania lampami nixie przedstawia \ref{tab:tabela_oplacalnosci}.
+Podsumowanie sposobów sterowania lampami Nixie przedstawia \ref{tab:tabela_oplacalnosci}.
 %tabela opłacalności czyli : nazwa, ilość pinów, cena, trudność w implementacji, zajętość miejsca
 \begin{table}[H]
   \centering
@@ -146,11 +147,11 @@ Podsumowanie sposobów sterowania lampami nixie przedstawia \ref{tab:tabela_opla
     Rejestr przesuwny + drivery & 3 & wysoka & średnia & duża \\
     \hline
   \end{tabular}
-  \caption{Tabela opłacalności sposobów sterowania lampami nixie}
+  \caption{Tabela opłacalności sposobów sterowania lampami Nixie}
 \end{table}
 
 \subsection{Sytuacja na rynku}
-Obecnie dostępność lamp nixie jest ograniczona, gdyż nie są one już produkowane masowo. Istnieją małe firmy, które zajmują się produkcją, ale są to bardzo
+Obecnie dostępność lamp Nixie jest ograniczona, gdyż nie są one już produkowane masowo. Istnieją małe firmy, które zajmują się produkcją, ale są to bardzo
 duże lampy w małych ilościach, co powoduje ich wysoką cenę. Dostępne są również lampy używane, ale w tym przypadku również duże lampy są drogie, a małe lampy są trudne do znalezienia.
 Problemem jest również niewiadomy stan lamp, ponieważ są to produkty w większości używane.
 
