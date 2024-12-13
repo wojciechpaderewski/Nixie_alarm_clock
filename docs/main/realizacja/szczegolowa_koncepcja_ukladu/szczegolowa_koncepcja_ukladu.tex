@@ -50,7 +50,7 @@ Do sterowania rejestrami prawdopodobnie będzie potrzebny konwerter poziomów lo
 \subsubsection{Mikrokontroler}
 Wybór sposobu sterowania lampami Nixie wpłynął na wybór mikrokontrolera, ponieważ musi on posiadać odpowiednią ilość pinów GPIO oraz musi być w stanie generować sygnał zegarowy.
 Potrzebne jest 9 pinów GPIO do pełnego sterowania lampami oraz kropkami dziesiętnymi, do tego trzeba pamiętać o zapasie pinów na pozostałe funkcje. W związku z tym
-wybrano mikrokontroler ESP32-S3, który posiada 45 programowalnych GPIO, co pozwala na swobodne zaprojektowanie reszty układu. Ma też on dużą zaletę w postaci kontrolera USB/JTAG,
+wybrano mikrokontroler ESP32-S3, który posiada 45 programowalnych GPIO, co pozwala na swobodne zaprojektowanie reszty układu. Ma też ważną zaletę w postaci kontrolera USB/JTAG,
 dzięki czemu nie jest potrzebny dodatkowy programator do programowania układu. Jest to też popularny mikrokontroler, dla którego istnieje wiele bibliotek i przykładów.
 
 \subsubsection{Źródło dźwięku}
@@ -61,14 +61,14 @@ aby być słyszalnym w pomieszczeniu, w którym będzie znajdował się budzik.
 \subsubsection{Pasek LED}
 Pasek LED będzie służył jako dodatkowe źródło światła, które będzie sygnalizować alarm, oraz jako element estetyczny. Pasek ten musi 
 zawierać w sobie adresowane diody LED, które pozwolą na wyświetlanie różnych kolorów (RGB).
-Rozwiązanie to jest proste w implementacji, wystarczy podłączyć go do pinu GPIO mikrokontrolera i za pomocą sygnału PWM można sterować jasnością.
+Rozwiązanie jest proste w implementacji, wystarczy podłączenie do pinu GPIO mikrokontrolera i za pomocą sygnału PWM można sterować jasnością.
 
 \subsubsection{Interfejs użytkownika}
 Interfejs użytkownika będzie składał się z enkodera obrotowego z przyciskiem, który będzie służył do regulacji jasności, a przycisk do wyłączania alarmu.
 Enkoder obrotowy jest też na tyle uniwersalnym rozwiązaniem, które pozwala na mnogość kombinacji sterowania, ale wygodniejsze jest korzystanie z aplikacji mobilnej.
 
 \subsubsection{Zasilanie}
-Kluczowe jest zaprojektowanie przetwornicy wysokiego napięcia do zasilania lamp Nixie, ponieważ jest to najbardziej wymagający element układu.
+Elementem wymagającym najwięcej pracy jest zaprojektowanie przetwornicy wysokiego napięcia do zasilania lamp Nixie.
 
 Możliwe są dwa rozwiązania:
 \begin{itemize}
@@ -79,7 +79,7 @@ Możliwe są dwa rozwiązania:
 Przetwornica typu flyback ma zaletę w postaci izolacji galwanicznej między wejściem a wyjściem oraz umożliwia zaprojektowanie przetwornicy z napięciem zasilania \SI{5}{\volt}. 
 Wadą jest to, że jest potrzebny transformator, który jest drogi i trudno dostępny, do tego jest to bardziej skomplikowane rozwiązanie na etapie projektowania.
 
-Ze względu na duży problem ze znalezieniem transformatora, zdecydowano się na przetwornicę typu boost, która jest prostsza w implementacji i tańsza. 
+Ze względu na problem ze znalezieniem transformatora, zdecydowano się na przetwornicę typu boost, która jest prostsza w implementacji i tańsza. 
 Wadą jest to, że nie ma izolacji galwanicznej między wejściem a wyjściem, ale w tym przypadku nie jest to wymagane.
 Następnym krokiem było wybranie jednej z dwóch konfiguracji układu:
 
@@ -90,7 +90,7 @@ Następnym krokiem było wybranie jednej z dwóch konfiguracji układu:
 
 Wadą pierwszej konfiguracji jest to, że niemożliwym będzie jednoczesne programowanie i zasilanie układu, ponieważ złącze USB-C podłączone do komputera ma niską wydajność prądową.
 Dla USB 2.0 wynosi ona 500mA, a dla USB 3.0 wynosi 900mA, co jest niewystarczające dla zasilania układu. Brak możliwości jednoczesnego zasilania i programowania było by 
-dużym problemem na etapie pisania oprogramowania, więc zdecydowano się na drugą konfigurację.
+poważnym problemem na etapie pisania oprogramowania, więc zdecydowano się na drugą konfigurację.
 
 Wybrano więc przetwornicę typu boost, która będzie zasilana z zasilacza \SI{12}{\volt}, a wyjście będzie podłączone do anod lamp nixie.
 Do tego będzie potrzebne zasilanie \SI{5}{\volt} dla paska LED oraz \SI{3.3}{\volt} dla mikrokontrolera. Moduł zasilania \SI{5}{\volt} będzie zasilał pasek LED, który potrafi pobrać większy prąd,

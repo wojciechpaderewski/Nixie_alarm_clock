@@ -33,7 +33,7 @@
 \begin{document}
 
 Serwerem czasu nazywamy serwer komputerowy, pobierający czas z zewnętrznych źródeł i udostępniający go dla innych urządzeń w sieci.
-Udostępniane są bardzo precyzyjne dane czasowe; dokładność zależy od źródła czasu, z którego serwer korzysta. Serwer czasu może być używany jako lokalny lub internetowy.
+Udostępniają bardzo precyzyjne dane czasowe, ich dokładność zależy od źródła czasu, z którego serwer korzysta. Serwer czasu może być używany jako lokalny lub internetowy.
 
 Serwery wykorzystują różne źródła zewnętrzne do synchronizacji czasu, takie jak:
 \begin{itemize}
@@ -81,7 +81,7 @@ Każdy z tych protokołów ma swoje nastepujace wady i zalety:
   Jest jednak niezalecany do zastosowań wewnątrz pomieszczeń, ze względu na konieczność widoczności satelitów GPS i wymaga odbiornika GPS.
 \end{itemize} 
 
-Z wyżej wymienionych protokołów, NTP jest najczęściej stosowany w sieciach komputerowych, dlatego też wydaje się być najlepszym wyborem do synchronizacji zegara nixie.
+Z wyżej wymienionych protokołów, NTP jest najczęściej stosowany w sieciach komputerowych, dlatego też wydaje się być najlepszym wyborem do synchronizacji zegara Nixie.
 Alternatywnym rozwiązaniem może być wykorzystanie własnego serwera który by zwracał czas wykorzystując REST API, ale wymaga to posiadania własnego serwera i jest zależne od 
 jego działania.
 
@@ -112,17 +112,17 @@ Strukturę serwerów czasu w protokole NTP przedstawiono na rysunku \ref{fig:ser
   \label{fig:serwers}
 \end{figure}
 
-W przypadku zegara nixie poziom STRATUM nie ma większego znaczenia, ponieważ zegar nie wymaga bardzo precyzyjnego synchronizowania czasu, oczywiście zależy to 
+W przypadku zegara Nixie poziom STRATUM nie ma większego znaczenia, ponieważ zegar nie wymaga bardzo precyzyjnego synchronizowania czasu, oczywiście zależy to 
 od dokładności z jaką czas będzie wyświetlany, ale w przypadku zegara na 6 lampach, różnica w czasie rzędu kilku milisekund nie będzie zauważalna.
 
 \subsection{Zasada działania protokołu NTP}
 NTP różni się od typowego protokołu komunikacyjnego. 
 Nie transmituje on bowiem absolutnej wartości czasu, lecz przekazuje informacje o opóźnieniach i korelacjach czasowych w regularnych odstępach czasu, jakie zachodzą w sieci TCP/IP. 
-Protokół zyskuje większą dokładność dopiero przy stosowaniu wielu źródeł czasu jednocześnie, wykorzystuje od wtedy algorytm analizy statystycznej czasu oparty na metodzie DTS (Dynamic Time Scales).
+Protokół zyskuje większą dokładność dopiero przy stosowaniu wielu źródeł czasu jednocześnie, wykorzystuje algorytm analizy statystycznej czasu oparty na metodzie DTS (Dynamic Time Scales).
 
 NTP wykorzystuje pakiety UDP o długości 72 bajtów na porcie 123, które są okresowo wymieniane co ${2^\tau}$ sekund, gdzie ${\tau}$ wynosi od 4 (16s) do 17 (36h). 
 Pozwala to klientom serwera, wyliczać opóźnienie względem idealnego czasu UTC.
-Znając aktualne opóźnienie w odniesieniu do czasu UTC, klient NTP sam kalibruje swój zegar lokalny, która polega na płynnym przyspieszaniu lub spowalnianiu pracy lokalnego zegara programowego.
+Znając aktualne opóźnienie w odniesieniu do czasu UTC, klient NTP sam kalibruje swój zegar lokalny. Kalibracja polega na płynnym przyspieszaniu lub spowalnianiu pracy lokalnego zegara programowego.
 Przy różnicach czasu przekraczających 128ms, stosowana jest metoda step, która polega na skokowym przesunięciu zegara o określoną wartość.
 Dzieki temu każdy z klientów, asymptotycznie zmierza do czasu pochodzącego z wzorcowego zegara czasu UTC.
 Pakiet NTP ma strukturę przedstawioną w \ref{tab:ntp}.

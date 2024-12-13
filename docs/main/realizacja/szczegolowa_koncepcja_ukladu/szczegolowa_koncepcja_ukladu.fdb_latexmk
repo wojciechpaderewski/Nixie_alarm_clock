@@ -1,13 +1,13 @@
 # Fdb version 3
-["biber szczegolowa_koncepcja_ukladu"] 1733955078 "szczegolowa_koncepcja_ukladu.bcf" "szczegolowa_koncepcja_ukladu.bbl" "szczegolowa_koncepcja_ukladu" 1734038698
-  "szczegolowa_koncepcja_ukladu.bcf" 1734038698 105727 a5b9a061cbadea76a5c891b49b55ece8 "pdflatex"
+["biber szczegolowa_koncepcja_ukladu"] 1733955078 "szczegolowa_koncepcja_ukladu.bcf" "szczegolowa_koncepcja_ukladu.bbl" "szczegolowa_koncepcja_ukladu" 1734088873
+  "szczegolowa_koncepcja_ukladu.bcf" 1734088873 105727 a5b9a061cbadea76a5c891b49b55ece8 "pdflatex"
   (generated)
   "szczegolowa_koncepcja_ukladu.bbl"
   "szczegolowa_koncepcja_ukladu.blg"
-["pdflatex"] 1734038697 "/home/w/Nixie_alarm_clock/docs/main/realizacja/szczegolowa_koncepcja_ukladu/szczegolowa_koncepcja_ukladu.tex" "szczegolowa_koncepcja_ukladu.pdf" "szczegolowa_koncepcja_ukladu" 1734038698
-  "..//../main.tex" 1734037487 4042 20754a1db0d30f114660536f4b3d9369 ""
-  "/etc/texmf/web2c/texmf.cnf" 1697565182 475 c0e671620eb5563b2130f56340a5fde8 ""
-  "/home/w/Nixie_alarm_clock/docs/main/realizacja/szczegolowa_koncepcja_ukladu/szczegolowa_koncepcja_ukladu.tex" 1734038697 7896 a6286aca3d063de79fabb543187d606f ""
+["pdflatex"] 1734088871 "/home/w/Nixie_alarm_clock/docs/main/realizacja/szczegolowa_koncepcja_ukladu/szczegolowa_koncepcja_ukladu.tex" "szczegolowa_koncepcja_ukladu.pdf" "szczegolowa_koncepcja_ukladu" 1734088873
+  "..//../main.tex" 1734046408 4052 5f41952e201d1eaac1a9bdc119affcee ""
+  "/etc/texmf/web2c/texmf.cnf" 1732462464 475 c0e671620eb5563b2130f56340a5fde8 ""
+  "/home/w/Nixie_alarm_clock/docs/main/realizacja/szczegolowa_koncepcja_ukladu/szczegolowa_koncepcja_ukladu.tex" 1734088871 7858 0de80010587ff6f6ca0d623605b916fa ""
   "/usr/share/texlive/texmf-dist/fonts/enc/dvips/pl/plmi.enc" 1136849721 2005 f094775651a1386335c158fb632529f1 ""
   "/usr/share/texlive/texmf-dist/fonts/enc/dvips/pl/plrm.enc" 1136849721 1944 1845592c00bbe510359fd6887a83ff72 ""
   "/usr/share/texlive/texmf-dist/fonts/map/fontname/texfonts.map" 1577235249 3524 cb3e574dea2d1052e39280babc910dc8 ""
@@ -243,14 +243,14 @@
   "/usr/share/texmf/fonts/type1/public/cm-super/sfbx1000.pfb" 1636152094 145408 43d44302ca7d82d487f511f83e309505 ""
   "/usr/share/texmf/fonts/type1/public/cm-super/sfrm1000.pfb" 1636152094 138258 6525c253f16cededa14c7fd0da7f67b2 ""
   "/usr/share/texmf/web2c/texmf.cnf" 1644012257 39432 7155514e09a3d69036fac785183a21c2 ""
-  "/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map" 1697565195 4379155 98693266ff65f58d9f98aff394de12d2 ""
-  "/var/lib/texmf/web2c/pdftex/pdflatex.fmt" 1711271801 2800559 769836ceebf7d98a3fd600386a19f641 ""
-  "schemat_szcz.png" 1733954940 150169 f40c35f9c594646c9ad09c5cc70169f6 ""
-  "szczegolowa_koncepcja_ukladu.aux" 1734038698 2063 58039cb86fff6216d18b1445ae9d0658 "pdflatex"
-  "szczegolowa_koncepcja_ukladu.bbl" 1733955079 466 ee04f40f768daeed26442158e95aba61 "biber szczegolowa_koncepcja_ukladu"
-  "szczegolowa_koncepcja_ukladu.out" 1734038698 1011 9adb07ed1bfa5d42554f8fd440c5fb2b "pdflatex"
-  "szczegolowa_koncepcja_ukladu.run.xml" 1734038698 2500 4f40c401468264c5a9d200803c3f49ef "pdflatex"
-  "szczegolowa_koncepcja_ukladu.tex" 1734038697 7896 a6286aca3d063de79fabb543187d606f ""
+  "/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map" 1732462585 4379155 98693266ff65f58d9f98aff394de12d2 ""
+  "/var/lib/texmf/web2c/pdftex/pdflatex.fmt" 1732462609 2800207 067e4be921e9a0bf3a2487bd4c399310 ""
+  "schemat_szcz.png" 1734046408 150169 f40c35f9c594646c9ad09c5cc70169f6 ""
+  "szczegolowa_koncepcja_ukladu.aux" 1734088873 2063 58039cb86fff6216d18b1445ae9d0658 "pdflatex"
+  "szczegolowa_koncepcja_ukladu.bbl" 1732736900 466 ee04f40f768daeed26442158e95aba61 "biber szczegolowa_koncepcja_ukladu"
+  "szczegolowa_koncepcja_ukladu.out" 1734088873 1011 9adb07ed1bfa5d42554f8fd440c5fb2b "pdflatex"
+  "szczegolowa_koncepcja_ukladu.run.xml" 1734088873 2500 4f40c401468264c5a9d200803c3f49ef "pdflatex"
+  "szczegolowa_koncepcja_ukladu.tex" 1734088871 7858 0de80010587ff6f6ca0d623605b916fa ""
   (generated)
   "szczegolowa_koncepcja_ukladu.aux"
   "szczegolowa_koncepcja_ukladu.bcf"
