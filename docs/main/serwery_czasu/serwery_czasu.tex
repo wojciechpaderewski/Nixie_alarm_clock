@@ -33,7 +33,7 @@
 \begin{document}
 
 Serwerem czasu nazywamy serwer komputerowy, pobierający czas z zewnętrznych źródeł i udostępniający go dla innych urządzeń w sieci.
-Udostępniają bardzo precyzyjne dane czasowe, ich dokładność zależy od źródła czasu, z którego serwer korzysta. Serwer czasu może być używany jako lokalny lub internetowy.
+Udostępniają bardzo precyzyjne dane czasowe, ich dokładność zależy od źródła czasu, z którego serwer korzysta. Serwer czasu może być używany jako lokalny lub internetowy \cite{st:serwerczasu-jpg}.
 
 Serwery wykorzystują różne źródła zewnętrzne do synchronizacji czasu, takie jak:
 \begin{itemize}
@@ -51,15 +51,15 @@ Serwery te wykorzystują różne protokoły sieciowe do synchronizacji czasu, ta
 \begin{itemize}
   \item NTP (Network Time Protocol) - 
   wysyła okresowo pakiet zawierający aktualne opóźnienie w odniesieniu do czasu UTC (Universal Time Coordinated), na podstawie których klient kalibruje swoje zegary.
-  Jest to najpopularniejszy protokół synchronizacji czasu w sieciach komputerowych, jest on wspierany przez większość systemów operacyjnych.
+  Jest to najpopularniejszy protokół synchronizacji czasu w sieciach komputerowych, jest on wspierany przez większość systemów operacyjnych \cite{st:ntp}.
   \item PTP (Precision Time Protocol) - 
   jest bardziej precyzyjną alternatywą NTP i jest używany w systemach o wysokiej precyzji. Najczęściej stosowany w sieciach przemysłowych oraz przy badaniach naukowych. 
-  Jest w stanie osiągnąć dokładność synchronizacji zegarów poniżej mikrosekundy.
-  \item Algorytm Berkeley - to algorytm synchronizacji czasu opracowany na Uniwersytecie Kalifornijskim w Berkeley. 
-  Jego działanie polega na pomiarze szybkości dryfowania zegara między serwerami, często jest łączony z protokołem NTP.
+  Jest w stanie osiągnąć dokładność synchronizacji zegarów poniżej mikrosekundy \cite{st:ptp}.
+  \item Algorytm Berkeley - to algorytm synchronizacji czasu opracowany na Uniwersytecie Kalifornijskim w Berkeley . 
+  Jego działanie polega na pomiarze szybkości dryfowania zegara między serwerami, często jest łączony z protokołem NTP \cite{st:ntp}.
   \item GPS (Global Positioning System) -  wykorzystuje odbiorniki GPS do synchronizacji zegarów na różnych serwerach.
    Zapewnia bardzo dokładne dane o aktualnym czasie. Czas ten można wykorzystać do synchronizacji
-  zegarów serwerów podłączonych do tego samego odbiornika GPS. 
+  zegarów serwerów podłączonych do tego samego odbiornika GPS \cite{st:gps}.  
 \end{itemize}
 
 

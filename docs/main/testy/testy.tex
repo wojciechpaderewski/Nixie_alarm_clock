@@ -36,17 +36,17 @@ W tym rozdziale opisano testowanie poszczególnych
 modułów oraz całego układu, które pozwoliło na sprawdzenie poprawności działania oraz zidentyfikowanie błędów.
 
 \subsection{Testy przetwornicy wysokiego napięcia}
-Po napisaniu i wgraniu oprogramowania do mikrokontrolera przystąpiono do testów przetwornicy wysokiego napięcia.
-Sprawdzono działanie regulacji napięcia za pomocą potencjometru cyfrowego. Zakładany zakres napięcia wyjściowego to 130-220 V.
+Po napisaniu i wgraniu oprogramowania na mikrokontroler przystąpiono do testów przetwornicy wysokiego napięcia.
+Sprawdzono działanie regulacji napięcia za pomocą potencjometru cyfrowego. Zakładany zakres napięcia wyjściowego wynosił 130-220 V.
 
-W celu weryfikacji pomierzono zależność napięcia wyjściowego od podanej wartości na potencjometrze cyfrowym.
+W celu weryfikacji pomierzono zależność napięcia wyjściowego od zadanej wartości nastawy potencjometru cyfrowego.
 Do pomiarów użyto multimetru cyfrowego UNI-T UT139C. Pomiary zamieszczono w tabeli \ref{tab:voltage}.
 
 \begin{table}[H]
     \centering
     \begin{tabular}{|c|c|}
         \hline
-        Napięcie wyjściowe [V] & Wartość potencjometru cyfrowego \\
+        Napięcie wyjściowe [V] & Wartość nastawy potencjometru cyfrowego \\
         \hline
         130 & 0 \\
         140 & 17 \\
@@ -59,7 +59,7 @@ Do pomiarów użyto multimetru cyfrowego UNI-T UT139C. Pomiary zamieszczono w ta
         210 & 127 \\
         \hline
     \end{tabular}
-    \caption{Zależność napięcia wyjściowego od wartości potencjometru cyfrowego}
+    \caption{Zależność napięcia wyjściowego od wartości nastawy potencjometru cyfrowego}
     \label{tab:voltage}
 \end{table}
 
@@ -87,7 +87,7 @@ Do pomiarów użyto multimetru cyfrowego UNI-T UT139C. Pomiary zamieszczono w ta
       };
     \end{axis}
   \end{tikzpicture}
-  \caption{Wykres zależności napięcia wyjściowego od wartości potencjometru cyfrowego}
+  \caption{Wykres zależności napięcia wyjściowego od wartości nastawy potencjometru cyfrowego}
 \end{figure}
 
 Na wykresie widać, że zależność jest liniowa, co oznacza, że regulacja napięcia działa poprawnie.
@@ -113,9 +113,9 @@ punktem pomiarowym była bramka tranzystora sterującego przetwornicą. Pomiary 
 
 Jak widać na rysunku \ref{fig:duty_210}, przy wysokim wypełnieniu sygnału sterującego,
 tranzystor nie do końca się zamyka, co powoduje, że napięcie wyjściowe jest mniejsze niż zakładane, 
-a do tego tranzystor się nagrzewa i zwiększa się pobór mocy.
+a tranzystor się nagrzewa.
 
-Może to wynikać ze źle dobranych elementów kompensujących w układzie przetwornicy.
+Może to wynikać ze źle dobranych elementów kompensujących w układzie przetwornicy lub nasycanie się cewki.
 Zmniejszony zakres w jakim można regulować napięcie wyjściowe nie wpłynie na działanie całego układu,
 ponieważ górny limit napięcia wyjściowego przetwornicy nie jest krytyczny dla działania budzika.
 
@@ -186,7 +186,7 @@ Jako domyślne napięcie wyjściowe wybrano 150 V, przy którym pobór mocy wyno
 Porównując ten pobór mocy z innymi zegarkami dostępnymi na rynku, jest on porównywalny.
 
 Poza zmniejszonym zakresem pracy przetwornicy wszystkie pozostałe założenia projektowe zostały spełnione. Układ 
-pobiera czas z serwera czasu, wyświetla go na lampach Nixie i działa jako budzik. Wszystkie funkcje działają poprawnie.
+pobiera czas z serwera czasu, który jest wyświetlany na lampach Nixie i działa jako budzik. Wszystkie funkcje działają poprawnie.
 
 \end{document}
 

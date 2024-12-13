@@ -36,7 +36,7 @@ Pierwszą rzeczą, która została wykonana to zakup lamp Nixie, które będą w
 Przez coraz mniejszą dostępność lamp Nixie,
 zdecydowano się na zakup małych lamp Z570M, które zostały zakupione w ilości 6 sztuk. Lampy te mają 10 cyfr oraz kropkę dziesiętną.
 Lampy są używane, ale wszystkie lampy zostały sprawdzone i działają poprawnie.
-Kluczowe parametry zastosowanych lamp nixie odczytane z karty katalogowej\cite{st:Z5730M} to:
+Kluczowe parametry zastosowanych lamp nixie odczytane z karty katalogowej \cite{st:Z5730M} to:
 \begin{itemize}
     \item Napięcie zapłonu: \SI{170}{\volt}
     \item Napięcie wygaszania: \SI{120}{\volt}
@@ -67,7 +67,6 @@ powinien mieć wartość \SI{33}{\kilo\ohm} dla napięcie zasilania \SI{200}{\vo
 wydaje się obliczona prawidłowo, taki też rezystor ma zostać użyty w faktycznym układzie.
 
 
-Zatem rezystor ograniczający prąd katodowy powinien mieć wartość około \SI{35}{\kilo\ohm}.
 Do testu użyto rezystora o wartości \SI{22}{\kilo\ohm} oraz rezystora o wartości \SI{10}{\kilo\ohm}, połączonych
 szeregowo, co daje wartość \SI{32}{\kilo\ohm}, co jest wartością zbliżoną do obliczonej.
 
@@ -86,15 +85,14 @@ Przy napięciu zasilania \SI{150}{\volt} lampa świeci słabiej, ale jest to zgo
     \caption{Prototyp układu z lampą Nixie przy napięciu zasilania \SI{220}{\volt}}
 \end{figure}
 
-Nie sprawdzono napięcia wygaszania, ponieważ zakres pracy zasilacza okazał się za mały na takie napięcie. Ustalono jednak, że lampa nawet przy napięciu \SI{150}{\volt} była w stanie zapłonąć i świecić poprawnie.
+Nie sprawdzono napięcia wygaszania, ponieważ zakres pracy zasilacza okazał się za mały. Ustalono jednak, że lampa nawet przy napięciu \SI{150}{\volt} była w stanie zapłonąć i świecić poprawnie.
 
 Z testów można wyciągnąć następujące wnioski:
 
 \begin{itemize}
     \item Lampy Nixie działają poprawnie przy napięciu zasilania \SI{150}{\volt} oraz \SI{220}{\volt}.
     \item Dobrany rezystor ograniczający prąd katodowy jest odpowiedni.
-    \item Lampa Nixie Z570M jest w stanie zapłonąć i świecić przy napięciu wygaszania \SI{150}{\volt}.
-    \item Zakres regulacji napięcia na zasilaczu wysokiego napięcia powinien być większy, np. \SI{130}-\SI{250}{\volt}, by lampa mogła być jeszcze słabiej podświetlona. Może się to okazać przydatne w nocy.
+    \item Zakres regulacji napięcia powinien być większy, np. \SI{130}-\SI{220}{\volt}, by lampa mogła być jeszcze słabiej podświetlona. Może się to okazać przydatne w nocy.
 \end{itemize}
 
 \end{document}
