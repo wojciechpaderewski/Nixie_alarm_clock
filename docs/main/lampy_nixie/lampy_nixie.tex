@@ -66,16 +66,10 @@ Standardowy przedział napięć zasilania wynosi od \SI{150}{\volt} do \SI{200}{
 \begin{figure}[H]
   \centering
   \includegraphics[width=0.5\textwidth]{Nixie_schematic.png}
-  \caption{Schemat elektryczny lampy Nixie ze wspólną anodą \cite{st:nixie-jpg}}
+  \caption{Schemat elektryczny lampy Nixie ze wspólną anodą \cite{st:nixie-jpg}. a - anoda, $k_{n}$ - katoda, n - numer katody.}
   \label{fig:nixie_schematic}
 \end{figure}
 
-Gdzie:
-\begin{itemize}
-  \item a - anoda
-  \item $k_{n}$ - katoda
-  \item n - numer katody
-\end{itemize}
 \subsection{Problemy związane z wykorzystaniem lamp Nixie}
 
 Lampy są podatne na wiele problemów, które mogą wystąpić podczas użytkowania, takie jak:
@@ -128,7 +122,7 @@ Istnieje kilka sposobów sterowania lampami Nixie \cite{st:nixie1}:
     rejestru przesuwnego na niskie napięcie. Ta kombinacja również wymaga 3 pinów GPIO, przy rejestrze 32 bitowym i 6 driverach. Powoduje jednak to
     większe skomplikowanie układu oraz wzrost objętości zajmowanego miejsca.
 \end{itemize}
-Podsumowanie sposobów sterowania lampami Nixie przedstawia \ref{tab:tabela_oplacalnosci}.
+Podsumowanie przedstawiono w tabeli \ref{tab:tabela_oplacalnosci}.
 %tabela opłacalności czyli : nazwa, ilość pinów, cena, trudność w implementacji, zajętość miejsca
 \begin{table}[H]
   \centering
@@ -148,6 +142,7 @@ Podsumowanie sposobów sterowania lampami Nixie przedstawia \ref{tab:tabela_opla
     \hline
   \end{tabular}
   \caption{Tabela opłacalności sposobów sterowania lampami Nixie}
+  \label{tab:tabela_oplacalnosci}
 \end{table}
 
 \subsection{Sytuacja na rynku}

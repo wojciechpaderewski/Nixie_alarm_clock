@@ -1,13 +1,13 @@
 # Fdb version 3
-["biber obliczenia_mocy"] 1734097661 "obliczenia_mocy.bcf" "obliczenia_mocy.bbl" "obliczenia_mocy" 1734097663
-  "obliczenia_mocy.bcf" 1734097663 105727 a5b9a061cbadea76a5c891b49b55ece8 "pdflatex"
+["biber obliczenia_mocy"] 1734097661 "obliczenia_mocy.bcf" "obliczenia_mocy.bbl" "obliczenia_mocy" 1734114541
+  "obliczenia_mocy.bcf" 1734114541 105727 a5b9a061cbadea76a5c891b49b55ece8 "pdflatex"
   (generated)
   "obliczenia_mocy.bbl"
   "obliczenia_mocy.blg"
-["pdflatex"] 1734097662 "/home/w/Nixie_alarm_clock/docs/main/realizacja/obliczenia_mocy/obliczenia_mocy.tex" "obliczenia_mocy.pdf" "obliczenia_mocy" 1734097663
-  "..//../main.tex" 1734097587 4336 409c905f6bf7dd566e9979e67d84b801 ""
+["pdflatex"] 1734114540 "/home/w/Nixie_alarm_clock/docs/main/realizacja/obliczenia_mocy/obliczenia_mocy.tex" "obliczenia_mocy.pdf" "obliczenia_mocy" 1734114541
+  "..//../main.tex" 1734114498 4336 409c905f6bf7dd566e9979e67d84b801 ""
   "/etc/texmf/web2c/texmf.cnf" 1697565182 475 c0e671620eb5563b2130f56340a5fde8 ""
-  "/home/w/Nixie_alarm_clock/docs/main/realizacja/obliczenia_mocy/obliczenia_mocy.tex" 1734097660 3377 67e973129add2a188d2635c362e93dd2 ""
+  "/home/w/Nixie_alarm_clock/docs/main/realizacja/obliczenia_mocy/obliczenia_mocy.tex" 1734114540 3413 45e3c6ee012fbb7650743b25eae93c34 ""
   "/usr/share/texlive/texmf-dist/fonts/enc/dvips/pl/plmi.enc" 1136849721 2005 f094775651a1386335c158fb632529f1 ""
   "/usr/share/texlive/texmf-dist/fonts/enc/dvips/pl/plms.enc" 1136849721 2468 3f9e2f3088bcf5b581dfc367d71e7d95 ""
   "/usr/share/texlive/texmf-dist/fonts/enc/dvips/pl/plrm.enc" 1136849721 1944 1845592c00bbe510359fd6887a83ff72 ""
@@ -248,11 +248,11 @@
   "/usr/share/texmf/web2c/texmf.cnf" 1644012257 39432 7155514e09a3d69036fac785183a21c2 ""
   "/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map" 1697565195 4379155 98693266ff65f58d9f98aff394de12d2 ""
   "/var/lib/texmf/web2c/pdftex/pdflatex.fmt" 1711271801 2800559 769836ceebf7d98a3fd600386a19f641 ""
-  "obliczenia_mocy.aux" 1734097663 896 42e07372c57727c5f44243f3c0dd1598 "pdflatex"
+  "obliczenia_mocy.aux" 1734114541 896 42e07372c57727c5f44243f3c0dd1598 "pdflatex"
   "obliczenia_mocy.bbl" 1734097661 466 ee04f40f768daeed26442158e95aba61 "biber obliczenia_mocy"
-  "obliczenia_mocy.out" 1734097663 0 d41d8cd98f00b204e9800998ecf8427e "pdflatex"
-  "obliczenia_mocy.run.xml" 1734097663 2409 b7288e42402920324a4ebfb3dbb0f2cb "pdflatex"
-  "obliczenia_mocy.tex" 1734097660 3377 67e973129add2a188d2635c362e93dd2 ""
+  "obliczenia_mocy.out" 1734114541 0 d41d8cd98f00b204e9800998ecf8427e "pdflatex"
+  "obliczenia_mocy.run.xml" 1734114541 2409 b7288e42402920324a4ebfb3dbb0f2cb "pdflatex"
+  "obliczenia_mocy.tex" 1734114540 3413 45e3c6ee012fbb7650743b25eae93c34 ""
   (generated)
   "obliczenia_mocy.aux"
   "obliczenia_mocy.bcf"

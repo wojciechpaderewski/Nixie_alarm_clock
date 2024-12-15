@@ -44,7 +44,7 @@ Następnie obliczono prąd potrzebny do zasilenia paska LED przy napięciu \SI{5
     I_{\text{LED}} = \frac{P_{\text{LED}}}{U_{\text{LED}}} = \frac{\SI{5.4}{\watt}}{\SI{5}{\volt}} = \SI{1.08}{\ampere}
 \end{equation}
 
-Następnie obliczono moc potrzebną do zasilania mikrokontrolera ESP32-S3. Według producenta maksymalny pobór prądu wynosi \SI{340}{\milli\ampere},
+W dalszej kolejności obliczono moc potrzebną do zasilania mikrokontrolera ESP32-S3. Według producenta maksymalny pobór prądu wynosi \SI{340}{\milli\ampere},
 co przy napięciu zasilania \SI{3.3}{\volt} daje:
 
 \begin{equation}
@@ -59,7 +59,7 @@ Jednak należy dodać jeszcze prąd potrzebny do zasilania kropek oraz separator
 \begin{equation}
     I_{\text{Nixie}} = 6 \cdot \SI{2}{\milli\ampere} + 6 \cdot \SI{1}{\milli\ampere} + 2 \cdot \SI{1}{\milli\ampere} = \SI{20}{\milli\ampere}
 \end{equation}
-Następnie obliczono moc potrzebną do zasilania lampy nixie, przy napięciu \SI{220}{\volt} oraz prądzie \SI{20}{\milli\ampere}, zakładając 
+Dalszym krokiem było obliczenie mocy potrzebnej do zasilania lampy nixie, przy napięciu \SI{220}{\volt} oraz prądzie \SI{20}{\milli\ampere}, zakładając 
 sprawność przetwornicy na poziomie \SI{70}{\percent}:
 
 \begin{equation}
@@ -73,6 +73,6 @@ Szacunkowa moc potrzebna do zasilania całego układu wynosi:
     P_{\text{całkowita}} = P_{\text{LED}} + P_{\text{ESP32}} + P_{\text{Nixie}} = \SI{5.4}{\watt} + \SI{1.122}{\watt} + \SI{6.29}{\watt} = \SI{12.812}{\watt}
 \end{equation}
 
-Szacunkowa moc potrzebna do zasilania całego układu wynosi około \SI{13}{\watt}, 
+Sumarycznie szacunkowa moc potrzebna do zasilania całego układu wynosi około \SI{13}{\watt}, 
 
 \end{document}

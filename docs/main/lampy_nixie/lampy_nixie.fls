@@ -1283,8 +1283,8 @@ INPUT lampy_nixie/Nixie_schematic.png
 INPUT lampy_nixie/Nixie_schematic.png
 INPUT lampy_nixie/Nixie_schematic.png
 INPUT lampy_nixie/Nixie_schematic.png
-INPUT /var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map
 INPUT /usr/share/texlive/texmf-dist/fonts/tfm/jknappen/ec/ecbx1000.tfm
+INPUT /var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map
 INPUT lampy_nixie/lampy_nixie.aux
 INPUT lampy_nixie/lampy_nixie.out
 INPUT lampy_nixie/lampy_nixie.out

@@ -1,5 +1,5 @@
 \documentclass[twoside]{article}
-\usepackage{graphicx, siunitx, float, polski, csquotes, pdfpages, chngcntr, pgfplots, amsmath}
+\usepackage{graphicx, siunitx, float, polski, csquotes, pdfpages, chngcntr, pgfplots, amsmath, caption}
 \usepackage[a4paper, top=2.5cm, bottom=2.5cm, inner=3.5cm, outer=2.5cm]{geometry}
 \usepackage[hyphens]{url}
 \usepackage[pdfusetitle]{hyperref}
@@ -160,8 +160,95 @@ Każdy z modułów ma opisany dobór komponentów do realizacji, funkcjonalnośc
 \listoftables
 \addcontentsline{toc}{section}{Spis tabel}
 
+\newpage
 \addcontentsline{toc}{section}{Załącznik nr 1 - Schemat elektryczny}
+
 \section*{Załącznik nr 1 - Schemat elektryczny}
-\includepdf[pages=1-]{zalaczniki/sch.pdf}
+\thispagestyle{empty}
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=1.5\textwidth, angle=90]{zalaczniki/1.png}
+    \caption*{Z1.1: Schemat elektryczny głównego modułu układu}
+\end{figure}
+
+\newpage
+\thispagestyle{empty}
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=1.5\textwidth, angle=90]{zalaczniki/2.png}
+    \caption*{Z1.2: Schemat elektryczny złącza USB-C}
+\end{figure}
+
+\newpage
+\thispagestyle{empty}
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=1.5\textwidth, angle=90]{zalaczniki/3.png}
+    \caption*{Z1.3: Schemat elektryczny konwertera 12V na 5V}
+\end{figure}
+
+\newpage
+\thispagestyle{empty}
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=1.5\textwidth, angle=90]{zalaczniki/4.png}
+    \caption*{Z1.4: Schemat elektryczny konwertera 12V na wysokie napięcie}
+\end{figure}
+
+\newpage
+\thispagestyle{empty}
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=1.5\textwidth, angle=90]{zalaczniki/5.png}
+    \caption*{Z1.5: Schemat elektryczny sterowania lampami Nixie}
+\end{figure}
+
+\newpage
+\thispagestyle{empty}
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=1.5\textwidth, angle=90]{zalaczniki/6.png}
+    \caption*{Z1.6: Schemat elektryczny enkodera obrotowego}
+\end{figure}
+
+\newpage
+\thispagestyle{empty}
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=1.5\textwidth, angle=90]{zalaczniki/7.png}
+    \caption*{Z1.7: Schemat elektryczny podłączenia buzzera}
+\end{figure}
+
+\newpage
+\thispagestyle{empty}
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=1.5\textwidth, angle=90]{zalaczniki/8.png}
+    \caption*{Z1.8: Schemat elektryczny złącza paska LED}
+\end{figure}
+
+\newpage
+\thispagestyle{empty}
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=1.5\textwidth, angle=90]{zalaczniki/9.png}
+    \caption*{Z1.9: Schemat elektryczny LDO 5V na 3.3V}
+\end{figure}
+
+\newpage
+\thispagestyle{empty}
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=1.5\textwidth, angle=90]{zalaczniki/10.png}
+    \caption*{Z1.10: Schemat elektryczny złącza zasilania}
+\end{figure}
+
+\newpage    
+\thispagestyle{empty}
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=1.5\textwidth, angle=90]{zalaczniki/11.png}
+    \caption*{Z1.11: Schemat elektryczny złącza do uruchamiania układu}
+\end{figure}
 
 \end{document}

@@ -1,12 +1,12 @@
 # Fdb version 3
-["biber skroty/skroty"] 1733648345 "skroty/skroty.bcf" "skroty/skroty.bbl" "skroty/skroty" 1733648348
-  "skroty/skroty.bcf" 1733648347 105727 a5b9a061cbadea76a5c891b49b55ece8 "pdflatex"
+["biber skroty/skroty"] 1734290047 "skroty/skroty.bcf" "skroty/skroty.bbl" "skroty/skroty" 1734290050
+  "skroty/skroty.bcf" 1734290049 105727 a5b9a061cbadea76a5c891b49b55ece8 "pdflatex"
   (generated)
   "skroty/skroty.bbl"
   "skroty/skroty.blg"
-["pdflatex"] 1733648347 "/home/w/Nixie_alarm_clock/docs/main/skroty/skroty.tex" "skroty/skroty.pdf" "skroty" 1733648348
+["pdflatex"] 1734290049 "/home/w/Nixie_alarm_clock/docs/main/skroty/skroty.tex" "skroty/skroty.pdf" "skroty" 1734290050
   "/etc/texmf/web2c/texmf.cnf" 1697565182 475 c0e671620eb5563b2130f56340a5fde8 ""
-  "/home/w/Nixie_alarm_clock/docs/main/skroty/skroty.tex" 1733648344 988 08ef754ffb56ea6965cefaad718bfabc ""
+  "/home/w/Nixie_alarm_clock/docs/main/skroty/skroty.tex" 1734290046 1222 573b5bda3f8b063fccfbe4d8152ac3ec ""
   "/usr/share/texlive/texmf-dist/fonts/map/fontname/texfonts.map" 1577235249 3524 cb3e574dea2d1052e39280babc910dc8 ""
   "/usr/share/texlive/texmf-dist/fonts/tfm/jknappen/ec/ecbx1440.tfm" 1136768653 3584 13049b61b922a28b158a38aeff75ee9b ""
   "/usr/share/texlive/texmf-dist/fonts/tfm/jknappen/ec/ecrm1000.tfm" 1136768653 3584 adb004a0c8e7c46ee66cad73671f37b4 ""
@@ -227,12 +227,12 @@
   "/usr/share/texmf/web2c/texmf.cnf" 1644012257 39432 7155514e09a3d69036fac785183a21c2 ""
   "/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map" 1697565195 4379155 98693266ff65f58d9f98aff394de12d2 ""
   "/var/lib/texmf/web2c/pdftex/pdflatex.fmt" 1711271801 2800559 769836ceebf7d98a3fd600386a19f641 ""
-  "skroty/../main.tex" 1733589686 3886 875fb81ae80f520507f3d256eb2888c5 ""
-  "skroty/skroty.aux" 1733648347 1020 e6a6b0446954e08389c414a3c74b43c3 "pdflatex"
-  "skroty/skroty.bbl" 1733648346 466 ee04f40f768daeed26442158e95aba61 "biber skroty/skroty"
-  "skroty/skroty.out" 1733648347 253 de4047392de2e4c88f8d6e8fed042884 "pdflatex"
-  "skroty/skroty.run.xml" 1733648347 2346 a7f0e0aa5b6c3164c151956547fc1b5f "pdflatex"
-  "skroty/skroty.tex" 1733648344 988 08ef754ffb56ea6965cefaad718bfabc ""
+  "skroty/../main.tex" 1734115893 4336 409c905f6bf7dd566e9979e67d84b801 ""
+  "skroty/skroty.aux" 1734290049 1020 e6a6b0446954e08389c414a3c74b43c3 "pdflatex"
+  "skroty/skroty.bbl" 1734290048 466 ee04f40f768daeed26442158e95aba61 "biber skroty/skroty"
+  "skroty/skroty.out" 1734290049 253 de4047392de2e4c88f8d6e8fed042884 "pdflatex"
+  "skroty/skroty.run.xml" 1734290049 2346 a7f0e0aa5b6c3164c151956547fc1b5f "pdflatex"
+  "skroty/skroty.tex" 1734290046 1222 573b5bda3f8b063fccfbe4d8152ac3ec ""
   (generated)
   "skroty/skroty.aux"
   "skroty/skroty.bcf"
