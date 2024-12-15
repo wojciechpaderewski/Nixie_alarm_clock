@@ -1,13 +1,13 @@
 # Fdb version 3
-["biber main"] 1734294414 "main.bcf" "main.bbl" "main" 1734296922
-  "main.bcf" 1734296922 109702 2d191d62d922e0a54059d21e8779ea7e "pdflatex"
+["biber main"] 1734294414 "main.bcf" "main.bbl" "main" 1734297605
+  "main.bcf" 1734297605 109702 2d191d62d922e0a54059d21e8779ea7e "pdflatex"
   "sources.bib" 1734096186 6295 b4bacf6b7a76b311ef8e3f921ca1eca9 ""
   (generated)
   "main.bbl"
   "main.blg"
-["pdflatex"] 1734296917 "/home/w/Nixie_alarm_clock/docs/main/main.tex" "main.pdf" "main" 1734296922
+["pdflatex"] 1734297600 "/home/w/Nixie_alarm_clock/docs/main/main.tex" "main.pdf" "main" 1734297605
   "/etc/texmf/web2c/texmf.cnf" 1697565182 475 c0e671620eb5563b2130f56340a5fde8 ""
-  "/home/w/Nixie_alarm_clock/docs/main/main.tex" 1734296912 6637 d95028db78bd62059928d2e4c79a55c1 ""
+  "/home/w/Nixie_alarm_clock/docs/main/main.tex" 1734297600 6642 700661fb1c0ecd028ca31e335fdb9539 ""
   "/usr/share/texlive/texmf-dist/fonts/enc/dvips/pl/plit.enc" 1136849721 1946 62ba825cda1ff16dbaa60d53ac60525a ""
   "/usr/share/texlive/texmf-dist/fonts/enc/dvips/pl/plme.enc" 1136849721 3126 59f33ff3e396436ebc36f4e7b444d5c4 ""
   "/usr/share/texlive/texmf-dist/fonts/enc/dvips/pl/plmi.enc" 1136849721 2005 f094775651a1386335c158fb632529f1 ""
@@ -302,14 +302,14 @@
   "koncepcja_ukladu/koncepcja_ukladu.tex" 1734092525 4149 e7008357f4fdd77ede34e26841bd68ea ""
   "lampy_nixie//Nixie_schematic.png" 1734092525 95745 460b638a9fef26d142a9cca26616d2c6 ""
   "lampy_nixie/lampy_nixie.tex" 1734290181 8983 25896359e9b30599be4868c2a17236bc ""
-  "main.aux" 1734296922 30329 38c96b34682b5a3a0887e21b39311387 "pdflatex"
+  "main.aux" 1734297605 30329 38c96b34682b5a3a0887e21b39311387 "pdflatex"
   "main.bbl" 1734294415 13530 e30fb16bc5d45cdf414cb904a518c65f "biber main"
-  "main.lof" 1734296922 6020 403280edd5ec6336df0c79d68b9eb999 "pdflatex"
-  "main.lot" 1734296922 844 c2051676069c90e9fe27a9a51785add9 "pdflatex"
-  "main.out" 1734296922 15114 de12bdc1e04529d639e3d8cae3d3bd48 "pdflatex"
-  "main.run.xml" 1734296922 2332 8dbd6be977789ea42c7a08a36dd67c15 "pdflatex"
-  "main.tex" 1734296912 6637 d95028db78bd62059928d2e4c79a55c1 ""
-  "main.toc" 1734296922 8196 ed4901605e18e687031ce34a8864c0ed "pdflatex"
+  "main.lof" 1734297605 6020 403280edd5ec6336df0c79d68b9eb999 "pdflatex"
+  "main.lot" 1734297605 844 c2051676069c90e9fe27a9a51785add9 "pdflatex"
+  "main.out" 1734297605 15114 de12bdc1e04529d639e3d8cae3d3bd48 "pdflatex"
+  "main.run.xml" 1734297605 2332 8dbd6be977789ea42c7a08a36dd67c15 "pdflatex"
+  "main.tex" 1734297600 6642 700661fb1c0ecd028ca31e335fdb9539 ""
+  "main.toc" 1734297605 8196 ed4901605e18e687031ce34a8864c0ed "pdflatex"
   "montaz//BOTTOM.png" 1734092525 855705 d01d0a28d02673f774d06b2f382a22b1 ""
   "montaz//TOP.png" 1734092525 790800 859930837e6a2558f4209ecd79521bd6 ""
   "montaz//dol.jpeg" 1734092525 199992 2114d109eba250b494e2054623dbcb0e ""
